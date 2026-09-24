@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TA226" targetNamespace="http://tempuri.org/TA226.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TA226.xsd" xmlns:mstns="http://tempuri.org/TA226.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="listno" type="xs:long" />
+        <xs:element name="addr1" type="xs:string" />
+        <xs:element name="addr2" type="xs:string" />
+        <xs:element name="addr3" type="xs:string" />
+        <xs:element name="addr4" type="xs:string" />
+        <xs:element name="addr5" type="xs:string" />
+        <xs:element name="excd1" type="xs:string" />
+        <xs:element name="exam1" type="xs:integer" />
+        <xs:element name="revloss1" type="xs:decimal" />
+        <xs:element name="excd2" type="xs:string" />
+        <xs:element name="exam2" type="xs:integer" />
+        <xs:element name="revloss2" type="xs:decimal" />
+        <xs:element name="excd3" type="xs:string" />
+        <xs:element name="exam3" type="xs:integer" />
+        <xs:element name="revloss3" type="xs:decimal" />
+        <xs:element name="excd4" type="xs:string" />
+        <xs:element name="exam4" type="xs:integer" />
+        <xs:element name="revloss4" type="xs:decimal" />
+        <xs:element name="excd5" type="xs:string" />
+        <xs:element name="exam5" type="xs:integer" />
+        <xs:element name="revloss5" type="xs:decimal" />
+        <xs:element name="excd6" type="xs:string" />
+        <xs:element name="exam6" type="xs:integer" />
+        <xs:element name="revloss6" type="xs:decimal" />
+        <xs:element name="excd7" type="xs:string" />
+        <xs:element name="exam7" type="xs:integer" />
+        <xs:element name="revloss7" type="xs:decimal" />
+        <xs:element name="texam" type="xs:integer" />
+        <xs:element name="trevloss" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

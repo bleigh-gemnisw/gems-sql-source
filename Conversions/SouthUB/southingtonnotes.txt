@@ -1,0 +1,29 @@
+EACH DAY we need a STATUS notes
+
+ 
+-----
+Customer 1035 shows a flat charge bill last year for $100,686?
+Customer 1163 shows a metered bill from 2019
+
+Is this 2 separate accounts for 90 Lazy LN? Since we are using RE List#, I will need to put 2nd account to a different list# (900000 + list#).
+How are we going to assign list# for accounts not in Southington? 
+ 
+Convert Rate code 900..cumsiz is blank   900 IS DEDUCTS skipped code
+
+3/12 cross reference and meter numbers to southington
+     sent Bob new missing file then add to manuallist
+     txinv cleanup negative taxt and tax1
+     if adding records to utcust mark records to send to southington
+399 missing accounts
+still need to flip names
+bring in meters
+
+
+
+
+
+
+
+
+
+

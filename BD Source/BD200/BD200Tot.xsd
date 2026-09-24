@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="BD200Tot" targetNamespace="http://tempuri.org/BD200Tot.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/BD200Tot.xsd" xmlns:mstns="http://tempuri.org/BD200Tot.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="TYPEDESC" type="xs:string" />
+<xs:element name="TCOUNT" type="xs:integer" />
+<xs:element name="TVALUE" type="xs:integer" />
+<xs:element name="TFEE" type="xs:decimal" />
+<xs:element name="TMISCHG" type="xs:decimal" />
+<xs:element name="TOTAL" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

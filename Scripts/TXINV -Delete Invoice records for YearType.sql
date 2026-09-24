@@ -1,0 +1,1 @@
+delete TXINV where YEAR=2012 and TYPE='S'

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="BD200" targetNamespace="http://tempuri.org/BD200.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/BD200.xsd" xmlns:mstns="http://tempuri.org/BD200.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="TRDATE" type="xs:date" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="PROPLOC" type="xs:string" />
+<xs:element name="TYPE" type="xs:string" />
+<xs:element name="PERMNO" type="xs:string" />
+<xs:element name="VALUE" type="xs:integer" />
+<xs:element name="FEE" type="xs:decimal" />
+<xs:element name="MISCHG" type="xs:decimal" />
+<xs:element name="TOTAL" type="xs:decimal" />
+<xs:element name="PAYTYP" type="xs:string" />
+<xs:element name="CASH" type="xs:decimal" />
+<xs:element name="CHECK" type="xs:decimal" />
+<xs:element name="CREDIT" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

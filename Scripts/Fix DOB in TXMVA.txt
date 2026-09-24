@@ -1,0 +1,1 @@
+update txmva set dob=left(dob,4) + '0' + right(dob,3) where len(dob)=7

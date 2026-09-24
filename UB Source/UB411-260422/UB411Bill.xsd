@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UB411Bill" targetNamespace="http://tempuri.org/UB411Bill.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/UB411Bill.xsd" xmlns:mstns="http://tempuri.org/UB411Bill.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="mytable2">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="LISTNO" type="xs:integer" />
+				<xs:element name="YEAR" type="xs:integer" />
+				<xs:element name="BILLTYPE" type="xs:string" />
+				<xs:element name="ADDR1" type="xs:string" />
+				<xs:element name="ADDR2" type="xs:string" />
+				<xs:element name="ADDR3" type="xs:string" />
+				<xs:element name="ADDR4" type="xs:string" />
+				<xs:element name="ADDR5" type="xs:string" />
+				<xs:element name="UNITS" type="xs:decimal" />
+        <xs:element name="EDUS" type="xs:integer" />
+        <xs:element name="USAGE" type="xs:integer" />
+				<xs:element name="RATECODE" type="xs:string" />
+        <xs:element name="RATECODEDESC" type="xs:string" />
+        <xs:element name="BILLAMT" type="xs:decimal" />
+				<xs:element name="BOND" type="xs:decimal" />
+				<xs:element name="BALANCE" type="xs:decimal" />
+				<xs:element name="INTEREST" type="xs:decimal" />
+				<xs:element name="DELQBOND" type="xs:decimal" />
+				<xs:element name="LIEN" type="xs:decimal" />
+				<xs:element name="CAVEAT" type="xs:decimal" />
+				<xs:element name="TAXTOT" type="xs:decimal" />
+				<xs:element name="TAX1ST" type="xs:decimal" />
+				<xs:element name="TAX2ND" type="xs:decimal" />
+				<xs:element name="ASSMNTLEFT" type="xs:decimal" />
+				<xs:element name="PAYOFF" type="xs:decimal" />
+				<xs:element name="YEARNO" type="xs:integer" />
+				<xs:element name="BILLSLEFT" type="xs:integer" />
+				<xs:element name="PROPDESC" type="xs:string" />
+				<xs:element name="MAPBLOCK" type="xs:string" />
+        <xs:element name="NoPayments" type="xs:integer" />
+        <xs:element name="DUEDT1" type="xs:date" />
+				<xs:element name="DUEDT2" type="xs:date" />
+				<xs:element name="BACKTAX" type="xs:boolean" />
+				<xs:element name="BARCODE" type="xs:string" />
+				<xs:element name="BREAKDESC1" type="xs:string" />
+				<xs:element name="BREAKAMT1" type="xs:decimal" />
+				<xs:element name="BREAKDESC2" type="xs:string" />
+				<xs:element name="BREAKAMT2" type="xs:decimal" />
+				<xs:element name="BREAKDESC3" type="xs:string" />
+				<xs:element name="BREAKAMT3" type="xs:decimal" />
+				<xs:element name="ACCTID" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

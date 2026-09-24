@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AP502" targetNamespace="http://tempuri.org/AP502.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/AP502.xsd" xmlns:mstns="http://tempuri.org/AP502.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="mytable">
+		<xs:complexType>
+			<xs:sequence>
+        <xs:element name="PAYBN" type="xs:string" />
+        <xs:element name="BANKNAME" type="xs:string" />
+				<xs:element name="CHECKNO" type="xs:integer" />
+				<xs:element name="CHECKDATE" type="xs:date" />
+        <xs:element name="VOIDDATE" type="xs:date" />
+				<xs:element name="AMOUNT" type="xs:decimal" />
+				<xs:element name="VNAME" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

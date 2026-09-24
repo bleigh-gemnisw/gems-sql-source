@@ -1,0 +1,150 @@
+vSET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TXSUPPC](
+	[CAT] [char](1) NOT NULL,
+	[MAKE] [char](5) NOT NULL,
+	[YEAR] [numeric](4, 0) NOT NULL,
+	[MODEL] [char](8) NOT NULL,
+	[BODY] [char](6) NOT NULL,
+	[DIST] [numeric](3, 0) NOT NULL,
+	[NAME] [char](35) NOT NULL,
+	[SNAME] [char](35) NOT NULL,
+	[ADD1] [char](35) NOT NULL,
+	[ADD2] [char](35) NOT NULL,
+	[CITY] [char](25) NOT NULL,
+	[STATE] [char](2) NOT NULL,
+	[ZIP5] [numeric](5, 0) NOT NULL,
+	[ZIP4] [numeric](4, 0) NOT NULL,
+	[XDATE] [numeric](8, 0) NOT NULL,
+	[CLASS] [numeric](2, 0) NOT NULL,
+	[REGNO] [char](8) NOT NULL,
+	[VINNO] [char](17) NOT NULL,
+	[CYLAX] [numeric](1, 0) NOT NULL,
+	[PCLR] [char](3) NOT NULL,
+	[SCLR] [char](3) NOT NULL,
+	[SEAT] [numeric](2, 0) NOT NULL,
+	[LWT] [numeric](6, 0) NOT NULL,
+	[GWT] [numeric](6, 0) NOT NULL,
+	[VALUE] [decimal](9, 0) NOT NULL,
+	[ASS] [char](1) NOT NULL,
+	[CYCLE] [numeric](1, 0) NOT NULL,
+	[RCODE] [numeric](1, 0) NOT NULL,
+	[OCODE] [numeric](1, 0) NOT NULL,
+	[RATE] [numeric](3, 0) NOT NULL,
+	[LIST#] [numeric](6, 0) NOT NULL,
+	[PCCOD] [numeric](2, 0) NOT NULL,
+	[PREG] [char](8) NOT NULL,
+	[SCAP] [numeric](2, 0) NOT NULL,
+	[TDATE] [numeric](8, 0) NOT NULL,
+	[EXCD1] [char](3) NOT NULL,
+	[EXCD2] [char](3) NOT NULL,
+	[EXCD3] [char](3) NOT NULL,
+	[EXCD4] [char](3) NOT NULL,
+	[EXCD5] [char](3) NOT NULL,
+	[EXAM1] [decimal](7, 0) NOT NULL,
+	[EXAM2] [decimal](7, 0) NOT NULL,
+	[EXAM3] [decimal](7, 0) NOT NULL,
+	[EXAM4] [decimal](7, 0) NOT NULL,
+	[EXAM5] [decimal](7, 0) NOT NULL,
+	[CCNO] [numeric](5, 0) NOT NULL,
+	[CCGRS] [decimal](9, 0) NOT NULL,
+	[CCEX] [decimal](9, 0) NOT NULL,
+	[CCRS] [char](1) NOT NULL,
+	[CDATE] [numeric](8, 0) NOT NULL,
+	[CCCD1] [char](3) NOT NULL,
+	[CCCD2] [char](3) NOT NULL,
+	[CCCD3] [char](3) NOT NULL,
+	[CCCD4] [char](3) NOT NULL,
+	[CCCD5] [char](3) NOT NULL,
+	[CEXA1] [decimal](7, 0) NOT NULL,
+	[CEXA2] [decimal](7, 0) NOT NULL,
+	[CEXA3] [decimal](7, 0) NOT NULL,
+	[CEXA4] [decimal](7, 0) NOT NULL,
+	[CEXA5] [decimal](7, 0) NOT NULL,
+	[OCLS] [numeric](2, 0) NOT NULL,
+	[OMAKE] [char](5) NOT NULL,
+	[OYEAR] [numeric](4, 0) NOT NULL,
+	[OMOD] [char](8) NOT NULL,
+	[OREG#] [char](8) NOT NULL,
+	[OVIN] [char](17) NOT NULL,
+	[OASS] [char](1) NOT NULL,
+	[OVAL] [numeric](9, 0) NOT NULL,
+	[OPVAL] [decimal](9, 0) NOT NULL,
+	[PVAL] [decimal](9, 0) NOT NULL,
+	[PNET] [decimal](9, 0) NOT NULL,
+	[OLIST] [numeric](6, 0) NOT NULL,
+	[BTR] [numeric](9, 0) NOT NULL,
+	[DOB] [numeric](8, 0) NOT NULL,
+	[SS#] [numeric](9, 0) NOT NULL,
+	[BTC] [char](2) NOT NULL,
+	[LEASE] [char](2) NOT NULL,
+	[ORIG] [decimal](9, 0) NOT NULL,
+	[TRVAL] [decimal](9, 0) NOT NULL,
+	[LNVAL] [decimal](9, 0) NOT NULL,
+	[MSRP] [decimal](9, 0) NOT NULL,
+	[NADA] [char](8) NOT NULL,
+	[PRF] [char](10) NOT NULL,
+	[CHDATE] [numeric](8, 0) NOT NULL,
+	[CHTIME] [numeric](6, 0) NOT NULL,
+	[LETT] [char](1) NOT NULL,
+	[TYPE] [char](1) NOT NULL,
+	[PDST] [numeric](3, 0) NOT NULL,
+	[OID] [char](15) NOT NULL,
+	[SS2] [numeric](9, 0) NOT NULL,
+	[TIN] [char](1) NOT NULL,
+	[RAD1] [char](35) NOT NULL,
+	[RAD2] [char](35) NOT NULL,
+	[RCTY] [char](25) NOT NULL,
+	[RST] [char](2) NOT NULL,
+	[RZ5] [numeric](5, 0) NOT NULL,
+	[RZ4] [numeric](4, 0) NOT NULL,
+	[DNBTR] [char](1) NOT NULL,
+	[DTBTR] [numeric](8, 0) NOT NULL,
+	[LOC#] [char](7) NOT NULL,
+	[LOC] [char](25) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[LIST#] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE NONCLUSTERED INDEX [ASNA_KEY_TXSUPPCL1] ON [dbo].[TXSUPPC]
+(
+	[CLASS] ASC,
+	[REGNO] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+CREATE NONCLUSTERED INDEX [ASNA_KEY_TXSUPPCL2] ON [dbo].[TXSUPPC]
+(
+	[NAME] ASC,
+	[ADD1] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+CREATE NONCLUSTERED INDEX [ASNA_KEY_TXSUPPCL4] ON [dbo].[TXSUPPC]
+(
+	[VINNO] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+CREATE NONCLUSTERED INDEX [ASNA_KEY_TXSUPPCL6] ON [dbo].[TXSUPPC]
+(
+	[REGNO] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+CREATE NONCLUSTERED INDEX [ASNA_KEY_TXSUPPCLS] ON [dbo].[TXSUPPC]
+(
+	[SNAME] ASC,
+	[ADD1] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO

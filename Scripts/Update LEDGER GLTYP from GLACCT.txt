@@ -1,0 +1,1 @@
+update ledger set ledger.gltyp=glacct.gltyp from ledger left join glacct on ledger.fdnbr=glacct.fdnbr and ledger.dpnbr=glacct.dpnbr and ledger.obnbr=glacct.obnbr and ledger.fnpgm=glacct.fnpgm and ledger.subfn=glacct.subfn where pstdt>=20190101 and ledger.gltyp<>glacct.gltyp

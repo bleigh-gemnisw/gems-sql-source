@@ -1,0 +1,36 @@
+# Visual Studio workspace and per-user settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# VB.NET / MSBuild output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Dd]ebugPublic/
+[Rr]eleasePublic/
+TestResults/
+
+# Garbage files and folders
+[Dd]esktop.ini
+.tmp.driveupload/
+
+# Visual Studio publish and NuGet output
+[Pp]ublish/
+app.publish/
+_PublishedWebsites/
+packages/
+*.nupkg
+*.snupkg
+
+# Archives
+*.zip
+
+# Conversion data and database backups
+Conversions/SouthUB/FILES/
+Conversions/SouthUB/newdatadictionary/*.csv
+*.bak

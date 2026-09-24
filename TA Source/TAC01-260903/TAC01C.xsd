@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TAC01C" targetNamespace="http://tempuri.org/TAC01C.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TAC01C.xsd" xmlns:mstns="http://tempuri.org/TAC01C.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable3">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SORTDATA" type="xs:integer" />
+        <xs:element name="LISTNO" type="xs:integer" />
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="LOCNO" type="xs:string" />
+        <xs:element name="LOC" type="xs:string" />
+        <xs:element name="MAP" type="xs:string" />
+        <xs:element name="CGROSS" type="xs:integer" />
+        <xs:element name="GROSS" type="xs:integer" />
+        <xs:element name="NET" type="xs:integer" />
+        <xs:element name="EXAM" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Document">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Property" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UniqueProprtyID" type="xs:string"  />
+              <xs:element name="BoroughCode" type="xs:integer" />
+              <xs:element name="FireDistrictCode" type="xs:integer" />
+              <xs:element name="DistrictName" type="xs:string" />
+              <xs:element name="ExemptAbstractCode" type="xs:string" />
+              <xs:element name="OwnerOrFacilityName" type="xs:string" />
+              <xs:element name="Address" type="xs:string"/>
+              <xs:element name="VolumeAndPage" type="xs:string"/>
+              <xs:element name="Acreage" type="xs:decimal"/>
+              <xs:element name="LandAssessment" type="xs:decimal" />
+              <xs:element name="BuildingAssessment" type="xs:decimal"/>
+              <xs:element name="TotalAssessment" type="xs:decimal"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="GrandListYear" type="xs:integer" use="required" />
+      <xs:attribute name="PrimaryTownCode" type="xs:integer" use="required" />
+      <xs:attribute name="IsRevalYear" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,13 @@
+update txlocal set year=b.year from txlocal as a left join txm35pm as b on a.list#=b.list# and b.year=2025 where locpm is not null
+update txlocal set year=b.year from txlocal as a left join txm35pm as b on a.list#=b.list# and b.year=2024 where a.year=0 and locpm is not null
+update txreal set twnbn=0 from txreal as a left join txlocal as b on a.list#=b.list# where twnbn>0 and b.year=0 or twnbn>0 and bencde is null
+update txrealc set twnbn=0 from txrealc as a left join txlocal as b on a.list#=b.list# where twnbn>0 and b.year=0 or twnbn>0 and bencde is null
+update txreal set fccod='',cmax=0,cmin=0,ftax=0 where fccod<>'' and fcyr=0
+update txrealc set fccod='',cmax=0,cmin=0,ftax=0 where fccod<>'' and fcyr=0
+update TXreal set fcyr=0 where fccod='' and fcyr>0 and fcyr<2025
+update TXrealc set fcyr=0 where fccod='' and fcyr>0 and fcyr<2025
+update TXreal set fccod='',fcyr=0,cmax=0,cmin=0,ftax=0 where fccod='C' and fcyr>0 and fcyr<2025
+update TXrealc set fccod='',fcyr=0,cmax=0,cmin=0,ftax=0 where fccod='C' and fcyr>0 and fcyr<2025
+delete txlocal where year=0 
+
+select * from txm35pm as a left join txlocal as b on a.list#=b.list# where allow='Y' and a.year>=2024 and bencde is null

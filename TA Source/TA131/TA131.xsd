@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA131"
+ targetNamespace="http://tempuri.org/TA131.xsd" 
+ elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA131.xsd" 
+  xmlns:mstns="http://tempuri.org/TA131.xsd"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="TXCDSFA">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="TCRPT" type="xs:string" />
+<xs:element name="TCCODE" type="xs:integer" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

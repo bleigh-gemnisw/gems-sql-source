@@ -1,0 +1,3 @@
+select txinv.LIST#, txinv.TYPE, txinv.year from TXINV left join ZXINV on txinv.LIST#=zxinv.LIST# and txinv.TYPE=zxinv.TYPE
+
+and txinv.YEAR=zxinv.YEAR where txinv.SNAME<>zxinv.Sname

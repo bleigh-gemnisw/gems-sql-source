@@ -1,0 +1,15 @@
+right click on Input to pay batch Recap Rpt #3c
+
+then  export
+to excel
+give it a name
+
+and done..
+
+
+if queries change then you needto add customer id ..  I beleive i did that in Input to pay batch recap # 1
+
+also in #1 I removed and selection ccriteria
+but those queires are saved so  should just have to do is export the query..
+
+That is as long as you updated the DATA to the query..

@@ -1,0 +1,4 @@
+SELECT paybn, payck, rccde , COUNT(*)
+FROM apercn
+GROUP BY paybn, payck, rccde
+HAVING COUNT(*) > 1

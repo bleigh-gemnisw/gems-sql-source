@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX303Totals" targetNamespace="http://tempuri.org/TX303Totals.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX303Totals.xsd" xmlns:mstns="http://tempuri.org/TX303Totals.xsd"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="DESCRIPTION" type="xs:string" />
+<xs:element name="COUNT" type="xs:integer" />
+<xs:element name="TAX" type="xs:decimal" />
+<xs:element name="INTEREST" type="xs:decimal" />
+<xs:element name="FEE" type="xs:decimal" />
+<xs:element name="LIEN" type="xs:decimal" />
+<xs:element name="TOTAL" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA212PP" targetNamespace="http://tempuri.org/TA212PP.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA212PP.xsd" xmlns:mstns="http://tempuri.org/TA212PP.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="DIST" type="xs:integer" />
+<xs:element name="LISTNO" type="xs:long" />
+<xs:element name="YEAR" type="xs:long" />
+<xs:element name="TYPEDESC" type="xs:string" />
+<xs:element name="ADDR1" type="xs:string" />
+<xs:element name="ADDR2" type="xs:string" />
+<xs:element name="ADDR3" type="xs:string" />
+<xs:element name="ADDR4" type="xs:string" />
+<xs:element name="ADDR5" type="xs:string" />
+<xs:element name="LOCATION" type="xs:string" />
+<xs:element name="GROSS" type="xs:long" />
+<xs:element name="EXEMPT" type="xs:long" />
+<xs:element name="NET" type="xs:long" />
+<xs:element name="ASSCD1" type="xs:string" />
+<xs:element name="ASSDESC1" type="xs:string" />
+<xs:element name="ASSAMT1" type="xs:long" />
+<xs:element name="ASSCD2" type="xs:string" />
+<xs:element name="ASSDESC2" type="xs:string" />
+<xs:element name="ASSAMT2" type="xs:long" />
+<xs:element name="ASSCD3" type="xs:string" />
+<xs:element name="ASSDESC3" type="xs:string" />
+<xs:element name="ASSAMT3" type="xs:long" />
+<xs:element name="ASSCD4" type="xs:string" />
+<xs:element name="ASSDESC4" type="xs:string" />
+<xs:element name="ASSAMT4" type="xs:long" />
+<xs:element name="ASSCD5" type="xs:string" />
+<xs:element name="ASSDESC5" type="xs:string" />
+<xs:element name="ASSAMT5" type="xs:long" />
+<xs:element name="ASSCD6" type="xs:string" />
+<xs:element name="ASSDESC6" type="xs:string" />
+<xs:element name="ASSAMT6" type="xs:long" />
+<xs:element name="ASSCD7" type="xs:string" />
+<xs:element name="ASSDESC7" type="xs:string" />
+<xs:element name="ASSAMT7" type="xs:long" />
+<xs:element name="ASSCD8" type="xs:string" />
+<xs:element name="ASSDESC8" type="xs:string" />
+<xs:element name="ASSAMT8" type="xs:long" />
+<xs:element name="ASSCD9" type="xs:string" />
+<xs:element name="ASSDESC9" type="xs:string" />
+<xs:element name="ASSAMT9" type="xs:long" />
+<xs:element name="ASSCDA" type="xs:string" />
+<xs:element name="ASSDESCA" type="xs:string" />
+<xs:element name="ASSAMTA" type="xs:long" />
+<xs:element name="EXCD1" type="xs:string" />
+<xs:element name="EXAMT1" type="xs:long" />
+<xs:element name="EXCD2" type="xs:string" />
+<xs:element name="EXAMT2" type="xs:long" />
+<xs:element name="EXCD3" type="xs:string" />
+<xs:element name="EXAMT3" type="xs:long" />
+<xs:element name="EXCD4" type="xs:string" />
+<xs:element name="EXAMT4" type="xs:long" />
+<xs:element name="EXCD5" type="xs:string" />
+<xs:element name="EXAMT5" type="xs:long" />
+<xs:element name="CCNO" type="xs:long" />
+<xs:element name="CCDATE" type="xs:date" />
+<xs:element name="CCGRS" type="xs:long" />
+<xs:element name="CCEX" type="xs:long" />
+<xs:element name="CCNET" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TAP12" targetNamespace="http://tempuri.org/TAP12.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TAP12.xsd" xmlns:mstns="http://tempuri.org/TXDCEXa.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="TXDCEX">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="code" type="xs:string" />
+        <xs:element name="desc" type="xs:string" />
+        <xs:element name="exval" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB411" targetNamespace="http://tempuri.org/UB411.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB411.xsd" xmlns:mstns="http://tempuri.org/UB411.xsd"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="BILLTYPE" type="xs:string" />
+<xs:element name="RATECODE" type="xs:string" />
+<xs:element name="ADDR1" type="xs:string" />
+<xs:element name="ADDR2" type="xs:string" />
+<xs:element name="ADDR3" type="xs:string" />
+<xs:element name="ADDR4" type="xs:string" />
+<xs:element name="ADDR5" type="xs:string" />
+<xs:element name="PROPLOC" type="xs:string" />
+<xs:element name="UNITS" type="xs:decimal" />
+<xs:element name="USAGE" type="xs:integer" />
+<xs:element name="BILLAMT" type="xs:decimal" />
+<xs:element name="BOND" type="xs:decimal" />
+<xs:element name="BONDSCHEDULE" type="xs:decimal" />
+<xs:element name="BALANCE" type="xs:decimal" />
+<xs:element name="INTEREST" type="xs:decimal" />
+<xs:element name="DELQBOND" type="xs:decimal" />
+<xs:element name="LIEN" type="xs:decimal" />
+<xs:element name="TAXTOT" type="xs:decimal" />
+<xs:element name="ASSMNTLEFT" type="xs:decimal" />
+<xs:element name="BILLSLEFT" type="xs:integer" />
+<xs:element name="BRKAMT1" type="xs:decimal" />
+<xs:element name="BRKAMT2" type="xs:decimal" />
+<xs:element name="BRKAMT3" type="xs:decimal" />
+<xs:element name="BRKAMT4" type="xs:decimal" />
+<xs:element name="BRKAMT5" type="xs:decimal" />
+<xs:element name="BRKAMT6" type="xs:decimal" />
+<xs:element name="BRKAMT7" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

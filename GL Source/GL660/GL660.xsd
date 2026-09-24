@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GL660" targetNamespace="http://tempuri.org/GL660.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/GL660.xsd" xmlns:mstns="http://tempuri.org/GLDEPGRP.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GLDEPGRP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CODE" type="xs:integer" />
+        <xs:element name="DESC" type="xs:string" />
+        <xs:element name="EXCTOT" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

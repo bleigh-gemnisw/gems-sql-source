@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="PO101" targetNamespace="http://tempuri.org/PO101.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/PO101.xsd" xmlns:mstns="http://tempuri.org/PO101.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="LOCATN">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LLOCN" type="xs:string" />
+<xs:element name="LDESC" type="xs:string" />
+<xs:element name="SNAME" type="xs:string" />
+<xs:element name="SADR1" type="xs:string" />
+<xs:element name="SADR2" type="xs:string" />
+<xs:element name="SADR3" type="xs:string" />
+<xs:element name="SADR4" type="xs:string" />
+<xs:element name="SZIP" type="xs:string" />
+<xs:element name="SZIPE" type="xs:string" />
+<xs:element name="RNAME" type="xs:string" />
+<xs:element name="RADR1" type="xs:string" />
+<xs:element name="RADR2" type="xs:string" />
+<xs:element name="RADR3" type="xs:string" />
+<xs:element name="RADR4" type="xs:string" />
+<xs:element name="RZIP" type="xs:string" />
+<xs:element name="RZIPE" type="xs:string" />
+<xs:element name="EXERR" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

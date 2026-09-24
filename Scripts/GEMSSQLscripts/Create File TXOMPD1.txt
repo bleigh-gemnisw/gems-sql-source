@@ -1,0 +1,41 @@
+/****** Object:  Table [dbo].[TXOPMD1]    Script Date:9/5/2025 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TXOPMD1](
+	[LIST#] [numeric](6, 0) NOT NULL,
+	[TYPE] [char](20) NOT NULL,
+	[YEAR] [numeric](4, 0) NOT NULL,	
+	[ALNAME] [char](20) NOT NULL,
+	[AFNAME] [char](10) NOT NULL,
+	[AINIT] [char](1) NOT NULL,
+	[ASSN] [numeric](9, 0) NOT NULL,
+        [MADDR] [char](40) NOT NULL,
+	[MCITY] [char](25) NULL,
+	[MSTATE] [char](2) NOT NULL,
+	[MZIP] [numeric](5, 0) NOT NULL,
+	[PHONE] [numeric](10, 0) NOT NULL,
+	[DTSIGN] [numeric](8, 0) NOT NULL,
+	[ADOB] [numeric](8, 0) NOT NULL,
+	[PROOFE] [char](1) NOT NULL,
+	[PROOFT] [char](1) NOT NULL,
+	[PROOFA] [char](1) NOT NULL,
+	[DTASSR] [numeric](8, 0) NOT NULL,
+
+		
+
+PRIMARY KEY CLUSTERED 
+(
+	[LIST#] ASC,
+	[TYPE] ASC,
+	[YEAR] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+SET ANSI_PADDING ON
+GO
+

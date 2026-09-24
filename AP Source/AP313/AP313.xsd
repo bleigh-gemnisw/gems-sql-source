@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AP313" targetNamespace="http://tempuri.org/AP313.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/AP313.xsd" xmlns:mstns="http://tempuri.org/AP313.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="mytable">
+		<xs:complexType>
+			<xs:sequence>
+        <xs:element name="RPTID" type="xs:string" />
+        <xs:element name="VNDNR" type="xs:string" />
+        <xs:element name="VENNM" type="xs:string" />
+        <xs:element name="CHKPD" type="xs:integer" />
+				<xs:element name="PPDT8" type="xs:date" />
+        <xs:element name="BNKCD" type="xs:string" />
+        <xs:element name="INVNO" type="xs:string" />
+        <xs:element name="INVD8" type="xs:date" />
+        <xs:element name="AMTGR" type="xs:decimal" />
+        <xs:element name="AMTDS" type="xs:decimal" />
+        <xs:element name="AMTPD" type="xs:decimal" />
+        <xs:element name="AVOID" type="xs:string" />
+        <xs:element name="PONBR" type="xs:integer" />
+        <xs:element name="ACCTDESC" type="xs:string" />
+      </xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

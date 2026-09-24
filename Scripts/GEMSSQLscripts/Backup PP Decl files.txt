@@ -1,0 +1,46 @@
+delete from gemsdtas..TXDCAFF 
+delete from gemsdtas..TXDCASS 
+delete from gemsdtas..TXDCBUS 
+delete from gemsdtas..TXDCCOM 
+delete from gemsdtas..TXDCDSP 
+delete from gemsdtas..TXDCDTL 
+delete from gemsdtas..TXDCEXM 
+delete from gemsdtas..TXDCHOR 
+delete from gemsdtas..TXDCLEE 
+delete from gemsdtas..TXDCLOR 
+delete from gemsdtas..TXDCMOB 
+delete from gemsdtas..TXDCMV 
+delete from gemsdtas..TXDCPP 
+delete from gemsdtas..TXDCSUM 
+delete from gemsdtas..TXDCTWN 
+delete from gemsdtas..TXDMLES 
+delete from gemsdtas..TXDMLST 
+delete from gemsdtas..TXDMPP 
+delete from gemsdtas..TXDMSUM 
+delete from gemsdtas..TXDVAFF 
+delete from gemsdtas..TXDVPI 
+delete from gemsdtas..TXDVPN 
+delete from gemsdtas..TXDVPP 
+insert into gemsdtas..TXDCAFF select * from gemstemp..TXDCAFF
+insert into gemsdtas..TXDCASS select * from gemstemp..TXDCASS
+insert into gemsdtas..TXDCBUS select * from gemstemp..TXDCBUS
+insert into gemsdtas..TXDCCOM select * from gemstemp..TXDCCOM
+insert into gemsdtas..TXDCDSP select * from gemstemp..TXDCDSP
+insert into gemsdtas..TXDCDTL select * from gemstemp..TXDCDTL
+insert into gemsdtas..TXDCEXM select * from gemstemp..TXDCEXM
+insert into gemsdtas..TXDCHOR select * from gemstemp..TXDCHOR
+insert into gemsdtas..TXDCLEE select * from gemstemp..TXDCLEE
+insert into gemsdtas..TXDCLOR select * from gemstemp..TXDCLOR
+insert into gemsdtas..TXDCMOB select * from gemstemp..TXDCMOB
+insert into gemsdtas..TXDCMV select * from gemstemp..TXDCMV
+insert into gemsdtas..TXDCPP select * from gemstemp..TXDCPP
+insert into gemsdtas..TXDCSUM select * from gemstemp..TXDCSUM
+insert into gemsdtas..TXDCTWN select * from gemstemp..TXDCTWN
+insert into gemsdtas..TXDMLES select * from gemstemp..TXDMLES
+insert into gemsdtas..TXDMLST select * from gemstemp..TXDMLST
+insert into gemsdtas..TXDMPP select * from gemstemp..TXDMPP
+insert into gemsdtas..TXDMSUM select * from gemstemp..TXDMSUM
+insert into gemsdtas..TXDVAFF select * from gemstemp..TXDVAFF
+insert into gemsdtas..TXDVPI select * from gemstemp..TXDVPI
+insert into gemsdtas..TXDVPN select * from gemstemp..TXDVPN
+insert into gemsdtas..TXDVPP select * from gemstemp..TXDVPP

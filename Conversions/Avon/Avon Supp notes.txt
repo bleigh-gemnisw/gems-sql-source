@@ -1,0 +1,11 @@
+1) Download file from FTP server in folder avon
+2) Run conversion program AvonSupp
+3) Backup gemsavon and restore on Avon server
+4) Replace Supp assessor file (use script below)
+5) Run Supp install with update only vehicles option
+
+Scripts:
+delete from txsupp
+insert into txsupp select * from gemsavon..txsupp
+update txsupp set cat='2',excd1='',exam1=0 where excd1='PUT'
+

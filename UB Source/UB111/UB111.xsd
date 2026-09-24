@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB111" targetNamespace="http://tempuri.org/UB111.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB111.xsd" xmlns:mstns="http://tempuri.org/UB111.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="UTBREAK">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="btype" type="xs:string" />
+<xs:element name="bdesc1" type="xs:string" />
+<xs:element name="bpct1" type="xs:decimal" />
+<xs:element name="bdesc2" type="xs:string" />
+<xs:element name="bpct2" type="xs:decimal" />
+<xs:element name="bdesc3" type="xs:string" />
+<xs:element name="bpct3" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

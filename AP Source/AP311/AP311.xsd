@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AP311" targetNamespace="http://tempuri.org/AP311.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/AP311.xsd" xmlns:mstns="http://tempuri.org/AP311.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="mytable">
+		<xs:complexType>
+			<xs:sequence>
+        <xs:element name="RPTID" type="xs:string" />
+        <xs:element name="VADD" type="xs:string" />
+        <xs:element name="VENDOR" type="xs:string" />
+        <xs:element name="VENDNAME" type="xs:string" />
+     </xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

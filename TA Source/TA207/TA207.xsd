@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA207" targetNamespace="http://tempuri.org/TA207.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA207.xsd" xmlns:mstns="http://tempuri.org/TA207.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="GROSS" type="xs:integer" />
+<xs:element name="LOCATION" type="xs:string" />
+<xs:element name="BENEFIT" type="xs:decimal" />
+<xs:element name="ELDCODE" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+<xs:key name="mytableKey1">
+<xs:selector xpath="." />
+<xs:field xpath="mstns:LISTNO" />
+</xs:key>
+</xs:element>
+<xs:element name="mytable2">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="BENCODE" type="xs:string" />
+<xs:element name="BENDESC" type="xs:string" />
+<xs:element name="BENAMOUNT" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+<xs:keyref name="Join1" refer="mytableKey1">
+<xs:selector xpath="." />
+<xs:field xpath="mstns:LISTNO" />
+</xs:keyref>
+</xs:element>
+</xs:schema>

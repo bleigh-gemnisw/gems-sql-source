@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FA011" targetNamespace="http://tempuri.org/FA011.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/FA011.xsd" xmlns:mstns="http://tempuri.org/FA011.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="FAUSER2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="u2code" type="xs:string" />
+        <xs:element name="u2desc" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

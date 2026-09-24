@@ -1,0 +1,1 @@
+select * iNTO gemsdtao..TXHST160603 FROM gemsdtao..TXHST

@@ -1,0 +1,11 @@
+March 31 data refreshed - go live
+
+1) Export files from Kensington (Export Ratepayer, run each one on file list to a CSV)
+2) Copy files from Kensington shared network Taxes directory to C:\Gems Source SQL\Conversions\Kensington\Files
+3) Run conversion program CnvKens
+4) Save database GEMSKENS
+5) Restore GEMSKENS to Kensington server
+6) Optional: Backup gemsdtab on Kensington server
+7) Run scripts in Refresh Files.sql
+
+N/A if 9/1/24 bills converted then run update txinv set tx3rd=0, taxt=tax1+tax2,bald=taxt-payrec where year=2024

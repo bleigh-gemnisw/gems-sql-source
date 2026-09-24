@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA212MajorCat" targetNamespace="http://tempuri.org/TA212MajorCat.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA212MajorCat.xsd" xmlns:mstns="http://tempuri.org/TA212MajorCat.xsd"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytablemc">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="tmcformat" type="xs:string" />
+<xs:element name="tmccode" type="xs:string" />
+<xs:element name="tmcdesc" type="xs:string" />
+<xs:element name="tmccount" type="xs:integer" />
+<xs:element name="tmcgross" type="xs:long" />
+<xs:element name="tmcexempt" type="xs:long" />
+<xs:element name="tmcnet" type="xs:long" />
+<xs:element name="tmcfrzcount" type="xs:integer" />
+<xs:element name="tmcfrzgross" type="xs:long" />
+<xs:element name="tmcheartcount" type="xs:integer" />
+<xs:element name="tmcheartgross" type="xs:long" />
+<xs:element name="tmctotcount" type="xs:integer" />
+<xs:element name="tmctotgross" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

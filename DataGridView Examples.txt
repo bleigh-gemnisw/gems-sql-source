@@ -1,0 +1,48 @@
+With DataGrdView
+  .AlternatingRowsDefaultCellStyle.BackColor = Color.Lavender
+  .RowHeadersWidth = 25
+  .Columns(4).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
+  .Columns(4).DefaultCellStyle.Format = "##/##/####"
+  .Columns(4).DefaultCellStyle.Format = "N2" 'Fixed
+  .RowHeadersVisible = False
+	  
+Private Sub DataGrdView_DoubleClick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DataGrdView.DoubleClick
+DataGrdView.Item(0, DataGrdView.CurrentRow.Index).Value
+
+'Move to Next Row
+	Dim WrkRow as integer
+	WrkRow = DataGrdView.CurrentCell.RowIndex
+	If WrkRow < DataGrdView.RowCount - 1 Then
+      DataGrdView.CurrentCell = DataGrdView(0, WrkRow + 1)
+	
+'Clear all formating
+ DataGrdView.DataSource = Nothing 
+
+DataGrdView.RowCount = 0
+'Process selected rows
+If DataGrdView.SelectedRows.Count > 0 Then
+  For Each row In DataGrdView.SelectedRows
+	myds.Tables(0).Rows(row).Delete()
+	Exit For
+  Next
+End If
+
+  Private Sub DataGrdView_CellFormatting(sender As Object, e As DataGridViewCellFormattingEventArgs) Handles DataGrdView.CellFormatting
+    Dim Temp As String
+    If DataGrdView.Columns(e.ColumnIndex).Name = "stats" Then
+      If e.Value = "O" Then
+        DataGrdView.Rows(e.RowIndex).DefaultCellStyle.BackColor = Color.Yellow
+      End If
+    End If
+
+    If (e.ColumnIndex = 7) Then
+    Temp = DataGrdView.Rows(e.RowIndex).Cells(e.ColumnIndex).Value.ToString()
+      Select Case Temp
+      Case "A"
+        e.Value = "Asset"
+      Case "H"
+        e.Value = "Header"
+      Case Else
+      End Select
+    End If
+  End Sub

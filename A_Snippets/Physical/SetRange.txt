@@ -1,0 +1,31 @@
+  Public Sub SetRange(ByVal WrkBatch As Integer)
+  Dim objCommand As SqlCommand
+
+  RecordNotFound = False
+  IsEOF = False
+  StrSQL = "Select * from " & cFileName & " where bchno=" & WrkBatch & " order by trnbr"
+  ConnRdr = MyDBConn.Open
+  objCommand = New SqlCommand(StrSQL, ConnRdr)
+  objreader = objCommand.ExecuteReader()
+  objCommand = Nothing
+End Sub
+Public Sub ReadFileE()
+  Dim Good As Boolean
+
+  Good = objreader.Read()
+  If Good Then
+    GetFieldsRdr()
+  Else
+    CloseRange()
+  End If
+End Sub
+  Public Sub CloseRange()
+    IsEOF = True
+    objreader.Close()
+    ConnRdr.Close()
+  End Sub
+Public Sub GetFieldsRdr()
+  With objreader
+  end with
+end sub
+ 

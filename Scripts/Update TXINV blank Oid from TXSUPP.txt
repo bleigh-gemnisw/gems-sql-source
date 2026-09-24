@@ -1,0 +1,5 @@
+select txinv.list#, txinv.type,txinv.year,txinv.ss#,txsupp.ss#,txsupp.list#,txsupp.oid from txinv left join txsupp on txinv.list#=txsupp.list# and txinv.ss#=txsupp.ss#  where txinv.type='S' and txinv.year=2017 and txinv.oid=''
+
+update txinv set txinv.oid=txsupp.oid from txinv left join txsupp on txinv.list#=txsupp.list# and txinv.ss#=txsupp.ss#  where txinv.type='S' and txinv.year=2017 and txinv.oid='' and txsupp.ss#>0
+
+select txinv.list#, txinv.type,txinv.year,txinv.ss#,txinv.oid,txsupp.list#,txsupp.ss#,txsupp.oid from txinv left join txsupp on txinv.list#=txsupp.list# and txinv.ss#=txsupp.ss#  where txinv.type='S' and txinv.year=2017

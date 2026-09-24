@@ -1,0 +1,152 @@
+﻿DclNamespace	Name(TXE44_ClrBktx)
+
+Using System
+using system.Data 
+Using System.IO		
+
+BegClass myData Access(*Public)
+
+  
+/Region "Database and Files"
+ 
+// ==========================================================================================
+// Database Connection
+// ==========================================================================================
+	DclDb			Name		( DatabaseName )	DBName( "gemsdata" ) access(*public)
+
+// ==========================================================================================
+// Files
+// ==========================================================================================
+// Data Master 
+
+    DclDiskFile		Name        ( TXINV )            +
+					File        ( '*libl/TXINV' )    + 
+					Type        ( *update )             +
+					Org         ( *arrival)            +
+					Db          ( DatabaseName )        +    
+					Impopen     ( *No )                 +
+					AddRec      ( *No )                +
+					Prefix      ( TXINV_ ) 
+					
+/EndRegion
+
+/Region "Constructors"
+  
+    BegConstructor Access(*Public)
+        DclSrParm DB Type( ASNA.VisualRPG.Runtime.Database ) 
+        DatabaseName = DB
+        
+    Endconstructor
+    
+Begsr	Name(Close) Access( *Public )
+
+	Disconnect Db( DatabaseName )
+
+Endsr
+
+/EndRegion
+
+/Region "Key Lists, Global Fields, and Constants"
+
+
+DclFld	Name( FileIsOpen )       Type( *Ind )  
+                        
+DclFld	Name( False )            Type( *Boolean )                          
+DclFld	Name( FileError )        Type( *Ind )       
+
+DclFld	Name( RecordNotFound )   Type( *Boolean )  access(*public)                       
+   
+// ==========================================================================================
+	
+// Constants  
+	
+// ==========================================================================================
+/EndRegion
+
+/Region "Properties"
+
+// ==========================================================================================
+// Generic Properties
+// ==========================================================================================
+Dclfld Name( ErrorText )        Type( *String )                     Access( *Public )
+Dclfld Name( eoffile )              Type( *Ind )                        Access( *Public ) 
+/EndRegion
+
+/Region "Methods: Main program area"                  
+
+Begsr Name( ClrBktx )		Access( *Public )
+  dclsrparm Server *string
+  dclsrparm pType *char len(1)
+  dclsrparm pFamily *char len(1)
+  if pFamily = 'M' or pFamily = 'S'
+	if Server = "DB2"
+	TXINV.QrySELECT = 'SS#>0 *and icode="B"'
+	else
+	TXINV.QrySELECT = "SS#>0 and icode='B'"
+	endif
+  else	
+	if Server = "DB2"
+	TXINV.QrySELECT = 'Type="' + pType + '" *and icode="B"'
+	else
+	TXINV.QrySELECT = "Type='" + pType + "' and icode='B'"
+	endif
+  endif	
+  OpenFile()
+  if txinv.RecCount=0  
+		eoffile=*true		
+  endif
+  Dowhile not eoffile
+    Read TXINV eof(eoffile) //Err( *Extended ) 
+    If TXINV.iseof 
+      Leave
+    EndIf 
+    txinv_icode=""
+    Update File( TXINV )
+  enddo
+  unlock TXINV
+  closefile()
+Endsr
+
+/EndRegion
+
+
+/Region "Subroutines: OpenFile, CloseFile" 
+
+BegSr Name( OpenFile ) 					Access( *Public )
+// ==========================================================================================
+// OpenFile:
+//      This routine will:
+//          Open the Data file 
+// ==========================================================================================
+   
+    If not FileIsOpen                               // not opened already?
+        Open File( TXINV ) Err( FileError )          // Open Data file
+        If FileError                                    // bad open?
+            ErrorText =  "Error on Open" //*APP.DBErrorText                    // flag error
+        Else                                            // file opened
+            FileIsOpen = *True                              // flag it
+        EndIf                                           // end FileError 
+    EndIf                                           // end not FileIsOpen
+EndSr
+
+BegSr Name( CloseFile ) 					Access( *Public )
+// ==========================================================================================
+// CloseFile:
+//      This routine will:
+//          Close the Data file  
+// ==========================================================================================    
+    If FileIsOpen                                   // is file open?
+        Close File( TXINV )  Err( FileError )        // close the file
+        If FileError                                    // bad close?
+            ErrorText = "Error on Close"  //*APP.DBErrorText                    // flag error
+        Else                                            // file opened
+            FileIsOpen = False                              // flag it
+        EndIf                                           // end FileError 
+    EndIf                                           // end FileIsOpen
+    
+EndSr
+
+/EndRegion
+// ==========================================================================================
+	
+EndClass

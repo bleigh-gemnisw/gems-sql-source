@@ -1,0 +1,14 @@
+NEPTUNE FILE  we still need page and route
+
+get page and route from neptune_imp_exp.csv
+route col A/Page col C/list# col BA
+
+update UTCUST fields CUROUT & CUPAGE   
+
+
+
+1217 accounts neptune  
+the other accounts no meter (ask mark what he cleared )
+
+
+9 irrigations

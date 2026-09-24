@@ -1,0 +1,10 @@
+update txinv set tx3rd=tx3rd+tx4th,tx4th=0 where tx4th<0
+update txinv set tax2=tax2+tx3rd,tx3rd=0 where tx3rd<0
+update txinv set tax1=tax1+tax2,tax2=0 where tax2<0
+update txinv set tax2=tax1+tax2,tax1=0 where tax1<0 and tax1+tax2>=0 
+update txinv set tx3rd=tax1+tx3rd,tax1=0 where tax1<0 and tax1+tx3rd>=0 
+update txinv set tx4th=tax1+tx4th,tax1=0 where tax1<0 and tax1+tx4th>=0 
+update txinv set tax1=tax1+tax2,tax2=0 where tax1<0 and tax2>0
+update txinv set tax1=tax1+tx3rd,tx3rd=0 where tax1<0 and tx3rd>0
+update txinv set tax1=tax1+tx4th,tx4th=0 where tax1<0 and tx4th>0
+select * from txinv where tax1<0 or taxt<0

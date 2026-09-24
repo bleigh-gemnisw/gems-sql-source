@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UB413" targetNamespace="http://tempuri.org/UB413.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/UB413.xsd" xmlns:mstns="http://tempuri.org/UB413.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="LIST" type="xs:integer" />
+        <xs:element name="TYPE" type="xs:string" />
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="LOCATION" type="xs:string" />
+        <xs:element name="ORIGBAL" type="xs:decimal" />
+        <xs:element name="PAYMENTS" type="xs:decimal" />
+        <xs:element name="CURRBAL" type="xs:decimal" />
+        <xs:element name="UNBILLED" type="xs:decimal" />
+        <xs:element name="ENDBAL" type="xs:decimal" />
+        <xs:element name="INTEREST" type="xs:decimal" />
+        <xs:element name="LIEN" type="xs:decimal" />
+        <xs:element name="BOND" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

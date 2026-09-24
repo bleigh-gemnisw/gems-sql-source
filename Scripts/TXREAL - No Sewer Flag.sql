@@ -1,0 +1,5 @@
+SELECT  LIST#, NAME, LOC#,LOC
+FROM         TXREAL LEFT OUTER JOIN
+                      UTCUST ON TXREAL.LIST# = UTCUST.CUACCT
+WHERE     (TXREAL.SEWER = 'N')and CUNAM1 is not nULL
+order by LOC,loc#

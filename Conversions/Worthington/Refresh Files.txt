@@ -1,0 +1,25 @@
+delete from gemsdtab..TXHST 
+delete from gemsdtab..TXINV 
+delete from gemsdtab..TXINVDTL 
+delete from gemsdtab..UTBLHS 
+delete from gemsdtab..UTBREAK 
+delete from gemsdtab..UTCOEA 
+delete from gemsdtab..UTCUST 
+delete from gemsdtab..UTCUSTAS 
+delete from gemsdtab..UTCUSTMT 
+delete from gemsdtab..UTCUSTMTD
+delete from gemsdtab..UTCUSTRT 
+delete from gemsdtab..TBATCH
+delete from gemsdtab..TXBATCH 
+insert into gemsdtab..TXHST select * from gemsworth..TXHST
+insert into gemsdtab..TXINV select * from gemsworth..TXINV
+insert into gemsdtab..TXINVDTL select * from gemsworth..TXINVDTL
+insert into gemsdtab..UTBLHS select * from gemsworth..UTBLHS
+insert into gemsdtab..UTBREAK select * from gemsworth..UTBREAK
+insert into gemsdtab..UTCUST select * from gemsworth..UTCUST
+insert into gemsdtab..UTCUSTAS select * from gemsworth..UTCUSTAS
+insert into gemsdtab..UTCUSTMT select * from gemsworth..UTCUSTMT
+insert into gemsdtab..UTCUSTMTD select * from gemsworth..UTCUSTMTD
+insert into gemsdtab..UTCUSTRT select * from gemsworth..UTCUSTRT
+
+*** uttype  YZ  MONTHLY

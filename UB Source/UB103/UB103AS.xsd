@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB103AS" targetNamespace="http://tempuri.org/UB103AS.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB103AS.xsd" xmlns:mstns="http://tempuri.org/UB103AS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="utrateas">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="ratype" type="xs:string" />
+<xs:element name="racode" type="xs:string" />
+<xs:element name="radesc" type="xs:string" />
+<xs:element name="rapct" type="xs:decimal" />
+<xs:element name="ramnth" type="xs:integer" />
+<xs:element name="ranoyr" type="xs:integer" />
+<xs:element name="rafoot" type="xs:decimal" />
+<xs:element name="rapval" type="xs:decimal" />
+<xs:element name="raunit" type="xs:decimal" />
+<xs:element name="raacre" type="xs:decimal" />
+<xs:element name="rayr1" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

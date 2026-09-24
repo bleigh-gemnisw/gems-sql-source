@@ -1,0 +1,11 @@
+*** nameid.def
+* DMV custid.table in name order
+*
+mas 25000
+*
+NAME A40 key1
+dob dt key2
+*
+custid x9999999999
+*
+***

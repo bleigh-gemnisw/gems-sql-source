@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TO205" targetNamespace="http://tempuri.org/TO205.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TO205.xsd" xmlns:mstns="http://tempuri.org/TO205.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="mytable2">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LISTNO" type="xs:integer" />
+              <xs:element name="YEAR" type="xs:integer" />
+              <xs:element name="ALNAME" type="xs:string" />
+              <xs:element name="AFNAME" type="xs:string" />
+              <xs:element name="AINIT" type="xs:string" />
+              <xs:element name="TOTAL" type="xs:decimal" />
+              <xs:element name="FILING" type="xs:string" />
+              <xs:element name="REASON" type="xs:string" />
+              <xs:element name="CREDIT" type="xs:decimal" />
+              <xs:element name="LOCBENEFIT" type="xs:decimal" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,26 @@
+TA209 repurpose - Purchase / Exemption Report
+
+Code changes made:
+- TXTRANSQ removed as report driver.
+- TXREALQ now drives selection directly from TXREAL.
+- Existing GEMS date conversion retained: SetDBDate for selection, GetDBDate for report PURDATE.
+- Date range now filters PURDT.
+- Added checkbox: Only with exemptions.
+  Unchecked = all TXREAL rows in purchase date range.
+  Checked = only rows where EXCD1 through EXCD7 contains at least one value.
+- Exemption fields are always passed to Crystal whether checkbox is checked or not.
+- Dataset/XSD fields are now CAT, LISTNO, NAME, PURDATE, EXCD1/EXAM1 through EXCD7/EXAM7.
+- Sort is PURDT, LIST#.
+
+IMPORTANT - Visual Studio:
+After opening the project, right-click TA209.xsd and choose Run Custom Tool if TA209.Designer.vb does not regenerate automatically.
+
+IMPORTANT - Crystal report PrtTA209.rpt:
+The .rpt was not included in the supplied TA209 source ZIP, so it still must be changed in Crystal Reports.
+Point/verify the report datasource against the updated TA209.xsd and place:
+CAT, LISTNO, NAME, PURDATE, EXCD1/EXAM1 ... EXCD7/EXAM7.
+Suppress each exemption code/amount pair when its EXCD field is blank.
+The report receives all exemption values even when Only with exemptions is unchecked.
+
+TXREALQ reference:
+The project reference was changed from TXTRANSQ to TXREALQ. Make sure the normal GEMS TXREALQ.dll reference resolves on the development machine.

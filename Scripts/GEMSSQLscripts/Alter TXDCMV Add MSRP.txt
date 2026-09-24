@@ -1,0 +1,1 @@
+alter table TXDCMV ADD MSRP numeric(9,0) not NULL DEFAULT 0

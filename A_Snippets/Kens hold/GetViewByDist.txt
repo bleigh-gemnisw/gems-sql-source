@@ -1,0 +1,30 @@
+  Public Function GetViewbyDist(ByVal wrkRefno As Integer, ByVal wrkDist As Integer,  ByVal NumRecs As Integer) As DataSet
+
+    Dim Conn As SqlConnection
+    Dim objCommand As SqlCommand
+    Dim ds As DataSet = New DataSet
+    Dim ds2 As DataSet = New DataSet
+    Dim WrkTop As String
+    WrkTop = String.Empty
+
+    RecordNotFound = False
+    If NumRecs > 0 Then
+      WrkTop = "TOP " & NumRecs & " "
+    End If
+    StrSQL = "Select " & WrkTop & " * from " & cFileName _
+    & " where refno = " & wrkRefno & " and dist = " & wrkDist & " order by refno,dist"
+     Try
+      Conn = MyDBConn.Open
+      objCommand = New SqlCommand(StrSQL, Conn)
+      'Fill the dataset with the data
+      da = New SqlDataAdapter
+      da.SelectCommand = objCommand
+      da.Fill(ds, cFileName)
+      objCommand = Nothing
+      Conn.Close()
+      Return ds
+    Catch ex As Exception
+      ErrMsg = ex.ToString()
+      Return Nothing
+    End Try
+  End Function

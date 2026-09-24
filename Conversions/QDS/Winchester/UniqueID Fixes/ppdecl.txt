@@ -1,0 +1,10 @@
+select * from txdcpp as a left join gemstemp..ppdecl as b on a.list#=b.list_no and a.year=record_year where b.list_no<>b.unique_id and len(trim(unique_id))=6 order by unique_id
+update txdcpp set bdate=list#,list#=cast(b.unique_id as numeric) from txdcpp as a left join gemstemp..ppdecl as b on a.list#=b.list_no and a.year=record_year where b.list_no<>b.unique_id and len(trim(unique_id))=6
+update txdcsum set list#=cast(b.unique_id as numeric) from txdcsum as a left join gemstemp..ppdecl as b on a.list#=b.list_no and a.year=record_year where b.list_no<>b.unique_id and len(trim(unique_id))=6
+update txdcaff set list#=cast(b.unique_id as numeric) from txdcaff as a left join gemstemp..ppdecl as b on a.list#=b.list_no and a.year=record_year where b.list_no<>b.unique_id and len(trim(unique_id))=6
+update txdcdtl set list#=cast(b.unique_id as numeric) from txdcdtl as a left join gemstemp..ppdecl as b on a.list#=b.list_no and a.year=record_year where b.list_no<>b.unique_id and len(trim(unique_id))=6
+update txdcexm set list#=cast(b.unique_id as numeric) from txdcexm as a left join gemstemp..ppdecl as b on a.list#=b.list_no and a.year=record_year where b.list_no<>b.unique_id and len(trim(unique_id))=6
+update txdchor set list#=cast(b.unique_id as numeric) from txdchor as a left join gemstemp..ppdecl as b on a.list#=b.list_no and a.year=record_year where b.list_no<>b.unique_id and len(trim(unique_id))=6
+update txdcmv set list#=cast(b.unique_id as numeric) from txdcmv as a left join gemstemp..ppdecl as b on a.list#=b.list_no and a.year=record_year where b.list_no<>b.unique_id and len(trim(unique_id))=6
+update txdcmob set list#=cast(b.unique_id as numeric) from txdcmob as a left join gemstemp..ppdecl as b on a.list#=b.list_no and a.year=record_year where b.list_no<>b.unique_id and len(trim(unique_id))=6
+select * from txdcpp where bdate>0 and year>=2021

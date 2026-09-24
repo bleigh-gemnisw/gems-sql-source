@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GLA01" targetNamespace="http://tempuri.org/GLA01.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/GLA01.xsd" xmlns:mstns="http://tempuri.org/GLA01.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="mytable">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="txyr" type="xs:integer" />
+				<xs:element name="txtyp" type="xs:string" />
+				<xs:element name="txcd" type="xs:string" />
+				<xs:element name="txsup" type="xs:string" />
+				<xs:element name="txdist" type="xs:integer" />
+				<xs:element name="txphs" type="xs:string" />
+				<xs:element name="acctrc" type="xs:string" />
+				<xs:element name="acctrd" type="xs:string" />
+				<xs:element name="acctlc" type="xs:string" />
+				<xs:element name="acctld" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

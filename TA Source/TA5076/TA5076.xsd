@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA5076" targetNamespace="http://tempuri.org/TA5076.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA5076.xsd" xmlns:mstns="http://tempuri.org/TA5076.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="SNAME" type="xs:string" />
+<xs:element name="ADDR" type="xs:string" />
+<xs:element name="CITY" type="xs:string" />
+<xs:element name="STATE" type="xs:string" />
+<xs:element name="VALUE70" type="xs:integer" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

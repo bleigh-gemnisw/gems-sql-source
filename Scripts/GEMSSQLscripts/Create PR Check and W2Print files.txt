@@ -1,0 +1,193 @@
+/****** Object:  Table [dbo].[W2PRINT]    Script Date: 9/26/2023 12:33:19 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[W2PRINT](
+	[W2YEAR] [numeric](4, 0) NOT NULL,
+	[WEMPNO] [numeric](7, 0) NOT NULL,
+	[WSSN] [char](11) NOT NULL,
+	[WFEDID] [char](9) NOT NULL,
+	[WERNAM] [char](40) NOT NULL,
+	[WERAD1] [char](40) NOT NULL,
+	[WERAD2] [char](40) NOT NULL,
+	[WCNTRL] [numeric](9, 0) NOT NULL,
+	[WEMFNM] [char](17) NOT NULL,
+	[WEMLNM] [char](20) NOT NULL,
+	[WEMSUF] [char](3) NOT NULL,
+	[WEMAD1] [char](40) NOT NULL,
+	[WEMAD2] [char](40) NOT NULL,
+	[WEMAD3] [char](40) NOT NULL,
+	[WFITGR] [numeric](9, 2) NOT NULL,
+	[WFITTX] [numeric](9, 2) NOT NULL,
+	[WFICGR] [numeric](9, 2) NOT NULL,
+	[WFICTX] [numeric](9, 2) NOT NULL,
+	[WMEDGR] [numeric](9, 2) NOT NULL,
+	[WMEDTX] [numeric](9, 2) NOT NULL,
+	[WSSTIP] [numeric](9, 2) NOT NULL,
+	[WALTIP] [numeric](9, 2) NOT NULL,
+	[WDEPC] [numeric](9, 2) NOT NULL,
+	[WNONQ] [numeric](9, 2) NOT NULL,
+	[WCD12A] [char](2) NOT NULL,
+	[WCD12B] [char](2) NOT NULL,
+	[WCD12C] [char](2) NOT NULL,
+	[WCD12D] [char](2) NOT NULL,
+	[WAM12A] [numeric](9, 2) NOT NULL,
+	[WAM12B] [numeric](9, 2) NOT NULL,
+	[WAM12C] [numeric](9, 2) NOT NULL,
+	[WAM12D] [numeric](9, 2) NOT NULL,
+	[WBX13A] [char](1) NOT NULL,
+	[WBX13B] [char](1) NOT NULL,
+	[WBX13C] [char](1) NOT NULL,
+	[WCD14A] [char](6) NOT NULL,
+	[WCD14B] [char](6) NOT NULL,
+	[WCD14C] [char](6) NOT NULL,
+	[WCD14D] [char](6) NOT NULL,
+	[WAM14A] [numeric](9, 2) NOT NULL,
+	[WAM14B] [numeric](9, 2) NOT NULL,
+	[WAM14C] [numeric](9, 2) NOT NULL,
+	[WAM14D] [numeric](9, 2) NOT NULL,
+	[WSTATC] [char](2) NOT NULL,
+	[WSTAT#] [char](12) NOT NULL,
+	[WSTGRS] [numeric](9, 2) NOT NULL,
+	[WSTTAX] [numeric](9, 2) NOT NULL,
+	[WLOGRS] [numeric](9, 2) NOT NULL,
+	[WLOTAX] [numeric](9, 2) NOT NULL,
+	[WLONAM] [char](15) NOT NULL
+) ON [PRIMARY]
+GO
+
+/****** Object:  Index [ASNA_KEY_W2PRINT]    Script Date: 9/26/2023 12:33:19 PM ******/
+CREATE NONCLUSTERED INDEX [ASNA_KEY_W2PRINT] ON [dbo].[W2PRINT]
+(
+	[WCNTRL] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+/****** Object:  Table [dbo].[PRCHK]    Script Date: 9/26/2023 12:34:49 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[PRCHK](
+	[CPCKNO] [numeric](7, 0) NOT NULL,
+	[CPCKDT] [numeric](8, 0) NOT NULL,
+	[CPEMP] [numeric](7, 0) NOT NULL,
+	[PAYTYP] [char](1) NOT NULL,
+	[NAME] [char](40) NOT NULL,
+	[ADDR1] [char](40) NOT NULL,
+	[ADDR2] [char](40) NOT NULL,
+	[ADDR3] [char](40) NOT NULL,
+	[CPFND] [numeric](3, 0) NOT NULL,
+	[CPDEPT] [numeric](4, 0) NOT NULL,
+	[YTDDED] [numeric](9, 2) NOT NULL,
+	[YTDGRS] [numeric](9, 2) NOT NULL,
+	[CURDED] [numeric](9, 2) NOT NULL,
+	[GROSS] [numeric](9, 2) NOT NULL,
+	[NETPAY] [numeric](9, 2) NOT NULL
+) ON [PRIMARY]
+GO
+
+/****** Object:  Index [ASNA_KEY_PRCHK]    Script Date: 9/26/2023 12:34:49 PM ******/
+CREATE NONCLUSTERED INDEX [ASNA_KEY_PRCHK] ON [dbo].[PRCHK]
+(
+	[CPCKNO] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+/****** Object:  Table [dbo].[PRCHKD]    Script Date: 9/26/2023 12:35:15 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[PRCHKD](
+	[CPCKNO] [numeric](7, 0) NOT NULL,
+	[SEQNO] [numeric](2, 0) NOT NULL,
+	[EHOURS] [numeric](5, 2) NOT NULL,
+	[EDESC] [char](14) NOT NULL,
+	[EAMT] [numeric](9, 2) NOT NULL,
+	[EYTD] [numeric](9, 2) NOT NULL,
+	[DDESC] [char](14) NOT NULL,
+	[DAMT] [numeric](9, 2) NOT NULL,
+	[DYTD] [numeric](9, 2) NOT NULL,
+	[ACODE] [char](1) NOT NULL
+) ON [PRIMARY]
+GO
+
+/****** Object:  Index [ASNA_KEY_PRCHKD]    Script Date: 9/26/2023 12:35:15 PM ******/
+CREATE NONCLUSTERED INDEX [ASNA_KEY_PRCHKD] ON [dbo].[PRCHKD]
+(
+	[CPCKNO] ASC,
+	[SEQNO] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+/****** Object:  Table [dbo].[PRSUP]    Script Date: 9/26/2023 12:35:49 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[PRSUP](
+	[CPCKNO] [numeric](7, 0) NOT NULL,
+	[CPCKDT] [numeric](8, 0) NOT NULL,
+	[CPEMP] [char](7) NOT NULL,
+	[PAYTYP] [char](1) NOT NULL,
+	[NAME] [char](40) NOT NULL,
+	[ADDR1] [char](40) NOT NULL,
+	[ADDR2] [char](40) NOT NULL,
+	[ADDR3] [char](40) NOT NULL,
+	[ADDR4] [char](40) NOT NULL,
+	[ZIP] [char](5) NOT NULL,
+	[ZIP4] [char](4) NOT NULL,
+	[CPFND] [numeric](3, 0) NOT NULL,
+	[CPDEPT] [numeric](4, 0) NOT NULL,
+	[YTDDED] [numeric](9, 2) NOT NULL,
+	[YTDGRS] [numeric](9, 2) NOT NULL,
+	[CURDED] [numeric](9, 2) NOT NULL,
+	[GROSS] [numeric](9, 2) NOT NULL,
+	[NETPAY] [numeric](9, 2) NOT NULL
+) ON [PRIMARY]
+GO
+
+/****** Object:  Index [ASNA_KEY_PRSUP]    Script Date: 9/26/2023 12:35:49 PM ******/
+CREATE NONCLUSTERED INDEX [ASNA_KEY_PRSUP] ON [dbo].[PRSUP]
+(
+	[CPCKNO] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+/****** Object:  Table [dbo].[PRSUPD]    Script Date: 9/26/2023 12:36:23 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[PRSUPD](
+	[CPCKNO] [numeric](7, 0) NOT NULL,
+	[SEQNO] [numeric](2, 0) NOT NULL,
+	[EHOURS] [numeric](5, 2) NOT NULL,
+	[EDESC] [char](14) NOT NULL,
+	[EAMT] [numeric](9, 2) NOT NULL,
+	[EYTD] [numeric](9, 2) NOT NULL,
+	[DDESC] [char](14) NOT NULL,
+	[DAMT] [numeric](9, 2) NOT NULL,
+	[DYTD] [numeric](9, 2) NOT NULL
+) ON [PRIMARY]
+GO
+
+/****** Object:  Index [ASNA_KEY_PRSUPD]    Script Date: 9/26/2023 12:36:23 PM ******/
+CREATE NONCLUSTERED INDEX [ASNA_KEY_PRSUPD] ON [dbo].[PRSUPD]
+(
+	[CPCKNO] ASC,
+	[SEQNO] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO

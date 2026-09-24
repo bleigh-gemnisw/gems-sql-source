@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1758
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TAP25", "TAP25.vbproj", "{E72A23E4-A237-43C9-BABC-C07C25FAAE55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E72A23E4-A237-43C9-BABC-C07C25FAAE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72A23E4-A237-43C9-BABC-C07C25FAAE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72A23E4-A237-43C9-BABC-C07C25FAAE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72A23E4-A237-43C9-BABC-C07C25FAAE55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {66514C10-D61B-46E4-9F6E-6E251452CC72}
+	EndGlobalSection
+EndGlobal

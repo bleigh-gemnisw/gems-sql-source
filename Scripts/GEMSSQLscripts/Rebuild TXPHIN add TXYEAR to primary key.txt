@@ -1,0 +1,165 @@
+/*========================================================
+  Change PK from LIST# to (LIST#, TXYEAR)
+  Preserves all existing data
+========================================================*/
+
+/*--------------------------------------------------------
+1. Create new table with desired primary key
+--------------------------------------------------------*/
+CREATE TABLE dbo.TXPHIN_NEW
+(
+    [LIST#] numeric(6,0) NOT NULL,
+    TXYEAR numeric(4,0) NOT NULL,
+
+    CAPGRS decimal(9,0) NOT NULL,
+    CAPA1  decimal(9,0) NOT NULL,
+    CAPA2  decimal(9,0) NOT NULL,
+    CAPA3  decimal(9,0) NOT NULL,
+    CAPA4  decimal(9,0) NOT NULL,
+    CAPA5  decimal(9,0) NOT NULL,
+    CAPA6  decimal(9,0) NOT NULL,
+    CAPA7  decimal(9,0) NOT NULL,
+
+    CAPC1 numeric(3,0) NOT NULL,
+    CAPC2 numeric(3,0) NOT NULL,
+    CAPC3 numeric(3,0) NOT NULL,
+    CAPC4 numeric(3,0) NOT NULL,
+    CAPC5 numeric(3,0) NOT NULL,
+    CAPC6 numeric(3,0) NOT NULL,
+    CAPC7 numeric(3,0) NOT NULL,
+
+    ORIGRS decimal(9,0) NOT NULL,
+    FULGRS decimal(9,0) NOT NULL,
+    ADJGRS decimal(9,0) NOT NULL,
+
+    ADJA1 decimal(9,0) NOT NULL,
+    ADJA2 decimal(9,0) NOT NULL,
+    ADJA3 decimal(9,0) NOT NULL,
+    ADJA4 decimal(9,0) NOT NULL,
+    ADJA5 decimal(9,0) NOT NULL,
+    ADJA6 decimal(9,0) NOT NULL,
+    ADJA7 decimal(9,0) NOT NULL,
+
+    ADJC1 numeric(3,0) NOT NULL,
+    ADJC2 numeric(3,0) NOT NULL,
+    ADJC3 numeric(3,0) NOT NULL,
+    ADJC4 numeric(3,0) NOT NULL,
+    ADJC5 numeric(3,0) NOT NULL,
+    ADJC6 numeric(3,0) NOT NULL,
+    ADJC7 numeric(3,0) NOT NULL,
+
+    CONSTRAINT PK_TXPHIN_NEW
+        PRIMARY KEY CLUSTERED ([LIST#],TXYEAR)
+);
+GO
+
+/*--------------------------------------------------------
+2. Copy data from old table
+   Replace 2025 with desired year if needed
+--------------------------------------------------------*/
+INSERT INTO dbo.TXPHIN_NEW
+(
+    [LIST#],
+    TXYEAR,
+
+    CAPGRS,
+    CAPA1,
+    CAPA2,
+    CAPA3,
+    CAPA4,
+    CAPA5,
+    CAPA6,
+    CAPA7,
+
+    CAPC1,
+    CAPC2,
+    CAPC3,
+    CAPC4,
+    CAPC5,
+    CAPC6,
+    CAPC7,
+
+    ORIGRS,
+    FULGRS,
+    ADJGRS,
+
+    ADJA1,
+    ADJA2,
+    ADJA3,
+    ADJA4,
+    ADJA5,
+    ADJA6,
+    ADJA7,
+
+    ADJC1,
+    ADJC2,
+    ADJC3,
+    ADJC4,
+    ADJC5,
+    ADJC6,
+    ADJC7
+)
+SELECT
+    [LIST#],
+    2025 AS TXYEAR,
+
+    CAPGRS,
+    CAPA1,
+    CAPA2,
+    CAPA3,
+    CAPA4,
+    CAPA5,
+    CAPA6,
+    CAPA7,
+
+    CAPC1,
+    CAPC2,
+    CAPC3,
+    CAPC4,
+    CAPC5,
+    CAPC6,
+    CAPC7,
+
+    ORIGRS,
+    FULGRS,
+    ADJGRS,
+
+    ADJA1,
+    ADJA2,
+    ADJA3,
+    ADJA4,
+    ADJA5,
+    ADJA6,
+    ADJA7,
+
+    ADJC1,
+    ADJC2,
+    ADJC3,
+    ADJC4,
+    ADJC5,
+    ADJC6,
+    ADJC7
+FROM dbo.TXPHIN;
+GO
+
+/*--------------------------------------------------------
+3. Backup old table
+--------------------------------------------------------*/
+EXEC sp_rename 'dbo.TXPHIN', 'TXPHIN_OLD';
+GO
+
+/*--------------------------------------------------------
+4. Rename new table to original name
+--------------------------------------------------------*/
+EXEC sp_rename 'dbo.TXPHIN_NEW', 'TXPHIN';
+GO
+
+/*--------------------------------------------------------
+5. Optional verification
+--------------------------------------------------------*/
+SELECT COUNT(*) AS OldCount
+FROM dbo.TXPHIN_OLD;
+
+SELECT COUNT(*) AS NewCount
+FROM dbo.TXPHIN;
+GO

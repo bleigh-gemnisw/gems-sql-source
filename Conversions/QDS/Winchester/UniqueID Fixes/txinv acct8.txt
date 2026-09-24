@@ -1,0 +1,17 @@
+select * from txinv as a left join gemstemp..inv21p as b on a.list#=b.bill_num and a.year=yr where b.bill_num<>b.acct_8 and len(trim(acct_8))=6
+update txinv set xdate=list#,list#=cast(b.acct_8 as numeric) from txinv as a left join gemstemp..inv21p as b on a.list#=b.bill_num and a.year=yr where b.bill_num<>b.acct_8 and len(trim(acct_8))=6
+select * from txinv as a left join gemstemp..inv22p as b on a.list#=b.bill_num and a.year=yr where b.bill_num<>b.acct_8 and len(trim(acct_8))=6
+update txinv set xdate=list#,list#=cast(b.acct_8 as numeric) from txinv as a left join gemstemp..inv22p as b on a.list#=b.bill_num and a.year=yr where b.bill_num<>b.acct_8 and len(trim(acct_8))=6
+select list#,year,type,name,add1,loc#,loc,xdate from txinv where xdate>0
+
+select * from txhst as a left join gemstemp..inv21p as b on a.list#=b.bill_num and a.year=yr where b.bill_num<>b.acct_8 and len(trim(acct_8))=6
+update txhst set credit=list#,list#=cast(b.acct_8 as numeric) from txhst as a left join gemstemp..inv21p as b on a.list#=b.bill_num and a.year=yr where b.bill_num<>b.acct_8 and len(trim(acct_8))=6
+select * from txhst as a left join gemstemp..inv22p as b on a.list#=b.bill_num and a.year=yr where b.bill_num<>b.acct_8 and len(trim(acct_8))=6
+update txhst set credit=list#,list#=cast(b.acct_8 as numeric) from txhst as a left join gemstemp..inv22p as b on a.list#=b.bill_num and a.year=yr where b.bill_num<>b.acct_8 and len(trim(acct_8))=6
+select list#,year,type,credit from txhst where credit>0 
+
+select * from txcoea as a left join gemstemp..inv21p as b on a.list#=b.bill_num and a.year=yr where b.bill_num<>b.acct_8 and len(trim(acct_8))=6
+update txcoea set newmvc=list#,list#=cast(b.acct_8 as numeric) from txcoea as a left join gemstemp..inv21p as b on a.list#=b.bill_num and a.year=yr where b.bill_num<>b.acct_8 and len(trim(acct_8))=6
+select * from txcoea as a left join gemstemp..inv22p as b on a.list#=b.bill_num and a.year=yr where b.bill_num<>b.acct_8 and len(trim(acct_8))=6
+update txcoea set newmvc=list#,list#=cast(b.acct_8 as numeric) from txcoea as a left join gemstemp..inv22p as b on a.list#=b.bill_num and a.year=yr where b.bill_num<>b.acct_8 and len(trim(acct_8))=6
+select list#,year,type,name,newmvc from txcoea where newmvc>0 

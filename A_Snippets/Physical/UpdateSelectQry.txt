@@ -1,0 +1,10 @@
+  Public Sub clrselectQry()
+  Dim Conn As SqlConnection
+  Dim objCommand As SqlCommand
+
+  StrSQL = "UPDATE " & cFileName & " SET SLTPY = '',PAYPD = 0,payam = 0,payck = 0,paybn = 0 WHERE SLTPY = '1'"
+  
+  Conn = MyDBConn.Open
+  objCommand = New SqlCommand(StrSQL, Conn)
+  objReader = objCommand.ExecuteReader()
+End Sub

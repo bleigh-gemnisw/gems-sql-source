@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TX430" targetNamespace="http://tempuri.org/TX430.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TX430.xsd" xmlns:mstns="http://tempuri.org/TX430.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="mytable">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LISTNO" type="xs:integer" />
+							<xs:element name="NAME" type="xs:string" />
+              <xs:element name="ADD1" type="xs:string" />
+              <xs:element name="CITY" type="xs:string" />
+              <xs:element name="LEASE" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

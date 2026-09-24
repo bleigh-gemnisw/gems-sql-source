@@ -1,0 +1,12 @@
+INSERT INTO [dbo].[TBLCONTROL]
+           ([KEYFIELD]
+           ,[KEYVALUE]
+           ,[USERORSYSTEM]
+           ,[FIELD01]
+           ,[FIELD02]
+           ,[FIELD03]
+           ,[FIELD04])
+     VALUES ('attachpath','','','C:\testme','',0,0);
+GO
+
+

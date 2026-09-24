@@ -1,0 +1,12 @@
+ Public Sub ClearBTR()
+    Dim Conn As SqlConnection
+    Dim objCommand As SqlCommand
+    Dim Result As Integer
+
+    StrSQL = "UPDATE " & cFileName & " SET DNBTR = '',BTR = 0,DTBTR = 0"
+
+    Conn = MyDBConn.Open
+    objCommand = New SqlCommand(StrSQL, Conn)
+    Result = objCommand.ExecuteNonQuery()
+    objCommand = Nothing
+  End Sub

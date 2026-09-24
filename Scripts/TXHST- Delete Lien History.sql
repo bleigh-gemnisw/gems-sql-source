@@ -1,0 +1,1 @@
+delete txhst WHERE     (txhst.rcode = 'I') AND (TXHST.PDATE = 20120611) AND (TXHST.BATCHA = 'L')and PDATE=20120611

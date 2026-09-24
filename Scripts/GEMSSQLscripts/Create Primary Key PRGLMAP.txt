@@ -1,0 +1,1 @@
+alter table PRGLMAP add primary key (PFUND, PSFUND, PDEPT, POBJ, PFUNC, PSFUNC, PDESC)

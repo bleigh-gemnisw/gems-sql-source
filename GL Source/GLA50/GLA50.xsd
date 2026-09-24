@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GLA50" targetNamespace="http://tempuri.org/GLA50.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/GLA50.xsd" xmlns:mstns="http://tempuri.org/GLA50.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="mytable">
+		<xs:complexType>
+			<xs:sequence>
+        <xs:element name="FUND" type="xs:integer" />
+        <xs:element name="SFUND" type="xs:integer" />
+        <xs:element name="DEPT" type="xs:integer" />
+        <xs:element name="OBJ" type="xs:integer" />
+        <xs:element name="FUNC" type="xs:integer" />
+        <xs:element name="SFUNC" type="xs:integer" />
+        <xs:element name="ACCTDESC" type="xs:string" />
+        <xs:element name="GLTYP" type="xs:string" />
+        <xs:element name="REFNO" type="xs:integer" />
+        <xs:element name="DATED" type="xs:date" />
+        <xs:element name="AMT" type="xs:decimal" />
+        <xs:element name="TDESC" type="xs:string" />
+      </xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

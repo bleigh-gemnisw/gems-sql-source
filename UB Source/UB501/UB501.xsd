@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB501" targetNamespace="http://tempuri.org/UB501.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB501.xsd" xmlns:mstns="http://tempuri.org/UB501.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="CCNO" type="xs:integer" />
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="TYPE" type="xs:string" />
+<xs:element name="TYPEDESC" type="xs:string" />
+<xs:element name="CDATE" type="xs:date" />
+<xs:element name="LOCNO" type="xs:integer" />
+<xs:element name="LOC" type="xs:string" />
+<xs:element name="RSNCD" type="xs:string" />
+<xs:element name="RSNDESC" type="xs:string" />
+<xs:element name="CDESC" type="xs:string" />
+<xs:element name="OTAX1" type="xs:decimal" />
+<xs:element name="NTAX1" type="xs:decimal" />
+<xs:element name="CTAX1" type="xs:decimal" />
+<xs:element name="OTAX2" type="xs:decimal" />
+<xs:element name="NTAX2" type="xs:decimal" />
+<xs:element name="CTAX2" type="xs:decimal" />
+<xs:element name="OTAX3" type="xs:decimal" />
+<xs:element name="NTAX3" type="xs:decimal" />
+<xs:element name="CTAX3" type="xs:decimal" />
+<xs:element name="OTAX4" type="xs:decimal" />
+<xs:element name="NTAX4" type="xs:decimal" />
+<xs:element name="CTAX4" type="xs:decimal" />
+<xs:element name="OBOND" type="xs:decimal" />
+<xs:element name="NBOND" type="xs:decimal" />
+<xs:element name="CBOND" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

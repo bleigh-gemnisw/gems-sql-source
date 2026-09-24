@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="FA102" targetNamespace="http://tempuri.org/FA102.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/FA102.xsd" xmlns:mstns="http://tempuri.org/FA102.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="GROUPID" type="xs:string" />
+<xs:element name="TAG" type="xs:string" />
+<xs:element name="DESC" type="xs:string" />
+<xs:element name="SERIAL" type="xs:string" />
+<xs:element name="ACQVAL" type="xs:integer" />
+<xs:element name="ACQDESC" type="xs:string" />
+<xs:element name="ACQDATE" type="xs:string" />
+<xs:element name="LIFEDATE" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

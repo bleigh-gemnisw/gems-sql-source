@@ -1,0 +1,5 @@
+select list#,value,orig from txmvd where orig-value>=5 and orig-value<=9 and orig>0
+update txmvd set value=value+10 where orig-value>=5 and orig-value<=9 and orig>0
+
+update txmvd set value=b.value from txmvd as a left join txmvd241211 as b on a.list#=b.list# where a.orig-a.value>10 and a.orig>0
+select a.list#,a.value,a.orig,b.value from txmvd as a left join txmvd241211 as b on a.list#=b.list# where a.orig-a.value>10 and a.orig>0

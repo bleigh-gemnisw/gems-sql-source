@@ -1,0 +1,2 @@
+select * from txinv as a,txinv as b where a.stcd1='S' and a.year=2022 and a.bald>0 and a.type='S' and a.imvid#=b.imvid# and
+ b.type='M' and b.year=2023 and b.stcd1=''

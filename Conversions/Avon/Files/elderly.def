@@ -1,0 +1,111 @@
+*** EH.DEF
+* elderly homeowners.
+*
+ra_data MAS 10000
+*
+PROP X9999999 KEY1
+*
+OE A1 "Odd or Even"
+LO A1 "Local only"
+BATCH X999
+YEAR X9999
+*
+* Applicant
+ALNAME A20
+AFNAME A10
+AMI A1
+ADOB A10
+ASSN X999999999
+*
+* Spouse
+SLNAME A20
+SFNAME A10
+SMI A1
+SDOB A10
+SSSN X999999999
+*
+* Mailing
+MSTREET A40
+MTOWN A16
+MST A2
+MZIP X99999
+MEXT X9999
+*
+* Property
+PSTREET A40
+PTOWN A16
+PST A2
+PZIP X99999
+PEXT X9999
+*
+OWNER A30
+*
+MAR A1	"married"
+UNM A1	"unmarried"
+SSP A1	"surviving spouse"
+NHR A1	"nursing home resident"
+DIS A1	"disabled"
+FTR A1	"filed tax return"
+NTR A1	"no tax return"
+*
+* Income
+TINCOME D2	"taxable"
+NINCOME D2	"non-taxable"
+SINCOME D2	"social security"
+OINCOME D2	"other"
+TOTAL D2
+*
+* Alpha income fields
+ATINCOME A10
+ANINCOME A10
+ASINCOME A10
+AOINCOME A10
+ATOTAL   A10
+*
+PERC D "percent ownership"
+*
+* Assessment
+GROSS D
+AGROSS D
+NET D
+BLIND D
+DISABLED D
+VETERANS D
+LOCAL D
+ADVET D
+ABLIND A8
+ADISABLED A8
+AVETERANS A8
+ALOCAL A8
+AADVET A8
+*
+AAGROSS A10
+ANET A10
+*
+* Tax
+RATE D4
+TAX D2
+FTAX D2
+ARATE A7
+ATAX A10
+AFTAX A10
+*
+MAX D2
+MIN D2
+AMAX A7
+AMIN A7
+*
+CREDIT D2
+ACREDIT A7
+*
+LCREDIT D2
+*
+PREQ D	"Percent requested"
+SIG A1	"signiture"
+AA A1		"affidavit allowed"
+AD A1		"affidavit disallowed"
+*
+PHONE A12
+*
+IC I "Income code"
+***

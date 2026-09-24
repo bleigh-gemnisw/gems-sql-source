@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A187E470-DD5A-43B4-AF60-9FB3FECAFC30}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>TAD04</RootNamespace>
+    <AssemblyName>TAD04</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SQLConnect">
+      <HintPath>..\..\..\gemssql\SQLConnect.dll</HintPath>
+    </Reference>
+    <Reference Include="GNETRIGHTS">
+      <HintPath>..\..\..\gemssql\GNETRIGHTS.dll</HintPath>
+    </Reference>
+    <Reference Include="Splash">
+      <HintPath>..\..\..\gemssql\Splash.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="TOWN">
+      <HintPath>..\..\..\gemssql\TOWN.dll</HintPath>
+    </Reference>
+    <Reference Include="TXBAA">
+      <HintPath>..\..\..\gemssql\TXBAA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXBTRC">
+      <HintPath>..\..\..\gemssql\TXBTRC.dll</HintPath>
+    </Reference>
+    <Reference Include="TXCOOA, Version=1.0.8593.18061, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXCOOA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXCOOQ, Version=1.0.8333.17490, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXCOOQ.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMVA, Version=1.0.6666.18854, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXMVA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMVDCQ">
+      <HintPath>..\..\..\gemssql\TXMVDCQ.dll</HintPath>
+    </Reference>
+    <Reference Include="TXPPRA, Version=1.0.6666.18919, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXPPRA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXPPRPCQ">
+      <HintPath>..\..\..\gemssql\TXPPRPCQ.dll</HintPath>
+    </Reference>
+    <Reference Include="TXREAA, Version=1.0.6666.19009, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXREAA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXREALCQ">
+      <HintPath>..\..\..\gemssql\TXREALCQ.dll</HintPath>
+    </Reference>
+    <Reference Include="TXSUPA, Version=1.0.6666.18981, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXSUPA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXSUPPQ">
+      <HintPath>..\..\..\gemssql\TXSUPPQ.dll</HintPath>
+    </Reference>
+    <Reference Include="Utils">
+      <HintPath>..\..\..\gemssql\Utils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common.vb" />
+    <Compile Include="FrmProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAD04.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAD04B.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="ProcessData.vb" />
+    <Compile Include="ProcessMV.vb" />
+    <Compile Include="ProcessPP.vb" />
+    <Compile Include="ProcessProrate.vb" />
+    <Compile Include="ProcessRE.vb" />
+    <Compile Include="ProcessSU.vb" />
+    <Compile Include="security.vb" />
+    <Compile Include="Util.vb" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmProgress.resx">
+      <DependentUpon>FrmProgress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAD04.resx">
+      <DependentUpon>FrmTAD04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAD04B.resx">
+      <DependentUpon>FrmTAD04B.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

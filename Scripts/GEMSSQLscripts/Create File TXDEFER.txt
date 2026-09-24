@@ -1,0 +1,53 @@
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TXDEFER](
+	[LIST#] [numeric](6, 0) NOT NULL,
+	[TYPE] [char](1) NOT NULL,
+	[YEAR] [numeric](4, 0) NOT NULL,
+	[ALNAME] [char](20) NOT NULL,
+	[AFNAME] [char](10) NOT NULL,
+	[AINIT] [char](1) NOT NULL,
+	[ASSN] [numeric](9, 0) NOT NULL,
+	[SLNAME] [char](20) NOT NULL,
+	[SFNAME] [char](10) NOT NULL,
+	[SINIT] [char](1) NOT NULL,
+	[SSSN] [numeric](9, 0) NOT NULL,
+	[LOC#] [char](7) NOT NULL,
+	[LOC] [char](25) NOT NULL,
+	[CITY] [char](25) NOT NULL,
+	[STATE] [char](2) NOT NULL,
+	[ZIP] [numeric](5, 0) NOT NULL,
+	[MADDR] [char](40) NOT NULL,
+	[MCITY] [char](25) NOT NULL,
+	[MSTATE] [char](2) NOT NULL,
+	[MZIP] [numeric](5, 0) NOT NULL,
+	[FILING] [char](1) NOT NULL,
+	[DTSIGN] [numeric](8, 0) NOT NULL,
+	[PHONE] [numeric](10, 0) NOT NULL,
+	[RELATE] [char](20) NOT NULL,
+	[INCOME] [numeric](9, 2) NOT NULL,
+	[SSA] [numeric](8, 2) NOT NULL,
+	[OTHER] [numeric](8, 2) NOT NULL,
+	[ALLOW] [char](1) NOT NULL,
+	[PROPCT] [numeric](5, 2) NOT NULL,
+	[PGROSS] [numeric](9, 0) NOT NULL,
+	[GROSS] [numeric](9, 0) NOT NULL,
+	[NET] [numeric](9, 0) NOT NULL,
+	[TAX] [numeric](8, 2) NOT NULL,
+	[DEFERRED] [numeric](8, 2) NOT NULL,
+	[DISRSN] [char](30) NOT NULL,
+	[DTASSR] [numeric](8, 0) NOT NULL,
+ CONSTRAINT [PK__TXDEFER__40FCE9A7519E64AF] PRIMARY KEY CLUSTERED 
+(
+	[LIST#] ASC,
+	[TYPE] ASC,
+	[YEAR] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+

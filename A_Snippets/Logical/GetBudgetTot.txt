@@ -1,0 +1,35 @@
+Public Function GetBudgetTot(ByVal WrkFromDt As Integer, ByVal WrkToDt As Integer, _
+ ByVal WrkCredit As Boolean) As Decimal
+  Dim Conn As SqlConnection
+  Dim objCommand As SqlCommand
+  Dim ds As DataSet = New DataSet
+  Dim StrSQL1 As String
+  Dim WrkAmtyp As String
+  Dim WrkAmount As Decimal
+
+  If WrkCredit Then
+    WrkAmtyp = "C"
+  Else
+    WrkAmtyp = "D"
+  End If
+  RecordNotFound = False
+  StrSQL1 = "Select COALESCE(SUM(tramt),0) as totamt from " & cFileName & " where pstdt>=" & WrkFromDt & _
+   " and pstdt<=" & WrkToDt & " and trntyp='X' and Amtyp='" & WrkAmtyp & "'"
+  StrSQL = StrSQL1 & " and gltyp='R' or " & StrSQL1 & " and gltyp='X'"
+  Try
+    Conn = MyDBConn.Open
+    objCommand = New SqlCommand(StrSQL, Conn)
+    'Fill the dataset with the data
+    da = New SqlDataAdapter
+    da.SelectCommand = objCommand
+    da.Fill(ds, cFileName)
+    WrkAmount = ds.Tables(0).Rows(0).Item(0)
+    objCommand = Nothing
+    Conn.Close()
+    ds = Nothing
+    Return WrkAmount
+  Catch ex As Exception
+    ErrMsg = ex.ToString()
+    Return Nothing
+  End Try
+End Function

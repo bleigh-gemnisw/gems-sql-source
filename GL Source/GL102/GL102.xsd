@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="GL102" targetNamespace="http://tempuri.org/GL102.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/GL102.xsd" xmlns:mstns="http://tempuri.org/GL102.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="GLFUND">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="FDNBR" type="xs:integer" />
+<xs:element name="SFUND" type="xs:integer" />
+<xs:element name="FNDSC" type="xs:string" />
+<xs:element name="ACCFN" type="xs:string" />
+<xs:element name="ENTFN" type="xs:string" />
+<xs:element name="GROUP" type="xs:integer" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="FA200Tot" targetNamespace="http://tempuri.org/FA200Tot.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/FA200Tot.xsd" xmlns:mstns="http://tempuri.org/FA200Tot.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable2">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="GROUPID" type="xs:string" />
+<xs:element name="TACQVAL" type="xs:integer" />
+<xs:element name="TBEFOREDEPRVAL" type="xs:decimal" />
+<xs:element name="TDEPRVAL" type="xs:decimal" />
+<xs:element name="TAFTERDEPRVAL" type="xs:decimal" />
+<xs:element name="TDSPVAL" type="xs:integer" />
+<xs:element name="TASSETVAL" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

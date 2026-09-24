@@ -1,0 +1,5 @@
+Update TXREAL
+set EXMPT = TXREAA.EXMPT,
+CAT = TXREAA.CAT
+from TXREAL
+INNER JOIN TXREAA ON TXREAL.LIST# = TXREAA.LIST# where txreaa.cat='3' and txreaa.year=2019

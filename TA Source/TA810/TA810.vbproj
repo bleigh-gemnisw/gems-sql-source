@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{18D30CA2-1F2E-4A84-B4A1-2650C54CC5DD}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>TA810</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>TA810</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Attachit, Version=1.0.8529.18137, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\Attachit.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="PriceDigestAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\PriceDigestAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLConnect">
+      <Name>SQLConnect</Name>
+      <HintPath>..\..\..\gemssql\SQLConnect.dll</HintPath>
+    </Reference>
+    <Reference Include="GNET, Version=1.0.4727.28771, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GNETRIGHTS, Version=1.0.2984.19925, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Splash, Version=1.0.5325.23932, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="TOWN, Version=1.0.3609.14206, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TXBAA, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXBANKS, Version=1.0.4097.20386, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXCNTL, Version=1.0.3918.16344, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXCODE, Version=1.0.4051.14956, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXCOEB, Version=1.0.3775.16246, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXCOEBL1, Version=1.0.2987.24532, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXCOEBL4, Version=1.0.3775.14791, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXCRESN, Version=1.0.4097.20461, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXEXEM, Version=1.0.4097.20750, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXHOME, Version=1.0.4097.20865, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXINV, Version=1.0.6682.13553, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXINV.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMCTL, Version=1.0.8333.17610, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXMCTL.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMSRP, Version=1.0.9048.19420, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXMSRP.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMSRPCD, Version=1.0.9043.16023, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXMSRPCD.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMSRPDEP, Version=1.0.9133.24866, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXMSRPDEP.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMVA, Version=1.0.6666.18854, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXMVA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMVDC, Version=1.0.3609.16187, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXMVDCL1, Version=1.0.8333.17627, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXMVDCL1.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMVDCL5, Version=1.0.2986.16796, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXMVPCT, Version=1.0.4080.21045, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXMVPCTL1, Version=1.0.3603.27210, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXPHCNTL, Version=1.0.9578.20392, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXPHCNTL.dll</HintPath>
+    </Reference>
+    <Reference Include="TXPHIN, Version=1.0.9627.25978, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXPHIN.dll</HintPath>
+    </Reference>
+    <Reference Include="TXPPRA, Version=1.0.6666.18919, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXPPRA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXPPRPC, Version=1.0.3609.15905, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXPRPCL1, Version=1.0.2986.17638, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXPRPCL2, Version=1.0.2986.17823, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXREAA, Version=1.0.6666.19009, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXREAA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXREAL, Version=1.0.3960.22683, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXREALC, Version=1.0.3609.16009, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXRELCL1, Version=1.0.3923.17427, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXRELCL2, Version=1.0.2986.19191, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXSUPA, Version=1.0.9278.17375, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXSUPA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXSUPPC, Version=1.0.9336.20507, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXSUPPC.dll</HintPath>
+    </Reference>
+    <Reference Include="TXSUPPCL1, Version=1.0.9336.20766, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXSUPPCL1.dll</HintPath>
+    </Reference>
+    <Reference Include="TXSUPPCL5, Version=1.0.9336.24011, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXSUPPCL5.dll</HintPath>
+    </Reference>
+    <Reference Include="TXTYPE, Version=1.0.4051.15082, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXVCUS, Version=1.0.6081.21687, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXVCUS.dll</HintPath>
+    </Reference>
+    <Reference Include="TXVEH, Version=1.0.6081.21576, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXVEH.dll</HintPath>
+    </Reference>
+    <Reference Include="TXXPROP, Version=1.0.4097.21453, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Utils, Version=1.0.5325.22866, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\Gemssql\Reports\PrtTA810MV.vb">
+      <Link>PrtTA810MV.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtTA810MV.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\..\..\Gemssql\Reports\PrtTA810MVCR.vb">
+      <Link>PrtTA810MVCR.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtTA810MVCR.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\..\..\Gemssql\Reports\PrtTA810PP.vb">
+      <Link>PrtTA810PP.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtTA810PP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\..\..\Gemssql\Reports\PrtTA810RE.vb">
+      <Link>PrtTA810RE.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtTA810RE.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\..\..\Gemssql\Reports\PrtTA810SU.vb">
+      <Link>PrtTA810SU.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtTA810SU.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AppSettings.vb" />
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Attach.vb" />
+    <Compile Include="Common.vb" />
+    <Compile Include="FrmCrViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListCCHist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListCodes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListCResn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListExempt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListExemption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListMVDC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListMvpct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListPPRPC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListRealC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListSource.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListSUPPC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrinters.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTA810.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTA8101R.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTA8102R.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTA8103R.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTA8104R.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTA8105R.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTA810_NEW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetTXMVPCT.vb" />
+    <Compile Include="Main.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PrintCert.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TX810.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TX810.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Util.vb" />
+    <None Include="..\..\..\Gemssql\Reports\PrtTA810PP.rpt">
+      <Link>PrtTA810PP.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtTA810PP.vb</LastGenOutput>
+    </None>
+    <None Include="..\..\..\Gemssql\Reports\PrtTA810RE.rpt">
+      <Link>PrtTA810RE.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtTA810RE.vb</LastGenOutput>
+    </None>
+    <None Include="..\..\..\Gemssql\Reports\PrtTA810MV.rpt">
+      <Link>PrtTA810MV.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtTA810MV.vb</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="..\..\..\Gemssql\Reports\PrtTA810MVCR.rpt">
+      <Link>PrtTA810MVCR.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtTA810MVCR.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Gemssql\Reports\PrtTA810SU.rpt">
+      <Link>PrtTA810SU.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtTA810SU.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCrViewer.resx">
+      <DependentUpon>FrmCrViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListCCHist.resx">
+      <DependentUpon>FrmListCCHist.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListCodes.resx">
+      <DependentUpon>FrmListCodes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListCResn.resx">
+      <DependentUpon>FrmListCResn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListExempt.resx">
+      <DependentUpon>FrmListExempt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListExemption.resx">
+      <DependentUpon>FrmListExemption.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListMVDC.resx">
+      <DependentUpon>FrmListMVDC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListMvpct.resx">
+      <DependentUpon>FrmListMvpct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListPPRPC.resx">
+      <DependentUpon>FrmListPPRPC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListRealC.resx">
+      <DependentUpon>FrmListRealC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListSource.resx">
+      <DependentUpon>FrmListSource.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListSUPPC.resx">
+      <DependentUpon>FrmListSUPPC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrinters.resx">
+      <DependentUpon>FrmPrinters.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTA810.resx">
+      <DependentUpon>FrmTA810.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTA8101R.resx">
+      <DependentUpon>FrmTA8101R.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTA8102R.resx">
+      <DependentUpon>FrmTA8102R.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTA8103R.resx">
+      <DependentUpon>FrmTA8103R.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTA8104R.resx">
+      <DependentUpon>FrmTA8104R.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTA8105R.resx">
+      <DependentUpon>FrmTA8105R.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTA810_NEW.resx">
+      <DependentUpon>FrmTA810_NEW.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="TX810.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TX810.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="TX810.xsc">
+      <DependentUpon>TX810.xsd</DependentUpon>
+    </None>
+    <None Include="TX810.xsx">
+      <DependentUpon>TX810.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+    <Service Include="{CF845C55-C321-4742-B673-E6212D061ED9}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

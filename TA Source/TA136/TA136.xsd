@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA136" targetNamespace="http://tempuri.org/TA136.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA136.xsd" xmlns:mstns="http://tempuri.org/TA136.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="TXVCLS">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="DESC" type="xs:string" />
+<xs:element name="CLASS" type="xs:integer" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,14 @@
+  Public Sub DeleteAllRecords()
+  Dim Conn As SqlConnection
+  Dim objCommand As SqlCommand
+  Dim Result As Integer
+
+   StrSQL = "Delete from " & cFileName
+
+  RecordNotFound = False
+  IsEOF = False
+  Conn = MyDBConn.Open
+  objCommand = New SqlCommand(StrSQL, Conn)
+  Result = objCommand.ExecuteNonQuery()
+  objCommand = Nothing
+End Sub

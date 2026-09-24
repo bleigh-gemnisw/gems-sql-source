@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA316Tot" targetNamespace="http://tempuri.org/TA316Tot.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA316Tot.xsd" xmlns:mstns="http://tempuri.org/TA316Tot.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable2">
+<xs:complexType>
+<xs:sequence>
+  <xs:element name="BUSTY" type="xs:string" />
+  <xs:element name="BUSDESC" type="xs:string" />
+  <xs:element name="TCOUNT" type="xs:integer" />
+  <xs:element name="TGROSS" type="xs:integer" />
+  <xs:element name="TTEX" type="xs:integer" />
+  <xs:element name="TNET" type="xs:integer" />
+  <xs:element name="TSQFEET" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

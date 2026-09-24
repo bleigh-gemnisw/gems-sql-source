@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TXE18" targetNamespace="http://tempuri.org/TXE18.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TXE18.xsd" xmlns:mstns="http://tempuri.org/TXE18.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CODE" type="xs:string" />
+        <xs:element name="LIST" type="xs:integer" />
+        <xs:element name="YEAR" type="xs:integer" />
+        <xs:element name="TYPE" type="xs:string" />
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="FEEPAID" type="xs:decimal" />
+        <xs:element name="DATEPAID" type="xs:date" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

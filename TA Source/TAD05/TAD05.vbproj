@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D26E7324-82C7-4318-A1E3-A6B7A99EFBB8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>TAD05</RootNamespace>
+    <AssemblyName>TAD05</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Win.C1TrueDBGrid.4.8, Version=4.8.20232.611, Culture=neutral, PublicKeyToken=75ae3fb0e2b1e0da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GNET, Version=1.0.8333.17427, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\GNET.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLConnect, Version=1.0.6593.15358, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\SQLConnect.dll</HintPath>
+    </Reference>
+    <Reference Include="GNETRIGHTS, Version=1.0.6344.16923, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\GNETRIGHTS.dll</HintPath>
+    </Reference>
+    <Reference Include="Splash, Version=1.0.6207.15649, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\Splash.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="TOWN, Version=1.0.6263.14805, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TOWN.dll</HintPath>
+    </Reference>
+    <Reference Include="TXBAA, Version=1.0.6276.14905, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXBAA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXBANKS, Version=1.0.6267.22923, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXBANKS.dll</HintPath>
+    </Reference>
+    <Reference Include="TXBTRC, Version=1.0.8333.17482, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXBTRC.dll</HintPath>
+    </Reference>
+    <Reference Include="TXBUSTY, Version=1.0.6267.23090, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXBUSTY.dll</HintPath>
+    </Reference>
+    <Reference Include="TXCODE, Version=1.0.6283.15528, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXCODE.dll</HintPath>
+    </Reference>
+    <Reference Include="TXEXEM, Version=1.0.6270.15878, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXEXEM.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMCTL, Version=1.0.8333.17610, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXMCTL.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMSRP, Version=1.0.9048.19420, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXMSRP.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMSRPCD, Version=1.0.9043.16023, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXMSRPCD.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMSRPDEP, Version=1.0.9133.24866, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXMSRPDEP.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMVA, Version=1.0.6666.18854, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXMVA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMVAL2, Version=1.0.6666.21743, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXMVAL2.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMVAL3, Version=1.0.6666.22486, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXMVAL3.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMVAL6, Version=1.0.6667.13616, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXMVAL6.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMVAL7, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXMVAL7.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMVAL8, Version=1.0.7838.16763, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXMVAL8.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMVAL9, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXMVAL9.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMVALS, Version=1.0.6667.14263, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXMVALS.dll</HintPath>
+    </Reference>
+    <Reference Include="TXPHIA, Version=1.0.9628.30511, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXPHIA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXPPRA, Version=1.0.6666.18919, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXPPRA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXPPRAL1, Version=1.0.6666.21035, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXPPRAL1.dll</HintPath>
+    </Reference>
+    <Reference Include="TXPPRAL2, Version=1.0.6666.21127, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXPPRAL2.dll</HintPath>
+    </Reference>
+    <Reference Include="TXPPRAL4, Version=1.0.6666.20825, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXPPRAL4.dll</HintPath>
+    </Reference>
+    <Reference Include="TXREAA, Version=1.0.6666.19009, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXREAA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXREAAL1, Version=1.0.6666.21205, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXREAAL1.dll</HintPath>
+    </Reference>
+    <Reference Include="TXREAAL2, Version=1.0.6666.21323, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXREAAL2.dll</HintPath>
+    </Reference>
+    <Reference Include="TXREAAL5, Version=1.0.6666.21398, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXREAAL5.dll</HintPath>
+    </Reference>
+    <Reference Include="TXREAALA, Version=1.0.6666.21465, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXREAALA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXREALC, Version=1.0.8439.18207, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXREALC.dll</HintPath>
+    </Reference>
+    <Reference Include="TXSUPA, Version=1.0.6666.18981, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXSUPA.dll</HintPath>
+    </Reference>
+    <Reference Include="TXSUPAL1, Version=1.0.8341.25265, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXSUPAL1.dll</HintPath>
+    </Reference>
+    <Reference Include="TXSUPAL2, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXSUPAL2.dll</HintPath>
+    </Reference>
+    <Reference Include="TXSUPAL4, Version=1.0.6667.14553, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXSUPAL4.dll</HintPath>
+    </Reference>
+    <Reference Include="TXSUPAL6, Version=1.0.6667.14622, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXSUPAL6.dll</HintPath>
+    </Reference>
+    <Reference Include="TXSUPALS, Version=1.0.6667.14690, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXSUPALS.dll</HintPath>
+    </Reference>
+    <Reference Include="TXSUPCD, Version=1.0.6276.14254, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXSUPCD.dll</HintPath>
+    </Reference>
+    <Reference Include="TXVCUS, Version=1.0.6081.21687, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXVCUS.dll</HintPath>
+    </Reference>
+    <Reference Include="TXVCUSL1, Version=1.0.6081.21704, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXVCUSL1.dll</HintPath>
+    </Reference>
+    <Reference Include="TXVEH, Version=1.0.6081.21576, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXVEH.dll</HintPath>
+    </Reference>
+    <Reference Include="TXVEHL1, Version=1.0.6081.21649, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXVEHL1.dll</HintPath>
+    </Reference>
+    <Reference Include="TXVEHL2, Version=1.0.6094.18610, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXVEHL2.dll</HintPath>
+    </Reference>
+    <Reference Include="TXXPROP, Version=1.0.6276.14366, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXXPROP.dll</HintPath>
+    </Reference>
+    <Reference Include="Utils, Version=1.0.6263.15109, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\Utils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common.vb" />
+    <Compile Include="FrmListBanks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListBusty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListCodes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListExempt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListExemption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListSource.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListSupCd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListVcus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListVeh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAD05DMV.Designer.vb">
+      <DependentUpon>FrmTAD05DMV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAD05DMV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAD05.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAD05B.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAD05MV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAD05PP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAD05RE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAD05SU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="security.vb" />
+    <Compile Include="Util.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmListBanks.resx">
+      <DependentUpon>FrmListBanks.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListBusty.resx">
+      <DependentUpon>FrmListBusty.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListCodes.resx">
+      <DependentUpon>FrmListCodes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListExempt.resx">
+      <DependentUpon>FrmListExempt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListExemption.resx">
+      <DependentUpon>FrmListExemption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListSource.resx">
+      <DependentUpon>FrmListSource.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListSupCd.resx">
+      <DependentUpon>FrmListSupCd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListVcus.resx">
+      <DependentUpon>FrmListVcus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListVeh.resx">
+      <DependentUpon>FrmListVeh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAD05DMV.resx">
+      <DependentUpon>FrmTAD05DMV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAD05.resx">
+      <DependentUpon>FrmTAD05.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAD05B.resx">
+      <DependentUpon>FrmTAD05B.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAD05MV.resx">
+      <DependentUpon>FrmTAD05MV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAD05PP.resx">
+      <DependentUpon>FrmTAD05PP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAD05RE.resx">
+      <DependentUpon>FrmTAD05RE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAD05SU.resx">
+      <DependentUpon>FrmTAD05SU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TAD05.gclicx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

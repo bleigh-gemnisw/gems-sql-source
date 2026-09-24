@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA219Tot"
+                  targetNamespace="http://tempuri.org/TA219Tot.xsd"
+                  elementFormDefault="qualified"
+                  xmlns="http://tempuri.org/TA219Tot.xsd"
+                  xmlns:mstns="http://tempuri.org/TA219Tot.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="mytabletot">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="TCODE" type="xs:integer" />
+      <xs:element name="TDESC" type="xs:string" />
+      <xs:element name="TACRES" type="xs:decimal" />
+      <xs:element name="TGROSS" type="xs:integer" />
+      <xs:element name="TCOUNT" type="xs:integer" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,15 @@
+select * from coc_data where coc_date='7/6/2021' order by coc_number
+select * from coc_data where Grand_list_year=2021 and bill_type=2 and adj_date>='7/1/2022' and adj_date<='7/31/2022'
+
+select * from instfile where adj_date = '7/6/2021' 
+select * from instfile where bill_num=103007 and yr=2021 and bill_type=1
+
+select * from taxmast where BILL_NUM =4227 and yr=2021 and bill_type=1
+
+select batch_no,pay_date,sum(city_amt) from history where yr=2021 and bill_type=2 and pay_date>='7/1/2022' and pay_date<='7/31/2022' group by batch_no,pay_date order by batch_no,pay_date
+select bill_num,city_amt,city_adj_amt from history where yr=2021 and bill_type=2 and pay_date>='7/1/2022' and pay_date<='7/31/2022' and batch_no=28 order by bill_num
+select * from history where yr=2022 and pay_date>='10/1/2023' and pay_date<='10/31/2023' and pay_type='V' and prepay_Flag<>'No' order by bill_num
+
+select top 10 * from master_reading order by bill_num,record_date
+select top 10 * from master_sewer order by acct_id
+

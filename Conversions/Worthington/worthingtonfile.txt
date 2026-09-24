@@ -1,0 +1,14 @@
+need page and route
+
+get page and route from neptune_imp_exp.csv
+route col A/Page col C/list# col BA
+
+update UTCUST fields CUROUT & CUPAGE   
+
+
+
+
+
+
+ 1 woodlawn rd
+

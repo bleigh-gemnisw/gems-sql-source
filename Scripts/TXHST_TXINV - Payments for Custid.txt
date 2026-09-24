@@ -1,0 +1,2 @@
+select txhst.list#,txhst.type,txhst.year,pdate,corc,bald from txhst left outer join txinv on txinv.list#=txhst.list# and
+ txinv.type=txhst.type and txinv.year=txhst.year where ss#=4973055

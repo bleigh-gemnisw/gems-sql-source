@@ -1,0 +1,1 @@
+update txm35h set min=0, max=0 where pct=0

@@ -1,0 +1,1 @@
+select * from txcoea as a left join txinv as b on a.list#=b.list# and a.type=b.type and a.year=b.year where a.ccno>0 and b.ccno=0

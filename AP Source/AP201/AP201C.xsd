@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="AP201C" targetNamespace="http://tempuri.org/AP201C.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/AP201C.xsd" xmlns:mstns="http://tempuri.org/AP201C.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="BCHNO" type="xs:integer" />
+<xs:element name="BCHDATE" type="xs:date" />
+<xs:element name="ACCT" type="xs:string" />
+<xs:element name="ACCTDESCR" type="xs:string" />
+<xs:element name="ERRMSG" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

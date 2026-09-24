@@ -1,0 +1,269 @@
+**************************************************************
+*
+* Right/Angles CAMA System  Version 2.0
+*
+* Copyright 1991-2012 by Right/Angles
+* All rights reserved
+*
+* ra$admin.def
+*
+* Central depository for properties as a whole
+*
+ra_data mas 2000
+*
+<l_key1_name>/<l_key1_type>  key
+*
+<l_acct_name>/<l_acct_type>
+*
+REXC A4                   "Exempt state code"
+YRASS X9999               "Year of last assessment change"
+*
+* Market value information
+*
+*
+* Location information
+*
+<l_house_num_name>    <l_house_num_type> 
+<l_street_name>       <l_street_type>
+<l_unit_name>         <l_unit_type>
+*<l_neighborhood_name> <l_neighborhood_type>
+*
+* Miscellaneous display fields
+*
+@@RA$SITE:RA$ADMIN_MISC_FIELDS_TYPE.SPC
+*
+* Owner name and address
+*
+*<l_owner_name_name>  <l_owner_name_type>
+*<l_owner_name2_name> <l_owner_name2_type>
+<l_owner_street_name> <l_owner_street_type>
+<l_owner_cityst_name> <l_owner_cityst_type>
+<l_owner_zip_name>    <l_owner_zip_type>
+ezip/x9999            !Zip extension
+*
+*  Notes
+*
+notes1     a70          "notes"
+notes2     a70          "notes"
+notes3     a70          "notes"
+notes4     a70          "notes"
+notes5     a70          "notes"
+1re        a22
+2re        a22
+oas1       d            "individual pre-reval assessments"
+oas2       d
+oas3       d
+oas4       d
+oas5       d
+*condo      x9           "condominium unit code"
+*condomodel a12
+*style      x9           "type of house style"
+*bcode      x999         "bank code for tax billing purposes"
+del        a2           "'X' if delinquent"
+*
+q1 d2              "quantity of first assessed value"
+1co x99            "state code of first assessed value"
+as1 d              "amount of first assessed value"
+q2 d2              "quantity of second assessed value"
+2co x99            "state code of second assessed value"
+as2 d              "amount of second assessed value"
+q3 d2
+3co x99
+as3 d
+q4 d2
+4co x99
+as4 d
+q5 d2
+5co x99
+as5 d
+1full d
+2full d
+3full d
+4full d
+5full d
+1zfull d
+2zfull d
+3zfull d
+4zfull d
+5zfull d
+*
+mkvalue d                 "Last computed market value"
+*
+*
+<l_owner_name_name>  <l_owner_name_type>
+<l_owner_name2_name> <l_owner_name2_type>
+vol                  <l_volume_field_type>
+page                 <l_page_field_type>
+sdate                da                    "Date of last sale"
+svalid               a1                    "Sale valid code"
+salepr               d                     "Amount of last sale"
+*qual_fl              a1                    "Qualified flag"
+impr_fl              a1                    "Improved/Unimproved flag"
+*deed                 a4
+2owner               <l_owner_name_type>
+2xowner              <l_owner_name2_type>
+2vol                 <l_volume_field_type>
+2page                <l_page_field_type>
+2sdate               da
+2valid               <l_valid_field_type>
+2amount              d
+*2QUAL_FL A1
+2IMPR_FL A1
+*2deed                a4
+3owner               <l_owner_name_type>
+3xowner              <l_owner_name2_type>
+3vol                 <l_volume_field_type>
+3page                <l_page_field_type>
+3sdate               da
+3valid               <l_valid_field_type>
+3amount              d
+*3QUAL_FL A1
+3IMPR_FL A1
+*3deed                a4
+4owner               <l_owner_name_type>
+4xowner              <l_owner_name2_type>
+4vol                 <l_volume_field_type>
+4page                <l_page_field_type>
+4sdate               da
+4valid               <l_valid_field_type>
+4amount              d
+*4QUAL_FL A1
+4IMPR_FL A1
+*4deed                a4
+5owner               <l_owner_name_type>
+5xowner              <l_owner_name2_type>
+5vol                 <l_volume_field_type>
+5page                <l_page_field_type>
+5sdate               da
+5valid               <l_valid_field_type>
+5amount              d
+*5QUAL_FL A1
+5IMPR_FL A1
+*5deed                a4
+6owner               <l_owner_name_type>
+6xowner              <l_owner_name2_type>
+6vol                 <l_volume_field_type>
+6page                <l_page_field_type>
+6sdate               da
+6valid               <l_valid_field_type>
+6amount              d
+*6QUAL_FL A1
+6IMPR_FL A1
+*6deed                a4
+7owner               <l_owner_name_type>
+7xowner              <l_owner_name2_type>
+7vol                 <l_volume_field_type>
+7page                <l_page_field_type>
+7sdate               da
+7valid               <l_valid_field_type>
+7amount              d
+*7QUAL_FL A1
+7IMPR_FL A1
+*7deed                a4
+8owner               <l_owner_name_type>
+8xowner              <l_owner_name2_type>
+8vol                 <l_volume_field_type>
+8page                <l_page_field_type>
+8sdate               da
+8valid               <l_valid_field_type>
+8amount              d
+*8QUAL_FL A1
+8IMPR_FL A1
+*8deed                a4
+9owner               <l_owner_name_type>
+9xowner              <l_owner_name2_type>
+9vol                 <l_volume_field_type>
+9page                <l_page_field_type>
+9sdate               da
+9valid               <l_valid_field_type>
+9amount              d
+*9QUAL_FL A1
+9IMPR_FL A1
+*9deed                a4
+aowner               <l_owner_name_type>
+axowner              <l_owner_name2_type>
+avol                 <l_volume_field_type>
+apage                <l_page_field_type>
+asdate               da
+avalid               <l_valid_field_type>
+aamount              d
+*aQUAL_FL A1
+aIMPR_FL A1
+*adeed                a4
+bowner               <l_owner_name_type>
+bxowner              <l_owner_name2_type>
+bvol                 <l_volume_field_type>
+bpage                <l_page_field_type>
+bsdate               da
+bvalid               <l_valid_field_type>
+bamount              d
+*bQUAL_FL A1
+bIMPR_FL A1
+*bdeed                a4
+cowner               <l_owner_name_type>
+cxowner              <l_owner_name2_type>
+cvol                 <l_volume_field_type>
+cpage                <l_page_field_type>
+csdate               da
+cvalid               <l_valid_field_type>
+camount              d
+*cQUAL_FL A1
+cIMPR_FL A1
+*cdeed                a4
+*
+1xco a4
+1xamt d
+2xco a4
+2xamt d
+3xco a4
+3xamt d
+4xco a4
+4xamt d
+5xco a4
+5xamt d
+*
+* Site-specific fields
+*
+OGROSS D           "AMOUNT OF ASSESSMENT FROM PREVIOUS YEAR"
+*   Note: this is MXCAT in Farmington!
+MCAT X9            "MAJOR CATEGORY"
+*NAC XA99999            "ACCOUNT NUMBER FOR TAX ROLLS"
+CENSUS A6
+LOT A8
+*CARD# A6           "STREET CARD NUMBER"
+*CONDO X9 - XCONDO  "CONDOMINIUM UNIT CODE"
+*CONDOMODEL A12
+*STYLE X9           "TYPE OF HOUSE STYLE"
+**
+* TAX COLLECTION DATA
+**
+*BILL# X999999      "TAX BILL NUMBER"
+EXEMPT D           "TOTAL EXEMPTIONS"
+GROSS D            "TOTAL GROSS ASSESSMENT"
+*BCODE X999            "BANK CODE FOR TAX BILLING PURPOSES"
+*XMAP A20           "MAP/BLOCK/LOT FOR MARK.COM"
+*DEL A2             "'X' IF DELINQUENT"
+*
+o_name               <l_owner_name_type>
+o_2ndna              <l_owner_name2_type>
+o_street             <l_owner_street_type>
+o_cityst             <l_owner_cityst_type>
+o_zip                <l_owner_zip_type>
+1}co                 a4
+1}amt                d
+2}co                 a4
+2}amt                d
+3}co                 a4
+3}amt                d
+4}co                 a4
+4}amt                d
+5}co                 a4
+5}amt                d
+}vol                 <l_volume_field_type>
+}page                <l_page_field_type>
+*
+tseq d
+dlc da
+index 1 'by address' <l_street_name> <l_house_num_name> <l_unit_name>
+index 2 'by name'    <l_owner_name_name>
+index 3 'by 2nd name' <l_owner_name2_name>

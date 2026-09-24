@@ -1,0 +1,25 @@
+Public Function GetRecordCount() As Integer
+  Dim Conn As SqlConnection
+  Dim objCommand As SqlCommand
+  Dim ds As DataSet = New DataSet
+  Dim WrkCount As Integer
+
+  RecordNotFound = False
+  StrSQL = "Select count(aracct) from " & cFileName
+  Try
+    Conn = MyDBConn.Open
+    objCommand = New SqlCommand(StrSQL, Conn)
+    'Fill the dataset with the data
+    da = New SqlDataAdapter
+    da.SelectCommand = objCommand
+    da.Fill(ds, cFileName)
+    WrkCount = ds.Tables(0).Rows(0).Item(0)
+    objCommand = Nothing
+    Conn.Close()
+    ds = Nothing
+    Return WrkCount
+  Catch ex As Exception
+    ErrMsg = ex.ToString()
+    Return Nothing
+  End Try
+End Function

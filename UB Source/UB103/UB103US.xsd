@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB103US" targetNamespace="http://tempuri.org/UB103US.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB103US.xsd" xmlns:mstns="http://tempuri.org/UB103US.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="utrateus">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="rutype" type="xs:string" />
+<xs:element name="rucode" type="xs:string" />
+<xs:element name="rudesc" type="xs:string" />
+<xs:element name="rubase" type="xs:decimal" />
+<xs:element name="ruunit" type="xs:decimal" />
+<xs:element name="ruedu" type="xs:decimal" />
+<xs:element name="rufixt" type="xs:decimal" />
+<xs:element name="ruxtra" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TXE02" targetNamespace="http://tempuri.org/TXE02.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TXE02.xsd" xmlns:mstns="http://tempuri.org/TXE02.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="SORTDATA" type="xs:string" />
+<xs:element name="COTYPE" type="xs:string" />
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="ADDR1" type="xs:string" />
+<xs:element name="ADDR2" type="xs:string" />
+<xs:element name="ADDR3" type="xs:string" />
+<xs:element name="ADDR4" type="xs:string" />
+<xs:element name="ADDR5" type="xs:string" />
+<xs:element name="LOC" type="xs:string" />
+<xs:element name="DEVLOT" type="xs:string" />
+<xs:element name="MAPLOT" type="xs:string" />
+<xs:element name="FULLAMT" type="xs:decimal" />
+<xs:element name="CODATE" type="xs:dateTime" />
+<xs:element name="PRORATEAMT" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

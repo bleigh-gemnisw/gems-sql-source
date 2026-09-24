@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TX808" targetNamespace="http://tempuri.org/TX808.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TX808.xsd" xmlns:mstns="http://tempuri.org/TX808.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="listno" type="xs:integer" />
+        <xs:element name="type" type="xs:string" />
+        <xs:element name="year" type="xs:integer" />
+        <xs:element name="bksr" type="xs:string" />
+				<xs:element name="bksrdesc" type="xs:string" />
+				<xs:element name="bkcd" type="xs:string" />
+				<xs:element name="bkcddesc" type="xs:string" />
+				<xs:element name="name" type="xs:string" />
+        <xs:element name="loc" type="xs:string" />
+        <xs:element name="locno" type="xs:string" />
+        <xs:element name="map" type="xs:string" />
+        <xs:element name="icode" type="xs:string" />
+        <xs:element name="cest" type="xs:string" />
+        <xs:element name="taxt" type="xs:decimal" />
+        <xs:element name="tax1" type="xs:decimal" />
+        <xs:element name="tax2" type="xs:decimal" />
+        <xs:element name="tax3" type="xs:decimal" />
+        <xs:element name="tax4" type="xs:decimal" />
+        <xs:element name="bald" type="xs:decimal" />
+        <xs:element name="gross" type="xs:integer" />
+        <xs:element name="texmp" type="xs:integer" />
+        <xs:element name="net" type="xs:integer" />
+        <xs:element name="vol" type="xs:string" />
+        <xs:element name="ipage" type="xs:string" />
+        <xs:element name="frcd" type="xs:string" />
+        <xs:element name="instal" type="xs:string" />
+        <xs:element name="instala" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

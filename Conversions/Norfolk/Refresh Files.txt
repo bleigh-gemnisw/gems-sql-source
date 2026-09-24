@@ -1,0 +1,17 @@
+delete from gemsdtab..TBATCH 
+delete from gemsdtab..TXCOEA 
+delete from gemsdtab..TXHST 
+delete from gemsdtab..TXINV 
+delete from gemsdtab..UTBLHS 
+delete from gemsdtab..UTBREAK 
+delete from gemsdtab..UTCOEA 
+delete from gemsdtab..UTCUST 
+delete from gemsdtab..UTCUSTAS 
+delete from gemsdtab..UTCUSTMT 
+delete from gemsdtab..UTCUSTRT 
+insert into gemsdtab..TXHST select * from gemsnorfolk..TXHST
+insert into gemsdtab..TXINV select * from gemsnorfolk..TXINV
+insert into gemsdtab..UTCUST select * from gemsnorfolk..UTCUST
+insert into gemsdtab..UTCUSTAS select * from gemsnorfolk..UTCUSTAS
+insert into gemsdtab..UTCUSTMT select * from gemsnorfolk..UTCUSTMT
+insert into gemsdtab..UTCUSTRT select * from gemsnorfolk..UTCUSTRT

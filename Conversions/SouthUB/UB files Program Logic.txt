@@ -1,0 +1,24 @@
+Start with ub_customers
+utactcid match by ub_customers.a_customer=utactcid.utact_cid
+
+skip records in utactcid with a stop date (utacd_stop_date) is not 9999-12-31 00:00:0000
+
+utactmst match by utacm_key=utactmst.utacd_utacm_key 
+
+Map = utactmst.utacm_loc_subd
+LocNo = utactmst.utacm_loc_no
+Loc = utactmst.utacm_loc_street 
+LocSuffix = utactmst.utacm_loc_no_suff
+Match GEMS Real Estate map to Munis Map 
+if no Match then Match Real estate Loc & LocNo
+if no match then match again Adding LocSuffix to LocNo 
+if no match then not found
+if no Match then Match Personal Property Loc & LocNo
+ 
+utsvcmst match by utsvm_utacd_key=utactmstt.utacd_key 
+RateCode = utsvcmst.utsvm_rate_code
+ServiceCode = utsvcmst.utsvm_serv_code
+Convert code to GEMS Rate Codes amd Meter Sizes
+
+District = utactmst.utacm_district
+

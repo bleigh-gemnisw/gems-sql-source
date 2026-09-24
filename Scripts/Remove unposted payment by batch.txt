@@ -1,0 +1,1 @@
+update txinv set newpay=0 from txinv left join txhst on txinv.list#=txhst.list# and txinv.type=txhst.type and txhst.year=txinv.year where  batchn=21326 and newpay<>0

@@ -1,0 +1,24 @@
+ Public Function GetByCode(ByVal Wrklistno As Integer, ByVal wrkyear As Integer, ByVal wrkcode As String) As DataSet
+
+    Dim Conn As SqlConnection
+    Dim objCommand As SqlCommand
+    Dim ds As DataSet = New DataSet
+    Dim WrkTop As String
+    
+    StrSQL = "Select * " & cFileName _
+    & " where list# =" & Wrklistno & "AND YEAR =" & wrkyear & "AND CODE = '" & wrkcode & "' order by list#"
+    Try
+      Conn = MyDBConn.Open
+      objCommand = New SqlCommand(StrSQL, Conn)
+      'Fill the dataset with the data
+      da = New SqlDataAdapter
+      da.SelectCommand = objCommand
+      da.Fill(ds, cFileName)
+      objCommand = Nothing
+      Conn.Close()
+      Return ds
+    Catch ex As Exception
+      ErrMsg = ex.ToString()
+      Return Nothing
+    End Try
+  End Function

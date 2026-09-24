@@ -1,0 +1,35 @@
+﻿' 4/27/21 Replace TrueGrid
+'11/16/22 Hide GrdMV when no records found
+'MK 7/21/25 Change pricing to use MSRP, add source, PriceDigest API
+Imports System
+Imports System.Reflection
+Imports System.Runtime.InteropServices
+
+' General Information about an assembly is controlled through the following 
+' set of attributes. Change these attribute values to modify the information
+' associated with an assembly.
+
+' Review the values of the assembly attributes
+
+<Assembly: AssemblyTitle("TA509")> 
+<Assembly: AssemblyDescription("")>
+<Assembly: AssemblyCompany("Gemni Software")>
+<Assembly: AssemblyProduct("Unpriced Vehicles (Suppl.)")> 
+<Assembly: AssemblyCopyright("")> 
+<Assembly: AssemblyTrademark("")> 
+
+<Assembly: ComVisible(False)>
+
+'The following GUID is for the ID of the typelib if this project is exposed to COM
+<Assembly: Guid("840f90d2-0b6f-4dff-8e25-6e469890c534")> 
+
+' Version information for an assembly consists of the following four values:
+'
+'      Major Version
+'      Minor Version 
+'      Build Number
+'      Revision
+'
+' You can specify all the values or you can default the Build and Revision Numbers 
+' by using the '*' as shown below:
+<Assembly: AssemblyVersion("1.0.*")> 

@@ -1,0 +1,2 @@
+update txlocal set year=b.year from txlocal as a left join txm35h as b on a.list#=b.list# and b.year=2024 where afname is not null
+update txlocal set year=b.year from txlocal as a left join txm35h as b on a.list#=b.list# and b.year=2025 where afname is not null

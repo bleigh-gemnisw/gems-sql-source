@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="MR001" targetNamespace="http://tempuri.org/MR001.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/MR001.xsd"
+  xmlns:mstns="http://tempuri.org/MR001.xsd"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="BATCH" type="xs:integer" />
+<xs:element name="BATCHDESC" type="xs:string" />
+<xs:element name="RECDT" type="xs:date" />
+<xs:element name="STRDT" type="xs:date" />
+<xs:element name="ENDDT" type="xs:date" />
+<xs:element name="ACCTNO" type="xs:string" />
+<xs:element name="DESCRIPTION" type="xs:string" />
+<xs:element name="CODE" type="xs:string" />
+<xs:element name="TOTAL" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

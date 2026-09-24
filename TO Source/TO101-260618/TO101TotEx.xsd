@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TO101TotEx" targetNamespace="http://tempuri.org/TO101TotEx.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TO101TotEx.xsd" xmlns:mstns="http://tempuri.org/TO101TotEx.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytableex">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="texcode" type="xs:string" />
+<xs:element name="texdesc" type="xs:string" />
+<xs:element name="texrecount" type="xs:integer" />
+<xs:element name="texre" type="xs:long" />
+<xs:element name="texmvcount" type="xs:integer" />
+<xs:element name="texmv" type="xs:long" />
+<xs:element name="texppcount" type="xs:integer" />
+<xs:element name="texpp" type="xs:long" />
+<xs:element name="textotcount" type="xs:integer" />
+<xs:element name="textot" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA801" targetNamespace="http://tempuri.org/TA801.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA801.xsd" xmlns:mstns="http://tempuri.org/TA801.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="CCNO" type="xs:integer" />
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="TYPE" type="xs:string" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="REASONDESC" type="xs:string" />
+<xs:element name="DESC" type="xs:string" />
+<xs:element name="CDATE" type="xs:date" />
+<xs:element name="ORIGGROSS" type="xs:integer" />
+<xs:element name="NEWGROSS" type="xs:integer" />
+<xs:element name="CHGGROSS" type="xs:integer" />
+<xs:element name="ORIGEX" type="xs:integer" />
+<xs:element name="NEWEX" type="xs:integer" />
+<xs:element name="CHGEX" type="xs:integer" />
+<xs:element name="ORIGNET" type="xs:integer" />
+<xs:element name="NEWNET" type="xs:integer" />
+<xs:element name="CHGNET" type="xs:integer" />
+<xs:element name="ORIGDUE" type="xs:double" />
+<xs:element name="NEWDUE" type="xs:double" />
+<xs:element name="CHGDUE" type="xs:double" />
+<xs:element name="USERID" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,32 @@
+Public Sub GetViewAcct(ByVal Fund As Integer, ByVal Sfund As Integer, ByVal Dept As Integer, _
+ ByVal Obj As Integer, ByVal Func As Integer, ByVal Sfunc As Integer, ByVal NumRecs As Integer)
+  Dim Conn As SqlConnection
+  Dim objCommand As SqlCommand
+  Dim ds As DataSet = New DataSet
+
+    RecordNotFound = False
+    If NumRecs > 0 Then
+      StrSQL = "Select top " & NumRecs
+    Else
+      StrSQL = "Select "
+    End If
+    StrSQL = StrSQL & " * from " & cFileName & " where fund=" & Fund & " and sfund=" & Sfund & _
+     " and dept=" & Dept & " and obj=" & Obj & " and func=" & Func & " and sfunc=" & Sfunc
+    Conn = MyDBConn.Open
+    objCommand = New SqlCommand(StrSQL, Conn)
+
+    'Fill the dataset with the data
+    da = New SqlDataAdapter
+    da.SelectCommand = objCommand
+    da.Fill(ds, cFileName)
+
+    If ds.Tables(0).Rows.Count = 0 Then
+      RecordNotFound = True
+    End If
+
+    GetFields(ds)
+    objCommand = Nothing
+    ds.Clear()
+    ds = Nothing
+    Conn.Close()
+End Sub

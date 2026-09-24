@@ -1,0 +1,18 @@
+drop index txinv.asna_key_txinv
+drop index txinv.asna_key_txinvl8
+drop index txinv.asna_key_txinvla
+drop index txinv.asna_key_txinvlc
+drop index txinv.asna_key_txinvld
+drop index txinv.asna_key_txinvle
+drop index txinv.asna_key_txinvlk
+drop index txinv.asna_key_txinvlm
+drop index txinv.asna_key_txinvln
+drop index txinv.asna_key_txinvlp
+drop index txinv.asna_key_txinvls
+drop index txinv.asna_key_txinvlv
+drop index txhst.asna_key_txhst
+drop index txhst.asna_key_txhstl1
+drop index txhst.asna_key_txhstl3
+drop index txhst.asna_key_txhstl4
+drop index txhst.asna_key_txhstlc
+

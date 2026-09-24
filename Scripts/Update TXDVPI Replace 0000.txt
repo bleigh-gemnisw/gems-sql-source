@@ -1,0 +1,1 @@
+update TXDVPP set MODEL=REPLACE(MODEL,'0000','')

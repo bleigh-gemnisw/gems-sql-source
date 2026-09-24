@@ -1,0 +1,602 @@
+Imports System.Data
+Imports System.Data.SqlClient
+Public Class MyData
+  Dim MyDBConn As SQLConnect.DBConnection
+  Dim ConnRdr As SqlConnection
+  Dim StrSQL As String
+  Dim da As SqlDataAdapter
+  Dim objreader As SqlDataReader
+  Const cFileName As String = "TCRBCH"
+#Region "Constructors"
+
+  Public Sub New(DBConn As SQLConnect.DBConnection)
+    MyDBConn = DBConn
+  End Sub
+
+#End Region
+
+#Region "Methods: File Access Routines"
+  Public Function GetViewbyBatch(ByVal WrkBchno As Integer, ByVal WrkTrnbr As Integer, ByVal NumRecs As Integer) As DataSet
+    Dim Conn As SqlConnection
+    Dim objCommand As SqlCommand
+    Dim ds As DataSet = New DataSet
+    Dim WrkTop As String
+    WrkTop = String.Empty
+
+    RecordNotFound = False
+    If NumRecs > 0 Then
+      WrkTop = "TOP " & NumRecs & " "
+    End If
+    StrSQL = "Select " & WrkTop & "trnbr,list#,type,year,name,pamt,iamt,lamt,pcamt,adj" &
+   " from " & cFileName & " where bchno=" & WrkBchno & " and trnbr>=" & WrkTrnbr & " order by trnbr"
+    Try
+      Conn = MyDBConn.Open
+      objCommand = New SqlCommand(StrSQL, Conn)
+      'Fill the dataset with the data
+      da = New SqlDataAdapter
+      da.SelectCommand = objCommand
+      da.Fill(ds, cFileName)
+      objCommand = Nothing
+      Conn.Close()
+      Return ds
+    Catch ex As Exception
+      ErrMsg = ex.ToString()
+      Return Nothing
+    End Try
+  End Function
+  Public Function GetViewbyList(ByVal WrkBchno As Integer, ByVal WrkListNo As Integer, ByVal WrkYear As Integer,
+   ByVal WrkType As String, ByVal NumRecs As Integer) As DataSet
+    Dim Conn As SqlConnection
+    Dim objCommand As SqlCommand
+    Dim ds As DataSet = New DataSet
+    Dim WrkTop As String
+    WrkTop = String.Empty
+
+    RecordNotFound = False
+    If NumRecs > 0 Then
+      WrkTop = "TOP " & NumRecs & " "
+    End If
+    StrSQL = "Select " & WrkTop & "* from " & cFileName & " where bchno=" & WrkBchno _
+    & " and list#=" & WrkListNo & " and year=" & WrkYear & " and type='" & WrkType & "'"
+    Try
+      Conn = MyDBConn.Open
+      objCommand = New SqlCommand(StrSQL, Conn)
+      'Fill the dataset with the data
+      da = New SqlDataAdapter
+      da.SelectCommand = objCommand
+      da.Fill(ds, cFileName)
+      objCommand = Nothing
+      Conn.Close()
+      Return ds
+    Catch ex As Exception
+      ErrMsg = ex.ToString()
+      Return Nothing
+    End Try
+  End Function
+  Public Sub SetRange(ByVal WrkBatch As Integer)
+    Dim objCommand As SqlCommand
+
+    RecordNotFound = False
+    IsEOF = False
+    StrSQL = "Select * from " & cFileName & " where bchno=" & WrkBatch
+    ConnRdr = MyDBConn.Open
+    objCommand = New SqlCommand(StrSQL, ConnRdr)
+    objreader = objCommand.ExecuteReader()
+    objCommand = Nothing
+  End Sub
+  Public Sub ReadFileE()
+  Dim Good As Boolean
+
+  Good = objreader.Read()
+  If Good Then
+    GetFieldsRdr()
+  Else
+    CloseRange()
+  End If
+End Sub
+  Public Sub OpenFile()
+  End Sub
+  Public Sub CloseFile()
+  End Sub
+  Public Sub CloseRange()
+    IsEOF = True
+    objreader.Close()
+    ConnRdr.Close()
+  End Sub
+#End Region
+
+#Region "Properties: Get/Put"
+Public Sub GetFields(ByVal ds As DataSet)
+  With ds.Tables(0).Rows(0)
+    _BCHNO = .Item("BCHNO")
+    _TRNBR = .Item("TRNBR")
+    _RDTE = .Item("RDTE")
+    _PAMT = .Item("PAMT")
+    _IAMT = .Item("IAMT")
+    _LAMT = .Item("LAMT")
+    _PCAMT = .Item("PCAMT")
+    _PCAMT1 = .Item("PCAMT1")
+    _PENCD1 = .Item("PENCD1")
+    _PCAMT2 = .Item("PCAMT2")
+    _PENCD2 = .Item("PENCD2")
+    _PCAMT3 = .Item("PCAMT3")
+    _PENCD3 = .Item("PENCD3")
+    _PCAMT4 = .Item("PCAMT4")
+    _PENCD4 = .Item("PENCD4")
+    _PCAMT5 = .Item("PCAMT5")
+    _PENCD5 = .Item("PENCD5")
+    _PCAMT6 = .Item("PCAMT6")
+    _PENCD6 = .Item("PENCD6")
+    _PCAMT7 = .Item("PCAMT7")
+    _PENCD7 = .Item("PENCD7")
+    _PMETH = .Item("PMETH")
+    _REF = .Item("REF")
+    _CHAMT = .Item("CHAMT")
+    _REFN = .Item("REFN")
+    _ADJ = .Item("ADJ")
+    _COMM = .Item("COMM")
+    _LISTNo = .Item("LIST#")
+    _YEAR = .Item("YEAR")
+    _TYPE = .Item("TYPE")
+    _SRC = .Item("SRC")
+    _NAME = .Item("NAME")
+    _BKSR = .Item("BKSR")
+    _BKCD = .Item("BKCD")
+    _DIST = .Item("DIST")
+    _BKBC = .Item("BKBC")
+    _BKNA = .Item("BKNA")
+  End With
+End Sub
+Public Sub GetFieldsRdr()
+  With objreader
+    _BCHNO = .Item("BCHNO")
+    _TRNBR = .Item("TRNBR")
+    _RDTE = .Item("RDTE")
+    _PAMT = .Item("PAMT")
+    _IAMT = .Item("IAMT")
+    _LAMT = .Item("LAMT")
+    _PCAMT = .Item("PCAMT")
+    _PCAMT1 = .Item("PCAMT1")
+    _PENCD1 = .Item("PENCD1")
+    _PCAMT2 = .Item("PCAMT2")
+    _PENCD2 = .Item("PENCD2")
+    _PCAMT3 = .Item("PCAMT3")
+    _PENCD3 = .Item("PENCD3")
+    _PCAMT4 = .Item("PCAMT4")
+    _PENCD4 = .Item("PENCD4")
+    _PCAMT5 = .Item("PCAMT5")
+    _PENCD5 = .Item("PENCD5")
+    _PCAMT6 = .Item("PCAMT6")
+    _PENCD6 = .Item("PENCD6")
+    _PCAMT7 = .Item("PCAMT7")
+    _PENCD7 = .Item("PENCD7")
+    _PMETH = .Item("PMETH")
+    _REF = .Item("REF")
+    _CHAMT = .Item("CHAMT")
+    _REFN = .Item("REFN")
+    _ADJ = .Item("ADJ")
+    _COMM = .Item("COMM")
+    _LISTNo = .Item("LIST#")
+    _YEAR = .Item("YEAR")
+    _TYPE = .Item("TYPE")
+    _SRC = .Item("SRC")
+    _NAME = .Item("NAME")
+    _BKSR = .Item("BKSR")
+    _BKCD = .Item("BKCD")
+    _DIST = .Item("DIST")
+    _BKBC = .Item("BKBC")
+    _BKNA = .Item("BKNA")
+  End With
+End Sub
+#End Region
+
+#Region "Properties: Fields"
+Dim mRecordNotFound As Boolean
+Public Property RecordNotFound() As Boolean
+  Set(ByVal value As Boolean)
+    mRecordNotFound = value
+  End Set
+  Get
+    Return mRecordNotFound
+  End Get
+End Property
+Dim mIsEOF As Boolean
+Public Property IsEOF() As Boolean
+  Set(ByVal value As Boolean)
+    mIsEOF = value
+  End Set
+  Get
+    Return mIsEOF
+  End Get
+End Property
+Dim mErrMsg As String
+Public Property ErrMsg() As String
+    Get
+      Return mErrMsg
+    End Get
+    Set(ByVal value As String)
+        mErrMsg = value
+    End Set
+End Property
+Dim mBCHNO As Integer
+Public Property _BCHNO As Integer
+    Get
+        Return mBCHNO
+    End Get
+    Set(ByVal value As Integer)
+        mBCHNO = value
+    End Set
+End Property
+
+Dim mTRNBR As Integer
+Public Property _TRNBR As Integer
+    Get
+        Return mTRNBR
+    End Get
+    Set(ByVal value As Integer)
+        mTRNBR = value
+    End Set
+End Property
+
+Dim mRDTE As Integer
+Public Property _RDTE As Integer
+    Get
+        Return mRDTE
+    End Get
+    Set(ByVal value As Integer)
+        mRDTE = value
+    End Set
+End Property
+
+Dim mIDTE As Integer
+Public Property _IDTE As Integer
+    Get
+        Return mIDTE
+    End Get
+    Set(ByVal value As Integer)
+        mRDTE = value
+    End Set
+End Property
+
+Dim mPAMT As Decimal
+Public Property _PAMT As Decimal
+    Get
+        Return mPAMT
+    End Get
+    Set(ByVal value As Decimal)
+        mPAMT = value
+    End Set
+End Property
+
+Dim mIAMT As Decimal
+Public Property _IAMT As Decimal
+    Get
+        Return mIAMT
+    End Get
+    Set(ByVal value As Decimal)
+        mIAMT = value
+    End Set
+End Property
+
+Dim mLAMT As Decimal
+Public Property _LAMT As Decimal
+    Get
+        Return mLAMT
+    End Get
+    Set(ByVal value As Decimal)
+        mLAMT = value
+    End Set
+End Property
+
+Dim mPCAMT As Decimal
+Public Property _PCAMT As Decimal
+    Get
+        Return mPCAMT
+    End Get
+    Set(ByVal value As Decimal)
+        mPCAMT = value
+    End Set
+End Property
+
+Dim mPCAMT1 As Decimal
+Public Property _PCAMT1 As Decimal
+    Get
+        Return mPCAMT1
+    End Get
+    Set(ByVal value As Decimal)
+        mPCAMT1 = value
+    End Set
+End Property
+
+Dim mPENCD1 As String
+Public Property _PENCD1 As String
+    Get
+        Return mPENCD1
+    End Get
+    Set(ByVal value As String)
+        mPENCD1 = value
+    End Set
+End Property
+
+Dim mPCAMT2 As Decimal
+Public Property _PCAMT2 As Decimal
+    Get
+        Return mPCAMT2
+    End Get
+    Set(ByVal value As Decimal)
+        mPCAMT2 = value
+    End Set
+End Property
+
+Dim mPENCD2 As String
+Public Property _PENCD2 As String
+    Get
+        Return mPENCD2
+    End Get
+    Set(ByVal value As String)
+        mPENCD2 = value
+    End Set
+End Property
+
+Dim mPCAMT3 As Decimal
+Public Property _PCAMT3 As Decimal
+    Get
+        Return mPCAMT3
+    End Get
+    Set(ByVal value As Decimal)
+        mPCAMT3 = value
+    End Set
+End Property
+
+Dim mPENCD3 As String
+Public Property _PENCD3 As String
+    Get
+        Return mPENCD3
+    End Get
+    Set(ByVal value As String)
+        mPENCD3 = value
+    End Set
+End Property
+
+Dim mPCAMT4 As Decimal
+Public Property _PCAMT4 As Decimal
+    Get
+        Return mPCAMT4
+    End Get
+    Set(ByVal value As Decimal)
+        mPCAMT4 = value
+    End Set
+End Property
+
+Dim mPENCD4 As String
+Public Property _PENCD4 As String
+    Get
+        Return mPENCD4
+    End Get
+    Set(ByVal value As String)
+        mPENCD4 = value
+    End Set
+End Property
+
+Dim mPCAMT5 As Decimal
+Public Property _PCAMT5 As Decimal
+    Get
+        Return mPCAMT5
+    End Get
+    Set(ByVal value As Decimal)
+        mPCAMT5 = value
+    End Set
+End Property
+
+Dim mPENCD5 As String
+Public Property _PENCD5 As String
+    Get
+        Return mPENCD5
+    End Get
+    Set(ByVal value As String)
+        mPENCD5 = value
+    End Set
+End Property
+
+Dim mPCAMT6 As Decimal
+Public Property _PCAMT6 As Decimal
+    Get
+        Return mPCAMT6
+    End Get
+    Set(ByVal value As Decimal)
+        mPCAMT6 = value
+    End Set
+End Property
+
+Dim mPENCD6 As String
+Public Property _PENCD6 As String
+    Get
+        Return mPENCD6
+    End Get
+    Set(ByVal value As String)
+        mPENCD6 = value
+    End Set
+End Property
+
+Dim mPCAMT7 As Decimal
+Public Property _PCAMT7 As Decimal
+    Get
+        Return mPCAMT7
+    End Get
+    Set(ByVal value As Decimal)
+        mPCAMT7 = value
+    End Set
+End Property
+
+Dim mPENCD7 As String
+Public Property _PENCD7 As String
+    Get
+        Return mPENCD7
+    End Get
+    Set(ByVal value As String)
+        mPENCD7 = value
+    End Set
+End Property
+
+Dim mPMETH As String
+Public Property _PMETH As String
+    Get
+        Return mPMETH
+    End Get
+    Set(ByVal value As String)
+        mPMETH = value
+    End Set
+End Property
+
+Dim mREF As String
+Public Property _REF As String
+    Get
+        Return mREF
+    End Get
+    Set(ByVal value As String)
+        mREF = value
+    End Set
+End Property
+
+Dim mCHAMT As Decimal
+Public Property _CHAMT As Decimal
+    Get
+        Return mCHAMT
+    End Get
+    Set(ByVal value As Decimal)
+        mCHAMT = value
+    End Set
+End Property
+
+Dim mREFN As String
+Public Property _REFN As String
+    Get
+        Return mREFN
+    End Get
+    Set(ByVal value As String)
+        mREFN = value
+    End Set
+End Property
+
+Dim mADJ As String
+Public Property _ADJ As String
+    Get
+        Return mADJ
+    End Get
+    Set(ByVal value As String)
+        mADJ = value
+    End Set
+End Property
+
+Dim mCOMM As String
+Public Property _COMM As String
+    Get
+        Return mCOMM
+    End Get
+    Set(ByVal value As String)
+        mCOMM = value
+    End Set
+End Property
+
+Dim mLISTNo As Integer
+Public Property _LISTNo As Integer
+    Get
+        Return mLISTNo
+    End Get
+    Set(ByVal value As Integer)
+        mLISTNo = value
+    End Set
+End Property
+
+Dim mYEAR As Integer
+Public Property _YEAR As Integer
+    Get
+        Return mYEAR
+    End Get
+    Set(ByVal value As Integer)
+        mYEAR = value
+    End Set
+End Property
+
+Dim mTYPE As String
+Public Property _TYPE As String
+    Get
+        Return mTYPE
+    End Get
+    Set(ByVal value As String)
+        mTYPE = value
+    End Set
+End Property
+
+Dim mSRC As Integer
+Public Property _SRC As Integer
+    Get
+        Return mSRC
+    End Get
+    Set(ByVal value As Integer)
+        mSRC = value
+    End Set
+End Property
+
+Dim mNAME As String
+Public Property _NAME As String
+    Get
+        Return mNAME
+    End Get
+    Set(ByVal value As String)
+        mNAME = value
+    End Set
+End Property
+
+Dim mBKSR As String
+Public Property _BKSR As String
+    Get
+        Return mBKSR
+    End Get
+    Set(ByVal value As String)
+        mBKSR = value
+    End Set
+End Property
+
+Dim mBKCD As String
+Public Property _BKCD As String
+    Get
+        Return mBKCD
+    End Get
+    Set(ByVal value As String)
+        mBKCD = value
+    End Set
+End Property
+
+Dim mDIST As Integer
+Public Property _DIST As Integer
+    Get
+        Return mDIST
+    End Get
+    Set(ByVal value As Integer)
+        mDIST = value
+    End Set
+End Property
+
+Dim mBKBC As Integer
+Public Property _BKBC As Integer
+    Get
+        Return mBKBC
+    End Get
+    Set(ByVal value As Integer)
+        mBKBC = value
+    End Set
+End Property
+
+Dim mBKNA As String
+Public Property _BKNA As String
+    Get
+        Return mBKNA
+    End Get
+    Set(ByVal value As String)
+        mBKNA = value
+    End Set
+End Property
+#End Region
+End Class
+

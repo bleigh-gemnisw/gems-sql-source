@@ -1,0 +1,58 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.1.142.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E6E9825-0163-4462-999E-23A6756B8159}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <RootNamespace>TXE44_ClrBktx</RootNamespace>
+    <AssemblyName>TXE44_ClrBktx</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>False</Optimize>
+    <OutputPath>c:\gemspgms\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>
+    </DefineConstants>
+    <OutputPath>c:\gemspgms\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ASNA.DataGate.Client">
+      <Private>False</Private>
+      <HintPath>..\..\..\Program Files\Common Files\ASNA Shared\Client\v8.0.407\ASNA.DataGate.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="ASNA.VisualRPG.Runtime">
+      <Private>False</Private>
+      <HintPath>..\..\..\Program Files\Common Files\ASNA Shared\Client\v8.0.407\ASNA.VisualRPG.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+      <HintPath>..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+      <HintPath>..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+      <HintPath>..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vr">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="MyData.vr" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\ASNA\VisualRPG\v2.0\ASNA.VisualRPG.targets" />
+</Project>

@@ -1,0 +1,37 @@
+ALTER TABLE TXPHIN
+ADD
+    AFTGRS decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA1  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA2  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA3  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA4  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA5  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA6  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA7  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTC1  numeric(3,0) NOT NULL DEFAULT(0),
+    AFTC2  numeric(3,0) NOT NULL DEFAULT(0),
+    AFTC3  numeric(3,0) NOT NULL DEFAULT(0),
+    AFTC4  numeric(3,0) NOT NULL DEFAULT(0),
+    AFTC5  numeric(3,0) NOT NULL DEFAULT(0),
+    AFTC6  numeric(3,0) NOT NULL DEFAULT(0),
+    AFTC7  numeric(3,0) NOT NULL DEFAULT(0);
+go
+
+ALTER TABLE TXPHIA
+ADD
+    AFTGRS decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA1  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA2  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA3  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA4  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA5  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA6  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTA7  decimal(9,0) NOT NULL DEFAULT(0),
+    AFTC1  numeric(3,0) NOT NULL DEFAULT(0),
+    AFTC2  numeric(3,0) NOT NULL DEFAULT(0),
+    AFTC3  numeric(3,0) NOT NULL DEFAULT(0),
+    AFTC4  numeric(3,0) NOT NULL DEFAULT(0),
+    AFTC5  numeric(3,0) NOT NULL DEFAULT(0),
+    AFTC6  numeric(3,0) NOT NULL DEFAULT(0),
+    AFTC7  numeric(3,0) NOT NULL DEFAULT(0);
+go

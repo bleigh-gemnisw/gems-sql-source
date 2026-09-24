@@ -1,0 +1,7 @@
+delete from MRBCH
+delete from MRBCHD
+delete from MRCNTL
+delete from MRCODE
+delete from MRHST
+delete from MSCBCH
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TXA01" targetNamespace="http://tempuri.org/TXA01.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TXA01.xsd" xmlns:mstns="http://tempuri.org/TXA01.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="TYPE" type="xs:string" />
+<xs:element name="TYPEDESC" type="xs:string" />
+<xs:element name="DIST" type="xs:integer" />
+<xs:element name="SEQ" type="xs:integer" />
+<xs:element name="PRINCIPAL" type="xs:decimal" />
+<xs:element name="INTEREST" type="xs:decimal" />
+<xs:element name="LIENS" type="xs:decimal" />
+<xs:element name="FEES" type="xs:decimal" />
+<xs:element name="FEE1" type="xs:decimal" />
+<xs:element name="FEE2" type="xs:decimal" />
+<xs:element name="FEE3" type="xs:decimal" />
+<xs:element name="FEE4" type="xs:decimal" />
+<xs:element name="FEE5" type="xs:decimal" />
+<xs:element name="FEE6" type="xs:decimal" />
+<xs:element name="FEE7" type="xs:decimal" />
+<xs:element name="PENCD1" type="xs:string" />
+<xs:element name="PENCD2" type="xs:string" />
+<xs:element name="PENCD3" type="xs:string" />
+<xs:element name="PENCD4" type="xs:string" />
+<xs:element name="PENCD5" type="xs:string" />
+<xs:element name="PENCD6" type="xs:string" />
+<xs:element name="PENCD7" type="xs:string" />
+<xs:element name="ADJ" type="xs:string" />
+<xs:element name="FIREPRIN" type="xs:decimal" />
+<xs:element name="FIREINT" type="xs:decimal" />
+<xs:element name="TOTAL" type="xs:decimal" />
+<xs:element name="BALD" type="xs:decimal" />
+<xs:element name="BATCHNO" type="xs:integer" />
+<xs:element name="RECDT" type="xs:date" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="MSG1" type="xs:string" />
+<xs:element name="MSG2" type="xs:string" />
+<xs:element name="MSG3" type="xs:string" />
+<xs:element name="MSG4" type="xs:string" />
+<xs:element name="MSG5" type="xs:string" />
+<xs:element name="ERROR" type="xs:boolean" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

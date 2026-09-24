@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="GL212" targetNamespace="http://tempuri.org/GL212.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/GL212.xsd" xmlns:mstns="http://tempuri.org/GL212.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="FUND" type="xs:integer" />
+<xs:element name="FUNDDESC" type="xs:string" />
+<xs:element name="SFUND" type="xs:integer" />
+<xs:element name="DEPT" type="xs:integer" />
+<xs:element name="DEPTDESC" type="xs:string" />
+<xs:element name="OBJ" type="xs:integer" />
+<xs:element name="FUNC" type="xs:integer" />
+<xs:element name="SFUNC" type="xs:integer" />
+<xs:element name="ACCTDESC" type="xs:string" />
+<xs:element name="GLTYP" type="xs:string" />
+<xs:element name="GLTYPDESC" type="xs:string" />
+<xs:element name="REFNO" type="xs:integer" />
+<xs:element name="SRCDE" type="xs:integer" />
+<xs:element name="SOURCE" type="xs:string" />
+<xs:element name="DATED" type="xs:date" />
+<xs:element name="BEGAMT" type="xs:decimal" />
+<xs:element name="AMT1" type="xs:decimal" />
+<xs:element name="AMT2" type="xs:decimal" />
+<xs:element name="AMT3" type="xs:decimal" />
+<xs:element name="AMT4" type="xs:decimal" />
+<xs:element name="TDESC" type="xs:string" />
+<xs:element name="VENNM" type="xs:string" />
+<xs:element name="DESCR" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

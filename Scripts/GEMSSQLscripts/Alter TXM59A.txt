@@ -1,0 +1,2 @@
+Alter table TXM59A alter column CITY char(25)
+Alter table TXM59A alter column MCITY char(25)

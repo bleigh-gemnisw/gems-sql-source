@@ -1,0 +1,1 @@
+select * into southub..gemsbilling from vrt2022.transfer.dbo.gemsbilling

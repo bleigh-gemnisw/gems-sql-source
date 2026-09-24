@@ -1,0 +1,1 @@
+update txdcdep set pct=100 where year=2025 and decode='C'

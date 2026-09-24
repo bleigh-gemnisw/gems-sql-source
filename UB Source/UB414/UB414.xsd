@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB414" targetNamespace="http://tempuri.org/UB414.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB414.xsd" xmlns:mstns="http://tempuri.org/UB414.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="BASE" type="xs:long" />
+<xs:element name="USAGE" type="xs:long" />
+<xs:element name="ESTIMATE" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

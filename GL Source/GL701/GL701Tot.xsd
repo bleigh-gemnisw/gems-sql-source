@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="GL701Tot" targetNamespace="http://tempuri.org/GL701Tot.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/GL701Tot.xsd" xmlns:mstns="http://tempuri.org/GL701Tot.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable2">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="TCOUNT" type="xs:integer" />
+<xs:element name="TYPE" type="xs:string" />
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="TDUEINCR" type="xs:double" />
+<xs:element name="TDUEDECR" type="xs:double" />
+<xs:element name="TDUEDIFF" type="xs:double" />
+<xs:element name="TBONDINCR" type="xs:double" />
+<xs:element name="TBONDDECR" type="xs:double" />
+<xs:element name="TBONDDIFF" type="xs:double" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

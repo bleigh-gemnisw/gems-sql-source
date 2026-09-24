@@ -1,0 +1,1 @@
+INSERT INTO txglda SELECT txyr, [tran], code, [desc],acctdb, acctcr,'','' FROM gemsdtab..ZXGLDA

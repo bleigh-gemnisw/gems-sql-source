@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TA524" targetNamespace="http://tempuri.org/TA524.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TA524.xsd" xmlns:mstns="http://tempuri.org/TA524.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="listno" type="xs:long" />
+        <xs:element name="name" type="xs:string" />
+        <xs:element name="vinno" type="xs:string" />
+        <xs:element name="olist" type="xs:long" />
+        <xs:element name="oname" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

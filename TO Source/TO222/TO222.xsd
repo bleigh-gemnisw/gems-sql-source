@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TO222" targetNamespace="http://tempuri.org/TO222.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TO222.xsd" xmlns:mstns="http://tempuri.org/TO222.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="mytable">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ALNAME" type="xs:string" />
+              <xs:element name="AFNAME" type="xs:string" />
+              <xs:element name="AINIT" type="xs:string" />
+              <xs:element name="ASSN" type="xs:string" />
+              <xs:element name="MADDR" type="xs:string" />
+              <xs:element name="MCITY" type="xs:string" />
+              <xs:element name="MSTATE" type="xs:string" />
+              <xs:element name="MZIP" type="xs:string" />
+              <xs:element name="PHONE" type="xs:string" />
+              <xs:element name="ADOB" type="xs:string" />
+              <xs:element name="PROOFE" type="xs:string" />
+              <xs:element name="PROOFT" type="xs:string" />
+              <xs:element name="PROOFA" type="xs:string" />
+              <xs:element name="SIGNEDMO" type="xs:string" />
+              <xs:element name="SIGNEDDAY" type="xs:string" />
+              <xs:element name="SIGNEDYEAR" type="xs:string" />
+              <xs:element name="SIGNEDDATE" type="xs:string" />
+              <xs:element name="ASSRMO" type="xs:string" />
+              <xs:element name="ASSRDAY" type="xs:string" />
+              <xs:element name="ASSRYEAR" type="xs:string" />
+              <xs:element name="ASSESDATE" type="xs:string" />
+            </xs:sequence>
+
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+

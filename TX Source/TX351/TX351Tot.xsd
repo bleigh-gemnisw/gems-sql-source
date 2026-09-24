@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TX351Tot" targetNamespace="http://tempuri.org/TX351Tot.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TX351Tot.xsd" xmlns:mstns="http://tempuri.org/TX351Tot.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tgross" type="xs:long" />
+        <xs:element name="texempt" type="xs:long" />
+        <xs:element name="tprorate" type="xs:long" />
+        <xs:element name="tcredit" type="xs:long" />
+        <xs:element name="tnet" type="xs:long" />
+        <xs:element name="tfull" type="xs:long" />
+        <xs:element name="tpartial" type="xs:long" />
+        <xs:element name="tfullcredit" type="xs:long" />
+        <xs:element name="tproratecredit" type="xs:long" />
+        <xs:element name="ttax" type="xs:decimal" />
+        <xs:element name="twaiveredaccts" type="xs:integer" />
+        <xs:element name="twaivered" type="xs:decimal" />
+        <xs:element name="twaiveredgross" type="xs:long" />
+        <xs:element name="twaiveredexempt" type="xs:long" />
+        <xs:element name="twaiverednet" type="xs:long" />
+        <xs:element name="taccts" type="xs:integer" />
+        <xs:element name="tbills" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

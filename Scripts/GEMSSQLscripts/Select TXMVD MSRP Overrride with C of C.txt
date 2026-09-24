@@ -1,0 +1,1 @@
+Select * from txmvdc as a left join txmsrp as b on a.vinno=b.vinno where ccno>0 and ovsource<>'' and year>2009  and cdate<>20260212

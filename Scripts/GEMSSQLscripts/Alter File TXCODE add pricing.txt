@@ -1,0 +1,3 @@
+alter table TXCODE ADD MVINST char(1) not NULL DEFAULT ''
+
+

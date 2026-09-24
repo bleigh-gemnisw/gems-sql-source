@@ -1,0 +1,63 @@
+sp_rename 'MRBCH','ZMRBCH'
+go
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[MRBCH](
+	[BCHNO] [numeric](5, 0) NOT NULL,
+	[STATUS] [char](1) NOT NULL,
+	[DESCR] [char](25) NOT NULL,
+	[RECDT] [numeric](8, 0) NOT NULL,
+	[STRDT] [numeric](8, 0) NOT NULL,
+	[ENDDT] [numeric](8, 0) NOT NULL,
+	[PRF] [char](10) NOT NULL,
+	[TCASH] [numeric](11, 2) NOT NULL,
+	[TCHECK] [numeric](11, 2) NOT NULL,
+	[TCREDIT] [numeric](11, 2) NOT NULL,
+	[TAMT] [numeric](11, 2) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[BCHNO] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[MRBCH] ADD  DEFAULT ((0)) FOR [BCHNO]
+GO
+
+ALTER TABLE [dbo].[MRBCH] ADD  DEFAULT ('') FOR [STATUS]
+GO
+
+ALTER TABLE [dbo].[MRBCH] ADD  DEFAULT ('') FOR [DESCR]
+GO
+
+ALTER TABLE [dbo].[MRBCH] ADD  DEFAULT ((0)) FOR [RECDT]
+GO
+
+ALTER TABLE [dbo].[MRBCH] ADD  DEFAULT ((0)) FOR [STRDT]
+GO
+
+ALTER TABLE [dbo].[MRBCH] ADD  DEFAULT ((0)) FOR [ENDDT]
+GO
+
+ALTER TABLE [dbo].[MRBCH] ADD  DEFAULT ('') FOR [PRF]
+GO
+
+ALTER TABLE [dbo].[MRBCH] ADD  DEFAULT ((0)) FOR [TCASH]
+GO
+
+ALTER TABLE [dbo].[MRBCH] ADD  DEFAULT ((0)) FOR [TCHECK]
+GO
+
+ALTER TABLE [dbo].[MRBCH] ADD  DEFAULT ((0)) FOR [TCREDIT]
+GO
+
+ALTER TABLE [dbo].[MRBCH] ADD  DEFAULT ((0)) FOR [TAMT]
+GO
+
+insert into mrbch select bchno,status,descr,recdt,strdt,enddt,prf,tcash,tcheck,0,tamt from zmrbch
+go

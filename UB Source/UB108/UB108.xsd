@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB108" targetNamespace="http://tempuri.org/UB108.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB108.xsd" xmlns:mstns="http://tempuri.org/UB108.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="uttype">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="tytype" type="xs:string" />
+<xs:element name="tydesc" type="xs:string" />
+<xs:element name="tytxtp" type="xs:string" />
+<xs:element name="tyuttp" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

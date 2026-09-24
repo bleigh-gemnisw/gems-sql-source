@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Rpt" targetNamespace="http://tempuri.org/Rpt.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/Rpt.xsd" xmlns:mstns="http://tempuri.org/Rpt.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="BATCH" type="xs:integer" />
+        <xs:element name="SEQNO" type="xs:integer" />
+        <xs:element name="LIST" type="xs:integer" />
+        <xs:element name="TYPE" type="xs:string" />
+        <xs:element name="YEAR" type="xs:integer" />
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="PAID" type="xs:decimal" />
+        <xs:element name="BALD" type="xs:decimal" />
+        <xs:element name="NPAID" type="xs:decimal" />
+        <xs:element name="NBALD" type="xs:decimal" />
+        <xs:element name="RECID" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

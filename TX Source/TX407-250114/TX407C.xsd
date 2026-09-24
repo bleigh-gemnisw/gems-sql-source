@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX407C" targetNamespace="http://tempuri.org/TX407C.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX407C.xsd" xmlns:mstns="http://tempuri.org/TX407C.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="SEL" type="xs:boolean" />
+<xs:element name="DAYS" type="xs:integer" />
+<xs:element name="METHOD" type="xs:string" />
+<xs:element name="LIST" type="xs:integer" />
+<xs:element name="TYPE" type="xs:string" />
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="PCUST" type="xs:integer" />
+<xs:element name="VEHID" type="xs:integer" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="ADDR" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

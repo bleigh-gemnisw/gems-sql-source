@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="PK111" targetNamespace="http://tempuri.org/PK111.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/PK111.xsd" xmlns:mstns="http://tempuri.org/PK111.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="PKOFCR">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="Ofnum" type="xs:string" />
+<xs:element name="Ofnam" type="xs:string" />
+<xs:element name="Delett" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

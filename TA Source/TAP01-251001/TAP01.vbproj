@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C3A477B-5532-466B-B333-C2C99CBEC2BB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>TAP01</RootNamespace>
+    <AssemblyName>TAP01</AssemblyName>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Attachit, Version=1.0.8529.18137, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\Attachit.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1TrueDBGrid.4.8, Version=4.8.20232.611, Culture=neutral, PublicKeyToken=75ae3fb0e2b1e0da, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="PriceDigestAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\PriceDigestAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLConnect, Version=1.0.3265.22336, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GNET, Version=1.0.4727.28771, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GNETRIGHTS, Version=1.0.2984.19925, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Splash, Version=1.0.5448.21748, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TOWN, Version=1.0.3609.14206, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TXBUSTY, Version=1.0.4097.19803, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCAFF, Version=1.0.3582.19098, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCASS, Version=1.0.3622.28516, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCBUS, Version=1.0.3649.17912, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCCD, Version=1.0.3569.19864, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCCOM, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCDEP, Version=1.0.3569.24327, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCDSP, Version=1.0.3573.23042, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCDTL, Version=1.0.3569.23617, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCEX, Version=1.0.3614.22339, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCEXM, Version=1.0.3614.20083, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCFRM, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCHOR, Version=1.0.3573.24006, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCLEE, Version=1.0.3596.16429, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCLOR, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCMOB, Version=1.0.3573.24225, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCMV, Version=1.0.3573.24334, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCPP, Version=1.0.3567.21099, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCPPL1, Version=1.0.3568.14180, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCPPL2, Version=1.0.6906.15130, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXDCPPL2.dll</HintPath>
+    </Reference>
+    <Reference Include="TXDCSUM, Version=1.0.3582.25655, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDCTWN, Version=1.0.3649.18175, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDMCD, Version=1.0.4287.24289, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDMDEP, Version=1.0.4287.24317, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDMLST, Version=1.0.3650.14986, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDMPP, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDMSUM, Version=1.0.3650.15008, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDVPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDVPN, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXDVPP, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXMCTL, Version=1.0.8333.17610, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXMCTL.dll</HintPath>
+    </Reference>
+    <Reference Include="TXMSRPDEP, Version=1.0.9043.17222, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TXMSRPDEP.dll</HintPath>
+    </Reference>
+    <Reference Include="TXPPRP, Version=1.0.3364.21973, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TXPPRPL1, Version=1.0.2970.22833, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXPPRPL2, Version=1.0.2970.22956, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Utils, Version=1.0.5448.21730, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\gemssql\Reports\PrtTAP01.vb">
+      <Link>PrtTAP01.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtTAP01.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Attach.vb" />
+    <Compile Include="Common.vb" />
+    <Compile Include="FrmComments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCrViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListCodes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListPPRP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01AFF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01ASS.Designer.vb">
+      <DependentUpon>FrmTAP01ASS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01ASS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01ASS2.Designer.vb">
+      <DependentUpon>FrmTAP01ASS2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01ASS2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01B.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01BUS.Designer.vb">
+      <DependentUpon>FrmTAP01BUS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01BUS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01SUM.Designer.vb">
+      <DependentUpon>FrmTAP01SUM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01SUM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01TWN2.Designer.vb">
+      <DependentUpon>FrmTAP01TWN2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01TWN2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01C.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01DEP.Designer.vb">
+      <DependentUpon>FrmTAP01DEP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01DEP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01DSP.Designer.vb">
+      <DependentUpon>FrmTAP01DSP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01DSP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01DSP2.Designer.vb">
+      <DependentUpon>FrmTAP01DSP2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01DSP2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01HOR.Designer.vb">
+      <DependentUpon>FrmTAP01HOR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01HOR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01HOR2.Designer.vb">
+      <DependentUpon>FrmTAP01HOR2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01HOR2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01LEE.Designer.vb">
+      <DependentUpon>FrmTAP01LEE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01LEE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01LEE2.Designer.vb">
+      <DependentUpon>FrmTAP01LEE2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01LEE2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01LOR.Designer.vb">
+      <DependentUpon>FrmTAP01LOR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01LOR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01LOR2.Designer.vb">
+      <DependentUpon>FrmTAP01LOR2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01LOR2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01MOB.Designer.vb">
+      <DependentUpon>FrmTAP01MOB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01MOB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01MOB2.Designer.vb">
+      <DependentUpon>FrmTAP01MOB2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01MOB2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01MV.Designer.vb">
+      <DependentUpon>FrmTAP01MV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01MV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01MV2.Designer.vb">
+      <DependentUpon>FrmTAP01MV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01MV2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01TWN.Designer.vb">
+      <DependentUpon>FrmTAP01TWN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01TWN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTAP01BUS2.Designer.vb">
+      <DependentUpon>FrmTAP01BUS2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTAP01BUS2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="PrintReport.vb" />
+    <Compile Include="security.vb" />
+    <Compile Include="Processing.vb" />
+    <Compile Include="TAP01.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TAP01.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Util.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\gemssql\Reports\PrtTAP01.rpt">
+      <Link>PrtTAP01.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtTAP01.vb</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="FrmComments.resx">
+      <DependentUpon>FrmComments.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCrViewer.resx">
+      <DependentUpon>FrmCrViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListCodes.resx">
+      <DependentUpon>FrmListCodes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListPPRP.resx">
+      <DependentUpon>FrmListPPRP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01.resx">
+      <DependentUpon>FrmTAP01.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01AFF.resx">
+      <DependentUpon>FrmTAP01AFF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01ASS.resx">
+      <DependentUpon>FrmTAP01ASS.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01ASS2.resx">
+      <DependentUpon>FrmTAP01ASS2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01B.resx">
+      <DependentUpon>FrmTAP01B.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01BUS.resx">
+      <DependentUpon>FrmTAP01BUS.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01SUM.resx">
+      <DependentUpon>FrmTAP01SUM.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01TWN2.resx">
+      <DependentUpon>FrmTAP01TWN2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01C.resx">
+      <DependentUpon>FrmTAP01C.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01DEP.resx">
+      <DependentUpon>FrmTAP01DEP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01DSP.resx">
+      <DependentUpon>FrmTAP01DSP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01DSP2.resx">
+      <DependentUpon>FrmTAP01DSP2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01HOR.resx">
+      <DependentUpon>FrmTAP01HOR.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01HOR2.resx">
+      <DependentUpon>FrmTAP01HOR2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01LEE.resx">
+      <DependentUpon>FrmTAP01LEE.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01LEE2.resx">
+      <DependentUpon>FrmTAP01LEE2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01LOR.resx">
+      <DependentUpon>FrmTAP01LOR.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01LOR2.resx">
+      <DependentUpon>FrmTAP01LOR2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01MOB.resx">
+      <DependentUpon>FrmTAP01MOB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01MOB2.resx">
+      <DependentUpon>FrmTAP01MOB2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01MV.resx">
+      <DependentUpon>FrmTAP01MV.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01MV2.resx">
+      <DependentUpon>FrmTAP01MV2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01TWN.resx">
+      <DependentUpon>FrmTAP01TWN.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTAP01BUS2.resx">
+      <DependentUpon>FrmTAP01BUS2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="TAP01.gclicx" />
+    <None Include="TAP01.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TAP01.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="TAP01.xsx">
+      <DependentUpon>TAP01.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

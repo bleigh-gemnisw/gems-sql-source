@@ -1,0 +1,108 @@
+The logic my scripts are built with is below.
+
+This is the logic my TXINV script (create_and_update_invoices.sql) is built on: 
+
+The script deletes all existing “D” records from the TXINV table so they can be rebuilt from scratch (there are none to start but this allows the script to be rerun).
+
+For each customer/account, it selects the most up-to-date name and address information to ensure current data is used.
+
+For each account and year, it starts with the first bill issued that year as the base record.
+
+It makes sure each bill is linked to the correct customer/account relationship that was active at the time of the bill.
+
+It builds one summary record per account per year, cleaning and standardizing fields such as ZIP code along the way.
+
+If multiple records could qualify for the same account and year, it keeps only one to prevent duplicates.
+
+It prefers the record tied to the most recent bill date.
+
+If bill dates are the same, it keeps the one with the higher bill number.
+
+If still tied, it keeps the one associated with the most recently updated customer/property record.
+This ensures the final record reflects the most current billing and master data for that account-year.
+
+It then adds the amounts from the second, third, and fourth bills of the year into that same yearly summary record.
+
+It updates the record to include total payments received for the year and sets the most recent payment date.
+
+End result:
+TXINV ends up with one consolidated yearly summary record per account, including total billed amounts, installment breakdowns, total unpaid balance, total payments received, and the most recent payment date — representing the most up-to-date view of that account for the year.
+
+-------
+
+This is the logic my TXHST (derive_txhst_from_all_tender_tables.sql) is built on: 
+
+Here's the logic its built on:
+
+Delete all existing TXHST records of type “D” to ensure the payment-history export is rebuilt cleanly from scratch.
+
+Identify the correct “winner” customer/account link for each account + year by:
+
+Selecting the most up-to-date customer/property master record, and
+
+Anchoring the year to the first bill issued.
+
+Resolve duplicate candidates for the same account-year by keeping only one record, prioritizing:
+
+The newest bill date,
+
+Then the highest bill number,
+
+Then the most recently updated master record.
+
+Build a consistent winner mapping so all receipt activity for that account-year ties back to the correct internal customer/account identity.
+
+Use real AR receipt numbers as the foundation of TXHST so each row represents an actual Accounts Receivable receipt.
+
+Identify the latest posting and entry information per receipt, including:
+
+Posting date
+
+Entry date and time
+
+Batch number
+
+Derive the batch number (BATCHN) directly from the receipt’s AR batch value.
+
+Assign a batch sequence number (BATCHS) by ordering receipts within each batch by:
+
+Posting date (oldest first),
+
+Then receipt number,
+
+Then account and year.
+This produces a consistent, reproducible line sequence within each batch for balancing and reconciliation.
+
+Classify receipt amounts into Principal, Interest, and Lien based on the associated charge definition:
+
+Charges labeled “LIEN…” → Lien
+
+Charges labeled “INTER…” → Interest
+
+All others → Principal
+
+Calculate the total amount of each receipt, and separately calculate the portion attributable to the winner account-year, so receipts covering multiple items are allocated accurately.
+
+Determine how each receipt was paid (cash, check, credit) using payment method and web payment data, capture confirmation/reference numbers when available, and prorate tender amounts so the account-year receives its proportional share of each payment type.
+
+Insert one TXHST record per account-year per receipt, including:
+
+Receipt ID
+
+Principal, interest, and lien amounts
+
+Prorated cash/check/credit totals
+
+Reference/confirmation number
+
+Batch number and batch sequence
+
+Posting date, entry date/time
+
+Last payment date
+
+Apply a safeguard for large lien amounts by folding any lien that exceeds field capacity into principal, preventing data loss while preserving total dollars.
+
+
+End result:
+Build TXHST as a receipt-driven payment history export that ties each real AR receipt to the correct account-year, classifies how the payment applied (principal/interest/lien), shows how it was tendered (cash/check/credit), and preserves batch structure and posting dates for audit and reconciliation purposes.

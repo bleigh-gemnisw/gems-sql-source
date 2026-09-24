@@ -1,0 +1,597 @@
+/****** Object:  Table [dbo].[TXPHIN]    Script Date: 8/14/2026 8:43:57 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TXPHIN_NEW](
+	[LIST#] [numeric](6, 0) NOT NULL,
+	[TXYEAR] [numeric](4, 0) NOT NULL,
+	[CAPGRS] [decimal](9, 0) NOT NULL,
+	[CAPA1] [decimal](9, 0) NOT NULL,
+	[CAPA2] [decimal](9, 0) NOT NULL,
+	[CAPA3] [decimal](9, 0) NOT NULL,
+	[CAPA4] [decimal](9, 0) NOT NULL,
+	[CAPA5] [decimal](9, 0) NOT NULL,
+	[CAPA6] [decimal](9, 0) NOT NULL,
+	[CAPA7] [decimal](9, 0) NOT NULL,
+	[CAPC1] [numeric](3, 0) NOT NULL,
+	[CAPC2] [numeric](3, 0) NOT NULL,
+	[CAPC3] [numeric](3, 0) NOT NULL,
+	[CAPC4] [numeric](3, 0) NOT NULL,
+	[CAPC5] [numeric](3, 0) NOT NULL,
+	[CAPC6] [numeric](3, 0) NOT NULL,
+	[CAPC7] [numeric](3, 0) NOT NULL,
+	[ORIGRS] [decimal](9, 0) NOT NULL,
+	[ORIA1] [decimal](9, 0) NOT NULL,
+	[ORIA2] [decimal](9, 0) NOT NULL,
+	[ORIA3] [decimal](9, 0) NOT NULL,
+	[ORIA4] [decimal](9, 0) NOT NULL,
+	[ORIA5] [decimal](9, 0) NOT NULL,
+	[ORIA6] [decimal](9, 0) NOT NULL,
+	[ORIA7] [decimal](9, 0) NOT NULL,
+	[ORIC1] [numeric](3, 0) NOT NULL,
+	[ORIC2] [numeric](3, 0) NOT NULL,
+	[ORIC3] [numeric](3, 0) NOT NULL,
+	[ORIC4] [numeric](3, 0) NOT NULL,
+	[ORIC5] [numeric](3, 0) NOT NULL,
+	[ORIC6] [numeric](3, 0) NOT NULL,
+	[ORIC7] [numeric](3, 0) NOT NULL,
+	[FULGRS] [decimal](9, 0) NOT NULL,
+	[FULA1] [decimal](9, 0) NOT NULL,
+	[FULA2] [decimal](9, 0) NOT NULL,
+	[FULA3] [decimal](9, 0) NOT NULL,
+	[FULA4] [decimal](9, 0) NOT NULL,
+	[FULA5] [decimal](9, 0) NOT NULL,
+	[FULA6] [decimal](9, 0) NOT NULL,
+	[FULA7] [decimal](9, 0) NOT NULL,
+	[FULC1] [numeric](3, 0) NOT NULL,
+	[FULC2] [numeric](3, 0) NOT NULL,
+	[FULC3] [numeric](3, 0) NOT NULL,
+	[FULC4] [numeric](3, 0) NOT NULL,
+	[FULC5] [numeric](3, 0) NOT NULL,
+	[FULC6] [numeric](3, 0) NOT NULL,
+	[FULC7] [numeric](3, 0) NOT NULL,
+	[ADJGRS] [decimal](9, 0) NOT NULL,
+	[ADJA1] [decimal](9, 0) NOT NULL,
+	[ADJA2] [decimal](9, 0) NOT NULL,
+	[ADJA3] [decimal](9, 0) NOT NULL,
+	[ADJA4] [decimal](9, 0) NOT NULL,
+	[ADJA5] [decimal](9, 0) NOT NULL,
+	[ADJA6] [decimal](9, 0) NOT NULL,
+	[ADJA7] [decimal](9, 0) NOT NULL,
+	[ADJC1] [numeric](3, 0) NOT NULL,
+	[ADJC2] [numeric](3, 0) NOT NULL,
+	[ADJC3] [numeric](3, 0) NOT NULL,
+	[ADJC4] [numeric](3, 0) NOT NULL,
+	[ADJC5] [numeric](3, 0) NOT NULL,
+	[ADJC6] [numeric](3, 0) NOT NULL,
+	[ADJC7] [numeric](3, 0) NOT NULL,
+	[AFTGRS] [decimal](9, 0) NOT NULL,
+	[AFTA1] [decimal](9, 0) NOT NULL,
+	[AFTA2] [decimal](9, 0) NOT NULL,
+	[AFTA3] [decimal](9, 0) NOT NULL,
+	[AFTA4] [decimal](9, 0) NOT NULL,
+	[AFTA5] [decimal](9, 0) NOT NULL,
+	[AFTA6] [decimal](9, 0) NOT NULL,
+	[AFTA7] [decimal](9, 0) NOT NULL,
+	[AFTC1] [numeric](3, 0) NOT NULL,
+	[AFTC2] [numeric](3, 0) NOT NULL,
+	[AFTC3] [numeric](3, 0) NOT NULL,
+	[AFTC4] [numeric](3, 0) NOT NULL,
+	[AFTC5] [numeric](3, 0) NOT NULL,
+	[AFTC6] [numeric](3, 0) NOT NULL,
+	[AFTC7] [numeric](3, 0) NOT NULL,
+	[CAMGRS] [decimal](9, 0) NOT NULL,
+	[CAMA1] [decimal](9, 0) NOT NULL,
+	[CAMA2] [decimal](9, 0) NOT NULL,
+	[CAMA3] [decimal](9, 0) NOT NULL,
+	[CAMA4] [decimal](9, 0) NOT NULL,
+	[CAMA5] [decimal](9, 0) NOT NULL,
+	[CAMA6] [decimal](9, 0) NOT NULL,
+	[CAMA7] [decimal](9, 0) NOT NULL,
+	[CAMC1] [numeric](3, 0) NOT NULL,
+	[CAMC2] [numeric](3, 0) NOT NULL,
+	[CAMC3] [numeric](3, 0) NOT NULL,
+	[CAMC4] [numeric](3, 0) NOT NULL,
+	[CAMC5] [numeric](3, 0) NOT NULL,
+	[CAMC6] [numeric](3, 0) NOT NULL,
+	[CAMC7] [numeric](3, 0) NOT NULL,
+
+ CONSTRAINT [PK_TXPHIN] PRIMARY KEY CLUSTERED 
+(
+	[LIST#] ASC,
+	[TXYEAR] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [LIST#]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPGRS]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPA1]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPA2]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPA3]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPA4]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPA5]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPA6]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPA7]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPC1]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPC2]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPC3]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPC4]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPC5]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPC6]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAPC7]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIGRS]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIA1]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIA2]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIA3]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIA4]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIA5]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIA6]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIA7]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIC1]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIC2]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIC3]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIC4]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIC5]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIC6]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ORIC7]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULGRS]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULA1]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULA2]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULA3]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULA4]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULA5]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULA6]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULA7]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULC1]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULC2]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULC3]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULC4]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULC5]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULC6]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [FULC7]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJGRS]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJA1]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJA2]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJA3]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJA4]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJA5]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJA6]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJA7]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJC1]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJC2]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJC3]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJC4]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJC5]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJC6]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [ADJC7]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTGRS]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTA1]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTA2]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTA3]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTA4]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTA5]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTA6]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTA7]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTC1]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTC2]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTC3]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTC4]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTC5]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTC6]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [AFTC7]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMGRS]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMA1]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMA2]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMA3]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMA4]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMA5]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMA6]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMA7]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMC1]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMC2]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMC3]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMC4]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMC5]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMC6]
+GO
+
+ALTER TABLE [dbo].[TXPHIN_NEW] ADD  DEFAULT ((0)) FOR [CAMC7]
+GO
+
+INSERT INTO [dbo].[TXPHIN_NEW]
+(
+    [LIST#],
+    [TXYEAR],
+
+    [CAPGRS],
+    [CAPA1],
+    [CAPA2],
+    [CAPA3],
+    [CAPA4],
+    [CAPA5],
+    [CAPA6],
+    [CAPA7],
+    [CAPC1],
+    [CAPC2],
+    [CAPC3],
+    [CAPC4],
+    [CAPC5],
+    [CAPC6],
+    [CAPC7],
+
+    [ORIGRS],
+    [ORIA1],
+    [ORIA2],
+    [ORIA3],
+    [ORIA4],
+    [ORIA5],
+    [ORIA6],
+    [ORIA7],
+    [ORIC1],
+    [ORIC2],
+    [ORIC3],
+    [ORIC4],
+    [ORIC5],
+    [ORIC6],
+    [ORIC7],
+
+    [FULGRS],
+    [FULA1],
+    [FULA2],
+    [FULA3],
+    [FULA4],
+    [FULA5],
+    [FULA6],
+    [FULA7],
+    [FULC1],
+    [FULC2],
+    [FULC3],
+    [FULC4],
+    [FULC5],
+    [FULC6],
+    [FULC7],
+
+    [ADJGRS],
+    [ADJA1],
+    [ADJA2],
+    [ADJA3],
+    [ADJA4],
+    [ADJA5],
+    [ADJA6],
+    [ADJA7],
+    [ADJC1],
+    [ADJC2],
+    [ADJC3],
+    [ADJC4],
+    [ADJC5],
+    [ADJC6],
+    [ADJC7],
+
+    [AFTGRS],
+    [AFTA1],
+    [AFTA2],
+    [AFTA3],
+    [AFTA4],
+    [AFTA5],
+    [AFTA6],
+    [AFTA7],
+    [AFTC1],
+    [AFTC2],
+    [AFTC3],
+    [AFTC4],
+    [AFTC5],
+    [AFTC6],
+    [AFTC7],
+
+    [CAMGRS],
+    [CAMA1],
+    [CAMA2],
+    [CAMA3],
+    [CAMA4],
+    [CAMA5],
+    [CAMA6],
+    [CAMA7],
+    [CAMC1],
+    [CAMC2],
+    [CAMC3],
+    [CAMC4],
+    [CAMC5],
+    [CAMC6],
+    [CAMC7]
+)
+SELECT
+    [LIST#],
+    [TXYEAR],
+
+    [CAPGRS],
+    [CAPA1],
+    [CAPA2],
+    [CAPA3],
+    [CAPA4],
+    [CAPA5],
+    [CAPA6],
+    [CAPA7],
+    [CAPC1],
+    [CAPC2],
+    [CAPC3],
+    [CAPC4],
+    [CAPC5],
+    [CAPC6],
+    [CAPC7],
+
+    [ORIGRS],
+    0 AS [ORIA1],
+    0 AS [ORIA2],
+    0 AS [ORIA3],
+    0 AS [ORIA4],
+    0 AS [ORIA5],
+    0 AS [ORIA6],
+    0 AS [ORIA7],
+    0 AS [ORIC1],
+    0 AS [ORIC2],
+    0 AS [ORIC3],
+    0 AS [ORIC4],
+    0 AS [ORIC5],
+    0 AS [ORIC6],
+    0 AS [ORIC7],
+
+    [FULGRS],
+    0 AS [FULA1],
+    0 AS [FULA2],
+    0 AS [FULA3],
+    0 AS [FULA4],
+    0 AS [FULA5],
+    0 AS [FULA6],
+    0 AS [FULA7],
+    0 AS [FULC1],
+    0 AS [FULC2],
+    0 AS [FULC3],
+    0 AS [FULC4],
+    0 AS [FULC5],
+    0 AS [FULC6],
+    0 AS [FULC7],
+
+    [ADJGRS],
+    [ADJA1],
+    [ADJA2],
+    [ADJA3],
+    [ADJA4],
+    [ADJA5],
+    [ADJA6],
+    [ADJA7],
+    [ADJC1],
+    [ADJC2],
+    [ADJC3],
+    [ADJC4],
+    [ADJC5],
+    [ADJC6],
+    [ADJC7],
+
+    [AFTGRS],
+    [AFTA1],
+    [AFTA2],
+    [AFTA3],
+    [AFTA4],
+    [AFTA5],
+    [AFTA6],
+    [AFTA7],
+    [AFTC1],
+    [AFTC2],
+    [AFTC3],
+    [AFTC4],
+    [AFTC5],
+    [AFTC6],
+    [AFTC7],
+
+    0 AS [CAMGRS],
+    0 AS [CAMA1],
+    0 AS [CAMA2],
+    0 AS [CAMA3],
+    0 AS [CAMA4],
+    0 AS [CAMA5],
+    0 AS [CAMA6],
+    0 AS [CAMA7],
+    0 AS [CAMC1],
+    0 AS [CAMC2],
+    0 AS [CAMC3],
+    0 AS [CAMC4],
+    0 AS [CAMC5],
+    0 AS [CAMC6],
+    0 AS [CAMC7]
+FROM [dbo].[TXPHIN];
+
+/****** Verify copy ******/
+SELECT COUNT(*) AS OLD_COUNT FROM dbo.TXPHIN;
+SELECT COUNT(*) AS NEW_COUNT FROM dbo.TXPHIN_NEW;
+GO
+
+/****** Replace original table ******/
+/****** Run only after verifying counts ******/
+
+EXEC sp_rename 'dbo.TXPHIN', 'zTXPHIN';
+GO
+
+EXEC sp_rename 'dbo.TXPHIN_NEW', 'TXPHIN';
+GO

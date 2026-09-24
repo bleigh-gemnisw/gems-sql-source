@@ -1,0 +1,9 @@
+DECLARE @sql NVARCHAR(MAX) = N'';
+
+SELECT @sql += 'DROP TABLE '
+             + QUOTENAME(SCHEMA_NAME(schema_id)) + '.'
+             + QUOTENAME(name) + ';' + CHAR(13)
+FROM sys.tables
+WHERE name LIKE 'ABC%';
+
+EXEC sp_executesql @sql;

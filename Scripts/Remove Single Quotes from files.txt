@@ -1,0 +1,14 @@
+update VENDOR
+set VENNM = replace(replace(VENNM,'''',''),'"','') ;
+
+update VENDOR
+set VSORT = replace(replace(VSORT,'''',''),'"','') ;
+
+update APEHST
+set VENNM = replace(replace(VENNM,'''',''),'"','') ;
+
+update LEDHST
+set TDESC = replace(replace(TDESC,'''',''),'"','') ;
+
+update LEDGER
+set TDESC = replace(replace(TDESC,'''',''),'"','') ;

@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E2BC6D89-E091-4F78-B06B-A3EDD5EB325A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>PO301</RootNamespace>
+    <AssemblyName>PO301</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+  <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BCHHDR, Version=1.0.7373.16415, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\BCHHDR.dll</HintPath>
+    </Reference>
+    <Reference Include="BCHHDRL1, Version=1.0.7373.16440, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\BCHHDRL1.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FNDSEC, Version=1.0.7373.18230, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\FNDSEC.dll</HintPath>
+    </Reference>
+    <Reference Include="GLACCT, Version=1.0.7373.18262, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\GLACCT.dll</HintPath>
+    </Reference>
+    <Reference Include="GLFUND, Version=1.0.7373.18550, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\GLFUND.dll</HintPath>
+    </Reference>
+    <Reference Include="GNET, Version=1.0.7373.18687, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\GNET.dll</HintPath>
+    </Reference>
+    <Reference Include="GNETRIGHTS, Version=1.0.7373.18746, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\GNETRIGHTS.dll</HintPath>
+    </Reference>
+    <Reference Include="LEDGER, Version=1.0.7373.18841, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\LEDGER.dll</HintPath>
+    </Reference>
+    <Reference Include="LEDGERL1, Version=1.0.7373.18950, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\LEDGERL1.dll</HintPath>
+    </Reference>
+    <Reference Include="LOCATN, Version=1.0.7373.19068, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\LOCATN.dll</HintPath>
+    </Reference>
+    <Reference Include="LOCSEC, Version=1.0.7373.19086, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\LOCSEC.dll</HintPath>
+    </Reference>
+    <Reference Include="POMAST, Version=1.0.7373.19488, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\POMAST.dll</HintPath>
+    </Reference>
+    <Reference Include="POMBCD, Version=1.0.7389.22524, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\POMBCD.dll</HintPath>
+    </Reference>
+    <Reference Include="POMBCDL1, Version=1.0.7402.19409, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\POMBCDL1.dll</HintPath>
+    </Reference>
+    <Reference Include="POMBCH, Version=1.0.7397.21074, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\POMBCH.dll</HintPath>
+    </Reference>
+    <Reference Include="POMBCHL1, Version=1.0.7402.16609, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\POMBCHL1.dll</HintPath>
+    </Reference>
+    <Reference Include="POMBCHQ, Version=1.0.7402.16454, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\POMBCHQ.dll</HintPath>
+    </Reference>
+    <Reference Include="POSUMF, Version=1.0.7458.15649, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\POSUMF.dll</HintPath>
+    </Reference>
+    <Reference Include="PURCTL, Version=1.0.7373.19551, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\PURCTL.dll</HintPath>
+    </Reference>
+    <Reference Include="PURCTLL1, Version=1.0.7389.16071, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\PURCTLL1.dll</HintPath>
+    </Reference>
+    <Reference Include="Splash, Version=1.0.7031.22489, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\Splash.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLConnect, Version=1.0.7373.19652, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\SQLConnect.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="TOWN, Version=1.0.7373.20098, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\TOWN.dll</HintPath>
+    </Reference>
+    <Reference Include="Utils, Version=1.0.6263.15109, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="VENDOR, Version=1.0.7373.20341, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\VENDOR.dll</HintPath>
+    </Reference>
+    <Reference Include="VENDORL1, Version=1.0.7373.20360, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\VENDORL1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\Gemssql\Reports\PrtPO301.vb">
+      <Link>PrtPO301.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtPO301.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\..\..\Gemssql\Reports\PrtPO301B.vb">
+      <Link>PrtPO301B.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtPO301B.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\..\..\Gemssql\Reports\PrtPO301C.vb">
+      <Link>PrtPO301C.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtPO301C.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AppSettings.vb" />
+    <Compile Include="Common.vb" />
+    <Compile Include="Common2.vb" />
+    <Compile Include="FrmCr_PrtEdits.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDltBch.Designer.vb">
+      <DependentUpon>FrmDltBch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDltBch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListGLAcct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListLocsec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListVendor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPO301.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPO301B.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPO301B_New.Designer.vb">
+      <DependentUpon>FrmPO301B_New.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPO301B_New.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPO301D.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPO301E.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="ParseCSV.vb" />
+    <Compile Include="PO301.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PO301.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PO301B.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PO301B.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PO301C.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PO301C.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PostBatch.vb" />
+    <Compile Include="PrintEdits.vb" />
+    <Compile Include="security.vb" />
+    <Compile Include="Util.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PO301C.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PO301C.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="PO301.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PO301.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="PO301B.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PO301B.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Gemssql\Reports\PrtPO301.rpt">
+      <Link>PrtPO301.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtPO301.vb</LastGenOutput>
+    </None>
+    <None Include="..\..\..\Gemssql\Reports\PrtPO301B.rpt">
+      <Link>PrtPO301B.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtPO301B.vb</LastGenOutput>
+    </None>
+    <None Include="..\..\..\Gemssql\Reports\PrtPO301C.rpt">
+      <Link>PrtPO301C.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtPO301C.vb</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="FrmCr_PrtEdits.resx">
+      <DependentUpon>FrmCr_PrtEdits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDltBch.resx">
+      <DependentUpon>FrmDltBch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListGLAcct.resx">
+      <DependentUpon>FrmListGLAcct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListLocsec.resx">
+      <DependentUpon>FrmListLocsec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListVendor.resx">
+      <DependentUpon>FrmListVendor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPO301.resx">
+      <DependentUpon>FrmPO301.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPO301B.resx">
+      <DependentUpon>FrmPO301B.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPO301B_New.resx">
+      <DependentUpon>FrmPO301B_New.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPO301D.resx">
+      <DependentUpon>FrmPO301D.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPO301E.resx">
+      <DependentUpon>FrmPO301E.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProgress.resx">
+      <DependentUpon>FrmProgress.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

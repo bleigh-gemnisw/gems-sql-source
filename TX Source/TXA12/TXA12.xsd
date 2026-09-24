@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TXA12" targetNamespace="http://tempuri.org/TXA12.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TXA12.xsd" xmlns:mstns="http://tempuri.org/TXA12.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="FROMLISTNO" type="xs:integer" />
+<xs:element name="FROMTYPE" type="xs:string" />
+<xs:element name="FROMYEAR" type="xs:integer" />
+<xs:element name="FROMNAME" type="xs:string" />
+<xs:element name="FROMBEFOREBAL" type="xs:decimal" />
+<xs:element name="FROMAFTERBAL" type="xs:decimal" />
+<xs:element name="FROMTRANSFERTAX" type="xs:decimal" />
+<xs:element name="TOLISTNO" type="xs:integer" />
+<xs:element name="TOTYPE" type="xs:string" />
+<xs:element name="TOYEAR" type="xs:integer" />
+<xs:element name="TONAME" type="xs:string" />
+<xs:element name="TOBEFOREBAL" type="xs:decimal" />
+<xs:element name="TOAFTERBAL" type="xs:decimal" />
+<xs:element name="TOTRANSFERTAX" type="xs:decimal" />
+<xs:element name="TOTRANSFERINT" type="xs:decimal" />
+<xs:element name="TOTRANSFERFEE" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

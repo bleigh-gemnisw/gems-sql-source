@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TXA30" targetNamespace="http://tempuri.org/TXA30.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TXA30.xsd" xmlns:mstns="http://tempuri.org/TXA30.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="mytable">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="LISTNO" type="xs:integer" />
+				<xs:element name="YEAR" type="xs:integer" />
+				<xs:element name="TYPE" type="xs:string" />
+				<xs:element name="TYPEDESC" type="xs:string" />
+				<xs:element name="NAME" type="xs:string" />
+				<xs:element name="PRINCIPAL" type="xs:decimal" />
+				<xs:element name="INTEREST" type="xs:decimal" />
+				<xs:element name="LIENS" type="xs:decimal" />
+				<xs:element name="FEES" type="xs:decimal" />
+				<xs:element name="TOTAL" type="xs:decimal" />
+        <xs:element name="ACTIVITY" type="xs:string" />
+      </xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

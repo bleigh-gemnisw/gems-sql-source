@@ -1,0 +1,73 @@
+    Public Sub FormatGrid()
+
+    Dim myGridTableStyle As DataGridTableStyle = New DataGridTableStyle
+
+    Call ShowGrid()
+    myGridTableStyle.MappingName = ds.Tables(0).TableName
+
+    Try
+      DataGrdList.TableStyles.RemoveAt(0)
+    Catch
+    End Try
+
+    Try
+      DataGrdList.TableStyles.Add(myGridTableStyle)
+    Catch
+      Exit Sub
+    End Try
+
+      If RbName.Checked Or RbBalances.Checked Then
+        GridName(myGridTableStyle)
+      End If
+      If RbLoc.Checked Then
+        GridLocName(myGridTableStyle)
+      End If
+      If RbReg.Checked Then
+        GridRegno(myGridTableStyle)
+      End If
+
+    End Sub
+    Public Sub ShowGrid()
+       Cursor.Current = Cursors.WaitCursor
+       If RbName.Checked Then
+        ds = mytxinvl8.GetViewbyName(TxtPos.Text, 50)
+       End If
+       If RbLoc.Checked Then
+        ds = mytxinvla.GetViewbyLoc(TxtPos.Text, TxtPosNo.Text, 50)
+       End If
+       If RbReg.Checked Then
+        ds = mytxinvlc.GetViewbyRegNo(TxtPos.Text, 50)
+       End If
+       If RbBalances.Checked Then
+        ds = mytxinvlh.GetViewbyName(TxtPos.Text, 50)
+       End If
+
+      DataGrdList.DataSource = ds.Tables(0)
+      DataGrdList.Refresh()
+      Cursor.Current = Cursors.Default
+
+    End Sub
+  Private Sub GridName(ByRef myGridTableStyle As DataGridTableStyle)
+    myGridTableStyle.GridColumnStyles(0).HeaderText = "Name"
+    myGridTableStyle.GridColumnStyles(0).Width = 220
+    myGridTableStyle.GridColumnStyles(1).HeaderText = "List#"
+    myGridTableStyle.GridColumnStyles(1).Alignment = HorizontalAlignment.Right
+    myGridTableStyle.GridColumnStyles(1).Width = 50
+    myGridTableStyle.GridColumnStyles(2).HeaderText = "Type"
+    myGridTableStyle.GridColumnStyles(2).Width = 40
+    myGridTableStyle.GridColumnStyles(3).HeaderText = "Year"
+    myGridTableStyle.GridColumnStyles(3).Width = 40
+    myGridTableStyle.GridColumnStyles(4).HeaderText = "Amt Due"
+    myGridTableStyle.GridColumnStyles(4).Alignment = HorizontalAlignment.Right
+    myGridTableStyle.GridColumnStyles(4).Width = 70
+    myGridTableStyle.GridColumnStyles(5).HeaderText = "Amt Pd"
+    myGridTableStyle.GridColumnStyles(5).Alignment = HorizontalAlignment.Right
+    myGridTableStyle.GridColumnStyles(5).Width = 70
+    myGridTableStyle.GridColumnStyles(6).HeaderText = "Balance"
+    myGridTableStyle.GridColumnStyles(6).Alignment = HorizontalAlignment.Right
+    myGridTableStyle.GridColumnStyles(6).Width = 70
+    myGridTableStyle.GridColumnStyles(7).HeaderText = ""
+    myGridTableStyle.GridColumnStyles(7).Alignment = HorizontalAlignment.Center
+    myGridTableStyle.GridColumnStyles(7).Width = 20
+
+End Sub

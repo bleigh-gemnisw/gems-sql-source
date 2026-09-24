@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema id="Layout" 
+                  targetNamespace="http://tempuri.org/Layout.xsd"
+                  elementFormDefault="qualified"
+                  xmlns="http://tempuri.org/Layout.xsd"
+                  xmlns:mstns="http://tempuri.org/Layout.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mylayout">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="DESC" type="xs:string" />
+        <xs:element name="FIELDTYPE" type="xs:string" />
+        <xs:element name="BEGPOS" type="xs:integer" />
+        <xs:element name="LENGTH" type="xs:integer" />
+        <xs:element name="DECPOS" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

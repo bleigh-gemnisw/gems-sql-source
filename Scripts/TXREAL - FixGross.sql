@@ -1,0 +1,1 @@
+update txreal set net = GROSS - EXAM1 - EXAM2 - EXAM3 - EXAM4 - EXAM5 - EXAM6 - EXAM7 where (GROSS - EXAM1 - EXAM2 -EXAM3 -EXAM4 -EXAM5 - EXAM6 - EXAM7 - NET) <> 0 

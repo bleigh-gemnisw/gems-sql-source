@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GLA47" targetNamespace="http://tempuri.org/GLA47.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/GLA47.xsd" xmlns:mstns="http://tempuri.org/GLA47.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="TXGLNB">
+		<xs:complexType>
+			<xs:sequence>
+        <xs:element name="txyr" type="xs:integer" />
+        <xs:element name="trty" type="xs:string" />
+        <xs:element name="code" type="xs:string" />
+				<xs:element name="descr" type="xs:string" />
+				<xs:element name="acctdb" type="xs:string" />
+        <xs:element name="acctcr" type="xs:string" />
+        <xs:element name="acctdb2" type="xs:string" />
+        <xs:element name="acctcr2" type="xs:string" />
+      </xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

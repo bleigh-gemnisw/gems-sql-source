@@ -1,0 +1,3159 @@
+BatchNumber,BatchDesc,BatchTxType,BatchDate,PeriodStart,PeriodEnd,BillingFreq,Posted
+1,W&S readings 4/2003,RD,4/1/2003,10/1/2002,4/1/2003,S,FALSE
+4,monthly sept 1st 2003,RD,9/1/2003,8/1/2003,9/1/2003,M,FALSE
+5,October 2003 billings,RD,10/1/2003,4/1/2003,10/1/2003,S,FALSE
+6,monthly 9/1/03,PY,9/16/2003,,,,TRUE
+8,september 2003 monthly,PY,9/16/2003,,,,TRUE
+9,9/24/03  payments,PY,9/24/2003,,,,TRUE
+11,Oct 2003 payments,PY,9/30/2003,,,,TRUE
+13,"October 1, 2003 Monthly",RD,10/1/2003,9/1/2003,10/1/2003,M,FALSE
+14,OCTOBER 2003 W/S,PY,10/2/2003,,,,TRUE
+16,OCTOBER 2003 WATER/SEWER,PY,10/2/2003,,,,TRUE
+17,october 2003 w/s,PY,10/3/2003,,,,TRUE
+18,October 2003 w/s,PY,10/6/2003,,,,TRUE
+19,October 2003 payments,PY,10/7/2003,,,,TRUE
+20,October 2003 payments,PY,10/7/2003,,,,TRUE
+21,October 2003 payments,PY,10/8/2003,,,,TRUE
+22,October 2003 W/S,PY,10/9/2003,,,,TRUE
+23,October 2003 W/S,PY,10/10/2003,,,,TRUE
+24,October 2003 W/S,PY,10/14/2003,,,,TRUE
+25,October 2003 W/S,PY,10/15/2003,,,,TRUE
+27,October 2003 W/S,PY,10/16/2003,,,,TRUE
+28,October 2003 W/S,PY,10/16/2003,,,,TRUE
+29,October 2003 Friday 10/17,PY,10/17/2003,,,,TRUE
+32,October 2003 Water/Sewer Monday 10/20,PY,10/20/2003,,,,TRUE
+33,October 2003 W/S Tuesday,PY,10/21/2003,,,,TRUE
+34,October 2003 W/S Wednesday,PY,10/22/2003,,,,TRUE
+35,October 2003 W/S Thursday,PY,10/23/2003,,,,TRUE
+36,October 2003 W/S Friday,PY,10/24/2003,,,,TRUE
+37,October 2003 W/S Monday,PY,10/27/2003,,,,TRUE
+38,October 2003 W/S Tuesday,PY,10/28/2003,,,,TRUE
+39,October 2003 W/S Wednesday,PY,10/29/2003,,,,TRUE
+40,October 2003 W/S Thursday,PY,10/30/2003,,,,TRUE
+41,October 2003 W/S Friday,PY,10/30/2003,,,,TRUE
+42,October 2003 W/S Friday-#2,PY,10/31/2003,,,,TRUE
+43,October 2003 W/S Monday,PY,11/3/2003,,,,TRUE
+44,November Interest,IN,11/1/2003,,,,FALSE
+45,October 2003 W/S w/Nov. Int.,PY,11/3/2003,,,,TRUE
+46,November 2003 Monthly,RD,11/1/2003,10/1/2003,11/1/2003,M,FALSE
+47,October 2003 W/S w/Nov. Int. Wednesday,PY,11/5/2003,,,,TRUE
+48,October 2003 W/S Thursday,PY,11/6/2003,,,,TRUE
+49,October 2003 W/S Monday 11/10/03,PY,11/10/2003,,,,TRUE
+50,October 2003 W/S Thursday,PY,11/13/2003,,,,TRUE
+51,Annual Readings i.e. High School Fields,RD,12/1/2003,4/16/2003,11/10/2003,A,FALSE
+52,11/13/03 Inspection Fee,PY,11/13/2003,,,,TRUE
+53,October 2003 W/S Monday,PY,11/17/2003,,,,TRUE
+54,October 2003 W/S Tuesday,PY,11/18/2003,,,,TRUE
+55,October 2003 W/S Wednesday,PY,11/19/2003,,,,TRUE
+56,October 2003 W/S Monday,PY,11/24/2003,,,,TRUE
+57,December 2003 water shut-off,IN,12/1/2003,,,,FALSE
+58,December 2003 Monthly,RD,12/1/2003,11/1/2003,12/1/2003,M,FALSE
+59,,RD,,,,M,FALSE
+60,October 2003 W/S Monday-No Dec. Int.,PY,12/1/2003,,,,TRUE
+61,October 2003 W/S Thursday,PY,12/4/2003,,,,TRUE
+62,October 2003 W/S Friday,PY,12/5/2003,,,,TRUE
+63,October 2003 W/S Monday,PY,12/8/2003,,,,TRUE
+64,October 2003 W/S Friday,PY,12/12/2003,,,,TRUE
+65,October 2003 W/S Monday,PY,12/15/2003,,,,TRUE
+66,October 2003 W/S Tuesday,PY,12/16/2003,,,,TRUE
+67,October 2003 W/S Wednesday,PY,12/17/2003,,,,TRUE
+69,October 2003 W/S Friday,PY,12/19/2003,,,,TRUE
+70,October 2003 W/S Monday,PY,12/22/2003,,,,TRUE
+71,October 2003 W/S Tuesday,PY,12/30/2003,,,,TRUE
+73,January 2004 Monthly,RD,1/1/2004,12/1/2003,1/1/2004,M,FALSE
+74,October 2003 Water/Sewer Tuesday,PY,1/6/2004,,,,TRUE
+75,October 2003 W/S Friday,PY,1/9/2004,,,,TRUE
+76,October 2003 W/S Tuesday,PY,1/20/2004,,,,TRUE
+82,October 2003 W/S Tuesday,PY,1/27/2004,,,,TRUE
+83,February 2004 Monthly,RD,2/1/2004,1/1/2004,2/1/2004,M,FALSE
+85,April 2004 Readings,RD,4/1/2004,10/1/2003,4/1/2004,S,FALSE
+86,"Friday, February 6, 2004",PY,2/6/2004,,,,TRUE
+87,"Friday, 2/13/04",PY,2/13/2004,,,,TRUE
+88,Thursday 2/19/04,PY,2/18/2004,,,,TRUE
+89,Monday 2/23/04,PY,2/23/2004,,,,TRUE
+91,"Thursday, 2/26/04",PY,2/25/2004,,,,TRUE
+93,March 2004 Monthly,RD,3/1/2004,2/1/2004,3/1/2004,M,FALSE
+94,"Monday, 3/8/04",PY,3/8/2004,,,,TRUE
+95,"Monday, 3/15/04",PY,3/15/2004,,,,TRUE
+96,"Monday, 3/22/04",PY,3/22/2004,,,,TRUE
+98,"Friday, 3/26/04",PY,3/26/2004,,,,TRUE
+99,"Monday, 3/29/04",PY,3/29/2004,,,,TRUE
+100,Monthly April 2004,RD,4/1/2004,3/1/2004,4/1/2004,M,FALSE
+104,"Thursday, 4/1/04",PY,4/1/2004,,,,TRUE
+105,"Friday, 4/2/04",PY,4/2/2004,,,,TRUE
+106,"Monday, 4/5/04",PY,4/5/2004,,,,TRUE
+107,"Monday, 4/5/04 #2",PY,4/5/2004,,,,TRUE
+108,"Monday, 4/5/04 #3",PY,4/5/2004,,,,TRUE
+109,"Tuesday, 4/6/04",PY,4/6/2004,,,,TRUE
+111,"Wednesday, 4/7/04",PY,4/7/2004,,,,TRUE
+112,"Thursday, 4/8/04",PY,4/8/2004,,,,TRUE
+113,"Thursday, 4/8/04 #2",PY,4/8/2004,,,,TRUE
+114,"Monday, 4/12/04",PY,4/12/2004,,,,TRUE
+115,"Tuesday, 4/13/04",PY,4/13/2004,,,,TRUE
+116,"Wednesday, 4/14/04",PY,4/14/2004,,,,TRUE
+117,"Thursday, 4/15/04",PY,4/15/2004,,,,TRUE
+118,"Thursday, 4/15/04 #2",PY,4/15/2004,,,,TRUE
+120,"Monday, 4/19/04",PY,4/19/2004,,,,TRUE
+122,"Tuesday, 4/20/04",PY,4/20/2004,,,,TRUE
+123,"Wednesday, 4/21/04",PY,4/21/2004,,,,TRUE
+124,"Thursday, 4/22/04",PY,4/22/2004,,,,TRUE
+125,"Friday, 4/23/04",PY,4/23/2004,,,,TRUE
+126,"Monday, 4/26/04",PY,4/26/2004,,,,TRUE
+127,"Tuesday, 4/27/04",PY,4/27/2004,,,,TRUE
+128,April 2004,IN,5/1/2004,,,,FALSE
+130,"Thursday, 4/29/04",PY,4/29/2004,,,,TRUE
+132,Friday 4/30/04,PY,4/30/2004,,,,TRUE
+133,May 2004 Monthly,RD,5/1/2004,4/1/2004,5/1/2004,M,FALSE
+134,"Monday, 5/3/04",PY,5/3/2004,,,,TRUE
+137,"Tuesday, 5/4/04",PY,5/4/2004,,,,TRUE
+138,"Thursday, 5/6/04",PY,5/6/2004,,,,TRUE
+140,"Monday, 5/10/04",PY,5/10/2004,,,,TRUE
+145,"Wednesday, 5/12/04",PY,5/12/2004,,,,TRUE
+146,"Thursday, 5/13/04",PY,5/13/2004,,,,TRUE
+147,"Friday, 5/14/04",PY,5/14/2004,,,,TRUE
+148,"Monday, 5/17/04",PY,5/17/2004,,,,TRUE
+149,"Tuesday, 5/18/04",PY,5/18/2004,,,,TRUE
+150,"Wednesday, 5/19/04",PY,5/19/2004,,,,TRUE
+151,"Thursday, 5/20/04",PY,5/20/2004,,,,TRUE
+152,"Tuesday, 5/25/04",PY,5/25/2004,,,,TRUE
+155,June 2004 Monthly,RD,6/1/2004,5/1/2004,6/1/2004,M,FALSE
+156,"Thursday, 5/27/04",PY,5/27/2004,,,,TRUE
+157,Friday 5/28/04,PY,5/28/2004,,,,TRUE
+158,June Interest,IN,6/1/2004,,,,FALSE
+161,"Wednesday, 6/2/04",PY,6/2/2004,,,,TRUE
+162,"Thursday, 6/3/04",PY,6/3/2004,,,,TRUE
+163,"Monday, 6/7/04",PY,6/7/2004,,,,TRUE
+164,"Wednesday, 6/9/04",PY,6/9/2004,,,,TRUE
+165,"Friday, 6/11/04",PY,6/11/2004,,,,TRUE
+166,"Monday, June 14, 2004",PY,6/14/2004,,,,TRUE
+167,"Tuesday, 6/15/04",PY,6/15/2004,,,,TRUE
+168,"Thursday, 6/17/04",PY,6/17/2004,,,,TRUE
+169,Thursday 6/24/04,PY,6/24/2004,,,,TRUE
+170,Tuesday 6/29/04,PY,6/29/2004,,,,TRUE
+172,July 2004 Monthly,RD,7/1/2004,6/1/2004,7/1/2004,M,FALSE
+173,"Thursday, 7/1/04",PY,7/1/2004,,,,TRUE
+174,Wednesday 7/7/04,PY,7/7/2004,,,,TRUE
+175,"Thursday, 7/8/04",PY,7/8/2004,,,,TRUE
+176,"Friday, 7/9/04",PY,7/9/2004,,,,TRUE
+177,"Monday, 7/12/04",PY,7/12/2004,,,,TRUE
+178,"Wednesday, 7/14/04",PY,7/14/2004,,,,TRUE
+179,"Monday, 7/19/04",PY,7/19/2004,,,,TRUE
+180,"Wednesday, 7/21/04",PY,7/21/2004,,,,TRUE
+181,"Thursday, 7/22/04",PY,7/22/2004,,,,TRUE
+182,"Friday, 7/23/04",PY,7/23/2004,,,,TRUE
+183,October 2004 Readings,RD,10/1/2004,4/1/2004,10/1/2004,S,FALSE
+184,"Friday, 7/30/04",PY,7/30/2004,,,,TRUE
+188,August 2004 Monthly,RD,8/1/2004,7/1/2004,8/1/2004,M,FALSE
+189,"Thursday, 8/5/04",PY,8/5/2004,,,,TRUE
+190,"Friday, 8/6/04",PY,8/6/2004,,,,TRUE
+191,"Tuesday, 8/10/04",PY,8/10/2004,,,,TRUE
+192,"Friday, 8/13/04",PY,8/13/2004,,,,TRUE
+193,"Tuesday, 8/24/04",PY,8/24/2004,,,,TRUE
+194,"Monday, 8/30/04",PY,8/30/2004,,,,TRUE
+196,September 2004 Monthly,RD,9/1/2004,8/1/2004,9/1/2004,M,FALSE
+197,"Thursday, 9/2/04",PY,9/2/2004,,,,TRUE
+198,"Friday, 9/3/04",PY,9/3/2004,,,,TRUE
+199,"Wednesday, 9/8/04",PY,9/8/2004,,,,TRUE
+200,"Friday, 9/10/04",PY,9/10/2004,,,,TRUE
+201,"Tuesday, 9/14/04",PY,9/14/2004,,,,TRUE
+202,"Monday, 9/20/04",PY,9/20/2004,,,,TRUE
+203,"Thursday, 9/23/04",PY,9/23/2004,,,,TRUE
+204,"Thursday, 9/30/04",PY,9/30/2004,,,,TRUE
+205,October 2004 Monthly,RD,10/1/2004,9/1/2004,10/1/2004,M,FALSE
+206,"Friday, 10/1/04",PY,10/1/2004,,,,TRUE
+207,"Monday, October 4, 2004",PY,10/4/2004,,,,TRUE
+208,"Tuesday, 10/5/04",PY,10/5/2004,,,,TRUE
+209,"Wednesday, 10/6/04",PY,10/6/2004,,,,TRUE
+210,"Thursday, 10/7/04",PY,10/7/2004,,,,TRUE
+211,"Friday, 10/8/04",PY,10/8/2004,,,,TRUE
+212,"Tuesday, 10/12/04",PY,10/12/2004,,,,TRUE
+213,"Wednesday, 10/13/04",PY,10/13/2004,,,,TRUE
+214,"Thursday, 10/14/04",PY,10/14/2004,,,,TRUE
+216,"Friday, 10/15/04",PY,10/15/2004,,,,TRUE
+217,"Monday, 10/18/04",PY,10/18/2004,,,,TRUE
+218,"Tuesday, 10/19/04",PY,10/19/2004,,,,TRUE
+219,"Wednesday, 10/20/04",PY,10/20/2004,,,,TRUE
+220,"Thursday, 10/21/04",PY,10/21/2004,,,,TRUE
+221,"Friday, 10/22/04",PY,10/22/2004,,,,TRUE
+222,"Monday, 10/25/04",PY,10/25/2004,,,,TRUE
+223,"Tuesday, 10/26/04",PY,10/26/2004,,,,TRUE
+224,"Wednesday, 10/27/04",PY,10/27/2004,,,,TRUE
+225,"Thursday, 10/28/04",PY,10/28/2004,,,,TRUE
+226,"Friday, 10/29/04",PY,10/29/2004,,,,TRUE
+227,November 2004 Monthly,RD,11/1/2004,10/1/2004,11/1/2004,M,FALSE
+228,"Monday, 11/1/04",PY,11/1/2004,,,,TRUE
+229,"Tuesday, 11/2/04",PY,11/2/2004,,,,TRUE
+231,November Interest,IN,11/1/2004,,,,FALSE
+233,"Thursday, 11/4/04",PY,11/4/2004,,,,TRUE
+234,"Monday, 11/8/04",PY,11/8/2004,,,,TRUE
+235,"Wednesday, 11/10/04",PY,11/10/2004,,,,TRUE
+237,"Monday, 11/15/04",PY,11/15/2004,,,,TRUE
+238,"Tuesday, 11/16/04",PY,11/16/2004,,,,TRUE
+239,"Thursday, 11/18/04",PY,11/18/2004,,,,TRUE
+240,"Tuesday, 11/23/04",PY,11/23/2004,,,,TRUE
+241,"Monday, 11/29/04",PY,11/29/2004,,,,TRUE
+242,"Tuesday, 11/30/04",PY,11/30/2004,,,,TRUE
+243,December statements w/interest,IN,12/1/2004,,,,FALSE
+244,December 2004 Monthly,RD,12/1/2004,11/1/2004,12/1/2004,M,FALSE
+245,Seasonal W/S billing,RD,12/1/2004,5/1/2004,12/1/2004,A,FALSE
+247,"Friday, 12/3/04",PY,12/3/2004,,,,TRUE
+248,"Monday, 12/6/04",PY,12/6/2004,,,,TRUE
+249,Annual billing for track at BHS,RD,12/1/2004,12/1/2004,1/6/2005,A,FALSE
+250,"Friday, 12/10/04",PY,12/10/2004,,,,TRUE
+251,"Monday, 12/13/04",PY,12/13/2004,,,,TRUE
+252,"Tuesday, 12/14/04",PY,12/14/2004,,,,TRUE
+253,"Wednesday, 12/15/04",PY,12/15/2004,,,,TRUE
+254,"Tuesday, 12/21/04",PY,12/21/2004,,,,TRUE
+255,"Monday, 1/3/05",PY,1/3/2005,,,,TRUE
+256,"January 1, 2005 Monthly",RD,1/1/2005,12/1/2004,1/1/2005,M,FALSE
+257,"Tuesday, 1/18/05",PY,1/18/2005,,,,TRUE
+258,"Monday, 1/24/05",PY,1/24/2005,,,,TRUE
+259,"Thursday, 1/27/05",PY,1/27/2005,,,,TRUE
+260,February 2005 Monthly,RD,2/1/2005,1/1/2005,2/1/2005,M,FALSE
+261,"Monday, 1/31/05",PY,1/31/2005,,,,TRUE
+262,April 2005 Readings,RD,4/1/2005,10/1/2004,4/1/2005,S,FALSE
+263,"Wednesday, 2/9/05",PY,2/9/2005,,,,TRUE
+264,"Thursday, 2/10/05",PY,2/10/2005,,,,TRUE
+265,"Wednesday, 2/16/05",PY,2/16/2005,,,,TRUE
+267,"Wednesday, 2/23/05",PY,2/23/2005,,,,TRUE
+268,March 2005 Monthly,RD,3/1/2005,2/1/2005,3/1/2005,M,FALSE
+271,"Thursday, 3/3/05",PY,3/3/2005,,,,TRUE
+273,"Monday, 3/14/05",PY,3/14/2005,,,,TRUE
+274,"Wednesday, 3/23/05",PY,3/23/2005,,,,TRUE
+275,April 2005 monthly,RD,4/1/2005,3/1/2005,4/1/2005,M,FALSE
+276,"Friday, April 1, 2005",PY,4/1/2005,,,,TRUE
+277,"Monday, 4/4/05",PY,4/4/2005,,,,TRUE
+279,"Tuesday, 4/5/05",PY,4/5/2005,,,,TRUE
+280,"Wednesday, 4/6/05",PY,4/6/2005,,,,TRUE
+281,"Thursday, 4/7/05",PY,4/7/2005,,,,TRUE
+282,"Friday, 4/8/05",PY,4/8/2005,,,,TRUE
+283,"Monday, 4/11/05",PY,4/11/2005,,,,TRUE
+284,"Tuesday, 4/12/05",PY,4/12/2005,,,,TRUE
+285,"Wednesday, 4/13/05",PY,4/13/2005,,,,TRUE
+286,"Thursday, 4/14/05",PY,4/14/2005,,,,TRUE
+287,"Friday, 4/15/05",PY,4/15/2005,,,,TRUE
+288,"Monday, 4/18/05",PY,4/18/2005,,,,TRUE
+289,"Tuesday, 4/19/05",PY,4/19/2005,,,,TRUE
+290,"Wednesday, 4/20/05",PY,4/20/2005,,,,TRUE
+291,"Thursday, 4/21/05",PY,4/21/2005,,,,TRUE
+292,"Friday, 4/22/05",PY,4/22/2005,,,,TRUE
+293,"Monday, 4/25/05",PY,4/25/2005,,,,TRUE
+294,"Tuesday, 4/26/05",PY,4/26/2005,,,,TRUE
+295,"Wednesday, 4/27/05",PY,4/27/2005,,,,TRUE
+296,"Thursday, 4/28/05",PY,4/28/2005,,,,TRUE
+297,"Friday, 4/29/05",PY,4/29/2005,,,,TRUE
+298,"Monday, May 2, 2005",PY,5/2/2005,,,,TRUE
+299,"Tuesday, 5/3/05",IN,5/1/2005,,,,FALSE
+300,May 2005 Monthly,RD,5/1/2005,4/1/2005,5/1/2005,M,FALSE
+302,"Wednesday, 5/4/05",PY,5/4/2005,,,,TRUE
+304,"Thursday, 5/5/05",PY,5/5/2005,,,,TRUE
+305,"Thursday, 5/5/05 2nd batch",PY,5/5/2005,,,,TRUE
+306,Annual BHS Track,RD,5/1/2005,12/1/2004,5/1/2005,A,FALSE
+307,"Monday, 5/9/05",PY,5/9/2005,,,,TRUE
+308,"Wednesday, 5/11/05",PY,5/11/2005,,,,TRUE
+309,"Monday, 5/16/05",PY,5/16/2005,,,,TRUE
+310,"Wednesday, 5/18/05",PY,5/18/2005,,,,TRUE
+311,"Friday, 5/20/05",PY,5/20/2005,,,,TRUE
+312,"Tuesday, 5/24/05",PY,5/24/2005,,,,TRUE
+313,"Thursday, 5/26/05",PY,5/26/2005,,,,TRUE
+314,"Friday, 5/27/05",PY,5/27/2005,,,,TRUE
+315,"Tuesday, 5/31/05",PY,5/31/2005,,,,TRUE
+316,April 2005 readings/June interest,IN,6/1/2005,,,,FALSE
+317,June 2005 Monthly,RD,6/1/2005,5/1/2005,6/1/2005,M,FALSE
+320,"Thursday, 6/2/05",PY,6/2/2005,,,,TRUE
+321,"Wednesday, 6/8/05",PY,6/8/2005,,,,TRUE
+322,"Friday, 6/10/05",PY,6/10/2005,,,,TRUE
+324,"Monday, 6/13/05",PY,6/13/2005,,,,TRUE
+326,"Monday, 6/20/05",PY,6/20/2005,,,,TRUE
+328,"Thursday, 6/30/05",PY,6/30/2005,,,,TRUE
+330,July 2005 Monthly,RD,7/1/2005,6/1/2005,7/1/2005,M,FALSE
+332,Friday 7/1/05,PY,6/30/2005,,,,TRUE
+333,"Friday, 7/1/05",PY,7/1/2005,,,,TRUE
+335,"Wednesday, 7/6/05",PY,7/6/2005,,,,TRUE
+336,"Thursday, 7/7/05",PY,7/7/2005,,,,TRUE
+337,"Friday, 7/8/05",PY,7/8/2005,,,,TRUE
+338,"Tuesday, 7/19/05",PY,7/19/2005,,,,TRUE
+339,"Thursday, 7/21/05",PY,7/21/2005,,,,TRUE
+340,"Monday, 7/25/05",PY,7/25/2005,,,,TRUE
+342,October 2005 Readings,RD,10/1/2005,4/1/2005,10/1/2005,S,FALSE
+343,"Wednesday, 7/27/05",PY,7/27/2005,,,,TRUE
+344,August 2005 monthly,RD,8/1/2005,7/1/2005,8/1/2005,M,FALSE
+345,"Tuesday, 8/16/05",PY,8/16/2005,,,,TRUE
+346,"Wednesday, 8/17/05",PY,8/17/2005,,,,TRUE
+347,"Friday, August 19, 2005",PY,8/19/2005,,,,TRUE
+348,"Wednesday, 8/24/05",PY,8/24/2005,,,,TRUE
+349,"Thursday, 8/25/05",PY,8/25/2005,,,,TRUE
+350,"Friday, 8/26/05",PY,8/26/2005,,,,TRUE
+351,September 2005 Monthly,RD,9/1/2005,8/1/2005,9/1/2005,M,FALSE
+352,"Thursday, 9/8/05",PY,9/8/2005,,,,TRUE
+353,"Tuesday, 9/13/05",PY,9/13/2005,,,,TRUE
+354,"Thursday, 9/15/05",PY,9/15/2005,,,,TRUE
+357,"Tuesday, 9/27/05",PY,9/27/2005,,,,TRUE
+358,October 2005 Monthly,RD,10/1/2005,9/1/2005,10/1/2005,M,FALSE
+359,"Monday, 10/3/05",PY,10/3/2005,,,,TRUE
+360,"Tuesday, 10/4/05",PY,10/4/2005,,,,TRUE
+361,"Wednesday, 10/5/05",PY,10/5/2005,,,,TRUE
+362,"Thursday, 10/6/05",PY,10/6/2005,,,,TRUE
+363,"Friday, 10/7/05",PY,10/7/2005,,,,TRUE
+364,"Tuesday, 10/11/05",PY,10/11/2005,,,,TRUE
+365,"Wednesday, 10/12/05",PY,10/12/2005,,,,TRUE
+366,"Thursday, 10/13/05",PY,10/13/2005,,,,TRUE
+367,"Friday, 10/14/05",PY,10/14/2005,,,,TRUE
+368,"Monday, 10/17/05",PY,10/17/2005,,,,TRUE
+369,"Tuesday, 10/18/05",PY,10/18/2005,,,,TRUE
+370,"Wednesday, 10/19/05",PY,10/19/2005,,,,TRUE
+371,"Thursday, 10/20/05",PY,10/20/2005,,,,TRUE
+372,"Friday, 10/21/05",PY,10/21/2005,,,,TRUE
+373,"Monday, 10/24/05",PY,10/24/2005,,,,TRUE
+374,"Tuesday, 10/25/05",PY,10/25/2005,,,,TRUE
+375,"Wednesday, 10/26/05",PY,10/26/2005,,,,TRUE
+376,"Thursday, 10/27/05",PY,10/27/2005,,,,TRUE
+377,"Friday, 10/28/05",PY,10/28/2005,,,,TRUE
+378,"Monday, 10/31/05",PY,10/31/2005,,,,TRUE
+379,November 2005 Monthly,RD,11/1/2005,10/1/2005,11/1/2005,M,FALSE
+380,"Tuesday, 11/01/05",PY,11/1/2005,,,,TRUE
+382,Seasonal-Centurelli Field,RD,11/1/2005,5/1/2005,11/1/2005,A,FALSE
+383,"Wednesday, 11/2/05",PY,11/2/2005,,,,TRUE
+384,"October 1, 2005 readings",IN,11/1/2005,,,,FALSE
+387,"Friday, 11/4/05",PY,11/4/2005,,,,TRUE
+388,"Monday, 11/7/05",PY,11/7/2005,,,,TRUE
+389,"Wednesday, 11/9/05",PY,11/9/2005,,,,TRUE
+390,"Thursday, 11/10/05",PY,11/10/2005,,,,TRUE
+392,"Monday, 11/14/05",PY,11/14/2005,,,,TRUE
+395,"Wednesday, 11/16/05",PY,11/16/2005,,,,TRUE
+397,"Thursday, 11/17/05",PY,11/17/2005,,,,TRUE
+398,"Tuesday, 11/22/05",PY,11/22/2005,,,,TRUE
+399,"Monday, 11/28/05",PY,11/28/2005,,,,TRUE
+400,"Tuesday, 11/29/05",PY,11/29/2005,,,,TRUE
+401,"Thursday, 12/01/05",PY,12/1/2005,,,,TRUE
+402,December 2005 Monthly Readings,RD,12/1/2005,11/1/2005,12/1/2005,M,FALSE
+403,December Interest/Oct. 05 W/S,IN,12/1/2005,,,,FALSE
+405,"Monday, 12/5/05",PY,12/5/2005,,,,TRUE
+410,"Wednesday, 12/7/05",PY,12/7/2005,,,,TRUE
+411,"Mionday, 12/12/05",PY,12/12/2005,,,,TRUE
+413,"Monday, 12/12/05 #2",PY,12/12/2005,,,,TRUE
+414,"Tuesday, 12/13/05",PY,12/13/2005,,,,TRUE
+415,"Wednesday, 12/14/05",PY,12/14/2005,,,,TRUE
+416,"Monday, 12/19/05",PY,12/19/2005,,,,TRUE
+417,"Thursday, 12/22/05",PY,12/22/2005,,,,TRUE
+419,"Thursday, 12/29/05",PY,12/29/2005,,,,TRUE
+420,January 2006 Monthly,RD,1/1/2006,12/1/2005,1/1/2006,M,FALSE
+421,"Tuesday, 1/10/06",PY,1/10/2006,,,,TRUE
+422,"Tuesday, 1/17/06",PY,1/17/2006,,,,TRUE
+423,"Tuesday, 1/24/06",PY,1/24/2006,,,,TRUE
+424,April 2006 Readings,RD,4/1/2006,10/1/2005,4/1/2006,S,FALSE
+425,February 2006 Monthly,RD,2/1/2006,1/1/2006,2/1/2006,M,FALSE
+426,"Wednesday, 2/1/06",PY,2/1/2006,,,,TRUE
+428,"Monday, 2/13/06",PY,2/13/2006,,,,TRUE
+429,"Wednesday, 2/15/06",PY,2/15/2006,,,,TRUE
+430,"Tuesday, 2/28/06",PY,2/28/2006,,,,TRUE
+432,March 2006 Monthly,RD,3/1/2006,2/1/2006,3/1/2006,M,FALSE
+433,"Wednesday, 3/8/06",PY,3/8/2006,,,,TRUE
+436,"Tuesday, 3/14/06",PY,3/14/2006,,,,TRUE
+437,"Tuesday, 3/21/06",PY,3/21/2006,,,,TRUE
+438,"Thursday, 3/30/06",PY,3/30/2006,,,,TRUE
+439,April 2006 Monthly,RD,4/1/2006,3/1/2006,4/1/2006,M,FALSE
+440,"Monday, 4/3/06",PY,4/3/2006,,,,TRUE
+441,"Tuesday, 4/4/06",PY,4/4/2006,,,,TRUE
+442,"Wednesday, 4/5/06",PY,4/5/2006,,,,TRUE
+443,"Thursday, 4/6/06",PY,4/6/2006,,,,TRUE
+444,"Friday, 4/7/06",PY,4/7/2006,,,,TRUE
+445,"
+onday, 4/10/06",PY,4/10/2006,,,,TRUE
+446,"Tuesday, 4/11/06",PY,4/11/2006,,,,TRUE
+447,"Wednesday, 4/12/06",PY,4/12/2006,,,,TRUE
+448,"Thursday, 4/13/06",PY,4/13/2006,,,,TRUE
+449,"Monday, 4/17/06",PY,4/17/2006,,,,TRUE
+450,"Tuesday, 4/18/06",PY,4/18/2006,,,,TRUE
+451,"Wednesday, 4/19/06",PY,4/19/2006,,,,TRUE
+452,"Thursday, 4/20/06",PY,4/20/2006,,,,TRUE
+453,"Friday, 4/21/06",PY,4/21/2006,,,,TRUE
+454,"Monday, 4/24/06",PY,4/24/2006,,,,TRUE
+455,"Tuesday, 4/25/06",PY,4/25/2006,,,,TRUE
+456,"Wednesday, 4/26/07",PY,4/26/2006,,,,TRUE
+457,"Thursday, 4/27/06",PY,4/27/2006,,,,TRUE
+458,Friday. 4/28/06,PY,4/28/2006,,,,TRUE
+459,"Monday, 5/1/06",PY,5/1/2006,,,,TRUE
+461,May 2006 Monthly,RD,5/1/2006,4/1/2006,5/1/2006,M,FALSE
+462,"Tuesday, 5/2/06",PY,5/2/2006,,,,TRUE
+463,"Wednesday, 5/3/06",PY,5/3/2006,,,,TRUE
+464,May 2006 interest,IN,5/1/2006,,,,FALSE
+466,"Thursday, 5/4/06",PY,5/4/2006,,,,TRUE
+468,"Monday, 5/8/06",PY,5/8/2006,,,,TRUE
+469,"Tuesday, 5/9/06",PY,5/9/2006,,,,TRUE
+470,"Wednesday, 5/10/06",PY,5/10/2006,,,,TRUE
+471,"Thursday, 5/11/06",PY,5/11/2006,,,,TRUE
+472,"Monday, 5/15/06",PY,5/15/2006,,,,TRUE
+473,"Wednesday, 5/17/06",PY,5/17/2006,,,,TRUE
+474,"Thursday, 5/18/06",PY,5/18/2006,,,,TRUE
+475,"Wednesday, 5/24/06",PY,5/24/2006,,,,TRUE
+478,"Friday, 5/26/06",PY,5/26/2006,,,,TRUE
+479,"Tuesday, 5/30/06",PY,5/30/2006,,,,TRUE
+480,June 2006 Monthly,RD,6/1/2006,5/1/2006,6/1/2006,M,FALSE
+481,"Thursday, 6/1/06",PY,6/1/2006,,,,TRUE
+482,June 2006 Int.,IN,6/1/2006,,,,FALSE
+483,"Tuesday, 6/6/06",PY,6/6/2006,,,,TRUE
+484,"Wednesday, 6/7/06",PY,6/7/2006,,,,TRUE
+485,"Thursday, 6/8/06",PY,6/8/2006,,,,TRUE
+486,"Friday, 6/9/06",PY,6/9/2006,,,,TRUE
+487,"Monday, 6/12/06",PY,6/12/2006,,,,TRUE
+488,"Tuesday, 6/13/06",PY,6/13/2006,,,,TRUE
+489,"Wednesday, 6/14/06",PY,6/14/2006,,,,TRUE
+490,"Tuesday, 6/20/06",PY,6/20/2006,,,,TRUE
+491,"Thursday, 6/22/06",PY,6/22/2006,,,,TRUE
+492,"Tuesday, 6/27/06",PY,6/27/2006,,,,TRUE
+493,"Friday, 6/30/06",PY,6/30/2006,,,,TRUE
+494,July 2006 Monthly,RD,7/1/2006,6/1/2006,7/1/2006,M,FALSE
+495,"Thursday, 7/6/06",PY,7/6/2006,,,,TRUE
+496,"Monday, 7/10/06",PY,7/10/2006,,,,TRUE
+498,"Tuesday, 7/11/06",PY,7/11/2006,,,,TRUE
+499,"Friday, 7/14/06",PY,7/14/2006,,,,TRUE
+500,"Thursday, 7/20/06",PY,7/20/2006,,,,TRUE
+501,"Monday, 7/24/06",PY,7/24/2006,,,,TRUE
+503,October 2006 readings,RD,10/1/2006,4/1/2006,10/1/2006,S,FALSE
+504,"Wednesday, 7/26/06",PY,7/26/2006,,,,TRUE
+505,"Saturday, 7/29/06",PY,7/29/2006,,,,TRUE
+506,August 2006 Monthly,RD,8/1/2006,7/1/2006,8/1/2006,M,FALSE
+507,"Tuesday, 8/1/06",PY,8/1/2006,,,,TRUE
+508,"Friday, 8/11/06",PY,8/11/2006,,,,TRUE
+509,"Monday, 8/14/06",PY,8/14/2006,,,,TRUE
+512,"Monday, 8/21/06",PY,8/21/2006,,,,TRUE
+513,"Wednesday, 8/23/06",PY,8/23/2006,,,,TRUE
+514,"Monday, 8/28/06",PY,8/28/2006,,,,TRUE
+516,September 2006 Monthly,RD,9/1/2006,8/1/2006,9/1/2006,M,FALSE
+517,"Monday, 9/18/06",PY,9/18/2006,,,,TRUE
+518,"Friday, 9/22/06",PY,9/22/2006,,,,TRUE
+519,"Monday, 10/2/06",PY,10/2/2006,,,,TRUE
+520,"October, 2006 Monthly",RD,10/1/2006,9/1/2006,10/1/2006,M,FALSE
+521,"Tuesday, 10/3/06",PY,10/3/2006,,,,TRUE
+522,"Wednesday, 10/4/06",PY,10/4/2006,,,,TRUE
+523,"Thursday, 10/5/06",PY,10/5/2006,,,,TRUE
+524,"Friday, 10/6/06",PY,10/6/2006,,,,TRUE
+525,"Tuesday, 10/10/06",PY,10/10/2006,,,,TRUE
+526,"Wednesday, 10/11/06",PY,10/11/2006,,,,TRUE
+527,"Thursday, 10/12/06",PY,10/12/2006,,,,TRUE
+528,"Friday, 10/13/06",PY,10/13/2006,,,,TRUE
+529,"Monday, 10/16/06",PY,10/16/2006,,,,TRUE
+530,"Tuesday, 10/17/06",PY,10/17/2006,,,,TRUE
+531,"Wednesday, 10/18/06",PY,10/18/2006,,,,TRUE
+532,"Thursday, 10/19/06",PY,10/19/2006,,,,TRUE
+533,"Friday, 10/20/06",PY,10/20/2006,,,,TRUE
+534,"Monday, 10/23/06",PY,10/23/2006,,,,TRUE
+535,"Tuesday, 10/24/06",PY,10/24/2006,,,,TRUE
+536,"Wednesday, 10/25/06",PY,10/25/2006,,,,TRUE
+537,"Thursday, 10/26/06",PY,10/26/2006,,,,TRUE
+538,"Friday, 10/27/06",PY,10/27/2006,,,,TRUE
+539,"Monday, 10/30/06",PY,10/30/2006,,,,TRUE
+540,November 2006 Monthly,RD,11/1/2006,10/1/2006,11/1/2006,M,FALSE
+541,"Tuesday, 10/31/06",PY,10/31/2006,,,,TRUE
+542,"Wednesday, 11/01/06",PY,11/1/2006,,,,TRUE
+543,"Thursday, 11/2/06",PY,11/2/2006,,,,TRUE
+544,November interest,IN,11/1/2006,,,,FALSE
+545,"Monday, 11/6/06",PY,11/6/2006,,,,TRUE
+546,"Wednesday, 11/8/06",PY,11/8/2006,,,,TRUE
+547,"Thursday, 11/9/06",PY,11/9/2006,,,,TRUE
+548,Centurelli Field/Seasonal,RD,11/1/2006,4/1/2006,11/1/2006,A,FALSE
+549,"Monday, 11/13/06",PY,11/13/2006,,,,TRUE
+550,"Tuesday, 11/14/06",PY,11/14/2006,,,,TRUE
+551,"Wednesday, 11/15/06",PY,11/15/2006,,,,TRUE
+552,"Tuesday, 11/21/06",PY,11/21/2006,,,,TRUE
+553,"Wednesday, 11/22/06",PY,11/22/2006,,,,TRUE
+554,"Monday, 11/27/06",PY,11/27/2006,,,,TRUE
+555,"Thursday, 11/30/06",PY,11/30/2006,,,,TRUE
+556,Dec. Interest/Oct. 06 readings,IN,12/1/2006,,,,FALSE
+557,December 2006 Monthly,RD,12/1/2006,11/1/2006,12/1/2006,M,FALSE
+558,"Tuesday, 12/5/06",PY,12/5/2006,,,,TRUE
+559,"Friday, 12/8/06",PY,12/8/2006,,,,TRUE
+560,"Monday, 12/11/06",PY,12/11/2006,,,,TRUE
+561,"Wednesday, 12/13/06",PY,12/13/2006,,,,TRUE
+563,"Thursday, 12/14/06",PY,12/14/2006,,,,TRUE
+564,"Monday, 12/18/06",PY,12/18/2006,,,,TRUE
+565,"Wednesday, December 20, 2006",PY,12/20/2006,,,,TRUE
+566,"Thursday, 12/21/06",PY,12/21/2006,,,,TRUE
+567,"Tuesday, 1/2/07",PY,1/2/2007,,,,TRUE
+569,January 2007 Monthly,RD,1/1/2007,12/1/2006,1/1/2007,M,FALSE
+571,Thursday 1/4/07,PY,1/4/2007,,,,TRUE
+573,"Thursday, 1/4/07",PY,1/4/2007,,,,TRUE
+574,"Thursday, 1/11/07",PY,1/11/2007,,,,TRUE
+575,"Monday, 1/22/07",PY,1/22/2007,,,,TRUE
+577,"Wednesday, 1/31/07",PY,1/31/2007,,,,TRUE
+579,February 2007 monthly,RD,2/1/2007,1/1/2007,2/1/2007,M,FALSE
+580,April 2007 readings,RD,4/1/2007,10/1/2006,4/1/2007,S,FALSE
+581,"Friday, 2/9/07",PY,2/9/2007,,,,TRUE
+582,"Friday, 2/16/07",PY,2/16/2007,,,,TRUE
+583,"Thursday, 2/22/07",PY,2/22/2007,,,,TRUE
+584,"Tuesday, 2/27/07",PY,2/27/2007,,,,TRUE
+585,March 2007 monthly,RD,3/1/2007,2/1/2007,3/1/2007,M,FALSE
+586,"Thursday, 3/15/07",PY,3/15/2007,,,,TRUE
+587,"Tuesday, 3/20/07",PY,3/20/2007,,,,TRUE
+588,"Thursday, 3/29/07",PY,3/29/2007,,,,TRUE
+591,April 2007 Monthly,RD,4/1/2007,3/1/2007,4/1/2007,M,FALSE
+592,"Monday, 4/2/07",PY,4/2/2007,,,,TRUE
+593,"Tuesday, 4/3/07",PY,4/3/2007,,,,TRUE
+594,"Wednesday, 4/4/07",PY,4/4/2007,,,,TRUE
+595,"Thursday, 4/5/07",PY,4/5/2007,,,,TRUE
+596,"Monday, 4/9/07",PY,4/9/2007,,,,TRUE
+597,"Tuesday, 4/10/07",PY,4/10/2007,,,,TRUE
+598,"Wednesday, 4/11/07",PY,4/11/2007,,,,TRUE
+599,"Thursday, 4/12/07",PY,4/12/2007,,,,TRUE
+600,"Friday, 4/13/07",PY,4/13/2007,,,,TRUE
+601,"Monday, 4/16/07",PY,4/16/2007,,,,TRUE
+602,"Tuesday, 4/17/07",PY,4/17/2007,,,,TRUE
+603,"Wednesday, 4/18/07",PY,4/18/2007,,,,TRUE
+604,"Thursday, 4/19/07",PY,4/19/2007,,,,TRUE
+605,"Monday, 4/23/07",PY,4/23/2007,,,,TRUE
+606,"Monday, 4/23/07 #2",PY,4/23/2007,,,,TRUE
+607,"Tuesday, 4/24/07",PY,4/24/2007,,,,TRUE
+608,"Wednesday, 4/25/07",PY,4/25/2007,,,,TRUE
+609,"Thursday, 4/26/07",PY,4/26/2007,,,,TRUE
+610,"Friday, 4/27/07",PY,4/27/2007,,,,TRUE
+611,"Monday, 4/30/07",PY,4/30/2007,,,,TRUE
+612,"Tuesday, 5/1/07",PY,5/1/2007,,,,TRUE
+613,"Wednesday, 5/2/07",PY,5/2/2007,,,,TRUE
+614,"Thursday, 5/3/07",PY,5/3/2007,,,,TRUE
+616,May Interest,IN,5/1/2007,,,,FALSE
+617,May 2007 Monthly,RD,5/1/2007,4/1/2007,5/1/2007,M,FALSE
+618,"Friday, 5/4/07",PY,5/4/2007,,,,TRUE
+619,"Monday, 5/7/07",PY,5/7/2007,,,,TRUE
+620,"Wednesday, 5/9/07",PY,5/9/2007,,,,TRUE
+621,"Thursday, 5/10/07",PY,5/10/2007,,,,TRUE
+622,"Tuesday, 5/15/07",PY,5/15/2007,,,,TRUE
+623,"Wednesday, 5/16/07",PY,5/16/2007,,,,TRUE
+624,"Thursday, 5/17/07",PY,5/17/2007,,,,TRUE
+626,June 2007 Monthly,RD,6/1/2007,5/1/2007,6/1/2007,M,FALSE
+627,"Thursday, 5/24/07",PY,5/31/2007,,,,TRUE
+628,"Tuesday, 5/29/07",PY,5/31/2007,,,,TRUE
+629,"Tuesday, 5/22/07",PY,5/31/2007,,,,TRUE
+630,"Thursday, 5/31/07",PY,5/31/2007,,,,TRUE
+631,June interest,IN,6/1/2007,,,,FALSE
+632,"Tuesday, 6/5/07",PY,6/5/2007,,,,TRUE
+633,"Wednesday, 6/6/07",PY,6/6/2007,,,,TRUE
+634,"Thursday, 6/7/07",PY,6/7/2007,,,,TRUE
+635,"Monday, 6/11/07",PY,6/11/2007,,,,TRUE
+636,"Tuesday, 6/12/07",PY,6/12/2007,,,,TRUE
+638,July 2007 Monthly,RD,7/1/2007,6/1/2007,7/1/2007,M,FALSE
+639,"Wednesday, 6/13/07",PY,6/13/2007,,,,TRUE
+640,"Tuesday, 6/19/07",PY,6/19/2007,,,,TRUE
+641,"/Friday, 6/22/07",PY,6/22/2007,,,,TRUE
+643,"Wednesday, 6/27/07",PY,6/27/2007,,,,TRUE
+644,"Friday, 6/29/07",PY,6/29/2007,,,,TRUE
+647,"Thursday, 7/5/07",PY,7/5/2007,,,,TRUE
+648,"Monday, 7/9/07",PY,7/9/2007,,,,TRUE
+649,"Tuesday, 7/10/07",PY,7/10/2007,,,,TRUE
+654,"Monday, 7/16/07",PY,7/16/2007,,,,TRUE
+655,"Monday, 7/16/07",PY,7/16/2007,,,,TRUE
+656,"Tuesday, 7/17/07",PY,7/17/2007,,,,TRUE
+657,"Thursday, 7/19/07",PY,7/19/2007,,,,TRUE
+658,"Monday, 7/23/07",PY,7/23/2007,,,,TRUE
+659,"Tuesday, 7/24/07",PY,7/24/2007,,,,TRUE
+660,"Monday, 7/30/07",PY,7/30/2007,,,,TRUE
+662,August 2007 Monthly,RD,8/1/2007,7/1/2007,8/1/2007,M,FALSE
+663,October 2007 readings,RD,10/1/2007,4/1/2007,10/1/2007,S,FALSE
+664,"Wednesday, 8/1/07",PY,8/1/2007,,,,TRUE
+665,"Wednesday, 8/8/07",PY,8/8/2007,,,,TRUE
+666,"Monday, 8/13/07",PY,8/13/2007,,,,TRUE
+667,"Tuesday, 8/14/07",PY,8/14/2007,,,,TRUE
+668,"Monday, 8/20/07",PY,8/20/2007,,,,TRUE
+669,"Monday, 8/20/07",PY,8/20/2007,,,,TRUE
+670,"Monday, 8/27/07",PY,8/27/2007,,,,TRUE
+671,"Thursday, 8/30/07",PY,8/30/2007,,,,TRUE
+672,September 2007 Monthly,RD,9/1/2007,8/1/2007,9/1/2007,M,FALSE
+673,"Friday, 8/31/07",PY,8/31/2007,,,,TRUE
+675,"Thursday, 9/6/07",PY,9/6/2007,,,,TRUE
+676,"Tuesday, 9/11/07",PY,9/11/2007,,,,TRUE
+677,"Wednesday, 9/12/07",PY,9/12/2007,,,,TRUE
+678,"Monday, 9/17/07",PY,9/17/2007,,,,TRUE
+679,"Thursday, 9/20/07",PY,9/20/2007,,,,TRUE
+680,"Monday, 9/24/07",PY,9/24/2007,,,,TRUE
+681,"Thursday, 9/27/07",PY,9/27/2007,,,,TRUE
+683,"Monday, 10/1/07",PY,10/1/2007,,,,TRUE
+685,October 2007 Monthly,RD,10/1/2007,9/1/2007,10/1/2007,M,FALSE
+686,"Tuesday, 10/2/07",PY,10/2/2007,,,,TRUE
+687,"Wednesday, 10/3/07",PY,10/3/2007,,,,TRUE
+688,"Thursday, 10/4/07",PY,10/4/2007,,,,TRUE
+689,"Friday, 10/5/07",PY,10/5/2007,,,,TRUE
+690,"Tuesday, 10/9/07",PY,10/9/2007,,,,TRUE
+691,"Wednesday, 10/10/07",PY,10/10/2007,,,,TRUE
+692,"Thursday, 10/11/07",PY,10/11/2007,,,,TRUE
+693,"Friday, 10/12/07",PY,10/12/2007,,,,TRUE
+694,"Monday, 10/15/07",PY,10/15/2007,,,,TRUE
+695,"Tuesday, 10/16/07",PY,10/16/2007,,,,TRUE
+696,"Wednesday, 10/17/07",PY,10/17/2007,,,,TRUE
+697,"Thursday, 10/18/07",PY,10/18/2007,,,,TRUE
+698,"Friday, 10/19/07",PY,10/19/2007,,,,TRUE
+699,"Monday, 10/22/07",PY,10/22/2007,,,,TRUE
+700,"Tuesday, 10/23/07",PY,10/23/2007,,,,TRUE
+701,"Wednesday, 10/24/07",PY,10/24/2007,,,,TRUE
+702,"Thursday, 10/25/07",PY,10/25/2007,,,,TRUE
+703,"Friday, 10/26/07",PY,10/26/2007,,,,TRUE
+704,"Monday, 10/29/07",PY,10/29/2007,,,,TRUE
+705,"Tuesday, 10/30/07",PY,10/30/2007,,,,TRUE
+706,"Wednesday, 10/31/07",PY,10/31/2007,,,,TRUE
+707,November 2007 Monthly,RD,11/1/2007,10/1/2007,11/1/2007,M,FALSE
+708,"Thursday, 11/1/07",PY,11/1/2007,,,,TRUE
+709,"Friday, 11/2/07",PY,11/2/2007,,,,TRUE
+710,"Monday, 11/5/07",PY,11/5/2007,,,,TRUE
+711,November 2007 interest,IN,11/1/2007,,,,FALSE
+712,"Monday, 11/5/07 w/int.",PY,11/5/2007,,,,TRUE
+713,"Tuesday, 11/6/07",PY,11/6/2007,,,,TRUE
+714,"Wednesday, 11/7/07",PY,11/7/2007,,,,TRUE
+715,"Thursday, 11/8/07",PY,11/8/2007,,,,TRUE
+716,"Tuesday, 11/13/07",PY,11/13/2007,,,,TRUE
+717,"Thursday, 11/15/07",PY,11/15/2007,,,,TRUE
+718,"Friday, 11/16/07",PY,11/16/2007,,,,TRUE
+720,"Monday, 11/19/07",PY,11/19/2007,,,,TRUE
+721,"Wednesday, 11/21/07",PY,11/21/2007,,,,TRUE
+722,"Monday, 11/26/07",PY,11/26/2007,,,,TRUE
+723,"Wednesday, 11/28/07",PY,11/28/2007,,,,TRUE
+724,"Thursday, 11/29/07",PY,11/29/2007,,,,TRUE
+726,December 2007 Monthly,RD,12/1/2007,11/1/2007,12/1/2007,M,FALSE
+727,"Monday, 12/3/08",PY,12/3/2007,,,,TRUE
+728,December 2007 Int.,IN,12/1/2007,,,,FALSE
+729,"Wednesday, 12/5/07",PY,12/5/2007,,,,TRUE
+730,"Friday, 12/7/07",PY,12/7/2007,,,,TRUE
+731,"Monday, 12/10/07",PY,12/10/2007,,,,TRUE
+732,"Tuesday, 12/11/07",PY,12/11/2007,,,,TRUE
+733,"Wednesday, 12/12/07",PY,12/12/2007,,,,TRUE
+734,"Friday, 12/14/07",PY,12/14/2007,,,,TRUE
+735,"Monday, 12/17/07",PY,12/17/2007,,,,TRUE
+736,"Thursday, 12/20/07",PY,12/20/2007,,,,TRUE
+737,"Friday, 12/28/07",PY,12/28/2007,,,,TRUE
+738,January 2008 Monthly,RD,1/1/2008,12/1/2007,1/1/2008,M,FALSE
+739,"Friday, 1/11/08",PY,1/11/2008,,,,TRUE
+740,"Wednesday, 1/16/08",PY,1/16/2008,,,,TRUE
+741,"Friday, 1/18/08",PY,1/18/2008,,,,TRUE
+742,"Friday, 1/25/08",PY,1/25/2008,,,,TRUE
+743,"Thursday, 1/31/08",PY,1/31/2008,,,,TRUE
+744,"February, 2008 monthly",RD,2/1/2008,1/1/2008,2/1/2008,M,FALSE
+745,"Friday, 2/15/08",PY,2/15/2008,,,,TRUE
+746,"Monday, 2/25/08",PY,2/25/2008,,,,TRUE
+747,"Thursday, 2/28/08",PY,2/28/2008,,,,TRUE
+749,"March, 2008 Monthly",RD,3/1/2008,2/1/2008,3/1/2008,M,FALSE
+751,April 2008 Readings,RD,4/1/2008,10/1/2007,4/1/2008,S,FALSE
+752,"Tuesday, 3/11/08",PY,3/11/2008,,,,TRUE
+754,"Friday, 3/14/08",PY,3/14/2008,,,,TRUE
+755,"Thursday, 3/20/08",PY,3/20/2008,,,,TRUE
+756,"Thursday, 3/27/08",PY,3/27/2008,,,,TRUE
+757,"Monday, 3/31/08",PY,3/31/2008,,,,TRUE
+762,"Tuesday, 4/1/08",PY,4/1/2008,,,,TRUE
+763,April 2008 Monthly,RD,4/1/2008,3/1/2008,4/1/2008,M,FALSE
+764,"Wednesday, 4/2/08",PY,4/2/2008,,,,TRUE
+765,"Thursday, 4/3/08",PY,4/3/2008,,,,TRUE
+767,"Friday, 4/4/08",PY,4/4/2008,,,,TRUE
+768,"Monday, 4/7/08",PY,4/7/2008,,,,TRUE
+769,"Tuesday, 4/8/08",PY,4/8/2008,,,,TRUE
+770,"Wednesday, 4/9/08",PY,4/9/2008,,,,TRUE
+771,"Thursday, 4/10/08",PY,4/10/2008,,,,TRUE
+772,"Monday, 4/14/08",PY,4/14/2008,,,,TRUE
+773,"Tuesday, 4/15/08",PY,4/15/2008,,,,TRUE
+774,"Wednesday, 4/16/08",PY,4/16/2008,,,,TRUE
+776,"Thursday, 4/17/08",PY,4/17/2008,,,,TRUE
+777,"Friday, 4/18/08",PY,4/18/2008,,,,TRUE
+778,"Monday, 4/21/08",PY,4/21/2008,,,,TRUE
+780,"Tuesday, 4/22/08",PY,4/22/2008,,,,TRUE
+781,"Wednesday, 4/23/08",PY,4/23/2008,,,,TRUE
+782,"Thursday, 4/24/08",PY,4/24/2008,,,,TRUE
+783,"Friday, 4/25/08",PY,4/25/2008,,,,TRUE
+784,"Monday, 4/28/08",PY,4/28/2008,,,,TRUE
+785,"Tuesday, 4/29/08",PY,4/29/2008,,,,TRUE
+787,May 2008 Monthly,RD,5/1/2008,4/1/2008,5/1/2008,M,FALSE
+788,"Wednesday, 4/30/08",PY,4/30/2008,,,,TRUE
+789,"Thursday, 5/1/08",PY,5/1/2008,,,,TRUE
+790,April 2008  Readings/May Int.,IN,5/1/2008,,,,FALSE
+791,"Friday, 5/2/08",PY,5/2/2008,,,,TRUE
+793,Monday 5/5/08,PY,5/5/2008,,,,TRUE
+794,"Wednesday, 5/7/08",PY,5/7/2008,,,,TRUE
+796,"Thursday, 5/8/08",PY,5/8/2008,,,,TRUE
+797,"Friday, 5/9/08",PY,5/9/2008,,,,TRUE
+798,"Monday, 5/12/08",PY,5/12/2008,,,,TRUE
+799,"Tuesday, 5/13/08",PY,5/13/2008,,,,TRUE
+800,"Wednesday, 5/14/08",PY,5/14/2008,,,,TRUE
+801,"Thursday, 5/15/08",PY,5/15/2008,,,,TRUE
+802,"Monday, 5/19/08",PY,5/19/2008,,,,TRUE
+803,"Tuesday, 5/20/08",PY,5/20/2008,,,,TRUE
+804,"Wednesday, 5/21/08",PY,5/21/2008,,,,TRUE
+805,"Thursday, 5/22/08",PY,5/22/2008,,,,TRUE
+806,"Wednesday, 5/28/08",PY,5/28/2008,,,,TRUE
+812,June 2008 Monthly,RD,6/1/2008,5/1/2008,6/1/2008,M,FALSE
+813,"Friday, 5/30/08",PY,5/30/2008,,,,TRUE
+814,June Int./Shut-off,IN,6/1/2008,,,,FALSE
+817,"Tuesday, 6/3/08",PY,6/3/2008,,,,TRUE
+819,"Thursday, 6/5/08",PY,6/5/2008,,,,TRUE
+820,"Monday, 6/9/08",PY,6/9/2008,,,,TRUE
+822,"Thursday, 6/12/08",PY,6/12/2008,,,,TRUE
+824,"Friday, 6/13/08",PY,6/13/2008,,,,TRUE
+826,"Tuesday, 6/17/08",PY,6/17/2008,,,,TRUE
+827,"Friday, 6/20/08",PY,6/20/2008,,,,TRUE
+828,"Monday, 6/23/08",PY,6/23/2008,,,,TRUE
+829,"Tuesday, 6/24/08",PY,6/24/2008,,,,TRUE
+831,"Wednesday, 6/25/08",PY,6/25/2008,,,,TRUE
+835,July 2008 Monthly,RD,7/1/2008,6/1/2008,7/1/2008,M,FALSE
+836,"Monday, 6/30/08",PY,6/30/2008,,,,TRUE
+837,"Tuesday, 7/1/08",PY,7/1/2008,,,,TRUE
+839,"Thursday, 7/3/08",PY,7/3/2008,,,,TRUE
+840,"Monday, 7/7/08",PY,7/7/2008,,,,TRUE
+841,"Tuesday, 7/8/08",PY,7/8/2008,,,,TRUE
+842,"Thursday, 7/10/08",PY,7/10/2008,,,,TRUE
+843,"Friday, 7/11/08",PY,7/11/2008,,,,TRUE
+844,"Wednesday, 7/16/08",PY,7/16/2008,,,,TRUE
+845,"Thursday, 7/17/08",PY,7/17/2008,,,,TRUE
+846,"Monday, 7/21/08",PY,7/21/2008,,,,TRUE
+847,"Friday, 7/25/08",PY,7/25/2008,,,,TRUE
+848,"Monday, 7/28/08",PY,7/28/2008,,,,TRUE
+849,"Thursday, 7/31/08",PY,7/31/2008,,,,TRUE
+850,"Friday, 8/1/08",PY,8/1/2008,,,,TRUE
+851,August 2008 Monthly,RD,8/1/2008,7/1/2008,8/1/2008,M,FALSE
+852,"Tuesday, 8/5/08",PY,8/5/2008,,,,TRUE
+853,"Thursday, 8/7/08",PY,8/7/2008,,,,TRUE
+854,"Friday, 8/15/08",PY,8/15/2008,,,,TRUE
+855,"Monday, 8/18/08",PY,8/18/2008,,,,TRUE
+856,"Thursday, 8/21/08",PY,8/21/2008,,,,TRUE
+857,"Friday, 8/22/08",PY,8/22/2008,,,,TRUE
+858,"Tuesday, 8/26/08",PY,8/26/2008,,,,TRUE
+859,September 2008 Monthly,RD,9/1/2008,8/1/2008,9/1/2008,M,FALSE
+861,October 2008 Readings,RD,10/1/2008,4/1/2008,10/1/2008,S,FALSE
+864,"Friday, 8/29/08",PY,8/29/2008,,,,TRUE
+865,"Thursday, 9/4/08",PY,9/4/2008,,,,TRUE
+866,"Tuesday, 9/9/08",PY,9/9/2008,,,,TRUE
+868,"Wednesday, 9/10/08",PY,9/10/2008,,,,TRUE
+869,"Thursday, 9/11/08",PY,9/11/2008,,,,TRUE
+870,"Tuesday, 9/16/08",PY,9/16/2008,,,,TRUE
+871,"Wednesday, 9/17/08",PY,9/17/2008,,,,TRUE
+872,"Thursday, 9/18/08",PY,9/18/2008,,,,TRUE
+873,"Tuesday, 9/23/08",PY,9/23/2008,,,,TRUE
+874,"Wednesday, 9/24/08",PY,9/24/2008,,,,TRUE
+877,October 2008 Monthly,RD,10/1/2008,9/1/2008,10/1/2008,M,FALSE
+878,"Tuesday, 9/30/08",PY,9/30/2008,,,,TRUE
+879,"Wednesday, 10/1/08",PY,10/1/2008,,,,TRUE
+880,"Thursday, 10/2/08",PY,10/2/2008,,,,TRUE
+881,"Monday, 10/6/08",PY,10/6/2008,,,,TRUE
+882,"Tuesday, 10/7/08",PY,10/7/2008,,,,TRUE
+883,"Wednesday, 10/8/08",PY,10/8/2008,,,,TRUE
+884,"Thursday, 10/9/08",PY,10/9/2008,,,,TRUE
+885,"Friday, 10/10/08",PY,10/10/2008,,,,TRUE
+887,"Tuesday, 10/14/08",PY,10/14/2008,,,,TRUE
+888,"Wednesday, 10/15/08",PY,10/15/2008,,,,TRUE
+889,"Thursday, 10/16/08",PY,10/16/2008,,,,TRUE
+890,"Friday, 10/17/08",PY,10/17/2008,,,,TRUE
+891,"Monday, 10/20/08",PY,10/20/2008,,,,TRUE
+893,"Tuesday, 10/21/08",PY,10/21/2008,,,,TRUE
+894,"Wednesday, 10/22/08",PY,10/22/2008,,,,TRUE
+895,"Thursday, 10/23/08",PY,10/23/2008,,,,TRUE
+896,"Monday, 10/27/08",PY,10/27/2008,,,,TRUE
+897,"Tuesday, 10/28/08",PY,10/28/2008,,,,TRUE
+899,November 2008 Monthly,RD,11/1/2008,10/1/2008,11/1/2008,M,FALSE
+900,"Wednesday, 10/29/08",PY,10/29/2008,,,,TRUE
+901,"Thursday, 10/30/08",PY,10/30/2008,,,,TRUE
+902,"Friday, 10/31/08",PY,10/31/2008,,,,TRUE
+903,"Monday, 11/3/08",PY,11/3/2008,,,,TRUE
+905,"Tuesday, 11/4/08",PY,11/4/2008,,,,TRUE
+906,November Interest,IN,11/1/2008,,,,FALSE
+907,"Wednesday, 11/5/08",PY,11/5/2008,,,,TRUE
+908,"Thursday, 11/6/08",PY,11/6/2008,,,,TRUE
+909,"Monday, 11/10/08",PY,11/10/2008,,,,TRUE
+912,"Thursday, 11/13/08",PY,11/13/2008,,,,TRUE
+913,"Friday, 11/14/08",PY,11/14/2008,,,,TRUE
+914,"Monday, 11/17/08",PY,11/17/2008,,,,TRUE
+916,"Tuesday, 11/18/08",PY,11/18/2008,,,,TRUE
+917,"Wednesday, 11/19/08",PY,11/19/2008,,,,TRUE
+918,"Thursday, 11/20/08",PY,11/20/2008,,,,TRUE
+920,December 2008 Monthly,RD,12/1/2008,11/1/2008,12/1/2008,M,FALSE
+922,"Tuesday, 11/25/08",PY,11/25/2008,,,,TRUE
+923,"Wednesday, 11/26/08",PY,11/26/2008,,,,TRUE
+924,"Monday, 12/1/08",PY,12/1/2008,,,,TRUE
+926,December 2008 interest,IN,12/1/2008,,,,FALSE
+929,"Wednesday, 12/3/08",PY,12/3/2008,,,,TRUE
+930,"Thursday, 12/4/08",PY,12/4/2008,,,,TRUE
+932,"Monday, 12/1/08",PY,12/8/2008,,,,TRUE
+933,"Wednesday, 12/10/08",PY,12/10/2008,,,,TRUE
+934,"Thursday, 12/11/08",PY,12/11/2008,,,,TRUE
+936,"Monday, 12/15/08",PY,12/15/2008,,,,TRUE
+938,"Tuesday, 12/16/08",PY,12/16/2008,,,,TRUE
+940,"Wednesday, 12/17/08",PY,12/17/2008,,,,TRUE
+941,"Thursday, 12/18/08",PY,12/18/2008,,,,TRUE
+942,"Friday, 12/19/08",PY,12/19/2008,,,,TRUE
+943,"Friday, 12/19/08 #2",PY,12/19/2008,,,,TRUE
+944,"Tuesday, 12/23/08",PY,12/23/2008,,,,TRUE
+945,"Tuesday, 12/30/08",PY,12/30/2008,,,,TRUE
+946,"Friday, l/2/09",PY,1/2/2009,,,,TRUE
+947,January 2009 monthly,RD,1/1/2009,12/1/2008,1/1/2009,M,FALSE
+948,"Tuesday, 1/6/09",PY,1/6/2009,,,,TRUE
+949,"Tuesday, 1/13/09",PY,1/13/2009,,,,TRUE
+950,"Friday, 1/16/09",PY,1/16/2009,,,,TRUE
+951,"Tuesday, 1/21/09",PY,1/21/2009,,,,TRUE
+952,"February, 2009  Monthly",RD,2/1/2009,1/1/2009,2/1/2009,M,FALSE
+953,"Thursday, 1/29/09",PY,1/29/2009,,,,TRUE
+954,"Friday, 1/30/09",PY,1/30/2009,,,,TRUE
+955,"Monday, 2/2/09",PY,2/2/2009,,,,TRUE
+956,"Wednesday, 2/4/09",PY,2/4/2009,,,,TRUE
+957,"Friday, 2/6/09",PY,2/6/2009,,,,TRUE
+958,"Monday, 2/9/09",PY,2/9/2009,,,,TRUE
+959,"Thursday, 2/12/09",PY,2/12/2009,,,,TRUE
+960,"Monday, 2/23/09",PY,2/23/2009,,,,TRUE
+961,March 2009 Monthly,RD,3/1/2009,2/1/2009,3/1/2009,M,FALSE
+964,April 2009 Readings,RD,4/1/2009,10/1/2008,4/1/2009,S,FALSE
+965,"Tuesday, 3/3/09",PY,3/3/2009,,,,TRUE
+966,"Friday, 3/6/09",PY,3/6/2009,,,,TRUE
+967,"Tuesday, 3/17/09",PY,3/17/2009,,,,TRUE
+968,"Wednesday, 3/18/09",PY,3/18/2009,,,,TRUE
+969,April 2009 Monthly,RD,4/1/2009,3/1/2009,4/1/2009,M,FALSE
+970,"Friday, 3/27/09",PY,3/27/2009,,,,TRUE
+972,"Friday, 3/27/09",PY,3/27/2009,,,,TRUE
+973,"Tuesday, 3/31/09",PY,3/31/2009,,,,TRUE
+974,"Wednesday, 4/1/09",PY,4/1/2009,,,,TRUE
+976,"Thursday, 4/2/09",PY,4/2/2009,,,,TRUE
+978,"Friday, 4/3/09",PY,4/3/2009,,,,TRUE
+979,"Monday, 4/6/09",PY,4/6/2009,,,,TRUE
+980,"Tuesday, 4/7/09",PY,4/7/2009,,,,TRUE
+981,"Wednesday, 4/8/09",PY,4/8/2009,,,,TRUE
+982,"Thursday, 4/9/09",PY,4/9/2009,,,,TRUE
+983,"Monday, 4/13/09",PY,4/13/2009,,,,TRUE
+984,"Tuesday, 4/14/09",PY,4/14/2009,,,,TRUE
+985,"Wednesday, 4/15/09",PY,4/15/2009,,,,TRUE
+986,"Thursday, 4/16/09",PY,4/16/2009,,,,TRUE
+987,"Friday, 4/17/09",PY,4/17/2009,,,,TRUE
+988,"Monday, 4/20/09",PY,4/20/2009,,,,TRUE
+989,"Tuesday, 4/21/09",PY,4/21/2009,,,,TRUE
+990,"Wednesday, 4/22/09",PY,4/22/2009,,,,TRUE
+992,"Thursday, 4/23/09",PY,4/23/2009,,,,TRUE
+994,"Friday, 4/24/09",PY,4/24/2009,,,,TRUE
+995,"Monday, 4/27/09",PY,4/27/2009,,,,TRUE
+998,May 2009 Monthly,RD,5/1/2009,4/1/2009,5/1/2009,M,FALSE
+999,"Tuesday, 4/28/09",PY,4/28/2009,,,,TRUE
+1000,"Wednesday, 4/29/09",PY,4/29/2009,,,,TRUE
+1001,"Thursday, 4/30/09",PY,4/30/2009,,,,TRUE
+1002,"Friday, 5/1/09",PY,5/1/2009,,,,TRUE
+1003,"Monday, 5/4/09",PY,5/4/2009,,,,TRUE
+1004,May 2009 interest,IN,5/1/2009,,,,FALSE
+1005,"Tuesday, 5/5/09",PY,5/5/2009,,,,TRUE
+1006,"Wednesday, 5/6/09",PY,5/6/2009,,,,TRUE
+1007,"Thursday, 5/7/09",PY,5/7/2009,,,,TRUE
+1008,"Monday, 5/11/09",PY,5/11/2009,,,,TRUE
+1009,"Tuesday, 5/12/09",PY,5/12/2009,,,,TRUE
+1010,"Wednesday, 5/13/09",PY,5/13/2009,,,,TRUE
+1011,"Thursday, 5/14/09",PY,5/14/2009,,,,TRUE
+1012,"Monday, 5/18/09",PY,5/18/2009,,,,TRUE
+1013,"Tuesday, 5/19/09",PY,5/19/2009,,,,TRUE
+1014,"Thursday, 5/21/09",PY,5/21/2009,,,,TRUE
+1015,"Tuesday, 5/26/09",PY,5/26/2009,,,,TRUE
+1016,"Wednesday, 5/27/09",PY,5/27/2009,,,,TRUE
+1017,June 2009 Monthly,RD,6/1/2009,5/1/2009,6/1/2009,M,FALSE
+1018,"Thursday, 5/28/09",PY,5/28/2009,,,,TRUE
+1019,"Monday, 6/1/09",PY,6/1/2009,,,,TRUE
+1020,June Int. - Shut-off,IN,6/1/2009,,,,FALSE
+1024,"June 1, 2009 #3",RD,6/1/2009,5/1/2009,6/1/2009,M,FALSE
+1025,"Thursday, 6/4/09",PY,6/4/2009,,,,TRUE
+1026,"Tuesday, 6/9/09",PY,6/9/2009,,,,TRUE
+1027,"Wednesday, 6/10/09",PY,6/10/2009,,,,TRUE
+1028,"Thursday, 6/11/09",PY,6/11/2009,,,,TRUE
+1029,"Monday, 6/15/09",PY,6/15/2009,,,,TRUE
+1030,"Tuesday, 6/16/09",PY,6/16/2009,,,,TRUE
+1031,"Wednesday, 6/17/09",PY,6/17/2009,,,,TRUE
+1032,"Thursday, 6/18/09",PY,6/18/2009,,,,TRUE
+1033,"Monday, 6/22/09",PY,6/22/2009,,,,TRUE
+1034,"Thursday, 6/25/09",PY,6/25/2009,,,,TRUE
+1035,"Monday, 6/29/09",PY,6/29/2009,,,,TRUE
+1038,July 2009 Monthly,RD,7/1/2009,6/1/2009,7/1/2009,M,FALSE
+1039,"Tuesday, 6/30/09",PY,6/30/2009,,,,TRUE
+1040,"Thursday, 7/2/09",PY,7/2/2009,,,,TRUE
+1041,"Wednesday, 7/8/09",PY,7/8/2009,,,,TRUE
+1042,"Friday, 7/10/09",PY,7/10/2009,,,,TRUE
+1043,"Monday, 7/13/09",PY,7/13/2009,,,,TRUE
+1044,"Wednesday, 7/15/09",PY,7/15/2009,,,,TRUE
+1045,"Thursday, 7/16/09",PY,7/16/2009,,,,TRUE
+1046,"Monday, 7/20/09",PY,7/20/2009,,,,TRUE
+1047,"Wednesday, 7/22/09",PY,7/22/2009,,,,TRUE
+1048,"Thursday, 7/23/09",PY,7/23/2009,,,,TRUE
+1049,"Wednesday, 7/29/09",PY,7/29/2009,,,,TRUE
+1050,"Thursday, 7/30/09",PY,7/30/2009,,,,TRUE
+1051,"Thursday, 7/30/09",PY,7/30/2009,,,,TRUE
+1054,August 2009 Monthly,RD,8/1/2009,7/1/2009,8/1/2009,M,FALSE
+1056,"Tuesday, 8/4/09",PY,8/4/2009,,,,TRUE
+1057,"Monday, 8/10/09",PY,8/10/2009,,,,TRUE
+1058,"Friday, 8/14/09",PY,8/14/2009,,,,TRUE
+1059,"Monday, 8/17/09",PY,8/17/2009,,,,TRUE
+1060,"Thursday, 8/20/09",PY,8/20/2009,,,,TRUE
+1061,"Monday, 8/24/09",PY,8/24/2009,,,,TRUE
+1063,Monthly & Pit 9/1/09,RD,9/1/2009,8/1/2009,9/1/2009,M,FALSE
+1065,October 2009 Readings,RD,10/1/2009,4/1/2009,10/1/2009,S,FALSE
+1066,"Monday, 8/31/09",PY,8/31/2009,,,,TRUE
+1067,"Tuesday, 9/1/09",PY,9/1/2009,,,,TRUE
+1068,"Friday, 9/4/09",PY,9/4/2009,,,,TRUE
+1069,"Tuesday, 9/8/09",PY,9/8/2009,,,,TRUE
+1070,"Wednesday, 9/16/09",PY,9/16/2009,,,,TRUE
+1071,"Thursday, 9/17/09",PY,9/17/2009,,,,TRUE
+1072,"Monday, 9/21/09",PY,9/21/2009,,,,TRUE
+1073,"Thursday, 9/24/09",PY,9/24/2009,,,,TRUE
+1076,"Monday, 9/28/09",PY,9/28/2009,,,,TRUE
+1077,Meter Pit Monthly 10/09,RD,10/1/2009,9/1/2009,10/1/2009,M,FALSE
+1079,"Thursday, 10/1/09",PY,10/1/2009,,,,TRUE
+1080,"Friday, 10/2/09",PY,10/2/2009,,,,TRUE
+1081,"Monday, 10/5/09",PY,10/5/2009,,,,TRUE
+1082,"Monday, 10/5/09 #2",PY,10/5/2009,,,,TRUE
+1083,"Tuesday, 10/6/09",PY,10/6/2009,,,,TRUE
+1084,"Wednesday, 10/7/09",PY,10/7/2009,,,,TRUE
+1085,"Thursday, 10/8/09",PY,10/8/2009,,,,TRUE
+1086,"Thursday, 10/8/09 #2",PY,10/8/2009,,,,TRUE
+1087,"Friday, 10/9/09",PY,10/9/2009,,,,TRUE
+1089,"Tuesday, 10/13/09",PY,10/13/2009,,,,TRUE
+1090,"Wednesday, 10/14/09",PY,10/14/2009,,,,TRUE
+1091,"Thursday, 10/15/09",PY,10/15/2009,,,,TRUE
+1092,"Friday, 10/16/09",PY,10/16/2009,,,,TRUE
+1093,"Monday, 10/19/09",PY,10/19/2009,,,,TRUE
+1094,"Tuesday, 10/20/09",PY,10/20/2009,,,,TRUE
+1095,"Wednesday, 10/21/09",PY,10/21/2009,,,,TRUE
+1096,"Thursday, 10/22/09",PY,10/22/2009,,,,TRUE
+1097,"Friday, 10/23/09",PY,10/23/2009,,,,TRUE
+1098,"Monday, 10/26/09",PY,10/26/2009,,,,TRUE
+1109,"Tuesday, 10/27/09",PY,10/27/2009,,,,TRUE
+1110,"Wednesday, 10/28/09",PY,10/28/2009,,,,TRUE
+1111,"Thursday, 10/29/09",PY,10/29/2009,,,,TRUE
+1112,November 2009 Monthly,RD,11/1/2009,10/1/2009,11/1/2009,M,FALSE
+1115,November 2009 Meter Pit,RD,11/1/2009,10/1/2009,11/1/2009,Q,FALSE
+1118,"Friday, 10/30/09",PY,10/30/2009,,,,TRUE
+1119,"Monday, 11/2/09",PY,11/2/2009,,,,TRUE
+1120,"Wednesday, 11/4/09",PY,11/4/2009,,,,TRUE
+1121,November 2009 Interest,IN,11/1/2009,,,,FALSE
+1122,"Friday, 11/6/09",PY,11/6/2009,,,,TRUE
+1124,"Monday, 11/09/09",PY,11/9/2009,,,,TRUE
+1125,"Tuesday, 11/10/09",PY,11/10/2009,,,,TRUE
+1126,"Friday, 11/13/09",PY,11/13/2009,,,,TRUE
+1127,"Monday, 11/16/09",PY,11/16/2009,,,,TRUE
+1128,"Wednesday, 11/18/09",PY,11/18/2009,,,,TRUE
+1129,"Thursday, 11/19/2009",PY,11/19/2009,,,,TRUE
+1130,"Friday, 11/20/09",PY,11/20/2009,,,,TRUE
+1132,"Monday, 11/23/09",PY,11/23/2009,,,,TRUE
+1133,December 2009 Monthly,RD,12/1/2009,11/1/2009,12/1/2009,M,FALSE
+1134,Meter Pit Readings December 2009,RD,12/1/2009,11/1/2009,12/1/2009,Q,FALSE
+1135,"Tuesday, 11/24/2009",PY,11/25/2009,,,,TRUE
+1136,"Monday, 11/30/2009",PY,11/30/2009,,,,TRUE
+1137,"Tuesday, 12/1/2009",PY,12/1/2009,,,,TRUE
+1138,December 2009 Interest,IN,12/1/2009,,,,FALSE
+1139,"Thursday, 12/3/09",PY,12/3/2009,,,,TRUE
+1140,"Friday, 12/4/09",PY,12/4/2009,,,,TRUE
+1141,"Monday, 12/7/09",PY,12/7/2009,,,,TRUE
+1144,"Tuesday, 12/08/09",PY,12/8/2009,,,,TRUE
+1145,"Thursday, 12/10/09",PY,12/10/2009,,,,TRUE
+1146,"Monday, 12/14/09",PY,12/14/2009,,,,TRUE
+1147,"Tuesday, 12/15/09",PY,12/15/2009,,,,TRUE
+1148,"Thursday, 12/17/09",PY,12/17/2009,,,,TRUE
+1149,"Friday, 12/18/09",PY,12/18/2009,,,,TRUE
+1150,"Mondayt, 12/21/09",PY,12/21/2009,,,,TRUE
+1151,January 2010 Monthly,RD,1/1/2010,12/1/2009,1/1/2010,M,FALSE
+1152,January 2010 Meter Pits,RD,1/1/2010,12/1/2009,1/1/2010,Q,FALSE
+1153,"Tuesday, 12/22/09",PY,12/22/2009,,,,TRUE
+1154,"Monday, 12/28/09",PY,12/28/2009,,,,TRUE
+1155,"Thursday, 1/7/2010",PY,1/7/2010,,,,TRUE
+1156,"Tuesday, 1/12/2010",PY,1/12/2010,,,,TRUE
+1157,Bounced Check Fees,PY,1/7/2010,,,,TRUE
+1158,"Wednesday, 1/20/10",PY,1/20/2010,,,,TRUE
+1159,February 2010 Monthly,RD,2/1/2010,1/1/2010,2/1/2010,M,FALSE
+1162,February 2010 Meter Pits,RD,2/1/2010,1/1/2010,2/1/2010,Q,FALSE
+1163,"Thursday, 1/28/10",PY,1/28/2010,,,,TRUE
+1164,"Friday, 1/29/10",PY,1/29/2010,,,,TRUE
+1165,"Monday, 2/1/10",PY,2/1/2010,,,,TRUE
+1166,April 2010 Readings,RD,4/1/2010,10/1/2009,4/1/2010,S,FALSE
+1167,"Friday, 2/5/10",PY,2/5/2010,,,,TRUE
+1168,"Friday, 2/12/10",PY,2/12/2010,,,,TRUE
+1169,"Friday, 2/19/10",PY,2/19/2010,,,,TRUE
+1170,"Tuesday, 2/23/10",PY,2/23/2010,,,,TRUE
+1171,March 2010 Monthly,RD,3/1/2010,2/1/2010,3/1/2010,M,FALSE
+1172,March 2010 Meter Pits,RD,3/1/2010,2/1/2010,3/1/2010,Q,FALSE
+1173,"Monday, 3/1/10",PY,3/1/2010,,,,TRUE
+1174,"Wednesday, 3/3/10",PY,3/3/2010,,,,TRUE
+1175,"Wednesday, 3/10/10",PY,3/10/2010,,,,TRUE
+1176,"Monday, 3/15/10",PY,3/15/2010,,,,TRUE
+1177,"Thursday, 3/25/10",PY,3/25/2010,,,,TRUE
+1178,April 2010 Monthly,RD,4/1/2010,3/1/2010,4/1/2010,M,FALSE
+1179,April 2010 Meter Pits,RD,4/1/2010,3/1/2010,4/1/2010,Q,FALSE
+1180,"Wednesday, 3/31/2010",PY,3/31/2010,,,,TRUE
+1181,"Thursday, 4/1/2010",PY,4/1/2010,,,,TRUE
+1182,"Monday, 4/5/2010",PY,4/5/2010,,,,TRUE
+1183,"Monday, 4/5/2010 - Batch 2",PY,4/5/2010,,,,TRUE
+1184,"Tuesday, 4/6/2010",PY,4/6/2010,,,,TRUE
+1185,"Wednesday, 4/7/2010",PY,4/7/2010,,,,TRUE
+1186,"Thursday, 4/8/2010",PY,4/8/2010,,,,TRUE
+1187,"Friday, 4/9/10",PY,4/9/2010,,,,TRUE
+1188,"Monday, 4/12/2010",PY,4/12/2010,,,,TRUE
+1189,"Tuesday, 4/13/2010",PY,4/13/2010,,,,TRUE
+1190,"Wednesday, 4/14/2010",PY,4/14/2010,,,,TRUE
+1191,"Thursday, 4/15/2010",PY,4/15/2010,,,,TRUE
+1192,"Friday, 4/16/10",PY,4/16/2010,,,,TRUE
+1193,"Monday, 4/19/2010",PY,4/19/2010,,,,TRUE
+1194,"Tuesday, 4/20/2010",PY,4/20/2010,,,,TRUE
+1195,"Wednesday, 4/21/2010",PY,4/21/2010,,,,TRUE
+1196,"Thursday, 4/22/2010",PY,4/22/2010,,,,TRUE
+1197,"Friday, 4/23/10",PY,4/23/2010,,,,TRUE
+1198,May 2010 Monthly,RD,5/1/2010,4/1/2010,5/1/2010,M,FALSE
+1199,May 2010 Meter Pits,RD,5/1/2010,4/1/2010,5/1/2010,Q,FALSE
+1200,"Monday, 4/26/2010",PY,4/26/2010,,,,TRUE
+1201,"Tuesday, 4/27/2010",PY,4/27/2010,,,,TRUE
+1202,"Wednesday, 4/28/2010",PY,4/28/2010,,,,TRUE
+1203,"Thursday, 4/29/2010",PY,4/29/2010,,,,TRUE
+1204,"Friday, 4/30/10",PY,4/30/2010,,,,TRUE
+1205,"Monday, 5/3/2010",PY,5/3/2010,,,,TRUE
+1206,May Interest,IN,5/1/2010,,,,FALSE
+1207,"Wednesday, 5/5/2010",PY,5/5/2010,,,,TRUE
+1209,"Thursday, 5/6/2010",PY,5/6/2010,,,,TRUE
+1210,"Friday, 5/7/10",PY,5/7/2010,,,,TRUE
+1211,"Monday, 5/10/10",PY,5/10/2010,,,,TRUE
+1212,"Tuesday, 5/11/2010",PY,5/11/2010,,,,TRUE
+1213,"Wednesday, 5/12/2010",PY,5/12/2010,,,,TRUE
+1214,"Thursday, 5/13/2010",PY,5/13/2010,,,,TRUE
+1215,"Friday, 5/14/10",PY,5/14/2010,,,,TRUE
+1216,"Monday, 5/17/10",PY,5/17/2010,,,,TRUE
+1217,"Wednesday, 5/19/2010",PY,5/19/2010,,,,TRUE
+1218,"Monday, 5/24/10",PY,5/24/2010,,,,TRUE
+1219,"Tuesday, 5/25/2010",PY,5/25/2010,,,,TRUE
+1220,"Wednesday, 5/26/2010",PY,5/26/2010,,,,TRUE
+1222,"Thursday, 5/27/10",PY,5/27/2010,,,,TRUE
+1223,June 2010 Monthly,RD,6/1/2010,5/1/2010,6/1/2010,M,FALSE
+1224,June 2010 Meter Pits,RD,6/1/2010,5/1/2010,6/1/2010,Q,FALSE
+1225,"Tuesday, 6/1/2010",PY,6/1/2010,,,,TRUE
+1226,June Interest/Shut-off,IN,6/1/2010,,,,FALSE
+1227,"Wednesday, 6/2/2010",PY,6/2/2010,,,,TRUE
+1228,"Monday, 6/7/10",PY,6/7/2010,,,,TRUE
+1229,"Wednesday, 6/9/2010",PY,6/9/2010,,,,TRUE
+1230,"Friday, 6/11/10",PY,6/11/2010,,,,TRUE
+1231,"Monday, 6/14/2010",PY,6/14/2010,,,,TRUE
+1232,"Tuesday, 6/15/10",PY,6/15/2010,,,,TRUE
+1233,"Wednesday, 6/16/2010",PY,6/16/2010,,,,TRUE
+1234,"Friday, 6/18/2010",PY,6/18/2010,,,,TRUE
+1235,"Monday, 6/21/2010",PY,6/21/2010,,,,TRUE
+1236,"Wednesday, 6/23/10",PY,6/23/2010,,,,TRUE
+1237,"Friday, 6/25/10",PY,6/25/2010,,,,TRUE
+1238,July 2010 Monthly,RD,7/1/2010,6/1/2010,7/1/2010,M,FALSE
+1239,July 2010 Meter Pits,RD,7/1/2010,6/1/2010,7/1/2010,Q,FALSE
+1240,"Tuesday, 6/29/10",PY,6/29/2010,,,,TRUE
+1241,"Thursday, 7/1/10",PY,7/1/2010,,,,TRUE
+1243,"Tuesday, 7/6/2010",PY,7/6/2010,,,,TRUE
+1244,"Wednesday, 7/7/2010",PY,7/7/2010,,,,TRUE
+1245,"Thursday, 7/8/10",PY,7/8/2010,,,,TRUE
+1246,"Friday, 7/9/10",PY,7/9/2010,,,,TRUE
+1247,"Tuesday, 7/13/10",PY,7/13/2010,,,,TRUE
+1248,"Friday, 7/16/10",PY,7/16/2010,,,,TRUE
+1249,"Monday, 7/19/10",PY,7/19/2010,,,,TRUE
+1250,"Tuesday, 7/20/10",PY,7/20/2010,,,,TRUE
+1252,"Friday, 7/23/10",PY,7/23/2010,,,,TRUE
+1253,Friday 7/23/10 #2,PY,7/23/2010,,,,TRUE
+1254,"Monday, 7/26/10",PY,7/26/2010,,,,TRUE
+1255,"August, 2010 Monthly",RD,8/1/2010,7/1/2010,8/1/2010,M,FALSE
+1256,"August, 2010 Meter Pits",RD,8/1/2010,7/1/2010,8/1/2010,Q,FALSE
+1257,"Monday, 8/2/10",PY,8/2/2010,,,,TRUE
+1258,"Tuesday, 8/3/10",PY,8/3/2010,,,,TRUE
+1259,"Thursday, 8/5/10",PY,8/5/2010,,,,TRUE
+1260,"Tuesday, 8/10/10",PY,8/10/2010,,,,TRUE
+1262,"Thursday, 8/12/10",PY,8/12/2010,,,,TRUE
+1263,"Tuesday, 8/17/10",PY,8/17/2010,,,,TRUE
+1264,"Thursday, 8/19/10",PY,8/19/2010,,,,TRUE
+1265,"Monday, 8/23/10",PY,8/23/2010,,,,TRUE
+1266,"Tuesday, 8/24/10",PY,8/24/2010,,,,TRUE
+1267,OCTOBER 2010 Readings,RD,10/1/2010,4/1/2010,10/1/2010,S,FALSE
+1268,September 2010 Monthly,RD,9/1/2010,8/1/2010,9/1/2010,M,FALSE
+1269,September 2010 Meter Pits,RD,9/1/2010,8/1/2010,9/1/2010,Q,FALSE
+1270,"Tuesday, 8/31/10",PY,8/31/2010,,,,TRUE
+1271,"Wednesday, 9/1/10",PY,9/1/2010,,,,TRUE
+1272,"Thursday, 9/2/10",PY,9/2/2010,,,,TRUE
+1273,"Thursday, 9/9/10",PY,9/9/2010,,,,TRUE
+1274,"Wednesday, 9/15/10",PY,9/15/2010,,,,TRUE
+1275,"Friday, 9/17/10",PY,9/17/2010,,,,TRUE
+1276,"Wednesday, 9/22/10",PY,9/22/2010,,,,TRUE
+1277,"Tuesday, 9/28/10",PY,9/28/2010,,,,TRUE
+1278,"Wednesday, 9/29/10",PY,9/29/2010,,,,TRUE
+1280,"Friday, 10/1/10",PY,10/1/2010,,,,TRUE
+1281,October 2010 Monthly,RD,10/1/2010,9/1/2010,10/1/2010,M,FALSE
+1282,October 2010 Meter Pits,RD,10/1/2010,9/1/2010,10/1/2010,Q,FALSE
+1283,"Monday, 10/4/10",PY,10/4/2010,,,,TRUE
+1284,"Tuesday, 10/5/10",PY,10/5/2010,,,,TRUE
+1285,"Tuesday, 10/5/10 #2",PY,10/5/2010,,,,TRUE
+1286,"Thursday, 10/7/10",PY,10/7/2010,,,,TRUE
+1287,"Friday, 10/8/10",PY,10/8/2010,,,,TRUE
+1288,"Friday, 10/8/10 #2",PY,10/8/2010,,,,TRUE
+1289,"Tuesday, 10/12/10",PY,10/12/2010,,,,TRUE
+1290,"Wednesday, 10/13/10",PY,10/13/2010,,,,TRUE
+1291,"Thursday, 10/14/10",PY,10/14/2010,,,,TRUE
+1292,"Friday, 10/15/10",PY,10/15/2010,,,,TRUE
+1293,"Monday, 10/18/10",PY,10/18/2010,,,,TRUE
+1294,November 2010 Monthly,RD,11/1/2010,10/1/2010,11/1/2010,M,FALSE
+1295,"Tuesday, 10/19/10",PY,10/19/2010,,,,TRUE
+1296,"Wednesday, 10/20/10",PY,10/20/2010,,,,TRUE
+1297,"Thursday, 10/21/10",PY,10/21/2010,,,,TRUE
+1298,"Friday, 10/22/10",PY,10/22/2010,,,,TRUE
+1299,"Monday, 10/25/10",PY,10/25/2010,,,,TRUE
+1300,"Tuesday, 10/26/10",PY,10/26/2010,,,,TRUE
+1301,"Wednesday, 10/27/10",PY,10/27/2010,,,,TRUE
+1302,November 2010 Meter Pits,RD,11/1/2010,10/1/2010,11/1/2010,Q,FALSE
+1303,"Thursday, 10/28/10",PY,10/28/2010,,,,TRUE
+1304,"Friday, 10/29/10",PY,10/29/2010,,,,TRUE
+1305,"Friday, 10/29/10 #2",PY,10/29/2010,,,,TRUE
+1306,"Monday, 11/1/10",PY,11/1/2010,,,,TRUE
+1307,November 2010 interest,IN,11/1/2010,,,,FALSE
+1308,"Tuesday, 11/2/10",PY,11/2/2010,,,,TRUE
+1310,"Friday, 11/5/10",PY,11/5/2010,,,,TRUE
+1311,"Monday, 11/8/10",PY,11/8/2010,,,,TRUE
+1312,"Wednesday, 11/10/10",PY,11/10/2010,,,,TRUE
+1313,"Friday, 11/12/10",PY,11/12/2010,,,,TRUE
+1315,"Monday, 11/15/10",PY,11/15/2010,,,,TRUE
+1316,"Wednesday, 11/17/10",PY,11/17/2010,,,,TRUE
+1317,"Thursday, 11/18/10",PY,11/18/2010,,,,TRUE
+1318,"Monday, 11/22/10",PY,11/22/2010,,,,TRUE
+1319,"Wednesday, 11/24/10",PY,11/24/2010,,,,TRUE
+1323,"Monday, 11/29/10",PY,11/29/2010,,,,TRUE
+1325,December 2010 Meter Pits,RD,12/1/2010,11/1/2010,12/1/2010,Q,FALSE
+1326,December 2010 Monthly,RD,12/1/2010,11/1/2010,12/1/2010,M,FALSE
+1327,"Tuesday, 11/30/10",PY,11/30/2010,,,,TRUE
+1328,December 2010 interest,IN,12/1/2010,,,,FALSE
+1329,"Friday, 12/3/10",PY,12/3/2010,,,,TRUE
+1331,"Monday, 12/6/10",PY,12/6/2010,,,,TRUE
+1332,"Tuesday, 12/7/10",PY,12/7/2010,,,,TRUE
+1333,"Wednesday, 12/8/10",PY,12/8/2010,,,,TRUE
+1334,"Thursday, 12/9/10",PY,12/9/2010,,,,TRUE
+1335,"Friday, 12/10/10",PY,12/10/2010,,,,TRUE
+1336,"Monday, 12/13/10",PY,12/13/2010,,,,TRUE
+1337,"Tuesday, 12/14/10",PY,12/14/2010,,,,TRUE
+1338,"Wednesday, 12/15/10",PY,12/15/2010,,,,TRUE
+1339,"Thursday, 12/16/10",PY,12/16/2010,,,,TRUE
+1340,January 2011 Monthly,RD,1/1/2011,12/1/2010,1/1/2011,M,FALSE
+1341,January 2011 Meter Pits,RD,1/1/2011,12/1/2010,1/1/2011,Q,FALSE
+1342,"Tuesday, 12/21/10",PY,12/21/2010,,,,TRUE
+1343,"Wednesday, 12/22/10",PY,12/22/2010,,,,TRUE
+1344,"Wednesday, 12/29/10",PY,12/29/2010,,,,TRUE
+1346,"Wednesday, 1/5/11",PY,1/5/2011,,,,TRUE
+1347,"Tuesday, 1/11/11",PY,1/11/2011,,,,TRUE
+1348,"Thursday, 1/20/11",PY,1/20/2011,,,,TRUE
+1349,"Tuesday, 1/25/11",PY,1/25/2011,,,,TRUE
+1350,February 2011 Monthly,RD,2/1/2011,1/1/2011,2/1/2011,M,FALSE
+1351,February 2011 Meter Pits,RD,2/1/2011,1/1/2011,2/1/2011,Q,FALSE
+1352,"Monday, 1/31/11",PY,1/31/2011,,,,TRUE
+1353,"Friday, 2/4/11",PY,2/4/2011,,,,TRUE
+1354,"Thursday, 2/10/11",PY,2/10/2011,,,,TRUE
+1355,"Tuesday, 2/15/11",PY,2/15/2011,,,,TRUE
+1356,"Thursday, 2/17/2011",PY,2/17/2011,,,,TRUE
+1360,"Tuesday, 2/22/11",PY,2/22/2011,,,,TRUE
+1362,March 2011 Monthly,RD,3/1/2011,2/1/2011,3/1/2011,M,FALSE
+1363,"Friday, 2/25/11",PY,2/25/2011,,,,TRUE
+1364,March 2011 METER PITS,RD,3/1/2011,2/1/2011,3/1/2011,Q,FALSE
+1365,APRIL 2011 READINGS,RD,4/1/2011,10/1/2010,4/1/2011,S,FALSE
+1366,"Friday, 3/4/11",PY,3/4/2011,,,,TRUE
+1367,"Thursday, 3/10/11",PY,3/10/2011,,,,TRUE
+1368,"Tuesday, 3/15/11",PY,3/15/2011,,,,TRUE
+1369,"Friday, 3/18/11",PY,3/18/2011,,,,TRUE
+1370,"Thursday, 3/24/11",PY,3/24/2011,,,,TRUE
+1371,"Wednesday, 3/30/11",PY,3/30/2011,,,,TRUE
+1372,April 2011 Monthly,RD,4/1/2011,3/1/2011,4/1/2011,M,FALSE
+1373,April 2011 Meter Pits,RD,4/1/2011,3/1/2011,4/1/2011,Q,FALSE
+1374,"Friday, 4/1/11",PY,4/1/2011,,,,TRUE
+1375,"Monday, 4/4/11",PY,4/4/2011,,,,TRUE
+1376,"Tuesday, 4/5/11",PY,4/5/2011,,,,TRUE
+1377,"Wednesday, 4/6/11",PY,4/6/2011,,,,TRUE
+1378,"Wednesday, 4/6/2011",PY,4/6/2011,,,,TRUE
+1379,"Thursday, 4/7/11",PY,4/7/2011,,,,TRUE
+1380,"Friday, 4/8/11",PY,4/8/2011,,,,TRUE
+1381,"Monday, 4/11/11",PY,4/11/2011,,,,TRUE
+1382,"Tuesday, 4/12/11",PY,4/12/2011,,,,TRUE
+1383,"Tuesday, 4/12/11 #2",PY,4/12/2011,,,,TRUE
+1384,"Wednesday, 4/13/11",PY,4/13/2011,,,,TRUE
+1385,"Thursday, 4/14/11",PY,4/14/2011,,,,TRUE
+1387,"Friday, 4/15/11",PY,4/15/2011,,,,TRUE
+1388,"Monday, 4/18/11",PY,4/18/2011,,,,TRUE
+1389,"Tuesday, 4/19/11",PY,4/19/2011,,,,TRUE
+1390,"Wednesday, 4/20/11",PY,4/20/2011,,,,TRUE
+1391,"Thursday, 4/21/11",PY,4/21/2011,,,,TRUE
+1392,"Thursday, 4/21/11 #2",PY,4/21/2011,,,,TRUE
+1393,"Monday, 4/25/11",PY,4/25/2011,,,,TRUE
+1394,"Tuesday, 4/26/11",PY,4/26/2011,,,,TRUE
+1395,May 2011 Monthly,RD,5/1/2011,4/1/2011,5/1/2011,M,FALSE
+1396,May 2011 Meter Pits,RD,5/1/2011,4/1/2011,5/1/2011,Q,FALSE
+1397,"Wednesday, 4/27/11",PY,4/27/2011,,,,TRUE
+1398,"Thursday, 4/28/11",PY,4/28/2011,,,,TRUE
+1399,"Friday, 4/29/11",PY,4/29/2011,,,,TRUE
+1400,"Monday, 5/2/11",PY,5/2/2011,,,,TRUE
+1401,"Monday, 5/2/11 #2",PY,5/2/2011,,,,TRUE
+1402,"Tuesday, 5/3/11",PY,5/3/2011,,,,TRUE
+1403,May 3rd Interest,IN,5/1/2011,,,,FALSE
+1404,"Thursday, 5/5/2011",PY,5/5/2011,,,,TRUE
+1405,"Friday, 5/6/11",PY,5/6/2011,,,,TRUE
+1406,"Tuesday, 5/10/11",PY,5/10/2011,,,,TRUE
+1407,"Thursday, 5/12/11",PY,5/12/2011,,,,TRUE
+1408,"Monday, 5/16/11",PY,5/16/2011,,,,TRUE
+1409,"Wednesday, 5/18/11",PY,5/18/2011,,,,TRUE
+1410,"Friday, 5/20/11",PY,5/20/2011,,,,TRUE
+1411,"Thursday, 5/26/11",PY,5/26/2011,,,,TRUE
+1412,"Tuesday, 5/31/11",PY,5/31/2011,,,,TRUE
+1413,June 2011 Monthly,RD,6/1/2011,5/1/2011,6/1/2011,M,FALSE
+1414,June 2011 Meter Pit Readings,RD,6/1/2011,5/1/2011,6/1/2011,Q,FALSE
+1415,"Wednesday, 6/1/11",PY,6/1/2011,,,,TRUE
+1416,June Interest,IN,6/1/2011,,,,FALSE
+1417,"Tuesday, 6/7/11",PY,6/7/2011,,,,TRUE
+1418,"Thursday, 6/9/11",PY,6/9/2011,,,,TRUE
+1419,"Friday, 6/10/11",PY,6/10/2011,,,,TRUE
+1420,"Monday, 6/13/11",PY,6/13/2011,,,,TRUE
+1421,"Tuesday, 6/14/11",PY,6/14/2011,,,,TRUE
+1422,"Wednesday, 6/15/11",PY,6/15/2011,,,,TRUE
+1423,"Thursday, 6/16/11",PY,6/16/2011,,,,TRUE
+1424,Friday 6/17/11,PY,6/17/2011,,,,TRUE
+1425,"Tuesday, 6/21/11",PY,6/21/2011,,,,TRUE
+1426,"July, 2011 Monthly",RD,7/1/2011,6/1/2011,7/1/2011,M,FALSE
+1427,July,RD,,,,S,FALSE
+1428,"July, 2011 Meter Pits",RD,7/1/2011,6/1/2011,7/1/2011,Q,FALSE
+1429,"Tuesday, 6/28/11",PY,6/28/2011,,,,TRUE
+1430,"Thursday, 6/30/11",PY,6/30/2011,,,,TRUE
+1431,"Friday, 7/1/11",PY,7/1/2011,,,,TRUE
+1432,"Tuesday, 7/5/11",PY,7/5/2011,,,,TRUE
+1433,"Wednesday, 7/6/2011",PY,7/6/2011,,,,TRUE
+1434,"Thursday, 7/7/11",PY,7/7/2011,,,,TRUE
+1435,"Tuesday, 7/12/11",PY,7/12/2011,,,,TRUE
+1436,"Thursday, 7/14/11",PY,7/14/2011,,,,TRUE
+1437,"Friday, 7/15/11",PY,7/15/2011,,,,TRUE
+1438,"Monday, 7/18/11",PY,7/18/2011,,,,TRUE
+1439,"Tuesday, 7/19/11",PY,7/19/2011,,,,TRUE
+1440,"Thursday, 7/21/11",PY,7/21/2011,,,,TRUE
+1441,"Monday, 7/25/11",PY,7/25/2011,,,,TRUE
+1442,"Tuesday, 7/26/11",PY,7/26/2011,,,,TRUE
+1443,"Wednesday, 7/27/11",PY,7/27/2011,,,,TRUE
+1444,August 2011 Monthly,RD,8/1/2011,7/1/2011,8/1/2011,M,FALSE
+1445,"August, 2011 Meter Pit Readings",RD,8/1/2011,7/1/2011,8/1/2011,Q,FALSE
+1446,"Thursday, 7/28/11",PY,7/28/2011,,,,TRUE
+1447,"Thursday, 7/28/11",PY,7/28/2011,,,,TRUE
+1448,"Friday, 7/29/11",PY,7/29/2011,,,,TRUE
+1449,"Monday, 8/1/11",PY,8/1/2011,,,,TRUE
+1450,"Tuesday, 8/2/11",PY,8/2/2011,,,,TRUE
+1451,"Tuesday, 8/9/11",PY,8/9/2011,,,,TRUE
+1452,"Thursday, 8/11/11",PY,8/11/2011,,,,TRUE
+1453,"Tuesday, 8/16/11",PY,8/16/2011,,,,TRUE
+1454,"Tuesday, 8/23/11",PY,8/23/2011,,,,TRUE
+1455,"Wednesday, 8/24/11",PY,8/24/2011,,,,TRUE
+1456,"Tuesday, 8/30/11",PY,8/30/2011,,,,TRUE
+1457,"Wednesday, 8/31/11",PY,8/31/2011,,,,TRUE
+1458,OCTOBER 2011 READINGS,RD,10/1/2011,4/1/2011,10/1/2011,S,FALSE
+1459,September 2011 Monthly,RD,9/1/2011,8/1/2011,9/1/2011,M,FALSE
+1460,September 2011 Meter Pit Readings,RD,9/1/2011,8/1/2011,9/1/2011,Q,FALSE
+1461,"Friday, 9/2/11",PY,9/2/2011,,,,TRUE
+1462,"Tuesday, 9/13/11",PY,9/13/2011,,,,TRUE
+1463,"FRIDAY, 9/16/11",PY,9/16/2011,,,,TRUE
+1464,"Monday, 9/19/11",PY,9/19/2011,,,,TRUE
+1465,October 2011 Monthly,RD,10/1/2011,9/1/2011,10/1/2011,M,FALSE
+1466,October 2011 Meter Pits,RD,10/1/2011,9/1/2011,10/1/2011,Q,FALSE
+1467,"Monday, 9/26/11",PY,9/26/2011,,,,TRUE
+1468,"Wednesday, 9/28/11",PY,9/28/2011,,,,TRUE
+1469,"Thursday, 9/29/11",PY,9/29/2011,,,,TRUE
+1471,"Friday, 9/30/11",PY,9/30/2011,,,,TRUE
+1472,"Monday, 10/3/11",PY,10/3/2011,,,,TRUE
+1473,"Tuesday, 10/4/11",PY,10/4/2011,,,,TRUE
+1474,"Wednesday, 10/5/11",PY,10/5/2011,,,,TRUE
+1475,"Thursday, 10/6/11",PY,10/6/2011,,,,TRUE
+1476,"Friday, 10/7/11",PY,10/7/2011,,,,TRUE
+1477,"Tuesday, 10/11/11",PY,10/11/2011,,,,TRUE
+1478,"Wednesday, 10/12/11",PY,10/12/2011,,,,TRUE
+1479,"Thursday, 10/13/11",PY,10/13/2011,,,,TRUE
+1480,"Friday, 10/14/11",PY,10/14/2011,,,,TRUE
+1481,"Monday, 10/17/11",PY,10/17/2011,,,,TRUE
+1482,"Tuesday, 10/18/11",PY,10/18/2011,,,,TRUE
+1483,"Wednesday, 10/19/11",PY,10/19/2011,,,,TRUE
+1484,"Thursday, 10/20/11",PY,10/20/2011,,,,TRUE
+1485,"Friday, 10/21/11",PY,10/21/2011,,,,TRUE
+1486,"Monday, 10/24/11",PY,10/24/2011,,,,TRUE
+1487,"Tuesday, 10/25/11",PY,10/25/2011,,,,TRUE
+1488,"November, 2011  MONTHLY",RD,11/1/2011,10/1/2011,11/1/2011,M,FALSE
+1489,November 2011 METER PITS,RD,11/1/2011,10/1/2011,11/1/2011,Q,FALSE
+1490,"Wednesday, 10/26/11",PY,10/26/2011,,,,TRUE
+1491,"Thursday, 10/27/11",PY,10/27/2011,,,,TRUE
+1493,"Friday, 10/28/11",PY,10/28/2011,,,,TRUE
+1494,"Monday, 10/31/11",PY,10/31/2011,,,,TRUE
+1495,"Friday, 11/4/11",PY,11/4/2011,,,,TRUE
+1496,"Friday, 11/4/11 #2",PY,11/4/2011,,,,TRUE
+1497,"Friday, 11/4/11 #3",PY,11/4/2011,,,,TRUE
+1499,"Monday, 11/7/11",PY,11/7/2011,,,,TRUE
+1500,NOVEMBER 2011 INT. AFTER 11/7,IN,11/1/2011,,,,FALSE
+1501,"Wednesday, 11/9/11",PY,11/9/2011,,,,TRUE
+1502,"Tuesday, 11/15/11",PY,11/15/2011,,,,TRUE
+1503,"Wednesday, 11/16/11",PY,11/16/2011,,,,TRUE
+1506,"Friday, 11/18/11",PY,11/18/2011,,,,TRUE
+1507,"Monday, 11/21/11",PY,11/21/2011,,,,TRUE
+1508,"Tuesday, 11/22/11",PY,11/22/2011,,,,TRUE
+1509,December 2011 MONTHLY,RD,12/1/2011,11/1/2011,12/1/2011,M,FALSE
+1510,December 2011 METER PITS,RD,12/1/2011,11/1/2011,12/1/2011,Q,FALSE
+1511,"Monday, November 28, 2011",PY,11/28/2011,,,,TRUE
+1512,"Tuesday, 11/29/11",PY,11/29/2011,,,,TRUE
+1513,"Wednesday, 11/30/11",PY,11/30/2011,,,,TRUE
+1514,December 2011 Interest,IN,12/1/2011,,,,FALSE
+1516,"Friday, 12/2/11",PY,12/2/2011,,,,TRUE
+1517,"Monday, 12/5/11",PY,12/5/2011,,,,TRUE
+1518,"Wednesday, 12/7/11",PY,12/7/2011,,,,TRUE
+1519,"Thursday, 12/8/11",PY,12/8/2011,,,,TRUE
+1520,"Friday, 12/9/11",PY,12/9/2011,,,,TRUE
+1521,"Monday, 12/12/11",PY,12/12/2011,,,,TRUE
+1522,"Tuesday, 12/13/11",PY,12/13/2011,,,,TRUE
+1523,"Wednesday, 12/14/11",PY,12/14/2011,,,,TRUE
+1524,"Thursday, 12/15/11",PY,12/15/2011,,,,TRUE
+1525,"Wednesday, 12/21/11",PY,12/21/2011,,,,TRUE
+1526,"Thursday, 12/22/11",PY,12/22/2011,,,,TRUE
+1528,JANUARY 2012 MONTHLY,RD,1/1/2012,12/1/2011,1/1/2012,M,FALSE
+1529,JANUARY 2012 METER PITS,RD,1/1/2012,12/1/2011,1/1/2012,Q,FALSE
+1530,"Tuesday, 12/27/11",PY,12/27/2011,,,,TRUE
+1531,"Thursday, 12/29/11",PY,12/29/2011,,,,TRUE
+1532,"Wednesday, 1/4/12",PY,1/4/2012,,,,TRUE
+1533,"Friday, 1/6/12",PY,1/6/2012,,,,TRUE
+1534,"Thursday, 1/12/12",PY,1/12/2012,,,,TRUE
+1535,"Thursday, 1/19/12",PY,1/19/2012,,,,TRUE
+1536,February 2012 Monthly,RD,2/1/2012,1/1/2012,2/1/2012,M,FALSE
+1537,February 2012 Meter Pits,RD,2/1/2012,1/1/2012,2/1/2012,Q,FALSE
+1538,"Tuesday, 1/31/12",PY,1/31/2012,,,,TRUE
+1539,"Wednesday, 2/1/12",PY,2/1/2012,,,,TRUE
+1540,"Thursday, 2/9/12",PY,2/9/2012,,,,TRUE
+1541,"Tuesday, 2/14/12",PY,2/14/2012,,,,TRUE
+1542,"Thursday, 2/16/12",PY,2/16/2012,,,,TRUE
+1543,"Wednesday, 2/22/12",PY,2/22/2012,,,,TRUE
+1544,"Friday, 2/24/12",PY,2/24/2012,,,,TRUE
+1545,March 2012 Monthly,RD,3/1/2012,2/1/2012,3/1/2012,M,FALSE
+1548,March 2012 Meter Pits,RD,3/1/2012,2/1/2012,3/1/2012,Q,FALSE
+1549,APRIL 2012 READINGS,RD,4/1/2012,10/1/2011,4/1/2012,S,FALSE
+1553,"Friday, 3/2/12",PY,3/2/2012,,,,TRUE
+1554,"Thursday, 3/8/12",PY,3/8/2012,,,,TRUE
+1555,"Friday, 3/9/12",PY,3/9/2012,,,,TRUE
+1556,"Thursday, 3/15/12",PY,3/15/2012,,,,TRUE
+1557,"Friday, 3/16/12",PY,3/16/2012,,,,TRUE
+1558,"Tuesday, 3/20/12",PY,3/20/2012,,,,TRUE
+1559,"Thursday, 3/22/12",PY,3/22/2012,,,,TRUE
+1560,Monday 3/26/12,PY,3/26/2012,,,,TRUE
+1561,April 2012 MONTHLY,RD,4/1/2012,3/1/2012,4/1/2012,M,FALSE
+1562,April 2012 METER PITS,RD,4/1/2012,3/1/2012,4/1/2012,Q,FALSE
+1563,"Thursday, 3/29/12",PY,3/29/2012,,,,TRUE
+1565,"Monday, 4/2/12",PY,4/2/2012,,,,TRUE
+1566,"Tuesday, 4/3/12",PY,4/3/2012,,,,TRUE
+1567,"Wednesday, 4/4/12",PY,4/4/2012,,,,TRUE
+1568,"Thursday, 4/5/12",PY,4/5/2012,,,,TRUE
+1569,"Thursday, 4/5/12 #2",PY,4/5/2012,,,,TRUE
+1570,"Monday, 4/9/12",PY,4/9/2012,,,,TRUE
+1571,"Tuesday, 4/10/12",PY,4/10/2012,,,,TRUE
+1572,"Wednesday, 4/11/2012",PY,4/11/2012,,,,TRUE
+1573,"Thursday, 4/12/12",PY,4/12/2012,,,,TRUE
+1574,"Friday, 4/13/12",PY,4/13/2012,,,,TRUE
+1575,"Monday, 4/16/12",PY,4/16/2012,,,,TRUE
+1576,"Tuesday, 4/17/12",PY,4/17/2012,,,,TRUE
+1577,Wednesday 4/18/12,PY,4/18/2012,,,,TRUE
+1578,"Thursday, 4/19/12",PY,4/19/2012,,,,TRUE
+1579,"Friday, 4/20/12",PY,4/20/2012,,,,TRUE
+1581,"Monday, 4/23/12",PY,4/23/2012,,,,TRUE
+1582,"Tuesday, 4/24/12",PY,4/24/2012,,,,TRUE
+1583,"Wednesday, 4/25/12",PY,4/25/2012,,,,TRUE
+1584,"Thursday, 4/26/12",PY,4/26/2012,,,,TRUE
+1586,"May, 2012 Monthly",RD,5/1/2012,4/1/2012,5/1/2012,M,FALSE
+1587,"Friday, 4/27/12",PY,4/26/2012,,,,TRUE
+1590,May 2012 Meter Pits,RD,5/1/2012,4/1/2012,5/1/2012,Q,FALSE
+1591,"Monday, 4/30/12",PY,4/30/2012,,,,TRUE
+1592,"Monday, 4/30/12-#2",PY,4/30/2012,,,,TRUE
+1593,Tuesday 5/1/12,PY,5/1/2012,,,,TRUE
+1594,"Wednesday, 5/2/12",PY,5/2/2012,,,,TRUE
+1595,May Interest,IN,5/1/2012,,,,FALSE
+1596,"Friday,  5/4/12",PY,5/4/2012,,,,TRUE
+1597,"Tuesday, 5/8/12",PY,5/8/2012,,,,TRUE
+1598,"Thursday, 5/10/12",PY,5/10/2012,,,,TRUE
+1599,"Friday, 5/11/12",PY,5/11/2012,,,,TRUE
+1600,"Monday, 5/14/12",PY,5/14/2012,,,,TRUE
+1601,"Tuesday, 5/15/12",PY,5/15/2012,,,,TRUE
+1602,"Thursday, 5/17/12",PY,5/17/2012,,,,TRUE
+1603,"Friday, 5/18/12",PY,5/18/2012,,,,TRUE
+1604,"Tuesday, 5/22/12",PY,5/22/2012,,,,TRUE
+1605,"Thursday, 5/24/12",PY,5/24/2012,,,,TRUE
+1606,"Friday, 5/25/12",PY,5/25/2012,,,,TRUE
+1607,JUNE 2012 Monthly,RD,6/1/2012,5/1/2012,6/1/2012,M,FALSE
+1608,JUNE 2012 Meter Pits,RD,6/1/2012,5/1/2012,6/1/2012,Q,FALSE
+1609,"Tuesday, 5/29/12",PY,5/29/2012,,,,TRUE
+1610,"Wednesday, 5/30/12",PY,5/30/2012,,,,TRUE
+1611,"Thursday, 5/31/12",PY,5/31/2012,,,,TRUE
+1612,"June 1, 2012 interest",IN,6/1/2012,,,,FALSE
+1614,"Monday, 6/4/12",PY,6/4/2012,,,,TRUE
+1615,"Wednesday, 6/6/12",PY,6/6/2012,,,,TRUE
+1617,"Monday, 6/11/12",PY,6/11/2012,,,,TRUE
+1618,"Tuesday, 6/12/12",PY,6/12/2012,,,,TRUE
+1619,"Thursday, 6/14/12",PY,6/14/2012,,,,TRUE
+1620,"Monday, 6/18/12",PY,6/18/2012,,,,TRUE
+1621,"Friday, 6/22/12",PY,6/22/2012,,,,TRUE
+1622,"Thursday, 6/28/12",PY,6/28/2012,,,,TRUE
+1623,July 2012 MONTHLY,RD,7/1/2012,6/1/2012,7/1/2012,M,FALSE
+1624,July 2012 METER PITS,RD,7/1/2012,6/1/2012,7/1/2012,Q,FALSE
+1625,"Monday, 7/2/12",PY,7/2/2012,,,,TRUE
+1626,"Thursday, 7/5/12",PY,7/5/2012,,,,TRUE
+1627,"Monday, 7/9/12",PY,7/9/2012,,,,TRUE
+1629,Weekly Meter Pits 7/9/12,RD,7/1/2012,7/9/2012,7/9/2012,Q,FALSE
+1630,"Tuesday, 7/10/12",PY,7/10/2012,,,,TRUE
+1631,"Wednesday, 7/11/12",PY,7/11/2012,,,,TRUE
+1632,"Thursday, 7/12/12",PY,7/12/2012,,,,TRUE
+1633,"Monday, 7/16/12",PY,7/16/2012,,,,TRUE
+1634,"Tuesday, 7/17/12",PY,7/17/2012,,,,TRUE
+1635,"Thursday, 7/19/12",PY,7/19/2012,,,,TRUE
+1636,"Tuesday, 7/24/12",PY,7/24/2012,,,,TRUE
+1637,"Wednesday, 7/25/12",PY,7/25/2012,,,,TRUE
+1639,"Monday, 7/30/12",PY,7/30/2012,,,,TRUE
+1640,"Monday, 7/30/12",PY,7/30/2012,,,,TRUE
+1641,AUGUST 2012 MONTHLY,RD,8/1/2012,7/1/2012,8/1/2012,M,FALSE
+1642,AUGUST 2012 METER PITS,RD,8/1/2012,7/1/2012,8/1/2012,Q,FALSE
+1643,"Thursday, 8/2/12",PY,8/2/2012,,,,TRUE
+1644,"Friday, 8/3/12",PY,8/3/2012,,,,TRUE
+1645,"Monday, 8/6/12",PY,8/6/2012,,,,TRUE
+1646,"Wednesday, 8/8/12",PY,8/8/2012,,,,TRUE
+1647,"Thursday, 8/9/12",PY,8/9/2012,,,,TRUE
+1648,"Tuesday, 8/14/12",PY,8/14/2012,,,,TRUE
+1649,"Thursday, 8/16/12",PY,8/16/2012,,,,TRUE
+1650,"Tuesday, 8/21/12",PY,8/21/2012,,,,TRUE
+1651,"Friday, 8/24/12",PY,8/24/2012,,,,TRUE
+1652,"Tuesday, 8/28/12",PY,8/28/2012,,,,TRUE
+1654,September 2012 MONTHLY,RD,9/1/2012,8/1/2012,9/1/2012,M,FALSE
+1655,"September, 2012 METER PITS",RD,9/1/2012,8/1/2012,9/1/2012,Q,FALSE
+1656,"Friday, 8/31/12",PY,8/30/2012,,,,TRUE
+1657,OCTOBER 2012 READINGS,RD,10/1/2012,4/1/2012,10/1/2012,S,FALSE
+1658,Tuesday 9/4/12,PY,9/4/2012,,,,TRUE
+1659,"Friday, 9/7/12",PY,9/7/2012,,,,TRUE
+1660,"Tuesday, 9/11/12",PY,9/11/2012,,,,TRUE
+1661,"Friday, 9/14/12",PY,9/14/2012,,,,TRUE
+1662,"Wednesday, 9/19/12",PY,9/19/2012,,,,TRUE
+1663,"Thursday, 9/20/12",PY,9/20/2012,,,,TRUE
+1665,October 2012 MONTHLY,RD,10/1/2012,9/1/2012,10/1/2012,M,FALSE
+1666,October 2012 METER PITS,RD,10/1/2012,9/1/2012,10/1/2012,Q,FALSE
+1667,"Thursday, 9/27/12",PY,9/27/2012,,,,TRUE
+1668,"Monday, 10/1/12",PY,10/1/2012,,,,TRUE
+1669,"Tuesday, 10/2/12",PY,10/2/2012,,,,TRUE
+1670,"Wednesday, 10/3/12",PY,10/3/2012,,,,TRUE
+1671,"Thursday, 10/4/12",PY,10/4/2012,,,,TRUE
+1672,"Friday, 10/5/12",PY,10/5/2012,,,,TRUE
+1673,"Tuesday, 10/9/12",PY,10/9/2012,,,,TRUE
+1674,"Tuesday, 10/9/12 -#2",PY,10/9/2012,,,,TRUE
+1675,"Wednesday, 10/10/12",PY,10/10/2012,,,,TRUE
+1676,"Thursday, 10/11/12",PY,10/11/2012,,,,TRUE
+1677,"Friday, 10/12/12",PY,10/12/2012,,,,TRUE
+1678,"MONDAY, 10/15/12",PY,10/15/2012,,,,TRUE
+1679,"Tuesday, 10/16/12",PY,10/16/2012,,,,TRUE
+1680,"Tuesday, 10/16/12",PY,10/16/2012,,,,TRUE
+1681,"Wednesday, 10/17/12",PY,10/17/2012,,,,TRUE
+1682,"Thursday, 10/18/12",PY,10/18/2012,,,,TRUE
+1685,"Friday, 10/19/12",PY,10/19/2012,,,,TRUE
+1686,"Friday, 10/19/12 #2",PY,10/19/2012,,,,TRUE
+1687,"Monday, 10/22/12",PY,10/22/2012,,,,TRUE
+1688,"Tuesday, 10/23/12",PY,10/23/2012,,,,TRUE
+1689,"Wednesday, 10/24/12",PY,10/24/2012,,,,TRUE
+1690,"Thursday, 10/25/12",PY,10/25/2012,,,,TRUE
+1691,"Friday, 10/26/12",PY,10/26/2012,,,,TRUE
+1692,"Monday, 10/29/12",PY,10/29/2012,,,,TRUE
+1693,November 2012 MONTHLY,RD,11/1/2012,10/1/2012,11/1/2012,M,FALSE
+1694,November 2012 METER PITS,RD,11/1/2012,10/1/2012,11/1/2012,Q,FALSE
+1695,"Tuesday, 10/30/12",PY,10/30/2012,,,,TRUE
+1696,"Wednesday, 10/31/12",PY,10/31/2012,,,,TRUE
+1697,"Thursday, 11/1/2012",PY,11/1/2012,,,,TRUE
+1699,"Friday, 11/2/12",PY,11/2/2012,,,,TRUE
+1700,November 2012 interest,IN,11/1/2012,,,,FALSE
+1701,"Tuesday, 11/6/12",PY,11/6/2012,,,,TRUE
+1702,"Thursday, 11/8/12",PY,11/8/2012,,,,TRUE
+1703,"Tuesday, 11/13/12",PY,11/13/2012,,,,TRUE
+1704,"Wednesday, 11/14/12",PY,11/14/2012,,,,TRUE
+1705,"Thursday, 11/15/12",PY,11/15/2012,,,,TRUE
+1706,"Friday, 11/16/12",PY,11/16/2012,,,,TRUE
+1707,"Tuesday, 11/20/12",PY,11/20/2012,,,,TRUE
+1708,"Tuesday, 11/20/12 - #2",PY,11/20/2012,,,,TRUE
+1709,"Tuesday, 11/27/12",PY,11/27/2012,,,,TRUE
+1710,December 2012 MONTHLY,RD,12/1/2012,11/1/2012,12/1/2012,M,FALSE
+1711,December 2012 Meter Pits,RD,12/1/2012,11/1/2012,12/1/2012,Q,FALSE
+1712,"Thursday, 11/29/12",PY,11/29/2012,,,,TRUE
+1713,"Friday, 11/30/12",PY,11/30/2012,,,,TRUE
+1714,December interest,IN,12/1/2012,,,,FALSE
+1715,"Tuesday, 12/4/12",PY,12/4/2012,,,,TRUE
+1716,"Thursday, 12/6/12",PY,12/6/2012,,,,TRUE
+1717,"Friday, 12/7/12",PY,12/7/2012,,,,TRUE
+1718,"Friday, 12/7/12",PY,12/7/2012,,,,TRUE
+1719,"Monday, 12/10/12",PY,12/10/2012,,,,TRUE
+1720,"Tuesday, 12/11/12",PY,12/11/2012,,,,TRUE
+1721,"Wednesday, 12/12/12",PY,12/12/2012,,,,TRUE
+1722,"Thursday, 12/13/12",PY,12/13/2012,,,,TRUE
+1723,"Friday, 12/14/12",PY,12/14/2012,,,,TRUE
+1724,"Tuesday, 12/18/12",PY,12/18/2012,,,,TRUE
+1725,"Friday, 12/21/12",PY,12/21/2012,,,,TRUE
+1726,"Monday, 12/31/12",PY,12/31/2012,,,,TRUE
+1727,JANUARY 2013 MONTHLY,RD,1/1/2013,12/1/2012,1/1/2013,M,FALSE
+1729,JANUARY 2013 METER PITS,RD,1/1/2013,12/1/2012,1/1/2013,Q,FALSE
+1730,"Thursday, 1/3/13",PY,1/3/2013,,,,TRUE
+1731,"Tuesday, 1/8/13",PY,1/8/2013,,,,TRUE
+1732,"Friday, 1/11/13",PY,1/11/2013,,,,TRUE
+1733,"Tuesday, 1/15/13",PY,1/15/2013,,,,TRUE
+1734,"Friday, 1/18/13",PY,1/18/2013,,,,TRUE
+1740,"Thursday, 1/24/13",PY,1/24/2013,,,,TRUE
+1741,February 2013 MONTHLY,RD,2/1/2013,1/1/2013,2/1/2013,M,FALSE
+1742,February 2013 Meter Pits,RD,2/1/2013,1/1/2013,2/1/2013,Q,FALSE
+1744,"Tuesday, 1/29/13",PY,1/29/2013,,,,TRUE
+1745,"Thursday, 1/31/13",PY,1/31/2013,,,,TRUE
+1747,"Thursday, 2/7/13",PY,2/7/2013,,,,FALSE
+1748,"Thursday, 2/14/13",PY,2/14/2013,,,,TRUE
+1749,"Thursday, 2/21/2013",PY,2/21/2013,,,,TRUE
+1752,APRIL 2013 READINGS,RD,4/1/2013,10/1/2012,4/1/2013,S,FALSE
+1753,March 2013 MONTHLY,RD,3/1/2013,2/1/2013,3/1/2013,M,FALSE
+1754,March 2013 METER PITS,RD,3/1/2013,2/1/2013,3/1/2013,Q,FALSE
+1756,"Thursday, 2/28/13",PY,2/28/2013,,,,TRUE
+1757,"Wednesday, 3/6/13",PY,3/6/2013,,,,TRUE
+1758,"Tuesday, 3/12/13",PY,3/12/2013,,,,TRUE
+1759,"Thursday, 3/21/13",PY,3/21/2013,,,,TRUE
+1760,APRIL 2013 Monthly,RD,4/1/2013,4/1/2013,5/1/2013,M,FALSE
+1761,APRIL2013 Meter Pits,RD,4/1/2013,4/1/2013,5/1/2013,Q,FALSE
+1762,"Thursday, 3/28/13",PY,3/28/2013,,,,TRUE
+1763,"Tuesday, 4/2/13",PY,4/2/2013,,,,TRUE
+1764,"Tuesday, 04/02/2013 - 2",PY,4/2/2013,,,,TRUE
+1766,"Wednesday, 04/03/13",PY,4/3/2013,,,,TRUE
+1767,"Thursday, 04/04/2013",PY,4/4/2013,,,,TRUE
+1768,"Friday, 4/5/12",PY,4/5/2013,,,,TRUE
+1769,"Monday, 4/8/13",PY,4/8/2013,,,,TRUE
+1770,"Monday, 04/08/13 - 2",PY,4/8/2013,,,,TRUE
+1771,"Wednesday, 4/10/13",PY,4/10/2013,,,,TRUE
+1772,"Thursday, April 13, 2013",PY,4/11/2013,,,,TRUE
+1773,"Friday, 4/12/13",PY,4/12/2013,,,,TRUE
+1774,"Friday, 04/12/13 - 2",PY,4/12/2013,,,,TRUE
+1775,"Monday, 4/15/13",PY,4/15/2013,,,,TRUE
+1776,"Monday, 04/15/13 - 2",PY,4/15/2013,,,,TRUE
+1777,"Tuesday, 4/16/13",PY,4/16/2013,,,,TRUE
+1778,"Wednesday, 04/17/2013",PY,4/17/2013,,,,TRUE
+1779,"Thursday, 04/18/13",PY,4/18/2013,,,,TRUE
+1780,"Friday, 4/19/13",PY,4/19/2013,,,,TRUE
+1781,"Monday, 4/22/13",PY,4/22/2013,,,,TRUE
+1782,"Tuesday, 04/23/2013",PY,4/23/2013,,,,TRUE
+1783,"Tuesday, 4/23/13 - #2",PY,4/23/2013,,,,TRUE
+1784,"Wednesday, 4/24/13",PY,4/24/2013,,,,TRUE
+1785,MAY MONTHLY 2013,RD,5/1/2013,4/1/2013,5/1/2013,M,FALSE
+1786,MAY METER PITS 2013,RD,5/1/2013,4/1/2013,5/1/2013,Q,FALSE
+1787,"THURSDAY, 04/25/2013",PY,4/25/2013,,,,TRUE
+1788,"Friday, 4/26/13",PY,4/26/2013,,,,TRUE
+1789,"Monday, 4/29/13",PY,4/29/2013,,,,TRUE
+1790,"Tuesday, 4/30/13",PY,4/30/2013,,,,TRUE
+1791,"Wednesday, 5/1/13",PY,5/1/2013,,,,TRUE
+1792,"Thursday, 5/2/13",PY,5/2/2013,,,,TRUE
+1793,May Interest,IN,5/1/2013,,,,FALSE
+1794,"Monday, 05/06/2013",PY,5/6/2013,,,,TRUE
+1795,"Tuesday, 05/07/2013",PY,5/7/2013,,,,TRUE
+1796,"Thursday, 5/9/2013",PY,5/9/2013,,,,TRUE
+1797,"Monday, 05/13/2013",PY,5/13/2013,,,,TRUE
+1798,"Tuesday, 4/14/13",PY,5/14/2013,,,,TRUE
+1799,"Tuesday, 5/15/13",PY,5/15/2013,,,,TRUE
+1800,"Thursday, 5/16/13",PY,5/16/2013,,,,TRUE
+1802,"Monday, 05/20/2013",PY,5/20/2013,,,,TRUE
+1803,"Tuesday, 5/21/13",PY,5/21/2013,,,,TRUE
+1804,"Wednesday, 05/22/2013",PY,5/22/2013,,,,TRUE
+1805,JUNE MONTHLY 2013,RD,6/1/2013,5/1/2013,6/1/2013,S,FALSE
+1807,"Tuesday, 5/28/13",PY,5/28/2013,,,,TRUE
+1809,JUNE INTEREST,IN,6/1/2013,,,,FALSE
+1810,"Monday, 06/03/2013",PY,6/3/2013,,,,TRUE
+1812,June 2013 Meter Pits,RD,6/1/2013,5/1/2013,6/1/2013,Q,FALSE
+1813,"Tuesday, 6/4/13",PY,6/4/2013,,,,TRUE
+1814,"Thursday, 6/6/13",PY,6/6/2013,,,,TRUE
+1815,"Monday, 06/10/2013",PY,6/10/2013,,,,TRUE
+1816,"Tuesday, 6/11/13",PY,6/11/2013,,,,TRUE
+1817,"Wednesday, 6/12/13",PY,6/12/2013,,,,TRUE
+1818,"Thursday, 6/13/13",PY,6/13/2013,,,,TRUE
+1819,"Monday, 06/17/2013",PY,6/17/2013,,,,TRUE
+1820,"Thursday, 6/20/13",PY,6/20/2013,,,,TRUE
+1821,"Monday, 06/24/2013",PY,6/24/2013,,,,TRUE
+1823,JULY 2013 Monthly,RD,7/1/2013,6/1/2013,7/1/2013,M,FALSE
+1824,JULY 2013 Meter Pits,RD,7/1/2013,6/1/2013,7/1/2013,M,FALSE
+1825,"Friday, 06/28/13",PY,6/28/2013,,,,TRUE
+1826,"Monday, 07/01/2013",PY,7/1/2013,,,,TRUE
+1827,"Tuesday, 7/2/13",PY,7/2/2013,,,,TRUE
+1828,"Monday, 7/8/13",PY,7/8/2013,,,,TRUE
+1829,"Tuesday, 7/9/13",PY,7/9/2013,,,,TRUE
+1830,"Wednesday, 7/10/13",PY,7/10/2013,,,,TRUE
+1832,"Tuesday, 7/16/13",PY,7/16/2013,,,,TRUE
+1834,"Tuesday, 07/16/2013",PY,7/16/2013,,,,TRUE
+1835,"Wednesday, 7/17/13",PY,7/17/2013,,,,TRUE
+1836,"Thursday, 07/18/2013",PY,7/18/2013,,,,TRUE
+1837,"Friday, 07/19/2013",PY,7/19/2013,,,,TRUE
+1838,"Monday, 7/22/13",PY,7/22/2013,,,,TRUE
+1839,"Tuesday, 7/23/13",PY,7/23/2013,,,,TRUE
+1840,"Wednesday, 7/24/13",PY,7/24/2013,,,,TRUE
+1841,"Thursday, 7/25/13",PY,7/25/2013,,,,TRUE
+1843,"Monday, 7/29/13",PY,7/29/2013,,,,TRUE
+1844,August METER PITS,RD,8/1/2013,7/1/2013,7/31/2013,Q,FALSE
+1850,AUGUST MONTHLY,RD,8/1/2013,7/1/2013,8/1/2013,M,FALSE
+1851,"Wednesday, 7/31/13",PY,7/31/2013,,,,TRUE
+1852,"Friday, 08/02/2013",PY,8/2/2013,,,,TRUE
+1853,"Tuesday, 8/6/13",PY,8/6/2013,,,,TRUE
+1854,"MONDAY, 08/12/2013",PY,8/12/2013,,,,TRUE
+1855,"Thursday, 8/15/13",PY,8/15/2013,,,,TRUE
+1856,"Monday, 08/19/2013",PY,8/19/2013,,,,TRUE
+1861,"Wednesday, 8/28/13",PY,8/28/2013,,,,TRUE
+1863,"Thursday, 8/29/13",PY,8/29/2013,,,,TRUE
+1866,SEPTEMBER 2013 METER PITS,RD,9/1/2013,8/1/2013,9/1/2013,A,FALSE
+1867,SEPTEMBER 2013 MONTHLY,RD,9/1/2013,8/1/2013,9/1/2013,M,FALSE
+1871,"Tuesday, 9/3/2013",PY,9/3/2013,,,,TRUE
+1872,"Thursday, 9/5/13",PY,9/5/2013,,,,TRUE
+1874,"Tuesday, 9/17/13",PY,9/17/2013,,,,TRUE
+1875,October 2013 Monthly,RD,10/1/2013,9/1/2013,10/1/2013,M,FALSE
+1876,October 2013 Readings,RD,10/1/2013,4/1/2013,10/1/2013,S,FALSE
+1877,"Tuesday, 9/24/13",PY,9/24/2013,,,,TRUE
+1878,"Monday, 9/30/13",PY,9/30/2013,,,,TRUE
+1879,"Tuesday, 10/1/13",PY,10/1/2013,,,,TRUE
+1880,"Wednesday, 10/2/13",PY,10/2/2013,,,,TRUE
+1886,"Wednesday, 10/2/13 - #2",PY,10/2/2013,,,,TRUE
+1887,"Thursday, 10/03/2013",PY,10/3/2013,,,,TRUE
+1888,"Monday, 10/7/13",PY,10/7/2013,,,,TRUE
+1890,"Monday, 10/07/2013 #2",PY,10/7/2013,,,,TRUE
+1891,"Tuesday, 10/8/13",PY,10/8/2013,,,,TRUE
+1892,"Tuesday, 10/8/13 - #2",PY,10/8/2013,,,,TRUE
+1893,"Wednesday, 10/9/13",PY,10/9/2013,,,,TRUE
+1894,"Thursday, 10/10/13",PY,10/10/2013,,,,TRUE
+1895,"Tuesday, 10/15/13",PY,10/15/2013,,,,TRUE
+1896,"Tuesday, 10/15/13 - #2",PY,10/15/2013,,,,TRUE
+1897,"Wednesday, 10/16/13",PY,10/16/2013,,,,TRUE
+1898,"Thursday, 10/17/13",PY,10/17/2013,,,,TRUE
+1899,"Friday, 10/18/2013",PY,10/18/2013,,,,TRUE
+1900,"Monday, 10/21/13",PY,10/21/2013,,,,TRUE
+1901,"Tuesday, 10/22/13",PY,10/22/2013,,,,TRUE
+1902,"Wednesday, 10/23/13",PY,10/23/2013,,,,TRUE
+1903,"Thursday, 10/24/13",PY,10/24/2013,,,,TRUE
+1904,"Friday, 10/25/2013",PY,10/25/2013,,,,TRUE
+1905,"Monday, 10/28/13",PY,10/28/2013,,,,TRUE
+1909,November 2013 Monthly,RD,11/1/2013,10/1/2013,11/1/2013,M,FALSE
+1910,"Tuesday, 10/29/13",PY,10/29/2013,,,,TRUE
+1913,November 2013 Meter Pits,RD,11/1/2013,10/1/2013,11/1/2013,Q,FALSE
+1914,"Wednesday, 10/30/13",PY,10/30/2013,,,,TRUE
+1915,"Thursday, 10/31/13",PY,10/31/2013,,,,TRUE
+1916,"Friday, 11/01/2013",PY,11/1/2013,,,,TRUE
+1917,"Friday, 11/01/2013 - 2",PY,11/1/2013,,,,TRUE
+1918,"Monday, 11/4/13",PY,11/4/2013,,,,TRUE
+1919,November Interest,IN,11/1/2013,,,,FALSE
+1921,"Tuesday, 11/5/13",PY,11/5/2013,,,,TRUE
+1922,"Wednesday, 11/6/13",PY,11/6/2013,,,,TRUE
+1923,"Thursday, 11/07/13",PY,11/7/2013,,,,TRUE
+1924,"FRIDAY, 11/08/13",PY,11/8/2013,,,,TRUE
+1925,"Tuesday, 11/12/13",PY,11/12/2013,,,,TRUE
+1927,"Wednesday, 11/13/13",PY,11/13/2013,,,,TRUE
+1928,"Thursday, 11/14/13",PY,11/14/2013,,,,TRUE
+1929,"MONDAY, 11/18/2013",PY,11/18/2013,,,,TRUE
+1930,"Wednesday, 11/20/13",PY,11/20/2013,,,,TRUE
+1931,"Thursday, 11/21/13",PY,11/21/2013,,,,TRUE
+1932,"Friday, 11/22/13",PY,11/22/2013,,,,TRUE
+1934,December Monthly 2013,RD,12/1/2013,11/1/2013,12/1/2013,M,FALSE
+1937,December 2013 Meter Pits,RD,12/1/2013,11/1/2013,12/1/2013,Q,FALSE
+1938,"Tuesday, 11/26/13",PY,11/26/2013,,,,TRUE
+1939,,PY,11/26/2013,,,,FALSE
+1940,"Monday, 12/2/13",PY,12/2/2013,,,,TRUE
+1941,December Interest,IN,12/1/2013,,,,FALSE
+1942,"Wednesday, 12/4/13",PY,12/4/2013,,,,TRUE
+1943,"Thursday, 12/5/13",PY,12/5/2013,,,,TRUE
+1944,"Monday, 12/09/13",PY,12/9/2013,,,,TRUE
+1945,"Tuesday, 12/10/13",PY,12/10/2013,,,,TRUE
+1946,"Wednesday, 12/11/13",PY,12/11/2013,,,,TRUE
+1947,"Thursday, 12/12/13",PY,12/12/2013,,,,TRUE
+1948,"Monday, 12/16/13",PY,12/16/2013,,,,TRUE
+1949,"Wednesday, 12/18/13",PY,12/18/2013,,,,TRUE
+1950,"Friday, 12/20/13",PY,12/20/2013,,,,TRUE
+1951,"Friday, 12/20/13 (#2)",PY,12/20/2013,,,,TRUE
+1952,"Thursday, 12/26/2013",PY,12/26/2013,,,,TRUE
+1958,Monthly January 2014,RD,1/1/2014,12/1/2013,1/1/2014,M,FALSE
+1959,Meter Pits January 2014,RD,1/1/2014,12/1/2013,1/1/2014,Q,FALSE
+1967,"Monday, 1/6/14",PY,1/6/2014,,,,TRUE
+1968,"Monday, 1/6/14 #2",PY,1/6/2014,,,,TRUE
+1969,"Thursday, 01/09/2014",PY,1/9/2014,,,,TRUE
+1970,"Thursday, 1/9/14",PY,1/9/2014,,,,TRUE
+1971,"Tuesday, 1/14/14",PY,1/14/2014,,,,TRUE
+1972,"Tuesday, 1/21/14",PY,1/21/2014,,,,TRUE
+1976,February 2014 Meter Pits,RD,2/1/2014,1/1/2014,2/1/2014,Q,FALSE
+1977,February 2014 Monthly,RD,2/1/2014,1/1/2014,2/1/2014,M,FALSE
+1979,"Wednesday, 1/29/14",PY,1/29/2014,,,,TRUE
+1980,"Thursday, 1/30/14",PY,1/30/2014,,,,TRUE
+1981,"Tuesday, 2/11/14",PY,2/11/2014,,,,TRUE
+1982,"Wednesday, 2/19/14",PY,2/19/2014,,,,TRUE
+1988,March2014 Monthly,RD,3/1/2014,2/1/2014,3/1/2014,M,FALSE
+1989,March2014 Meter Pits,RD,3/1/2014,2/1/2014,3/1/2014,Q,FALSE
+1990,"Tuesday, 2/25/14",PY,2/25/2014,,,,TRUE
+1991,"Tuesday, 3/4/14",PY,3/4/2014,,,,TRUE
+1996,April 2014 Readings,RD,4/1/2014,10/1/2013,4/1/2014,M,FALSE
+1997,April 2014 Readings S,RD,4/1/2014,10/1/2013,4/1/2014,S,FALSE
+1998,April 2014 MeterPits,RD,4/1/2014,3/1/2014,4/1/2014,Q,FALSE
+2000,"Tuesday, 03/11/2014",PY,3/11/2014,,,,TRUE
+2001,"Tuesday, 3/18/14",PY,3/18/2014,,,,TRUE
+2002,"Monday, 3/24/14",PY,3/24/2014,,,,TRUE
+2003,"Monday, March 31, 2014",PY,3/31/2014,,,,TRUE
+2004,"Tuesday, 4/1/14",PY,4/1/2014,,,,TRUE
+2005,"Wednesday, 4/2/14",PY,4/2/2014,,,,TRUE
+2006,"Wednesday, 4/2/14 #2",PY,4/2/2014,,,,TRUE
+2007,"Thursday, 4/3/14",PY,4/3/2014,,,,TRUE
+2008,"Thursday, 4/3/14 - #2",PY,4/3/2014,,,,TRUE
+2009,"Monday, 4/7/14",PY,4/7/2014,,,,TRUE
+2010,"Monday, 4/7/14 - #2",PY,4/7/2014,,,,TRUE
+2011,"Tuesday, 4/8/14",PY,4/8/2014,,,,TRUE
+2012,"Wednesday, 4/9/14",PY,4/9/2014,,,,TRUE
+2013,"Thursday, 4/10/14",PY,4/10/2014,,,,TRUE
+2014,"Monday, 4/14/2014",PY,4/14/2014,,,,TRUE
+2015,"Tuesday, 4/15/14",PY,4/15/2014,,,,TRUE
+2016,"Wednesday, 4/16/14",PY,4/16/2014,,,,TRUE
+2017,"Wednesday, 4/16/14 - #2",PY,4/16/2014,,,,TRUE
+2018,"Thursday, 4/17/14",PY,4/17/2014,,,,TRUE
+2019,"Monday, 4/21/14",PY,4/21/2014,,,,TRUE
+2020,"Tuesday, 4/22/14",PY,4/22/2014,,,,TRUE
+2021,"Wednesday, 4/23/14",PY,4/23/2014,,,,TRUE
+2022,"Thursday, 4/24/14",PY,4/24/2014,,,,TRUE
+2023,"Monday, 4/28/14",PY,4/28/2014,,,,TRUE
+2024,May Monthly,RD,5/1/2014,4/1/2014,5/1/2014,M,FALSE
+2025,May Meter Pits,RD,5/1/2014,4/1/2014,5/1/2014,Q,FALSE
+2029,"Monday, 04/28/2014 #2",PY,4/28/2014,,,,TRUE
+2030,"Tuesday, 4/29/14",PY,4/29/2014,,,,TRUE
+2031,"Wednesday, 4/30/14",PY,4/30/2014,,,,TRUE
+2032,"Thursday, 5/1/14",PY,5/1/2014,,,,TRUE
+2033,"Friday, 05/02/2014",PY,5/2/2014,,,,TRUE
+2034,May 2014 Interest,IN,5/1/2014,,,,FALSE
+2035,"Monday, 5/5/14",PY,5/5/2014,,,,TRUE
+2036,"Tuesday, 5/6/14",PY,5/6/2014,,,,TRUE
+2037,"Thursday, 5/8/14",PY,5/8/2014,,,,TRUE
+2038,"Tuesday, 5/13/14",PY,5/13/2014,,,,TRUE
+2039,"Wednesday, 5/14/14",PY,5/14/2014,,,,TRUE
+2040,"Tuesday, 5/20/14",PY,5/20/2014,,,,TRUE
+2041,"Tuesday, 5/27/14",PY,5/27/2014,,,,TRUE
+2042,"Wednesday, 5/28/14",PY,5/28/2014,,,,TRUE
+2043,June 2014 Monthly,RD,6/1/2014,5/1/2014,6/1/2014,M,FALSE
+2044,JUNE 2014 METER PITS,RD,6/1/2014,5/1/2014,6/1/2014,Q,FALSE
+2045,"Thursday, 5/29/14",PY,5/29/2014,,,,TRUE
+2046,JUNE 2014 INTEREST,IN,6/1/2014,,,,FALSE
+2047,"Tuesday, 6/3/14",PY,6/3/2014,,,,TRUE
+2048,"Tuesday, 6/10/14",PY,6/10/2014,,,,TRUE
+2049,"Thursday, 6/12/14",PY,6/12/2014,,,,TRUE
+2050,"Tuesday, 6/17/14",PY,6/17/2014,,,,TRUE
+2051,"Tuesday, 6/24/14",PY,6/24/2014,,,,TRUE
+2052,"Wednesday, 6/25/14",PY,6/25/2014,,,,TRUE
+2053,"Thursday, 6/26/14",PY,6/26/2014,,,,TRUE
+2054,JULY 2014 Monthly,RD,7/1/2014,6/1/2014,7/1/2014,M,FALSE
+2055,JULY 2014 Meter Pits,RD,7/1/2014,6/1/2014,7/1/2014,Q,FALSE
+2056,"Tuesday, 7/1/14",PY,7/1/2014,,,,TRUE
+2057,"Wednesday, 7/2/14",PY,7/2/2014,,,,TRUE
+2058,"Monday, 7/7/14",PY,7/7/2014,,,,TRUE
+2059,"Tuesday, 7/8/14",PY,7/8/2014,,,,TRUE
+2060,"Wednesday, 07/09/2014",PY,7/9/2014,,,,TRUE
+2061,"Monday, 7/14/14",PY,7/14/2014,,,,TRUE
+2062,"Tuesday, 7/15/14",PY,7/15/2014,,,,TRUE
+2063,"Wednesday, 7/16/14",PY,7/16/2014,,,,TRUE
+2064,"Monday, 07/21/14",PY,7/21/2014,,,,TRUE
+2065,"Tuesday, 7/22/14",PY,7/22/2014,,,,TRUE
+2066,"Wednesday, 7/23/14",PY,7/23/2014,,,,TRUE
+2067,"Thursday, 7/24/14",PY,7/24/2014,,,,TRUE
+2068,"Monday, 7/28/14",PY,7/28/2014,,,,TRUE
+2069,"Tuesday, 7/29/14",PY,7/29/2014,,,,TRUE
+2070,August 2014 Monthly,RD,8/1/2014,7/1/2014,8/1/2014,M,FALSE
+2071,August 2014 Meter Pits,RD,8/1/2014,7/1/2014,8/1/2014,Q,FALSE
+2073,"Friday, August 1, 2014",PY,8/1/2014,,,,TRUE
+2074,"Monday, 8/4/14",PY,8/4/2014,,,,TRUE
+2075,"Wednesday, 08/06/2014",PY,8/6/2014,,,,TRUE
+2077,"Tuesday, 08/12/2014",PY,8/12/2014,,,,TRUE
+2078,"Thursday, 8/14/14",PY,8/14/2014,,,,TRUE
+2079,"Tuesday, 8/19/14",PY,8/19/2014,,,,TRUE
+2080,"Tuesday, 8/26/14",PY,8/26/2014,,,,TRUE
+2081,Spetember 2014 Monthly,RD,9/1/2014,8/1/2014,9/1/2014,M,FALSE
+2082,September 2014 Meter Pits,RD,9/1/2014,8/1/2014,9/1/2014,Q,FALSE
+2084,"Tuesday, 9/2/14",PY,9/2/2014,,,,TRUE
+2086,October 2014 Meter Pits,RD,10/1/2014,9/1/2014,10/1/2014,Q,FALSE
+2087,October 2014 Monthly,RD,10/1/2014,9/1/2014,10/1/2014,M,FALSE
+2104,"Tuesday, 9/16/14",PY,9/16/2014,,,,TRUE
+2115,October 2014 READINGS,RD,10/1/2014,4/1/2014,10/1/2014,S,FALSE
+2116,"Monday, 9/22/14",PY,9/22/2014,,,,TRUE
+2117,"Monday, 9/22/14 #2",PY,9/22/2014,,,,TRUE
+2118,"Wednesday, 09/24/2014",PY,9/24/2014,,,,TRUE
+2119,10/1/14#1,PY,10/1/2014,,,,TRUE
+2120,10/1/14#2,PY,10/1/2014,,,,TRUE
+2121,"Thursday, 10/2/14",PY,10/2/2014,,,,TRUE
+2122,"Thursday, 10/2/14 #2",PY,10/2/2014,,,,TRUE
+2123,"Monday, 10/6/14",PY,10/6/2014,,,,TRUE
+2124,"Tuesday, 10/7/14",PY,10/7/2014,,,,TRUE
+2125,"Wednesday, 10/8/14",PY,10/8/2014,,,,TRUE
+2126,"Thursday, 10/9/14",PY,10/9/2014,,,,TRUE
+2127,"Tuesday, 10/14/14",PY,10/14/2014,,,,TRUE
+2128,"Wednesday, 10/15/14",PY,10/15/2014,,,,TRUE
+2129,"Thursday, 10/16/14",PY,10/16/2014,,,,TRUE
+2130,"Monday, 10/20/2014",PY,10/20/2014,,,,TRUE
+2131,"Tuesday, 10/21/14",PY,10/21/2014,,,,TRUE
+2132,"Wednesday, 10/22/14",PY,10/22/2014,,,,TRUE
+2133,"Thursday, 10/23/14",PY,10/23/2014,,,,TRUE
+2134,"Monday, 10/27/14",PY,10/27/2014,,,,TRUE
+2135,"Tuesday, 10/28/14",PY,10/28/2014,,,,TRUE
+2136,November 2014 Monthly,RD,11/1/2014,10/1/2014,11/1/2014,M,FALSE
+2137,"November 2014, Meter Pits",RD,11/1/2014,10/1/2014,11/1/2014,Q,FALSE
+2138,"Wednesday, 10/29/14",PY,10/29/2014,,,,TRUE
+2139,"Thursday, 10/30/14",PY,10/30/2014,,,,TRUE
+2140,"Monday, 11/3/14",PY,11/3/2014,,,,TRUE
+2143,"Tuesday, 11/4/14",PY,11/4/2014,,,,TRUE
+2144,November 2014 Interest,IN,11/1/2014,,,,FALSE
+2145,"Thursday, 11/6/14",PY,11/6/2014,,,,TRUE
+2146,"Wednesday, 11/12/14",PY,11/12/2014,,,,TRUE
+2147,"Thursday, 11/13/14",PY,11/13/2014,,,,TRUE
+2148,"Tuesday, 11/18/14",PY,11/18/2014,,,,TRUE
+2149,"Wednesday, 11/19/14",PY,11/19/2014,,,,TRUE
+2150,December 2014 Meter Pits,RD,12/1/2014,11/1/2014,12/1/2014,Q,FALSE
+2152,December 2014 Monthly,RD,12/1/2014,11/1/2014,12/1/2014,M,FALSE
+2153,"Tuesday, 11/25/14",PY,11/25/2014,,,,TRUE
+2154,DECEMBER INTEREST,IN,12/1/2014,,,,FALSE
+2156,"Monday, 12/1/14",PY,12/1/2014,,,,TRUE
+2157,"Wednesday, 12/3/2014",PY,12/3/2014,,,,TRUE
+2158,"Thursday, 12/4/14",PY,12/4/2014,,,,TRUE
+2159,"Tuesday, 12/9/14",PY,12/9/2014,,,,TRUE
+2160,"Wednesday, 12/10/14",PY,12/10/2014,,,,TRUE
+2161,"Thursday, 12/11/14",PY,12/11/2014,,,,TRUE
+2162,"Monday, 12/15/2014",PY,12/15/2014,,,,TRUE
+2163,"Tuesday, 12/16/2014",PY,12/16/2014,,,,TRUE
+2164,"Wednesday, 12/17/14",PY,12/17/2014,,,,TRUE
+2165,"Thursday, 12/18/14",PY,12/18/2014,,,,TRUE
+2166,"Tuesday, 12/23/14",PY,12/23/2014,,,,TRUE
+2167,January2015 Monthly,RD,1/1/2015,12/1/2014,1/1/2015,M,FALSE
+2168,January2015 MeterPits,RD,1/1/2015,12/1/2014,1/1/2015,Q,FALSE
+2170,"Tuesday, 12/30/14",PY,12/30/2014,,,,TRUE
+2171,"Tuesday, 1/6/15",PY,1/6/2015,,,,TRUE
+2172,"Thursday, 1/15/15",PY,1/15/2015,,,,TRUE
+2173,"Wednesday, 1/28/15",PY,1/28/2015,,,,TRUE
+2174,February2014Monthly,RD,2/1/2015,1/1/2015,2/1/2015,M,FALSE
+2175,February2015MeterPits,RD,2/1/2015,1/1/2015,2/1/2015,Q,FALSE
+2177,"Wednesday, 2/4/15",PY,2/4/2015,,,,TRUE
+2178,"Tuesday, 2/17/15",PY,2/17/2015,,,,TRUE
+2182,March2015 Monthly,RD,3/1/2015,2/1/2015,3/1/2015,M,FALSE
+2183,March2015 MeterPits,RD,3/1/2015,2/1/2015,3/1/2015,Q,FALSE
+2185,"Tuesday, 2/24/15",PY,2/24/2015,,,,TRUE
+2186,"Tuesday, March 3, 2015",PY,3/3/2015,,,,TRUE
+2187,April2015 READINGS,RD,4/1/2015,10/1/2014,4/1/2015,S,FALSE
+2188,April2015 Monthly,RD,4/1/2015,3/1/2015,4/1/2015,M,FALSE
+2189,April2015 Meter Pits,RD,4/1/2015,1/15/2013,4/1/2015,Q,FALSE
+2190,"Tuesday, 3/17/15",PY,3/17/2015,,,,TRUE
+2191,"Thursday, 3/26/15",PY,3/26/2015,,,,TRUE
+2192,"Tuesday, 3/31/15",PY,3/31/2015,,,,TRUE
+2193,"Wednesday, 4/1/15",PY,4/1/2015,,,,TRUE
+2194,"Thursday, 4/2/15",PY,4/2/2015,,,,TRUE
+2195,"Thursday, 04/02/2015 #2",PY,4/2/2015,,,,TRUE
+2196,"MONDAY, 4/6/2015",PY,4/6/2015,,,,TRUE
+2197,"Tuesday, 4/7/15",PY,4/7/2015,,,,TRUE
+2198,"Tuesday, 04/07/2015 #2",PY,4/7/2015,,,,TRUE
+2199,"Tuesday, 4/7/15 #3",PY,4/7/2015,,,,TRUE
+2200,"Wednesday, 4/8/15",PY,4/8/2015,,,,TRUE
+2201,"Thursday, 4/9/15",PY,4/9/2015,,,,TRUE
+2202,"Monday, 4/13/15",PY,4/13/2015,,,,TRUE
+2203,"Tuesday, 4/14/15",PY,4/14/2015,,,,TRUE
+2204,"Wednesday, 4/15/15",PY,4/15/2015,,,,TRUE
+2205,"Wednesday, 4/15/15 #2",PY,4/15/2015,,,,TRUE
+2206,"Thursday, 4/16/15",PY,4/16/2015,,,,TRUE
+2207,"Monday, 4/20/15",PY,4/20/2015,,,,TRUE
+2208,"Tuesday, 4/21/15",PY,4/21/2015,,,,TRUE
+2209,"Wednesday, 4/22/15",PY,4/22/2015,,,,TRUE
+2210,"Thursday, 4/23/15",PY,4/23/2015,,,,TRUE
+2211,"Monday, 4/27/15",PY,4/27/2015,,,,TRUE
+2212,May2015Monthly,RD,5/1/2015,4/1/2015,5/1/2015,M,FALSE
+2213,May2015MeterPits,RD,5/1/2015,4/1/2015,5/1/2015,Q,FALSE
+2215,"Tuesday, 4/28/15",PY,4/28/2015,,,,TRUE
+2216,"Wednesday, 4/29/15",PY,4/29/2015,,,,TRUE
+2217,"Thursday, 4/30/15",PY,4/30/2015,,,,TRUE
+2218,"Friday, May 1, 2015",PY,5/1/2015,,,,TRUE
+2219,"Monday, 5/4/15",PY,5/4/2015,,,,TRUE
+2220,May2015InterestforApril2015,IN,5/1/2015,,,,FALSE
+2221,"Wednesday, May 6, 2015",PY,5/6/2015,,,,TRUE
+2222,"Thursday, 5/7/15",PY,5/7/2015,,,,TRUE
+2223,"Tuesday, 5/12/15",PY,5/12/2015,,,,TRUE
+2224,"Thursday, 5/14/15",PY,5/14/2015,,,,TRUE
+2225,"Tuesday, 5/19/15",PY,5/19/2015,,,,TRUE
+2226,"Thursday, 5/21/15",PY,5/21/2015,,,,TRUE
+2227,"Tuesday, 5/26/2015",PY,5/26/2015,,,,TRUE
+2228,"Wednesday, 5/27/2015",PY,5/27/2015,,,,TRUE
+2229,"Thursday, 5/28/15",PY,5/28/2015,,,,TRUE
+2230,June2015Monthly,RD,6/1/2015,5/1/2015,6/1/2015,M,FALSE
+2231,June2015MeterPits,RD,6/1/2015,5/1/2015,6/1/2015,Q,FALSE
+2234,JUNE2015 Interest,IN,6/1/2015,,,,FALSE
+2235,"Tuesday, 6/2/15",PY,6/2/2015,,,,TRUE
+2236,"Wednesday, 6/3/15",PY,6/3/2015,,,,TRUE
+2237,"Tuesday, 6/9/15",PY,6/9/2015,,,,TRUE
+2238,"Thursday, 6/11/15",PY,6/11/2015,,,,TRUE
+2239,"Monday, 6/15/15",PY,6/15/2015,,,,TRUE
+2241,"Wednesday, 6/17/15",PY,6/17/2015,,,,TRUE
+2242,"Monday, 06/22/2015",PY,6/22/2015,,,,TRUE
+2243,"Tuesday, 06/23/2015",PY,6/23/2015,,,,TRUE
+2244,"Thursday, 6/25/15",PY,6/25/2015,,,,TRUE
+2245,July2015Monthly,RD,7/1/2015,6/1/2015,7/1/2015,M,FALSE
+2246,July2015MeterPits,RD,7/1/2015,6/1/2015,7/1/2015,Q,FALSE
+2248,"Monday, 06/29/2015",PY,6/29/2015,,,,TRUE
+2249,"Tuesday, June 30, 2015",PY,6/30/2015,,,,TRUE
+2250,"Wednesday, July 1, 2015",PY,7/1/2015,,,,TRUE
+2251,"Monday, 7/6/15",PY,7/6/2015,,,,TRUE
+2252,"Wednesday, July 8, 2015",PY,7/8/2015,,,,TRUE
+2253,"Monday, 07/13/2015",PY,7/13/2015,,,,TRUE
+2254,"Wednesday, 7/15/15",PY,7/15/2015,,,,TRUE
+2255,"Monday, July 20, 2015",PY,7/20/2015,,,,TRUE
+2256,"Monday, July 27, 2015",PY,7/27/2015,,,,TRUE
+2257,"Tuesday, 7/28/15",PY,7/28/2015,,,,TRUE
+2258,August2015Monthly,RD,8/1/2015,7/1/2015,8/1/2015,M,FALSE
+2259,August2015MeterPits,RD,8/1/2015,7/1/2015,8/1/2015,Q,FALSE
+2261,"Wednesday, 7/29/15",PY,7/29/2015,,,,TRUE
+2262,"Thursday, 7/30/15",PY,7/30/2015,,,,TRUE
+2263,"Tuesday, 8/4/15",PY,8/4/2015,,,,TRUE
+2264,"Tuesday, 8/11/15",PY,8/11/2015,,,,TRUE
+2265,"Thursday, 8/13/15",PY,8/13/2015,,,,TRUE
+2266,"Tuesday, 8/18/15",PY,8/18/2015,,,,TRUE
+2267,"Thursday, 8/20/2015",PY,8/20/2015,,,,TRUE
+2268,"Tuesday, 8/25/2015",PY,8/25/2015,,,,TRUE
+2270,September2015 - Monthly,RD,9/1/2015,8/1/2015,9/1/2015,M,FALSE
+2271,September2015 - MeterPits,RD,9/1/2015,8/1/2015,9/1/2015,Q,FALSE
+2273,"Monday, August31, 2015",PY,8/31/2015,,,,TRUE
+2274,"Wednesday, 9/2/15",PY,9/2/2015,,,,TRUE
+2275,"Tuesday, 9/8/15",PY,9/8/2015,,,,TRUE
+2276,"Tuesday, 9/15/15",PY,9/15/2015,,,,TRUE
+2277,October2015 Readings,RD,10/1/2015,4/1/2015,10/1/2015,S,FALSE
+2278,October2015 Monthly,RD,10/1/2015,9/1/2015,10/1/2015,M,FALSE
+2279,October2015 Meter Pits,RD,10/1/2015,9/1/2015,10/1/2015,Q,FALSE
+2280,"Thursday, 9/17/15",PY,9/17/2015,,,,TRUE
+2281,"Tuesday, 9/22/15",PY,9/22/2015,,,,TRUE
+2282,"Wednesday, 9/23/15",PY,9/23/2015,,,,TRUE
+2283,"Tuesday, 9/29/15",PY,9/29/2015,,,,TRUE
+2284,"Wednesday, 9/30/15",PY,9/30/2015,,,,TRUE
+2285,"Thursday, 10/1/15",PY,10/1/2015,,,,TRUE
+2286,"Monday, 10/5/15",PY,10/5/2015,,,,TRUE
+2287,"Tuesday, 10/6/15",PY,10/6/2015,,,,TRUE
+2288,"Tuesday, 10/6/15 #2",PY,10/6/2015,,,,TRUE
+2289,"Wednesday, 10/7/15",PY,10/7/2015,,,,TRUE
+2290,"Thursday, 10/8/15",PY,10/8/2015,,,,TRUE
+2291,"October, 10/13/15",PY,10/13/2015,,,,TRUE
+2292,"Wednesday, 10/14/15",PY,10/14/2015,,,,TRUE
+2293,"Thursday, 10/15/15",PY,10/15/2015,,,,TRUE
+2294,"Monday, 10/19/15",PY,10/19/2015,,,,TRUE
+2295,"Tuesday, 10/20/15",PY,10/20/2015,,,,TRUE
+2296,"Wednesday, 10/21/15",PY,10/21/2015,,,,TRUE
+2298,"Thursday, 10/22/15",PY,10/22/2015,,,,TRUE
+2299,"TUESDAY, 10/27/15",PY,10/27/2015,,,,TRUE
+2300,"Tuesday, 10/27/15 - #2",PY,10/27/2015,,,,TRUE
+2301,November2015Monthly,RD,11/1/2015,10/1/2015,11/1/2015,M,FALSE
+2302,November2015 MeterPits,RD,11/1/2015,10/1/2015,11/1/2015,Q,FALSE
+2304,"Wednesday, 10/28/15",PY,10/28/2015,,,,TRUE
+2305,"Thursday, 10/29/15",PY,10/29/2015,,,,TRUE
+2306,"Monday, 11/2/15 - #1",PY,11/2/2015,,,,TRUE
+2307,"Monday, 11/2/15",PY,11/2/2015,,,,TRUE
+2308,"Tuesday, 11/3/15",PY,11/3/2015,,,,TRUE
+2309,November Interest,IN,11/1/2015,,,,FALSE
+2310,"Wednesday, 11/4/15",PY,11/4/2015,,,,TRUE
+2311,"Thursday, 11/5/15",PY,11/5/2015,,,,TRUE
+2312,"TUESDAY, 11/10/15",PY,11/10/2015,,,,TRUE
+2313,"Thursday, 11/12/15",PY,11/12/2015,,,,TRUE
+2314,"Tuesday, 11/17/15",PY,11/17/2015,,,,TRUE
+2315,"Wednesday, 11/18/15",PY,11/18/2015,,,,TRUE
+2316,"Thursday, 11/19/15",PY,11/19/2015,,,,TRUE
+2317,"Tuesday, 11/24/2015",PY,11/24/2015,,,,TRUE
+2318,December2015 Monthly,RD,12/1/2015,11/1/2015,12/1/2015,M,FALSE
+2319,December2015 Meter Pits,RD,12/1/2015,11/1/2015,12/1/2015,Q,FALSE
+2321,"Monday, 11/30/15",PY,11/30/2015,,,,TRUE
+2322,December 2015 Interest,IN,12/1/2015,,,,FALSE
+2323,"Tuesday, 12/1/15",PY,12/1/2015,,,,TRUE
+2324,"Wednesday, 12/2/15",PY,12/2/2015,,,,TRUE
+2326,"Monday, December 7, 2015",PY,12/7/2015,,,,TRUE
+2327,"TUESDAY, 12/8/15",PY,12/8/2015,,,,TRUE
+2328,"Wednesday, 12/9/15",PY,12/9/2015,,,,TRUE
+2329,"Thursday, 12/10/15",PY,12/10/2015,,,,TRUE
+2330,"Thursday, 12/10/15 - #2",PY,12/10/2015,,,,TRUE
+2331,"Tuesday, 12/15/15",PY,12/15/2015,,,,TRUE
+2332,"Thursday, 12/17/15",PY,12/17/2015,,,,TRUE
+2333,"Tuesday, 12/22/15",PY,12/22/2015,,,,TRUE
+2334,January 2016 Monthly,RD,1/1/2016,12/1/2015,1/1/2016,M,FALSE
+2335,January 2016 Meter Pits,RD,1/1/2016,12/1/2015,1/1/2016,Q,FALSE
+2337,Tuesday 12/29/15,PY,12/29/2015,,,,TRUE
+2338,"Tuesday, December 29, 2015 #2",PY,12/29/2015,,,,TRUE
+2339,"Thursday, 12/31/2015",PY,12/31/2015,,,,TRUE
+2340,Wednesday 1/6/16,PY,1/6/2016,,,,TRUE
+2341,"Tuesday, January 12, 2016",PY,1/12/2016,,,,TRUE
+2343,"Tuesday, 1/19/16",PY,1/19/2016,,,,TRUE
+2344,"Wednesday, 1/20/16",PY,1/20/2016,,,,TRUE
+2345,"Tuesday, 1/26/2016",PY,1/26/2016,,,,TRUE
+2346,February 2016 Monthly,RD,2/1/2016,1/1/2016,2/1/2016,M,FALSE
+2347,February 2016 Meter Pits,RD,2/1/2016,1/1/2016,2/1/2016,Q,FALSE
+2349,"Tuesday, 2/2/2016",PY,2/2/2016,,,,TRUE
+2350,"Tuesday, 2/9/2016",PY,2/9/2016,,,,TRUE
+2352,"Thursday, 2/11/16",PY,2/11/2016,,,,TRUE
+2353,"Thursday, 2/18/2016",PY,2/18/2016,,,,TRUE
+2354,"Wednesday, 2/24/2016",PY,2/24/2016,,,,TRUE
+2355,March2016Monthly,RD,3/1/2016,2/1/2016,3/1/2016,M,FALSE
+2356,March2016MeterPits,RD,3/1/2016,2/1/2016,3/1/2016,Q,FALSE
+2358,"Tuesday, 3/8/2016",PY,3/8/2016,,,,TRUE
+2359,"Thursday, 3/10/2016",PY,3/10/2016,,,,TRUE
+2360,Tuesday. 3/15/2016,PY,3/15/2016,,,,TRUE
+2362,April2016-Readings,RD,4/1/2016,10/1/2015,4/1/2016,S,FALSE
+2363,"Tuesday, 3/22/2016",PY,3/22/2016,,,,TRUE
+2364,"Tuesday, 03/22/2016 - Batch #2",PY,3/22/2016,,,,TRUE
+2365,"Monday, March 28, 2016",PY,3/28/2016,,,,TRUE
+2366,"Tuesday, March 29, 2016",PY,3/29/2016,,,,TRUE
+2367,"Wednesday, 3/30/16",PY,3/30/2016,,,,TRUE
+2368,April2016-Meter Pits,RD,4/1/2016,3/1/2016,4/1/2016,Q,FALSE
+2369,April2016-Monthly,RD,4/1/2016,3/1/2016,4/1/2016,M,FALSE
+2370,"Thursday, 3/31/2016",PY,3/31/2016,,,,TRUE
+2371,"Thursday, 3/31/2016 - #2",PY,3/31/2016,,,,TRUE
+2372,"Thursday, March 31, 2016 #3",PY,3/31/2016,,,,TRUE
+2373,"Tuesday, 4/5/2016",PY,4/5/2016,,,,TRUE
+2374,"Wednesday, 4/6/2016",PY,4/6/2016,,,,TRUE
+2375,"Thursday, 4/7/2016",PY,4/7/2016,,,,TRUE
+2376,"Monday, 4/11/2016",PY,4/11/2016,,,,TRUE
+2377,"Monday, 4/11/2016 #2",PY,4/11/2016,,,,TRUE
+2379,"Tuesday, 4/12/2016",PY,4/12/2016,,,,TRUE
+2380,"Wednesday, 4/13/2016",PY,4/13/2016,,,,TRUE
+2381,"Thursday, 4/14/2016",PY,4/14/2016,,,,TRUE
+2382,"Thursday, 04/14/2016 #2",PY,4/14/2016,,,,TRUE
+2383,"Tuesday, 4/19/2016",PY,4/19/2016,,,,TRUE
+2384,"Wednesday, 4/20/2016",PY,4/20/2016,,,,TRUE
+2385,"Thursday, 4/21/2016",PY,4/21/2016,,,,TRUE
+2386,"Tuesday, 4/26/2016",PY,4/26/2016,,,,TRUE
+2387,"Wednesday, 4/27/2016",PY,4/27/2016,,,,TRUE
+2388,"Thursday, 4/28/2016",PY,4/28/2016,,,,TRUE
+2389,May2016 Monthly,RD,5/1/2016,4/1/2016,5/1/2016,M,FALSE
+2390,May2016 MeterPits,RD,5/1/2016,4/1/2016,5/1/2016,Q,FALSE
+2391,"Friday, April 29, 2016",PY,4/29/2016,,,,TRUE
+2392,"Tuesday, 5/3/2016",PY,5/3/2016,,,,TRUE
+2393,MAY 2016 Interest,IN,5/1/2016,,,,FALSE
+2394,"Wednesday, 5/4/2016",PY,5/4/2016,,,,TRUE
+2395,"Thursday, 5/5/2016",PY,5/5/2016,,,,TRUE
+2396,"Tuesday, 5/10/2016",PY,5/10/2016,,,,TRUE
+2397,"Thursday, 5/12/2016",PY,5/12/2016,,,,TRUE
+2398,"Tuesday, 5/17/2016",PY,5/17/2016,,,,TRUE
+2399,"Wednesday, 5/18/2016",PY,5/18/2016,,,,TRUE
+2400,"Thursday, 5/19/2016",PY,5/19/2016,,,,TRUE
+2401,"Tuesday, 5/24/2016",PY,5/24/2016,,,,TRUE
+2402,June2016Monthly,RD,6/1/2016,5/1/2016,6/1/2016,M,FALSE
+2403,June2016MeterPits,RD,6/1/2016,5/1/2016,6/1/2016,Q,FALSE
+2404,"Tuesday, May 31, 2016",PY,5/31/2016,,,,TRUE
+2406,"Wednesday, 6/1/2016",PY,6/1/2016,,,,TRUE
+2407,June2016 Interest,IN,6/1/2016,,,,FALSE
+2408,"Tuesday, 6/7/2016",PY,6/7/2016,,,,TRUE
+2409,"Thursday, 6/9/2016",PY,6/9/2016,,,,TRUE
+2410,"Tuesday, June 14, 2016",PY,6/14/2016,,,,TRUE
+2411,"Wednesday, 6/15/2016",PY,6/15/2016,,,,TRUE
+2412,"Thursday, 6/16/2016",PY,6/16/2016,,,,TRUE
+2413,"Monday, June 20, 2016",PY,6/20/2016,,,,TRUE
+2414,"Tuesday, 6/21/2016",PY,6/21/2016,,,,TRUE
+2415,"Thursday, 6/23/2016",PY,6/23/2016,,,,TRUE
+2416,"Monday, June 27, 2016",PY,6/27/2016,,,,TRUE
+2417,July 2016 Monthly,RD,7/1/2016,6/1/2016,7/1/2016,M,FALSE
+2418,July 2016 Meter Pits,RD,7/1/2016,6/1/2016,7/1/2016,Q,FALSE
+2420,"Thursday, 6/30/2016",PY,6/30/2016,,,,TRUE
+2421,"Tuesday, July 5, 2016",PY,7/5/2016,,,,TRUE
+2422,"Wednesday, July 6, 2016",PY,7/6/2016,,,,TRUE
+2423,"Monday, July 11, 2016",PY,7/11/2016,,,,TRUE
+2424,"Tuesday, 7/12/2016",PY,7/12/2016,,,,TRUE
+2425,"Monday, July 18, 2016",PY,7/18/2016,,,,TRUE
+2426,"Thursday, July 21, 2016",PY,7/21/2016,,,,TRUE
+2427,"Monday, July 25, 2016",PY,7/25/2016,,,,TRUE
+2428,"Monday, July 25, 2016 #2",PY,7/25/2016,,,,TRUE
+2429,August2016 Monthly,RD,8/1/2016,7/1/2016,8/1/2016,M,FALSE
+2430,August2016 Meter Pits,RD,8/1/2016,7/1/2016,8/1/2016,Q,FALSE
+2432,"MONDAY, August 1, 2016",PY,8/1/2016,,,,TRUE
+2433,"MONDAY, August 1, 2016 #2",PY,8/1/2016,,,,TRUE
+2434,"Tuesday, August 2, 2016",PY,8/2/2016,,,,TRUE
+2435,"Friday, August 5, 2016",PY,8/5/2016,,,,TRUE
+2436,"Monday, August 15, 2016",PY,8/15/2016,,,,TRUE
+2437,"Wednesday, 8/17/2016",PY,8/17/2016,,,,TRUE
+2438,"Wednesday, 8/24/2016",PY,8/24/2016,,,,TRUE
+2439,September2016 Monthly,RD,9/1/2016,8/1/2016,9/1/2016,M,FALSE
+2440,September2016-Meter Pits,RD,9/1/2016,8/1/2016,9/1/2016,Q,FALSE
+2442,"Wednesday, 8/31/2016",PY,8/31/2016,,,,TRUE
+2443,"Tuesday, 9/13/2016",PY,9/13/2016,,,,TRUE
+2446,OCTOBER 2016 Readings,RD,10/1/2016,4/1/2016,10/1/2016,S,FALSE
+2447,"Thursday, 9/15/2016",PY,9/15/2016,,,,TRUE
+2448,"Tuesday, 9/20/2016",PY,9/20/2016,,,,TRUE
+2449,"Tuesday, 9/27/2016",PY,9/27/2016,,,,TRUE
+2450,OCTOBER2016 Monthly,RD,10/1/2016,9/1/2016,10/1/2016,M,FALSE
+2451,OCTOBER2016 Meter Pits,RD,10/1/2016,9/1/2016,10/1/2016,Q,FALSE
+2452,"Tuesday, 10/4/2016",PY,10/4/2016,,,,TRUE
+2453,"Wednesday, 10/5/2016",PY,10/5/2016,,,,TRUE
+2454,"Thursday, 10/6/2016",PY,10/6/2016,,,,TRUE
+2455,"Tuesday, 10/11/16",PY,10/11/2016,,,,TRUE
+2456,"Wednesday, 10/12/2016",PY,10/12/2016,,,,TRUE
+2458,"Thursday, 10/13/2016",PY,10/13/2016,,,,TRUE
+2459,"Tuesday, 10/18/2016",PY,10/18/2016,,,,TRUE
+2460,"Wednesday, 10/19/2016",PY,10/19/2016,,,,TRUE
+2461,"Thursday, 10/20/2016",PY,10/20/2016,,,,TRUE
+2462,"Tuesday, 10/25/2016",PY,10/25/2016,,,,TRUE
+2463,"Wednesday, 10/26/2016",PY,10/26/2016,,,,TRUE
+2464,"Thursday, 10/27/2016",PY,10/27/2016,,,,TRUE
+2465,November2016 Monthly,RD,11/1/2016,10/1/2016,11/1/2016,M,FALSE
+2466,November2016 Meter Pits,RD,11/1/2016,10/1/2016,11/1/2016,Q,FALSE
+2468,"Monday, October 31, 2016",PY,10/31/2016,,,,TRUE
+2469,"Monday, October 31, 2016 #2",PY,10/31/2016,,,,TRUE
+2470,"Tuesday, 11/1/2016",PY,11/1/2016,,,,TRUE
+2471,"Wednesday, November 2, 2016",PY,11/2/2016,,,,TRUE
+2472,Novermber 2016 Interest,IN,11/1/2016,,,,FALSE
+2473,"Thursday, 11/3/2016",PY,11/3/2016,,,,TRUE
+2474,"Tuesday, 11/08/2016",PY,11/8/2016,,,,TRUE
+2475,"Thursday, 11/10/2016",PY,11/10/2016,,,,TRUE
+2476,"Tuesday, 11/15/2016",PY,11/15/2016,,,,TRUE
+2477,"Wednesday, 11/16/2016",PY,11/16/2016,,,,TRUE
+2478,"Monday, November 21, 2016",PY,11/21/2016,,,,TRUE
+2479,"WEDNESDAY, November 23, 2016",PY,11/23/2016,,,,TRUE
+2480,December2016 Monthly,RD,12/1/2016,11/1/2016,12/1/2016,M,FALSE
+2481,December2016 Meter Pits,RD,12/1/2016,11/1/2016,12/1/2016,Q,FALSE
+2482,"Tuesday, 11/29/2016",PY,11/29/2016,,,,TRUE
+2483,December2016 Interest,IN,12/1/2016,,,,FALSE
+2484,"Thursday, 12/1/2016",PY,12/1/2016,,,,TRUE
+2485,"Tuesday, 12/06/2016",PY,12/6/2016,,,,TRUE
+2486,"Thursday, 12/08/2016",PY,12/8/2016,,,,TRUE
+2487,"Tuesday, 12/13/2016",PY,12/13/2016,,,,TRUE
+2488,"Wednesday, 12/14/2016",PY,12/14/2016,,,,TRUE
+2489,"Thursday, 12/15/2016",PY,12/15/2016,,,,TRUE
+2490,"Tuesday, 12/20/2016",PY,12/20/2016,,,,TRUE
+2491,"Wednesday, 12/28/2016",PY,12/28/2016,,,,TRUE
+2492,"Thursday, 12/29/2016",PY,12/29/2016,,,,TRUE
+2493,"Tuesday, 1/3/2017",PY,1/3/2017,,,,TRUE
+2494,January2017 Monthly,RD,1/1/2017,12/1/2016,1/1/2017,M,FALSE
+2495,January2017 Meter Pits,RD,1/1/2017,12/1/2016,1/1/2017,Q,FALSE
+2496,"Thursday, 1/5/2016",PY,1/5/2017,,,,TRUE
+2497,"Thursday, 1/12/2016",PY,1/12/2017,,,,TRUE
+2498,"Tuesday, 1/17/2017",PY,1/17/2017,,,,TRUE
+2499,"Wednesday, 1/25/2017",PY,1/25/2017,,,,TRUE
+2500,February2017 Monthly,RD,2/1/2017,1/1/2017,2/1/2017,M,FALSE
+2501,Feb2017 Meter Pits,RD,2/1/2017,1/1/2017,2/1/2017,Q,FALSE
+2502,"Tuesday, 1/31/2017",PY,1/31/2017,,,,TRUE
+2503,"Tuesday, 2/7/2017",PY,2/7/2017,,,,TRUE
+2504,"Tuesday, 2/14/2017",PY,2/14/2017,,,,TRUE
+2505,"Thursday, 2/16/2017",PY,2/16/2017,,,,TRUE
+2506,"Wednesday, 2/22/2017",PY,2/22/2017,,,,TRUE
+2507,"Monday, February 27, 2017",PY,2/27/2017,,,,TRUE
+2509,March2017-Monthly,RD,3/1/2017,2/1/2017,3/1/2017,M,FALSE
+2510,March2017-Meter Pits,RD,3/1/2017,2/1/2017,3/1/2017,Q,FALSE
+2511,"Tuesday, 3/7/2017",PY,3/7/2017,,,,TRUE
+2512,"Wednesday, 3/15/2017",PY,3/15/2017,,,,TRUE
+2513,April 2017 Readings,RD,4/1/2017,10/1/2016,4/1/2017,S,FALSE
+2514,"Wednesday, 3/22/2017",PY,3/22/2017,,,,TRUE
+2515,"Wednesday, 3/22/2017 #2",PY,3/22/2017,,,,TRUE
+2516,"Wednesday, 3/29/2017",PY,3/29/2017,,,,TRUE
+2518,April2017 Meter Pits,RD,4/1/2017,3/1/2017,4/1/2017,Q,FALSE
+2522,April2017 Monthly,RD,4/1/2017,3/1/2017,4/1/2017,M,FALSE
+2523,"Monday, April 3, 2017",PY,4/3/2017,,,,TRUE
+2524,"Tuesday, 4/4/2017",PY,4/4/2017,,,,TRUE
+2525,"Tuesday, April 4, 2017 - Batch #2",PY,4/4/2017,,,,TRUE
+2526,"Wednesday, 4/5/2017",PY,4/5/2017,,,,TRUE
+2527,"Thursday, 4/6/2017",PY,4/6/2017,,,,TRUE
+2528,"Thursday, 4/6/2017 #2",PY,4/6/2017,,,,TRUE
+2529,"Monday, April 10, 2017",PY,4/10/2017,,,,TRUE
+2530,"Tuesday, 4/11/2017",PY,4/11/2017,,,,TRUE
+2531,"Wednesday, 4/12/2017",PY,4/12/2017,,,,TRUE
+2532,"Wednesday, April 12, 2017 #2",PY,4/12/2017,,,,TRUE
+2533,"Tuesday, 4/18/2017",PY,4/18/2017,,,,TRUE
+2534,"Wednesday, 4/19/2017",PY,4/19/2017,,,,TRUE
+2535,"Thursday, 4/20/2017",PY,4/20/2017,,,,TRUE
+2536,"Tuesday, 4/25/2017",PY,4/25/2017,,,,TRUE
+2537,"Wednesday, 4/26/2017",PY,4/26/2017,,,,TRUE
+2538,"Thursday, 4/27/2017",PY,4/27/2017,,,,TRUE
+2539,"Monday, May 1, 2017",PY,5/1/2017,,,,TRUE
+2540,"Tuesday, 5/2/2017",PY,5/2/2017,,,,TRUE
+2541,May 2017 Interest,IN,5/1/2017,,,,FALSE
+2542,May2017 Monthly,RD,5/1/2017,4/1/2017,5/1/2017,M,FALSE
+2543,May2017 Meter Pits,RD,5/1/2017,4/1/2017,5/1/2017,Q,FALSE
+2544,"Wednesday, 5/3/2017",PY,5/3/2017,,,,TRUE
+2545,"Thursday, 5/4/2017",PY,5/4/2017,,,,TRUE
+2546,"Tuesday, 5/9/17",PY,5/9/2017,,,,TRUE
+2547,"Wednesday, 5/10/2017",PY,5/10/2017,,,,TRUE
+2548,"Monday, 5/15/2017",PY,5/15/2017,,,,TRUE
+2549,"Wednesday, 5/17/2017",PY,5/17/2017,,,,TRUE
+2550,"Tuesday, 5/23/2017",PY,5/23/2017,,,,TRUE
+2551,"Tuesday, 5/30/2017",PY,5/30/2017,,,,TRUE
+2552,JUNE2017 Interest,IN,6/1/2017,,,,FALSE
+2553,"Wednesday, 5/31/2017",PY,5/31/2017,,,,TRUE
+2557,June2017 Monthly,RD,6/1/2017,5/1/2017,6/1/2017,M,FALSE
+2558,June2017 Meter Pits,RD,6/1/2017,5/1/2017,6/1/2017,Q,FALSE
+2559,"Tuesday, 6/6/2017",PY,6/6/2017,,,,TRUE
+2560,"Thursday, June 8, 2017",PY,6/8/2017,,,,TRUE
+2561,"Monday, 6/12/2017",PY,6/12/2017,,,,TRUE
+2562,"Tuesday, 6/13/2017",PY,6/13/2017,,,,TRUE
+2563,"Wednesday, 6/14/2017",PY,6/14/2017,,,,TRUE
+2565,"Thursday, 6/15/2017",PY,6/15/2017,,,,TRUE
+2566,"Tuesday, 6/20/2017",PY,6/20/2017,,,,TRUE
+2567,"Tuesday, 6/27/2017",PY,6/27/2017,,,,TRUE
+2568,"Wednesday, 6/28/2017",PY,6/28/2017,,,,TRUE
+2569,July2017 Monthly,RD,7/1/2017,6/1/2017,7/1/2017,M,FALSE
+2570,July2017 Meter Pits,RD,7/1/2017,6/1/2017,7/1/2017,Q,FALSE
+2571,"Thursday, 6/29/2017",PY,6/29/2017,,,,TRUE
+2572,"Wednesday, 7/5/2017",PY,7/5/2017,,,,TRUE
+2573,"Thursday, 7/6/2017",PY,7/6/2017,,,,TRUE
+2574,"Tuesday, 7/11/2017",PY,7/11/2017,,,,TRUE
+2575,"Tuesday, 7//18/2017",PY,7/18/2017,,,,TRUE
+2576,"Thursday, July 20, 2017",PY,7/20/2017,,,,TRUE
+2577,"Thursday, 7/27/2017",PY,7/27/2017,,,,TRUE
+2579,August2017-MeterPits,RD,8/1/2017,7/1/2017,8/1/2017,Q,FALSE
+2580,August2017-Monthly,RD,8/1/2017,7/1/2017,8/1/2017,M,FALSE
+2581,"Wednesday, 8/2/2017",PY,8/2/2017,,,,TRUE
+2582,"Tuesday, 8/8/2017",PY,8/8/2017,,,,TRUE
+2583,"Tuesday, 8/15/2017",PY,8/15/2017,,,,TRUE
+2584,"Thursday, 8/17/2017",PY,8/17/2017,,,,TRUE
+2585,"Thursday, 8/24/2017",PY,8/24/2017,,,,TRUE
+2586,September2017 Monthly,RD,9/1/2017,8/1/2017,9/1/2017,M,FALSE
+2587,September2017 Meter Pits,RD,9/1/2017,8/1/2017,9/1/2017,Q,FALSE
+2588,"Wednesday, 9/6/2017",PY,9/6/2017,,,,TRUE
+2589,"Tuesday, 9/12/2017",PY,9/12/2017,,,,TRUE
+2590,October2017 Readings,RD,10/1/2017,4/1/2017,10/1/2017,S,FALSE
+2591,October2017 Monthly,RD,10/1/2017,9/1/2017,10/1/2017,M,FALSE
+2592,October2017 Meter Pits,RD,10/1/2017,9/1/2017,10/1/2017,Q,FALSE
+2593,"Wednesday, 9/27/2017",PY,9/27/2017,,,,TRUE
+2594,"Tuesday, 10/3/2017",PY,10/3/2017,,,,TRUE
+2595,"Wednesday, 10/4/2017",PY,10/4/2017,,,,TRUE
+2596,"Thursday, 10/5/2017",PY,10/5/2017,,,,TRUE
+2597,"Tuesday, 10/10/2017",PY,10/10/2017,,,,TRUE
+2598,"Wednesday, 10/11/2017",PY,10/11/2017,,,,TRUE
+2599,"Thursday, 10/12/2017",PY,10/12/2017,,,,TRUE
+2600,"Tuesday, 10/17/2017",PY,10/17/2017,,,,TRUE
+2601,"Wednesday, 10/18/2017",PY,10/18/2017,,,,TRUE
+2602,"Thursday, 10/19/2017",PY,10/19/2017,,,,TRUE
+2604,"Tuesday, 10/24/2017",PY,10/24/2017,,,,TRUE
+2605,"Wednesday, 10/25/2017",PY,10/25/2017,,,,TRUE
+2606,"Thursday, 10/26/2017",PY,10/26/2017,,,,TRUE
+2607,November2017 Monthly,RD,11/1/2017,10/1/2017,11/1/2017,M,FALSE
+2608,November2017 Meter Pits,RD,11/1/2017,10/1/2017,11/1/2017,Q,FALSE
+2609,"Monday, October 30, 2017",PY,10/30/2017,,,,TRUE
+2610,"Tuesday, 10/31/2017",PY,10/31/2017,,,,TRUE
+2611,"Wednesday, 11/1/2017",PY,11/1/2017,,,,TRUE
+2612,"Thursday, 11/2/2017",PY,11/2/2017,,,,TRUE
+2613,November 2017 Interest,IN,11/1/2017,,,,FALSE
+2614,"Tuesday, 11/7/2017",PY,11/7/2017,,,,TRUE
+2615,"Thursday, 11/9/2017",PY,11/9/2017,,,,TRUE
+2616,"Tuesday, 11/14/2017",PY,11/14/2017,,,,TRUE
+2618,"Thursday, 11/16/2017",PY,11/16/2017,,,,TRUE
+2619,"Tuesday, 11/21/2017",PY,11/21/2017,,,,TRUE
+2620,"Tuesday, 11/28/2017",PY,11/28/2017,,,,TRUE
+2621,December2017 Interest,IN,12/1/2017,,,,FALSE
+2622,December2017 Monthly,RD,12/1/2017,11/1/2017,12/1/2017,M,FALSE
+2623,December2017 Meter Pits,RD,12/1/2017,11/1/2017,12/1/2017,Q,FALSE
+2624,"Wednesday, 12/6/2017",PY,12/6/2017,,,,TRUE
+2625,"Tuesday, 12/12/2017",PY,12/12/2017,,,,TRUE
+2626,"Wednesday, 12/13/2017",PY,12/13/2017,,,,TRUE
+2627,"Tuesday, 12/19/2017",PY,12/19/2017,,,,TRUE
+2628,"Wednesday, 12/20/2017",PY,12/20/2017,,,,TRUE
+2629,"Thursday, 12/21/2017",PY,12/21/2017,,,,TRUE
+2630,"Wednesday, 12/27/2017",PY,12/27/2017,,,,TRUE
+2633,January2018 Monthly,RD,1/1/2018,12/1/2017,1/1/2018,M,FALSE
+2634,January2018 Meter pits,RD,1/1/2018,12/1/2017,1/1/2018,Q,FALSE
+2635,"Tuesday, 1/9/2018",PY,1/9/2018,,,,TRUE
+2636,"Tuesday, January 16, 2018 TEST",PY,1/16/2018,,,,FALSE
+2637,"Tuesday, 1/23/2018",PY,1/23/2018,,,,TRUE
+2638,February2018 Meter Pits,RD,2/1/2018,1/1/2018,2/1/2018,Q,FALSE
+2639,February2018 Monthly,RD,2/1/2018,1/1/2018,2/1/2018,M,FALSE
+2640,"Wednesday, 1/31/2018",PY,1/31/2018,,,,TRUE
+2641,"Thursday, 2/8/2018",PY,2/8/2018,,,,TRUE
+2642,"Wednesday, 2/14/2018",PY,2/14/2018,,,,TRUE
+2648,Meter Pits March 2018,RD,3/1/2018,2/1/2018,3/1/2018,Q,FALSE
+2649,"Wednesday, 2/21/2018",PY,2/21/2018,,,,TRUE
+2651,March2018 Monthly,RD,3/1/2018,2/1/2018,3/1/2018,M,FALSE
+2652,"Tuesday, 2/27/2018",PY,2/27/2018,,,,TRUE
+2656,"Wednesday, 3/14/2018",PY,3/14/2018,,,,TRUE
+2657,April2018 Readings,RD,4/1/2018,10/1/2017,4/1/2018,S,FALSE
+2658,April2018 Monthly,RD,4/1/2018,3/1/2018,4/1/2018,M,FALSE
+2659,April2018 Meter Pits,RD,4/1/2018,3/1/2018,4/1/2018,Q,FALSE
+2660,"Wednesday, 3/21/2018",PY,3/21/2018,,,,TRUE
+2662,"Monday, March 26, 2018",PY,3/26/2018,,,,TRUE
+2663,"Tuesday, 4/3/2018",PY,4/3/2018,,,,TRUE
+2664,"Wednesday, 4/4/2018",PY,4/4/2018,,,,TRUE
+2665,"Wednesday, 4/4/2018 #2",PY,4/4/2018,,,,TRUE
+2666,"Thursday, 4/5/2018",PY,4/5/2018,,,,TRUE
+2668,"Tuesday, 4/10/2018",PY,4/10/2018,,,,TRUE
+2669,"Tuesday, 4/10/2018 #2",PY,4/10/2018,,,,TRUE
+2670,"Wednesday, 4/11/2018",PY,4/11/2018,,,,TRUE
+2671,"Thursday, 4/12/2018",PY,4/12/2018,,,,TRUE
+2672,"Tuesday, 4/17/2018",PY,4/17/2018,,,,TRUE
+2673,"Tuesday, 4/17/2018 #2",PY,4/17/2018,,,,TRUE
+2674,"Thursday, 4/19/2018",PY,4/19/2018,,,,TRUE
+2675,"Tuesday, 4/24/2018",PY,4/24/2018,,,,TRUE
+2676,"Wednesday, 4/25/2018",PY,4/25/2018,,,,TRUE
+2677,"Thursday, 4/26/2018",PY,4/26/2018,,,,TRUE
+2678,May2018 Meter Pits,RD,5/1/2018,4/1/2018,5/1/2018,Q,FALSE
+2679,May2018 Monthly,RD,5/1/2018,4/1/2018,4/1/2018,M,FALSE
+2680,"Monday, April 30, 2018",PY,4/30/2018,,,,TRUE
+2681,"Tuesday, 5/1/2018",PY,5/1/2018,,,,TRUE
+2682,"Tuesday, 5/1/2018 #2",PY,5/1/2018,,,,TRUE
+2683,May 2018 Interest,IN,5/1/2018,,,,FALSE
+2684,"Wednesday, 5/2/2018",PY,5/2/2018,,,,TRUE
+2685,"Thursday, 5/3/2018",PY,5/3/2018,,,,TRUE
+2686,"Tuesday, 5/8/2018",PY,5/8/2018,,,,TRUE
+2687,"Thursday, May 10, 2018",PY,5/10/2018,,,,TRUE
+2688,"Tuesday, 5/15/2018",PY,5/15/2018,,,,TRUE
+2689,"Thursday, 5/17/2018",PY,5/17/2018,,,,TRUE
+2690,"Tuesday, 5/22/2018",PY,5/22/2018,,,,TRUE
+2691,"Thursday, 5/24/2018",PY,5/24/2018,,,,TRUE
+2692,"Tuesday, 5/29/2018",PY,5/29/2018,,,,TRUE
+2693,"Wednesday, 5/30/2018",PY,5/30/2018,,,,TRUE
+2694,"Thursday, 5/31/2018",PY,5/31/2018,,,,TRUE
+2695,June 2018 Interest,IN,6/1/2018,,,,FALSE
+2696,"Tuesday, 6/5/2018",PY,6/5/2018,,,,TRUE
+2697,June2018 Monthly,RD,6/1/2018,5/1/2018,6/1/2018,M,FALSE
+2698,June2018 Meter Pits,RD,6/1/2018,5/1/2018,6/1/2018,Q,FALSE
+2699,"Thursday, 6/7/2018",PY,6/7/2018,,,,TRUE
+2700,"Tuesday, 6/12/2018",PY,6/12/2018,,,,TRUE
+2701,"Tuesday, 6/19/2018",PY,6/19/2018,,,,TRUE
+2702,"Thursday, 6/21/2018",PY,6/21/2018,,,,TRUE
+2703,"Tuesday, 6/26/2018",PY,6/26/2018,,,,TRUE
+2704,July2018 Meter Pits,RD,7/1/2018,6/1/2018,7/1/2018,Q,FALSE
+2705,July 2018 Monthly,RD,7/1/2018,6/1/2018,7/1/2018,M,FALSE
+2706,"Monday, 7/2/2018",PY,7/2/2018,,,,TRUE
+2707,"Thursday, 7/5/2018",PY,7/5/2018,,,,TRUE
+2708,"Tuesday, 7/10/2018",PY,7/10/2018,,,,TRUE
+2709,"Thursday, 7/12/2018",PY,7/12/2018,,,,TRUE
+2710,"Tuesday, 7/17/2018",PY,7/17/2018,,,,TRUE
+2711,"Wednesday, 7/18/2018",PY,7/18/2018,,,,TRUE
+2712,"Monday, 7/23/2018",PY,7/23/2018,,,,TRUE
+2713,"Monday, 7/23/2018 #2",PY,7/23/2018,,,,TRUE
+2714,"Tuesday, 7/24/2018",PY,7/24/2018,,,,TRUE
+2715,"Wednesday, 7/25/2018",PY,7/25/2018,,,,TRUE
+2716,"Thursday, 7/26/2018",PY,7/26/2018,,,,TRUE
+2717,August2018 Monthly,RD,8/1/2018,7/1/2018,8/1/2018,M,FALSE
+2718,August2018 Meter Pits,RD,8/1/2018,7/1/2018,8/1/2018,Q,FALSE
+2719,"Tuesday, 7/31/2018",PY,7/31/2018,,,,TRUE
+2720,"Tuesday, 8/7/2018",PY,8/7/2018,,,,TRUE
+2721,"Tuesday, 8/14/2018",PY,8/14/2018,,,,TRUE
+2722,"Wednesday, 8/15/2018",PY,8/15/2018,,,,TRUE
+2723,"Tuesday, 8/21/2018",PY,8/21/2018,,,,TRUE
+2724,"Wednesday, 8/22/2018",PY,8/22/2018,,,,TRUE
+2725,"Tuesday, 8/28/2018",PY,8/28/2018,,,,TRUE
+2726,"Wednesday, 8/29/2018",PY,8/29/2018,,,,TRUE
+2727,September 2018  Monthly,RD,9/1/2018,8/1/2018,9/1/2018,M,FALSE
+2728,September 2018 Meter Pits,RD,9/1/2018,8/1/2018,9/1/2018,Q,FALSE
+2729,"Thursday, 8/30/2018",PY,8/30/2018,,,,TRUE
+2730,"Wednesday, 9/5/2018",PY,9/5/2018,,,,TRUE
+2731,"Wednesday, 9/12/2018",PY,9/12/2018,,,,TRUE
+2732,"Tuesday, 9/18/2018",PY,9/18/2018,,,,TRUE
+2733,October 2018 Readings,RD,10/1/2018,4/1/2018,10/1/2018,S,FALSE
+2734,October 2018 Monthly,RD,10/1/2018,9/1/2018,10/1/2018,M,FALSE
+2735,October 2018 Meter Pits,RD,10/1/2018,9/1/2018,10/1/2018,Q,FALSE
+2736,"Thursday, 9/27/2018",PY,9/27/2018,,,,TRUE
+2737,"Tuesday, 10/2/2018",PY,10/2/2018,,,,TRUE
+2738,"Tuesday, 10/2/2018 #2",PY,10/2/2018,,,,TRUE
+2739,"Thursday, 10/4/2018",PY,10/4/2018,,,,TRUE
+2740,"Thutsday, 10/4/2018 #2",PY,10/4/2018,,,,TRUE
+2741,"Thursday, 10/4/2018 #3",PY,10/4/2018,,,,TRUE
+2742,"Tuesday, 10/9/2018",PY,10/9/2018,,,,TRUE
+2743,"Tuesday, 10/9/2018 #2",PY,10/9/2018,,,,TRUE
+2744,"Wednesday, 10/10/2018",PY,10/10/2018,,,,TRUE
+2745,"Thursday, 10/11/2018",PY,10/11/2018,,,,TRUE
+2746,"Tuesday, 10/16/2018",PY,10/16/2018,,,,TRUE
+2748,"Wednesday, 10/17/2018",PY,10/17/2018,,,,TRUE
+2749,"Thursday, 10/18/2018",PY,10/18/2018,,,,TRUE
+2750,"Tuesday, 10/23/2018",PY,10/23/2018,,,,TRUE
+2751,"Tuesday, 10/23/2018 #2",PY,10/23/2018,,,,TRUE
+2752,"Thursday, 10/25/2018",PY,10/25/2018,,,,TRUE
+2753,"Tuesday, 10/30/2018",PY,10/30/2018,,,,TRUE
+2754,"Tuesday, 10/30/2018 #2",PY,10/30/2018,,,,TRUE
+2755,"Wednesday, 10/31/2018",PY,10/31/2018,,,,TRUE
+2756,"Thursday, 11/1/2018",PY,11/1/2018,,,,TRUE
+2757,November2018 Monthly,RD,11/1/2018,10/1/2018,11/1/2018,M,FALSE
+2758,November2018 Meter Pits,RD,11/1/2018,10/1/2018,11/1/2018,Q,FALSE
+2759,November2018 Interest,IN,11/1/2018,,,,FALSE
+2760,"Tuesday, 11/6/2018",PY,11/6/2018,,,,TRUE
+2761,"Tuesday, 11/13/2018",PY,11/13/2018,,,,TRUE
+2762,"Wednesday, 11/14/2018",PY,11/14/2018,,,,TRUE
+2763,"Tuesday, 11/20/2018",PY,11/20/2018,,,,TRUE
+2764,"Tuesday, 11/27/2018",PY,11/27/2018,,,,TRUE
+2765,December 2018 Interest,IN,12/1/2018,,,,FALSE
+2766,"Tuesday, 12/4/2018",PY,12/4/2018,,,,TRUE
+2767,"Thursday, 12/6/2018",PY,12/6/2018,,,,TRUE
+2768,"Tuesday, 12/11/2018",PY,12/11/2018,,,,TRUE
+2769,"Thursday, 12/13/2018",PY,12/13/2018,,,,TRUE
+2770,"Monday, 12/17/2018",PY,12/17/2018,,,,TRUE
+2771,"Wednesday, 12/26/2018",PY,12/26/2018,,,,TRUE
+2772,December2018 Monthly,RD,12/1/2018,11/1/2018,12/1/2018,M,FALSE
+2773,January2019 Monthly,RD,1/1/2019,12/1/2018,1/1/2019,M,FALSE
+2774,January2019 Meter Pits,RD,1/1/2019,12/1/2018,1/1/2019,Q,FALSE
+2775,December 2018 Meter Pits,RD,12/1/2018,11/1/2018,12/1/2018,Q,FALSE
+2776,"Wednesday, 1/9/2018",PY,1/9/2019,,,,TRUE
+2777,"Tuesday, 1/22/2019",PY,1/22/2019,,,,TRUE
+2778,Feb2018 Monthly,RD,2/1/2019,1/1/2019,2/1/2019,M,FALSE
+2779,Feb2019 Meter Pits,RD,2/1/2019,1/1/2019,2/1/2019,Q,FALSE
+2780,"Thursday, 1/31/2019",PY,1/31/2019,,,,TRUE
+2781,"Thursday, 2/7/2019",PY,2/7/2019,,,,TRUE
+2782,"Thursday, 2/14/2019",PY,2/14/2019,,,,TRUE
+2783,"Wednesday, 2/20/2019",PY,2/20/2019,,,,TRUE
+2784,March 2019 Meter Pits,RD,3/1/2019,2/1/2019,3/1/2019,Q,FALSE
+2785,March2019 Monthly,RD,3/1/2019,2/1/2019,3/1/2019,M,FALSE
+2786,"Thursday, 2/28/2019",PY,2/28/2019,,,,TRUE
+2787,"Tuesday, 3/5/2019",PY,3/5/2019,,,,TRUE
+2788,April2019 Readings,RD,4/1/2019,10/1/2018,4/1/2019,S,FALSE
+2789,April2019 Monthly,RD,4/1/2019,3/1/2019,4/1/2019,M,FALSE
+2790,April2019 Meter Pits,RD,4/1/2019,3/1/2019,4/1/2019,Q,FALSE
+2791,"Wednesday, 3/20/2019",PY,3/20/2019,,,,TRUE
+2792,"Thursday, 3/28/2019",PY,3/28/2019,,,,TRUE
+2793,"Tuesday, 4/2/2019",PY,4/2/2019,,,,TRUE
+2794,"Tuesday, 4/2/2019 #2",PY,4/2/2019,,,,TRUE
+2795,"Wednesday, 4/3/2019",PY,4/3/2019,,,,TRUE
+2796,"Thursday, 4/4/2019",PY,4/4/2019,,,,TRUE
+2797,"Tuesday, 4/9/2019",PY,4/9/2019,,,,TRUE
+2798,"Thursday, 4/11/2019",PY,4/11/2019,,,,TRUE
+2799,"Tuesday, 4/16/2019",PY,4/16/2019,,,,TRUE
+2800,"Wednesday, 4/17/2019",PY,4/17/2019,,,,TRUE
+2801,"Thursday, 4/18/2019",PY,4/18/2019,,,,TRUE
+2802,"Tuesday, 4/23/2019",PY,4/23/2019,,,,TRUE
+2803,"Thursday, 4/25/2019",PY,4/25/2019,,,,TRUE
+2804,May2019 Monthly,RD,5/1/2019,4/1/2019,5/1/2019,M,FALSE
+2805,May2019 Meter Pits,RD,5/1/2019,4/1/2019,5/1/2019,Q,FALSE
+2806,"Tuesday, 4/30/2019",PY,4/30/2019,,,,TRUE
+2807,"Tuesday, 4/30/2019 #2",PY,4/30/2019,,,,TRUE
+2808,"Wednesday, 5/1/2019",PY,5/1/2019,,,,TRUE
+2809,May2019 Interest,IN,5/1/2019,,,,FALSE
+2810,"Thursday, 5/2/2019",PY,5/2/2019,,,,TRUE
+2812,"Tuesday, 5/7/2019",PY,5/7/2019,,,,TRUE
+2813,"Thursday, 5/9/2019",PY,5/9/2019,,,,TRUE
+2814,"Monday, 5/13/2019",PY,5/13/2019,,,,TRUE
+2815,"Tuesday, 5/21/2019",PY,5/21/2019,,,,TRUE
+2816,"Tuesday, 5/28/2019",PY,5/28/2019,,,,TRUE
+2817,June2019 Interest - Shut OFF,IN,6/1/2019,,,,FALSE
+2818,June2019 Monthly,RD,6/1/2019,5/1/2019,6/1/2019,M,FALSE
+2819,June2019 Meter Pits,RD,6/1/2019,5/1/2019,6/1/2019,Q,FALSE
+2822,"Thursday, 5/30/2019",PY,5/30/2019,,,,TRUE
+2823,"Tuesday, 6/4/2019",PY,6/4/2019,,,,TRUE
+2824,"Tuesday, 6/11/2019",PY,6/11/2019,,,,TRUE
+2825,"Tuesday, 6/18/2019",PY,6/18/2019,,,,TRUE
+2826,July2019 Monthly,RD,7/1/2019,6/1/2019,7/1/2019,M,FALSE
+2827,July 2019 Meter Pits,RD,7/1/2019,6/1/2019,7/1/2019,Q,FALSE
+2828,"Tuesday, 7/2/2019",PY,7/2/2019,,,,TRUE
+2829,"Tuesday, 7/9/2019",PY,7/9/2019,,,,TRUE
+2830,"Thursday, 7/11/2019",PY,7/11/2019,,,,TRUE
+2831,"Monday, 7/15/2019",PY,7/15/2019,,,,TRUE
+2832,"Wednesday, 7/24/2019",PY,7/24/2019,,,,TRUE
+2833,"Tuesday, 7/30/2019",PY,7/30/2019,,,,TRUE
+2834,August 2019 Meter Pits,RD,8/1/2019,7/1/2019,8/1/2019,Q,FALSE
+2835,August 2019 Monthly,RD,8/1/2019,7/1/2019,8/1/2019,M,FALSE
+2836,"Thursday, 8/1/2019",PY,8/1/2019,,,,TRUE
+2838,"Tuesday, 8/13/2019",PY,8/13/2019,,,,TRUE
+2839,"Thursday, 8/15/2019",PY,8/15/2019,,,,TRUE
+2840,"Tuesday, 8/27/2019",PY,8/27/2019,,,,TRUE
+2841,Sept2019 Monthly,RD,9/1/2019,8/1/2019,9/1/2019,M,FALSE
+2842,Sept2019 Meter Pits,RD,9/1/2019,8/1/2019,9/1/2019,Q,FALSE
+2843,"Tuesday, 9/10/2019",PY,9/10/2019,,,,TRUE
+2844,"Tuesday, 9/17/2019",PY,9/17/2019,,,,TRUE
+2845,"Tuesday, September 17, 2019",PY,9/17/2019,,,,TRUE
+2846,OctoberReadings2019,RD,10/1/2019,4/1/2019,10/1/2019,S,FALSE
+2847,October2019 Monthly,RD,10/1/2019,9/1/2019,10/1/2019,M,FALSE
+2848,October2019 MeterPits,RD,10/1/2019,9/1/2019,10/1/2019,Q,FALSE
+2849,"Tuesday, 9/24/2019",PY,9/24/2019,,,,TRUE
+2850,"Tuesday, 10/1/2019",PY,10/1/2019,,,,TRUE
+2851,"Wednesday, 10/2/2019",PY,10/2/2019,,,,TRUE
+2852,"Wednesday, 10/2/2019 #2",PY,10/2/2019,,,,TRUE
+2853,"Thursday, 10/3/2019",PY,10/3/2019,,,,TRUE
+2854,"Tuesday, 10/8/2019",PY,10/8/2019,,,,TRUE
+2855,"Tuesday, 10/8/2019 #2",PY,10/8/2019,,,,TRUE
+2856,"Thursday, 10/10/2019",PY,10/10/2019,,,,TRUE
+2857,"Thursday, 10/10/2019 #2",PY,10/10/2019,,,,TRUE
+2858,"Tuesday, 10/15/2019",PY,10/15/2019,,,,TRUE
+2859,"Tuesday, 10/15/2019 #2",PY,10/15/2019,,,,TRUE
+2860,"Thursday, 10/17/2019",PY,10/17/2019,,,,TRUE
+2861,"Monday, 10/21/2019",PY,10/21/2019,,,,TRUE
+2862,"Thursday, 10/24/2019",PY,10/24/2019,,,,TRUE
+2863,"Thursday, 10/24/2019 #2",PY,10/24/2019,,,,TRUE
+2864,"Tuesday, 10/29/2019",PY,10/29/2019,,,,TRUE
+2865,"Tuesday, 10/29/2019",PY,10/29/2019,,,,FALSE
+2866,"Tuesday, 10/29/2019 #2",PY,10/29/2019,,,,TRUE
+2867,"Thursday, 10/31/2019",PY,10/31/2019,,,,TRUE
+2868,"Thursday, 10/31/2019 #2",PY,10/31/2019,,,,TRUE
+2869,November Interest,IN,11/1/2019,,,,FALSE
+2870,November2019 Monthly,RD,11/1/2019,10/1/2019,11/1/2019,M,FALSE
+2871,November2019 Meter Pits,RD,11/1/2019,10/1/2019,11/1/2019,Q,FALSE
+2872,"Tuesday, 11/5/2019",PY,11/5/2019,,,,TRUE
+2873,"Tuesday, 11/12/2019",PY,11/12/2019,,,,TRUE
+2874,"Thursday, 11/14/2019",PY,11/14/2019,,,,TRUE
+2875,"Thursday, 11/21/2019",PY,11/21/2019,,,,TRUE
+2876,DECEMBER 2019 MONTHLY,RD,12/1/2019,11/1/2019,12/1/2019,M,FALSE
+2877,DECEMBER 2019 METER PITS,RD,12/1/2019,11/1/2019,12/1/2019,Q,FALSE
+2878,"Tuesday, 11/26/2019",PY,11/26/2019,,,,TRUE
+2879,December 2019 Interest,IN,12/1/2019,,,,FALSE
+2880,"Wednesday, 12/4/2019",PY,12/4/2019,,,,TRUE
+2881,"Tuesday, 12/10/2019",PY,12/10/2019,,,,TRUE
+2882,"Wednesday, 12/11/2019",PY,12/11/2019,,,,TRUE
+2883,"Friday, 12/13/2019",PY,12/13/2019,,,,TRUE
+2884,"Wednesday, 12/18/2019",PY,12/18/2019,,,,TRUE
+2885,"Thursday, 12/19/2019",PY,12/19/2019,,,,TRUE
+2887,January 2020 Monthly,RD,1/1/2020,12/1/2019,1/1/2020,M,FALSE
+2888,January 2020 Meter Pits,RD,1/1/2020,12/1/2019,1/1/2020,Q,FALSE
+2889,"Tuesday, 12/31/2019",PY,12/31/2019,,,,TRUE
+2890,"Wednesday, 1/8/2020",PY,1/8/2020,,,,TRUE
+2891,"Thursday, 1/16/2020",PY,1/16/2020,,,,TRUE
+2892,"Wednesday, 1/29/2020",PY,1/29/2020,,,,TRUE
+2893,February 2020 Monthly,RD,2/1/2020,1/1/2020,2/1/2020,M,FALSE
+2894,February 2020 Meter Pits,RD,2/1/2020,1/1/2020,2/1/2020,Q,FALSE
+2895,"Thursday, 2/13/2020",PY,2/13/2020,,,,TRUE
+2896,"Thrsday, 2/20/2020",PY,2/20/2020,,,,TRUE
+2897,"Wednesday, 2/26/2020",PY,2/26/2020,,,,TRUE
+2898,March 2020 Meter Pits,RD,3/1/2020,2/1/2020,3/1/2020,Q,FALSE
+2899,March 2020 Monthly,RD,3/1/2020,2/1/2020,3/1/2020,M,FALSE
+2901,"Wednesday, 3/4/2020",PY,3/4/2020,,,,TRUE
+2902,"Tuesday, 3/17/2020",PY,3/17/2020,,,,TRUE
+2903,April2020 Readings,RD,4/1/2020,10/1/2019,4/1/2020,S,FALSE
+2904,April2020 Monthly,RD,4/1/2020,3/1/2020,4/1/2020,M,FALSE
+2905,April 2020 Meter Pits,RD,4/1/2020,3/1/2020,4/1/2020,Q,FALSE
+2906,"Thursday, 4/2/2020",PY,4/2/2020,,,,TRUE
+2907,"Tuesday, 4/7/2020",PY,4/7/2020,,,,TRUE
+2908,"Wednesday, 4/8/2020",PY,4/8/2020,,,,TRUE
+2909,"Wednesday, 4/8/2020 #2",PY,4/8/2020,,,,TRUE
+2910,"Thursday, 4/9/2020",PY,4/9/2020,,,,TRUE
+2911,"Tuesday, 4/14/2020",PY,4/14/2020,,,,TRUE
+2912,"Wednesday, 4/15/2020",PY,4/15/2020,,,,TRUE
+2913,"Thursday, 4/16/2020",PY,4/16/2020,,,,TRUE
+2914,"Tuesday, 4/21/2020",PY,4/21/2020,,,,TRUE
+2915,"Tuesday, 4/28/2020",PY,4/28/2020,,,,TRUE
+2916,May 2020 Meter Pits,RD,5/1/2020,4/1/2020,5/1/2020,Q,FALSE
+2917,May 2020 Monthly,RD,5/1/2020,4/1/2020,5/1/2020,M,FALSE
+2918,"Wednesday, 4/29/2020",PY,4/29/2020,,,,TRUE
+2919,"Thursday, 4/30/2020",PY,4/30/2020,,,,TRUE
+2921,"Monday, 5/4/2020",PY,5/4/2020,,,,TRUE
+2922,"Tuesday, 5/5/2020",PY,5/5/2020,,,,TRUE
+2923,"Thursday, 5/7/2020",PY,5/7/2020,,,,TRUE
+2924,"Tuesday, 5/12/2020",PY,5/12/2020,,,,TRUE
+2925,"Tuesday, 5/19/2020",PY,5/19/2020,,,,TRUE
+2927,"Wednesday, 5/27/2020",PY,5/27/2020,,,,FALSE
+2928,"Wednesday, 5/27/2020",PY,5/28/2020,,,,TRUE
+2929,June 2020 Monthly,RD,6/1/2020,5/1/2020,6/1/2020,M,FALSE
+2930,June 2020 Meter Pits,RD,6/1/2020,5/1/2020,6/1/2020,Q,FALSE
+2931,"Tuesday, 6/2/2020",PY,6/2/2020,,,,TRUE
+2932,"Tuesday, 6/9/2020",PY,6/9/2020,,,,TRUE
+2933,"Tuesday, 6/16/2020",PY,6/16/2020,,,,TRUE
+2934,"Wednesday, 6/17/2020",PY,6/17/2020,,,,TRUE
+2935,"Tuesday, 6/23/2020",PY,6/23/2020,,,,TRUE
+2936,JULY2020 MONTHLY,RD,7/1/2020,6/1/2020,7/1/2020,M,FALSE
+2937,JULY2020 METER PITS,RD,7/1/2020,6/1/2020,7/1/2020,Q,FALSE
+2938,"Wednesday, 7/1/2020",PY,7/1/2020,,,,TRUE
+2939,"Tuesday, 7/7/2020",PY,7/7/2020,,,,TRUE
+2940,"Tuesday, 7/7/2020 #2",PY,7/7/2020,,,,TRUE
+2941,"Wednesday, 7/8/2020",PY,7/8/2020,,,,TRUE
+2942,"Thursday, 7/9/2020",PY,7/9/2020,,,,TRUE
+2943,"Tuesday, 7/14/2020",PY,7/14/2020,,,,TRUE
+2944,"Thursday, 7/16/2020",PY,7/16/2020,,,,TRUE
+2945,"Monday, 7/20/2020",PY,7/20/2020,,,,TRUE
+2946,"Tuesday, 7/21/2020",PY,7/21/2020,,,,TRUE
+2947,"Thursday, 7/23/2020",PY,7/23/2020,,,,TRUE
+2948,July31 2020 readings,RD,8/1/2020,4/1/2020,8/1/2020,S,FALSE
+2949,August 2020 monthly,RD,8/1/2020,7/1/2020,8/1/2020,M,FALSE
+2950,August 2020 Meter pits,RD,8/1/2020,7/1/2020,8/1/2020,Q,FALSE
+2951,"Thursday, 7/30/2020",PY,7/30/2020,,,,TRUE
+2952,"Tuesday, 8/4/2020",PY,8/4/2020,,,,TRUE
+2953,"Wednesday, 8/12/2020",PY,8/12/2020,,,,TRUE
+2954,"Thursday, 8/20/2020",PY,8/20/2020,,,,TRUE
+2955,"Thursday, 8/27/20",PY,8/27/2020,,,,TRUE
+2957,September 2020 ALL readings,RD,9/1/2020,8/1/2020,9/1/2020,S,FALSE
+2958,September 2020 meter pits,RD,9/1/2020,8/1/2020,9/1/2020,Q,FALSE
+2959,September 2020 monthly,RD,9/1/2020,8/1/2020,9/1/2020,M,FALSE
+2960,"Tuesday, 9/1/2020",PY,9/1/2020,,,,TRUE
+2961,"Tuesday, 9/8/2020",PY,9/8/2020,,,,TRUE
+2962,"Thursday, 9/17/2020",PY,9/17/2020,,,,TRUE
+2964,October 2020 meter pit,RD,10/1/2020,9/1/2020,10/1/2020,Q,FALSE
+2965,"Tuesday, 10/6/2020",PY,10/6/2020,,,,TRUE
+2966,October2020 Monthly,RD,10/1/2020,9/1/2020,10/1/2020,M,FALSE
+2968,"Tuesday, OCTOBER 13, 2020",PY,10/13/2020,,,,TRUE
+2969,"Tuesday, 10/20/2020",PY,10/20/2020,,,,TRUE
+2970,"Tuesday, 10/27/2020",PY,10/27/2020,,,,TRUE
+2971,"Wednesday, 10/28/2020",PY,10/28/2020,,,,TRUE
+2972,November 202 meter pits,RD,11/1/2020,10/1/2020,11/1/2020,Q,FALSE
+2973,November 2020 Monthly,RD,11/1/2020,10/1/2020,11/1/2020,M,FALSE
+2975,november stan - all meters,RD,11/1/2020,9/1/2020,11/1/2020,A,FALSE
+2977,"Monday, 11/2/2020",PY,11/2/2020,,,,TRUE
+2978,"Monday, 11/2/2020",PY,11/2/2020,,,,FALSE
+2979,"Monday, November 2, 2020",PY,11/2/2020,,,,TRUE
+2980,"Tuesday, 11/10/2020",PY,11/10/2020,,,,TRUE
+2981,"Monday. November 17, 2020",PY,11/17/2020,,,,TRUE
+2982,January 2020 Reading (Sept-Nov),RD,1/1/2021,9/1/2020,12/1/2020,S,FALSE
+2983,December Monthly,RD,12/1/2020,11/1/2020,12/1/2020,M,FALSE
+2984,December meter pits,RD,12/1/2020,11/1/2020,12/1/2020,Q,FALSE
+2985,"Monday, 11/30/2020",PY,11/30/2020,,,,TRUE
+2986,"Monday, 11/30/2020",PY,11/30/2020,,,,TRUE
+2987,"Monday, 11/30/2020 #2",PY,11/30/2020,,,,TRUE
+2988,"Tuesday, 12/8/2020",PY,12/8/2020,,,,TRUE
+2989,"Wednesday, 12/16/2020",PY,12/16/2020,,,,TRUE
+2990,January2021 Monthly,RD,1/1/2021,12/1/2020,1/1/2021,M,FALSE
+2991,January 2021 MeterPits,RD,1/1/2021,12/1/2020,1/1/2021,Q,FALSE
+2992,"Monday, 1/25/2021",PY,1/25/2021,,,,TRUE
+2993,"Thursday, 1/28/2021",PY,1/28/2021,,,,TRUE
+2994,February 2021 Monthly,RD,2/1/2021,1/1/2021,2/1/2021,M,FALSE
+2995,February 2021 Meter Pits,RD,2/1/2021,1/1/2021,2/1/2021,Q,FALSE
+2996,"Wednesday, 2/3/2021",PY,2/3/2021,,,,TRUE
+2997,"Tuesday, 2/2/2021",PY,2/9/2021,,,,TRUE
+2998,"Tuesday, 2/16/2021",PY,2/16/2021,,,,TRUE
+2999,"Monday, 2/22/2021",PY,2/22/2021,,,,TRUE
+3000,April 2021 billing Dec-Feb,RD,4/1/2021,12/1/2020,2/28/2021,S,FALSE
+3001,March 2021 Monthly,RD,3/1/2021,2/1/2021,3/1/2021,M,FALSE
+3003,"Monday, 3/1/2021",PY,3/1/2021,,,,TRUE
+3006,March2021 MeterPits+,RD,3/1/2021,2/1/2021,3/1/2021,Q,FALSE
+3007,"Wednesday, 3/24/2021",PY,3/24/2021,,,,TRUE
+3008,"Monday, 3/29/2021",PY,3/29/2021,,,,TRUE
+3009,April2021 Meter Pits,RD,4/1/2021,3/1/2021,4/1/2021,Q,FALSE
+3010,April 2021 Monthly,RD,4/1/2021,3/1/2021,4/1/2021,M,FALSE
+3011,"Mnday, 4/5/2021",PY,4/5/2021,,,,TRUE
+3012,"Thursday, 4/8/2021",PY,4/8/2021,,,,TRUE
+3013,"Monday, 4/19/2021",PY,4/19/2021,,,,TRUE
+3014,"Wednesday, 4/21/2021",PY,4/21/2021,,,,TRUE
+3017,May 2021 Monthly,RD,5/1/2021,4/1/2021,5/1/2021,M,FALSE
+3018,May2021 Meter Pits,RD,5/1/2021,4/1/2021,5/1/2021,Q,FALSE
+3019,"Thursday, 4/29/2021",PY,4/29/2021,,,,TRUE
+3020,"Monday, 5/10/2021",PY,5/10/2021,,,,TRUE
+3021,"Wednesday, 5/12/2021",PY,5/12/2021,,,,TRUE
+3023,"Monday, 5/17/2021",PY,5/17/2021,,,,TRUE
+3024,"Monday, 5/24/2021",PY,5/24/2021,,,,TRUE
+3025,"WEDNESDAY, May 26, 2021",PY,5/26/2021,,,,TRUE
+3026,May readings (July billing),RD,7/1/2021,3/1/2021,5/31/2021,S,FALSE
+3027,June 2021 Monthly,RD,6/1/2021,5/1/2021,6/1/2021,M,FALSE
+3028,June 2021 Meter Pits,RD,6/1/2021,5/1/2021,6/1/2021,Q,FALSE
+3030,"Thursday, June 3, 2021",PY,6/3/2021,,,,TRUE
+3032,"Tuesday, 6/15/2021",PY,6/15/2021,,,,TRUE
+3033,"Monday, 6/21/2021",PY,6/21/2021,,,,TRUE
+3034,"Tuesday, 6/29/2021",PY,6/29/2021,,,,TRUE
+3035,July2021 Monthly,RD,7/1/2021,6/1/2021,7/1/2021,M,FALSE
+3036,July2021 Meter Pits,RD,7/1/2021,6/1/2021,7/1/2021,Q,FALSE
+3037,"Tuesday, 7/6/2021",PY,7/6/2021,,,,TRUE
+3038,"Wednesday, 7/14/2021",PY,7/14/2021,,,,TRUE
+3039,"Monday, 7/19/2021",PY,7/19/2021,,,,TRUE
+3040,"Wednesday, 7/28/2021",PY,7/28/2021,,,,TRUE
+3041,August2021 Monthly,RD,8/1/2021,7/1/2021,8/1/2021,M,FALSE
+3042,August2021 Meter Pits,RD,8/1/2021,7/1/2021,8/1/2021,Q,FALSE
+3043,"August 3, 2021",PY,8/3/2021,,,,TRUE
+3046,"Tuesday, 8/3/2021",PY,8/3/2021,,,,FALSE
+3047,"Tuesday, 8/3/2021",PY,8/3/2021,,,,TRUE
+3048,"Monday, 8/9/2021",PY,8/9/2021,,,,TRUE
+3049,"Wednesday, 8/11/2021",PY,8/11/2021,,,,TRUE
+3050,"Wednesday, 8/18/2021",PY,8/18/2021,,,,TRUE
+3051,Sepetember2021 Monthly,RD,9/1/2021,8/1/2021,9/1/2021,M,FALSE
+3052,September 2021 Meter Pits,RD,9/1/2021,8/1/2021,9/1/2021,Q,FALSE
+3053,OCTOBER BILLING - AUG31 2021,RD,10/1/2021,6/1/2021,8/31/2021,S,FALSE
+3054,"Tuesday, 8/31/2021",PY,8/31/2021,,,,TRUE
+3055,"Thursday, 9/9/2021",PY,9/9/2021,,,,TRUE
+3056,"Tuesday, 9/21/2021",PY,9/21/2021,,,,TRUE
+3057,"Thursday, 9/23/2021",PY,9/23/2021,,,,TRUE
+3059,October 2021 monthly,RD,10/1/2021,9/1/2021,10/1/2021,M,FALSE
+3060,october 2021 meter pits,RD,10/1/2021,9/1/2021,10/1/2021,Q,FALSE
+3061,"Monday, 10/4/2021",PY,10/4/2021,,,,TRUE
+3062,"Tuesday, 10/5/2021",PY,10/5/2021,,,,TRUE
+3063,"Wednesday, 10/13/2021",PY,10/13/2021,,,,TRUE
+3064,"Monday, 10/18/2021",PY,10/18/2021,,,,TRUE
+3065,"Tuesday, 10/26/2021",PY,10/26/2021,,,,TRUE
+3066,NOVEMBER2021 MONTHLY,RD,11/1/2021,10/1/2021,11/1/2021,M,FALSE
+3067,NOVEMBER 2021 METER PITS,RD,11/1/2021,10/1/2021,11/1/2021,Q,FALSE
+3068,"Tuesday, 11/2/2021",PY,11/2/2021,,,,TRUE
+3069,"Tuesday, 11/9/2021",PY,11/9/2021,,,,TRUE
+3070,"OCTOBER 15, 2021",PY,11/9/2021,,,,FALSE
+3071,"Monday, 11/15/2021",PY,11/15/2021,,,,TRUE
+3072,"Tuesday, 11/23/2021",PY,11/23/2021,,,,TRUE
+3073,Jan2022 Readings (Sept-Nov),RD,1/1/2022,9/1/2021,11/30/2021,Q,FALSE
+3074,Dec2021 Meter Pits,RD,12/1/2021,11/1/2021,12/1/2021,P,FALSE
+3075,Dec2021 Monthly,RD,12/1/2021,11/1/2021,12/1/2021,M,FALSE
+3076,"Wednesday, 12/15/2021",PY,12/15/2021,,,,TRUE
+3078,interest for october billing,IN,1/1/2022,,,,FALSE
+3082,"December 23, 2021",PY,12/23/2021,,,,TRUE
+3083,January 2022 Meter Pits,RD,1/1/2022,12/1/2021,1/1/2022,P,FALSE
+3084,January 2022 Monthly,RD,1/1/2022,12/1/2021,1/1/2022,M,FALSE
+3087,"Monday, January 3, 2022",PY,1/3/2022,,,,TRUE
+3088,"Monday, January 3, 2022 #2",PY,1/3/2022,,,,TRUE
+3090,"Tuesday, 1/4/2022",PY,1/4/2022,,,,TRUE
+3091,"Tuesday, January 4, 2022 #2",PY,1/4/2022,,,,TRUE
+3092,"Wednesday, 1/5/2022",PY,1/5/2022,,,,TRUE
+3093,"Thursday, 1/6/2022",PY,1/6/2022,,,,TRUE
+3094,"Monday, 1/10/2022",PY,1/10/2022,,,,TRUE
+3095,"Tuesday, 1/11/2022",PY,1/11/2022,,,,TRUE
+3096,"Wednesday, 1/12/2022",PY,1/12/2022,,,,TRUE
+3097,"Tuesday, 1/18/2022",PY,1/18/2022,,,,TRUE
+3098,"Wednesday, 1/19/2022",PY,1/19/2022,,,,TRUE
+3099,"Tuesday, 1/25/2022",PY,1/25/2022,,,,TRUE
+3100,"Wednesday, 1/26/2022",PY,1/26/2022,,,,TRUE
+3101,"Thursday, 1/27/2022",PY,1/27/2022,,,,TRUE
+3102,February 2022 meter pits,RD,2/1/2022,1/1/2022,2/1/2022,P,FALSE
+3103,February 2022 monthly,RD,2/1/2022,1/1/2022,2/1/2022,M,FALSE
+3104,"Monday, 1/31/2022",PY,1/31/2022,,,,TRUE
+3105,"Tuesday, 2/1/2022",PY,2/1/2022,,,,TRUE
+3106,"Wednesday, 2/22/2022",PY,2/2/2022,,,,TRUE
+3107,"Thursday, 2/3/2022",PY,2/3/2022,,,,TRUE
+3108,February Interest,IN,2/1/2022,,,,FALSE
+3109,"Tuesday, 2/8/2022",PY,2/8/2022,,,,TRUE
+3110,"Thursday, 2/10/2022",PY,2/10/2022,,,,TRUE
+3111,"Monday, 2/14/2022",PY,2/14/2022,,,,TRUE
+3112,"Thursday, 2/17/2022",PY,2/17/2022,,,,TRUE
+3113,"Tuesday, 2/22/2022",PY,2/22/2022,,,,TRUE
+3114,"Thursday, 2/24/2022",PY,2/24/2022,,,,TRUE
+3115,April 2022 billing (Dec-Feb),RD,4/1/2022,12/1/2021,2/28/2022,Q,FALSE
+3116,March2022 monthly,RD,3/1/2022,2/1/2022,3/1/2022,M,FALSE
+3117,March2022 meter pits,RD,3/1/2022,2/1/2022,3/1/2022,P,FALSE
+3118,"FEBRUARY 24, 2022 ONLINE PYMT POST",PY,2/24/2022,,,,FALSE
+3119,"MONDAY, February 28, 2022",PY,2/28/2022,,,,TRUE
+3120,"Tuesday, 3/1/2022",PY,3/1/2022,,,,TRUE
+3121,March Interest for Jan2022 billing,IN,3/1/2022,,,,FALSE
+3122,"Wednesday, 3/2/2022",PY,3/2/2022,,,,TRUE
+3123,"Friday, March 4, 2022",PY,3/4/2022,,,,TRUE
+3124,"Monday, 3/7/2022",PY,3/7/2022,,,,TRUE
+3125,"Wednesday, 3/9/2022",PY,3/9/2022,,,,TRUE
+3126,"Monday, 3/14/2022",PY,3/14/2022,,,,TRUE
+3127,TUESDAY 03/15/2022-ONLINE PYMT FERGUSON,PY,3/15/2022,,,,TRUE
+3128,"Tuesday, 3/15/2022",PY,3/15/2022,,,,TRUE
+3129,"Thursday, 3/17/2022",PY,3/17/2022,,,,TRUE
+3130,"Monday, 3/21/2022",PY,3/21/2022,,,,TRUE
+3131,"Thursday, 3/24/2022",PY,3/24/2022,,,,TRUE
+3132,"Monday, 3/28/2022",PY,3/28/2022,,,,TRUE
+3133,April 2022 Monthly,RD,4/1/2022,3/1/2022,4/1/2022,M,FALSE
+3134,April 2022 Meter Pits,RD,4/1/2022,3/1/2022,4/1/2022,P,FALSE
+3135,"Wednesday, 3/30/2022",PY,3/30/2022,,,,TRUE
+3136,"Monday, 4/4/2022",PY,4/4/2022,,,,TRUE
+3137,"Monday, 4/4/2022 #2",PY,4/4/2022,,,,TRUE
+3138,"Wednesday, April 6, 2022",PY,4/6/2022,,,,TRUE
+3139,"Thursday, 4/7/2022",PY,4/7/2022,,,,TRUE
+3140,"Thursday, 4/7/2022 #2",PY,4/7/2022,,,,TRUE
+3141,"Monday, 4/11/2022 #1",PY,4/11/2022,,,,TRUE
+3142,"Monday, 4/11/2022 #2",PY,4/11/2022,,,,TRUE
+3143,"Wednesday, 4/13/2022",PY,4/13/2022,,,,TRUE
+3144,test,PY,4/14/2022,,,,FALSE
+3145,"Monday, 4/18/2022 #1",PY,4/18/2022,,,,TRUE
+3146,"Monday, 4/18/2022 #2",PY,4/18/2022,,,,TRUE
+3147,"Monday, April 18, 2022 - ONLINE PYMTS",PY,4/18/2022,,,,TRUE
+3149,"Monday, 4/18/22 - online pymt/overpymt",PY,4/18/2022,,,,TRUE
+3151,"Wednesday, 4/20/2022",PY,4/20/2022,,,,TRUE
+3153,"Thursday, 4/21/2022",PY,4/21/2022,,,,TRUE
+3154,"FRIDAY, 04/22/2022 - ONLINE PYMTS",PY,4/22/2022,,,,TRUE
+3155,"Monday, 4/25/2022",PY,4/25/2022,,,,TRUE
+3156,"Tuesday, 4/26/2022",PY,4/26/2022,,,,TRUE
+3157,"Wednesday, 4/27/2022",PY,4/27/2022,,,,TRUE
+3158,"Thursday, 4/28/2022",PY,4/28/2022,,,,TRUE
+3159,May2022 Monthly,RD,5/1/2022,4/1/2022,5/1/2022,M,FALSE
+3160,May2022 Meter Pits,RD,5/1/2022,4/1/2022,5/1/2022,P,FALSE
+3161,"Thursday, 04/28/2022 - ONLINE PYMTS",PY,4/28/2022,,,,TRUE
+3162,"Friday, 04/29/2022",PY,4/29/2022,,,,TRUE
+3163,Friday 04/29/2022 - ONLINE PYMTS,PY,4/29/2022,,,,TRUE
+3164,"Monday, 5/2/2022",PY,5/2/2022,,,,TRUE
+3165,"MONDAY, 05/02/2022 - ONLINE PYMTS",PY,5/2/2022,,,,TRUE
+3166,"Monday, 5/2/2022 #2",PY,5/2/2022,,,,TRUE
+3167,May2022 interest for April 2022 billing,IN,5/1/2022,,,,FALSE
+3168,"Thursday, 5/5/2022",PY,5/5/2022,,,,TRUE
+3171,"Friday, May 6, 2022 - ONLINE PYMTS",PY,5/6/2022,,,,TRUE
+3172,"Friday, 05/13/2022",PY,5/13/2022,,,,TRUE
+3173,"Tuesday, 5/17/2022",PY,5/17/2022,,,,TRUE
+3174,"Thursday, 05/19/2022 - ONLINE PYMTS",PY,5/19/2022,,,,TRUE
+3175,"Thursday, 5/19/2022",PY,5/19/2022,,,,TRUE
+3176,"MONDAY, 05/23/2022 - ONLINE PYMTS",PY,5/23/2022,,,,TRUE
+3177,"MONDAY, 05/23/2022 - ONLINE PYMT",PY,5/23/2022,,,,TRUE
+3178,July2022 billing (Mar-May),RD,7/1/2022,3/1/2021,5/31/2022,Q,FALSE
+3179,June 2022 monthly,RD,6/1/2022,5/1/2022,6/1/2022,M,FALSE
+3180,June2022 meter pits,RD,6/1/2022,5/1/2022,6/1/2022,P,FALSE
+3181,"Tuesday, 5/24/2022",PY,5/24/2022,,,,TRUE
+3182,"TUESDAY, 05/31/2022 - ONLINE PYMTS",PY,5/31/2022,,,,TRUE
+3183,"Tuesday, 5/31/2022",PY,5/31/2022,,,,TRUE
+3184,June interest,IN,6/1/2022,,,,FALSE
+3185,"Wednesday, 6/8/2022",PY,6/8/2022,,,,TRUE
+3186,"Friday, June 10, 2022 - ONLINE PYMTS",PY,6/10/2022,,,,TRUE
+3187,"Tuesday, 6/14/2022",PY,6/14/2022,,,,TRUE
+3188,"Friday, 6/17/2022",PY,6/17/2022,,,,TRUE
+3189,"Tuesday, 6/21/2022",PY,6/21/2022,,,,TRUE
+3190,"Thursday, 6/23/2022",PY,6/23/2022,,,,TRUE
+3191,"Friday, 06/24/2022 - ONLINE PYMTS",PY,6/24/2022,,,,TRUE
+3192,"Monday, 06/27/2022 - ONLINE PYMTS",PY,6/27/2022,,,,TRUE
+3193,"Wednesday, 6/29/2022",PY,6/29/2022,,,,TRUE
+3194,July 2022 meter pits,RD,7/1/2022,6/1/2022,7/1/2022,P,FALSE
+3195,July 2022 monthly,RD,7/1/2022,6/1/2022,7/1/2022,M,FALSE
+3196,"Thursday, 06/30/2022 - ONLINE PYMTS",PY,6/30/2022,,,,TRUE
+3197,"Thursday, June 30, 2022 - ONLINE PYMT",PY,6/30/2022,,,,TRUE
+3198,"TUESDAY, 07/05/2022 - ONLINE PYMTS",PY,7/5/2022,,,,TRUE
+3199,"Wednesday, 7/6/2022",PY,7/6/2022,,,,TRUE
+3200,"Wednesday, 7/6/2022 to print",PY,7/6/2022,,,,FALSE
+3201,"Thursday, 07/07/2022 - ONLINE PYMTS",PY,7/7/2022,,,,TRUE
+3202,"Thursday, 7/7/2022",PY,7/7/2022,,,,TRUE
+3203,"Friday, 07/08/2022 - ONLINE PYMTS",PY,7/8/2022,,,,TRUE
+3204,"Monday, 7/11/2022",PY,7/11/2022,,,,TRUE
+3205,"Monday, 7/11/2022 #2",PY,7/11/2022,,,,TRUE
+3206,"Tuesday, 07/12/2022 - ONLINE PYMTS",PY,7/12/2022,,,,TRUE
+3207,"Tuesday, 07/12/2022",PY,7/12/2022,,,,TRUE
+3208,"WEDNESDAY, JULY 13, 2022",PY,7/13/2022,,,,TRUE
+3210,"Wednesday, 7/13/2022 #4",PY,7/13/2022,,,,TRUE
+3211,"Wednesday, 7/13/2022 #5",PY,7/13/2022,,,,TRUE
+3212,"Wednesday, 07/13/2022 - ONLINE PYMTS",PY,7/13/2022,,,,TRUE
+3213,"MONDAY, JULY 18, 2022 - ONLINE PYMTS",PY,7/18/2022,,,,TRUE
+3214,"Monday, 7/18/2022 #2",PY,7/18/2022,,,,TRUE
+3215,"Monday, 7/18/2022 #3",PY,7/18/2022,,,,TRUE
+3216,"Tuesday, 7/19/2022 #2",PY,7/19/2022,,,,TRUE
+3218,"WEDNESDAY, 07/20/2022 - ONLINE PYMTS",PY,7/20/2022,,,,TRUE
+3220,"Thursday, 7/21/2022 #2",PY,7/21/2022,,,,TRUE
+3221,"Thursday, 7/21/2022 #3",PY,7/21/2022,,,,TRUE
+3223,"Monday, 7/25/2022 #1",PY,7/25/2022,,,,TRUE
+3224,"MONDAY, 07/25/2022 - ONLINE PYMTS",PY,7/25/2022,,,,TRUE
+3225,"TUESDAY, JULY 26, 2022 - ONLINE PYMTS",PY,7/26/2022,,,,TRUE
+3226,"Tuesday, 7/26/2022 #1",PY,7/26/2022,,,,TRUE
+3227,"Tuesday, 7/26/2022 #2",PY,7/26/2022,,,,TRUE
+3228,"THURSDAY, JULY 28, 2022 - ONLINE PYMTS",PY,7/28/2022,,,,TRUE
+3229,"Thursday, 7/28/2022 #1",PY,7/28/2022,,,,TRUE
+3230,"FRIDAY, JULY 29, 2022 - ONLINE PYMTS",PY,7/29/2022,,,,TRUE
+3231,AUGUST 2022 METER PITS,RD,8/1/2022,7/1/2022,8/1/2022,P,FALSE
+3232,AUGUST 2022 MONTHLY,RD,8/1/2022,7/1/2022,8/1/2022,M,FALSE
+3233,"Friday, July 29, 2022",PY,7/29/2022,,,,TRUE
+3235,"Monday, 8/1/2022 #2",PY,8/1/2022,,,,TRUE
+3236,"MONDAY, AUGUST 1, 2022 - ONLINE PYMTS",PY,8/1/2022,,,,TRUE
+3237,"Monday, 8/1/2022 #3",PY,8/1/2022,,,,TRUE
+3238,August interest for July billing,IN,8/1/2022,,,,FALSE
+3239,"TUESDAY, 08/02/2022 - ONLINE PYMTS",PY,8/2/2022,,,,TRUE
+3240,"WEDNESDAY, AUGUST 3, 2022 - ONLINE PYMTS",PY,8/3/2022,,,,TRUE
+3241,"Wednesday, 8/3/2022 #1",PY,8/3/2022,,,,TRUE
+3242,"Wednesday, 8/3/2022 #2",PY,8/3/2022,,,,TRUE
+3243,"THURSDAY, AUGUST 4, 2022",PY,8/4/2022,,,,TRUE
+3244,"Monday, 8/8/2022",PY,8/8/2022,,,,TRUE
+3246,"Tuesday, 8/9/2022 #1",PY,8/9/2022,,,,TRUE
+3248,"August 7, 2022 ONLINE Payments",PY,8/9/2022,,,,TRUE
+3249,"August 8, 2022 ONLINE Payments",PY,8/9/2022,,,,TRUE
+3250,"Monday, 8/15/2022",PY,8/15/2022,,,,TRUE
+3251,"TUESDAY, AUGUST 16, 2022 - ONLINE PYMTS",PY,8/16/2022,,,,TRUE
+3252,"TUESDAY, AUGUST 16, 2022 ONLINE PYMTS #2",PY,8/16/2022,,,,TRUE
+3253,"Wednesday, 8/17/2022",PY,8/17/2022,,,,TRUE
+3254,"FRIDAY, AUGUST 19, 2022 - ONLINE PYMTS",PY,8/19/2022,,,,TRUE
+3255,"MONDAY, AUGUST 22, 2022 - A. COHEN",PY,8/22/2022,,,,TRUE
+3256,"Monday, 8/22/2022",PY,8/22/2022,,,,TRUE
+3257,"THURSDAY, AUGUST 25, 2022 - ONLINE PYMTS",PY,8/25/2022,,,,TRUE
+3258,"Thursday, 8/25/2022",PY,8/25/2022,,,,TRUE
+3259,October2022Readings (June-Aug),RD,10/1/2022,6/1/2022,8/31/2022,Q,FALSE
+3260,September2022Monthly,RD,9/1/2022,8/1/2022,9/1/2022,M,FALSE
+3261,September2022 MeterPits,RD,9/1/2022,8/1/2022,9/1/2022,P,FALSE
+3262,"Tuesday, August 30, 2022 - ONLINE PYMTS",PY,8/30/2022,,,,TRUE
+3263,"Tuesday, 8/30/2022",PY,8/30/2022,,,,TRUE
+3264,September int for July 2022 billing,IN,9/1/2022,,,,FALSE
+3267,"THURSDAY, SEPTEMBER 1, 2022",PY,9/1/2022,,,,TRUE
+3268,"WEDNESDAY, SEPTEMBER 7, 2022 - ONLINE PY",PY,9/7/2022,,,,TRUE
+3269,"WEDNESDAY, SEPT 7, 2022 - ONLINE PYMT**",PY,9/7/2022,,,,TRUE
+3270,"Wednesday, September 7, 2022",PY,9/7/2022,,,,TRUE
+3271,"Thursday, September 8, 2022",PY,9/8/2022,,,,TRUE
+3272,"FRIDAY, SEPTEMBER 9, 2022 - ONLINE PYMTS",PY,9/9/2022,,,,TRUE
+3273,"FRIDAY, SEPTEMBER 9, 2022",PY,9/9/2022,,,,TRUE
+3275,"MONDAY, SEPTEMBER 12, 2022",PY,9/12/2022,,,,TRUE
+3276,"MONDAY, SEPTEMBER 12, 2022 - ONLINE PYMT",PY,9/12/2022,,,,TRUE
+3277,"MONDAY, SEPTEMBER 12, 2022  #2",PY,9/12/2022,,,,TRUE
+3278,"TUESDAY, SEPTEMBER 13, 2022 - M'LY ONLY",PY,9/13/2022,,,,TRUE
+3280,"Tuesday, 9/13/2022",PY,9/13/2022,,,,TRUE
+3281,"Thursday, 9/15/2022",PY,9/15/2022,,,,TRUE
+3282,"MONDAY, SEPTEMBER 19, 2022 - ONLINE PYMT",PY,9/19/2022,,,,TRUE
+3283,"Monday, 9/26/2022",PY,9/26/2022,,,,TRUE
+3284,"WEDNESDAY, SEPT 28, 2022 - ONLINE PYMTS",PY,9/28/2022,,,,TRUE
+3285,October2022 Meter Pits,RD,10/1/2022,9/1/2022,10/1/2022,P,FALSE
+3286,October2022 Monthly,RD,10/1/2022,9/1/2022,10/1/2022,M,FALSE
+3287,"MONDAY, OCTOBER 3, 2022 - ONLINE PYMTS",PY,10/3/2022,,,,TRUE
+3288,"Monday, 10/3/2022",PY,10/3/2022,,,,TRUE
+3289,"WEDNESDAY, OCT 5, 2022 - ONLINE PYMTS",PY,10/5/2022,,,,TRUE
+3290,"Wednesday, 10/5/2022",PY,10/5/2022,,,,TRUE
+3291,"Thursday, 10/6/2022",PY,10/6/2022,,,,TRUE
+3292,"TUESDAY, OCTOBER 11, 2022 - A. COHEN",PY,10/11/2022,,,,TRUE
+3293,"Tuesday, 10/11/2022",PY,10/11/2022,,,,TRUE
+3294,"TUESDAY, OCTOBER 11, 2022 - ONLINE PYMTS",PY,10/11/2022,,,,TRUE
+3295,"Wednesday, 10/12/2022",PY,10/12/2022,,,,TRUE
+3296,"Thursday, 10/13/2022",PY,10/13/2022,,,,TRUE
+3297,"FRIDAY, OCTOBER 14, 2022 - ONLINE PYMTS",PY,10/14/2022,,,,TRUE
+3298,"MONDAY, OCTOBER 17, 2022 - ONLINE PYMT",PY,10/17/2022,,,,TRUE
+3299,"Monday, 10/17/2022",PY,10/17/2022,,,,TRUE
+3300,"Thursday, 10/20/2022",PY,10/20/2022,,,,TRUE
+3301,"MONDAY, OCTOBER 24, 2022 - ONLINE PYMTS",PY,10/24/2022,,,,TRUE
+3302,"Tuesday, 10/25/2022",PY,10/25/2022,,,,TRUE
+3304,"Wednesday, 10/26/2022",PY,10/26/2022,,,,TRUE
+3306,"Thursday, 10/27/2022",PY,10/27/2022,,,,TRUE
+3307,November2022 Monthly,RD,11/1/2022,10/1/2022,11/1/2022,M,FALSE
+3308,November2022 MeterPits,RD,11/1/2022,10/1/2022,11/1/2022,P,FALSE
+3309,"MONDAY, OCTOBER 31, 2022 - ONLINE PYMTS",PY,10/31/2022,,,,TRUE
+3310,"Monday, 10/31/2022",PY,10/31/2022,,,,TRUE
+3311,November 2022 interest,IN,11/1/2022,,,,FALSE
+3313,"THURSDAY, NOVEMBER 3, 2022 - ONLINE PYMT",PY,11/3/2022,,,,TRUE
+3314,"Thursday, 11/3/2022",PY,11/3/2022,,,,TRUE
+3315,"Monday, 11/7/2022",PY,11/7/2022,,,,TRUE
+3316,"WEDNESDAY, NOV 9, 2022 - ONLINE PYMTS",PY,11/9/2022,,,,TRUE
+3317,"Wednesday, 11/9/2022",PY,11/9/2022,,,,TRUE
+3318,"Thursday, 11/10/2022",PY,11/10/2022,,,,TRUE
+3319,"MONDAY, NOV 14, 2022 - ONLINE PYMTS",PY,11/14/2022,,,,TRUE
+3320,"Monday, 11/14/2022",PY,11/14/2022,,,,TRUE
+3321,"Thursday, 11/17/2022",PY,11/17/2022,,,,TRUE
+3322,"FRIDAY, NOV 18, 2022 - ONLINE PYTMS",PY,11/18/2022,,,,TRUE
+3324,"Monday, 11/21/2022",PY,11/21/2022,,,,TRUE
+3325,"TUESDAY, NOV 22, 2022 - ONLINE PYMTS",PY,11/22/2022,,,,TRUE
+3326,"MONDAY, NOV. 28, 2022 - ONLINE PYMTS",PY,11/28/2022,,,,TRUE
+3327,"MONDAY, NOV. 28, 2022 - A. COHEN PYMT",PY,11/28/2022,,,,TRUE
+3328,"Monday, 11/28/2022",PY,11/28/2022,,,,TRUE
+3329,Jan2023 Readings (Sept22-Nov22),RD,1/1/2023,9/1/2022,11/30/2022,Q,FALSE
+3330,Dec2022 Meter Pits,RD,12/1/2022,11/1/2022,12/1/2022,P,FALSE
+3331,Dec2022 Monthly,RD,12/1/2022,11/1/2022,12/1/2022,M,FALSE
+3332,December 2022 Interest,IN,12/1/2022,,,,FALSE
+3333,"FRIDAY, DECEMBER 2, 2022",PY,12/2/2022,,,,TRUE
+3334,"FRIDAY, DEC. 2, 2022 - ONLINE PYMTS",PY,12/2/2022,,,,TRUE
+3336,"TUESDAY, DECEMBER 6, 2022",PY,12/6/2022,,,,TRUE
+3337,"TUESDAY, DEC. 6, 2022 - ONLINE PYMTS",PY,12/6/2022,,,,TRUE
+3338,"FRIDAY, DECEMBER 9, 2022 - ONLINE PYMTS",PY,12/9/2022,,,,TRUE
+3340,"FRIDAY, DECEMBER 9, 2022",PY,12/9/2022,,,,TRUE
+3341,"MONDAY, DECEMBER 12, 2022 - ONLINE PYMTS",PY,12/12/2022,,,,TRUE
+3344,"TUESDAY, DECEMBER 13, 2022",PY,12/13/2022,,,,TRUE
+3345,"WEDNESDAY, DEC. 14, 2022 - ONLINE PYMTS",PY,12/14/2022,,,,TRUE
+3346,"WEDNESDAY, DECEMBER 14, 2022",PY,12/14/2022,,,,TRUE
+3347,"MONDAY, DECEMBER 19, 2022",PY,12/19/2022,,,,TRUE
+3348,"MONDAY, DEC. 19, 2022 - ONLINE PYMTS",PY,12/19/2022,,,,TRUE
+3349,"Wedensday, December 21, 2022",PY,12/21/2022,,,,TRUE
+3350,"Wednesday, Dec, 21, 2022 - ONLINE PYMTS",PY,12/21/2022,,,,TRUE
+3351,January 2023 Monthly,RD,1/1/2023,12/1/2022,1/1/2023,M,FALSE
+3352,January 2023 Meter Pits,RD,1/1/2023,12/1/2022,1/1/2023,P,FALSE
+3353,"TUESDAY. JANUARY 3, 2023 - ONLINE PYMTS",PY,1/3/2023,,,,TRUE
+3354,"Tuesday, 1/3/2023",PY,1/3/2023,,,,TRUE
+3355,January Int for October 2022 billing,IN,1/1/2023,,,,FALSE
+3356,"Thursday, Jan. 5, 2023 - ONLINE PYMTS",PY,1/5/2023,,,,TRUE
+3357,"Thursday, 1/5/2023",PY,1/5/2023,,,,TRUE
+3358,"Monday, January 9, 2023 - ONLINE PYMNTS",PY,1/9/2023,,,,TRUE
+3359,"Monday, 1/9/2023 #1",PY,1/9/2023,,,,TRUE
+3360,"Monday, 1/9/2023 #2",PY,1/9/2023,,,,TRUE
+3361,"Wednesday, 1/11/2023",PY,1/11/2023,,,,TRUE
+3362,"Thursday, Jan. 12, 2023 - ONLINE PYMTs",PY,1/12/2023,,,,TRUE
+3363,"Thursday, 1/12/2023",PY,1/12/2023,,,,TRUE
+3364,"Friday, January 13, 2023 - ONLINE PYMTS",PY,1/13/2023,,,,TRUE
+3365,"MONDAY, JANUARY 17, 2023 - ONLINE PYMTS",PY,1/17/2023,,,,TRUE
+3366,"Tuesday, 1/17/2023",PY,1/17/2023,,,,TRUE
+3367,"THURSDAY, JANUARY 19, 2023-ONLINE PYMTS",PY,1/19/2023,,,,TRUE
+3368,"Thursday, 1/19/2023",PY,1/19/2023,,,,TRUE
+3369,"Monday. January 23, 2023 - ONLINE PYMTS",PY,1/23/2023,,,,TRUE
+3370,"Monday, 1/23/2023",PY,1/23/2023,,,,TRUE
+3371,"Wednesday, 1/25/2023",PY,1/25/2023,,,,TRUE
+3372,"Wednesday, January 25, 2023-ONLINE PYMTS",PY,1/25/2023,,,,TRUE
+3373,"Thursday, 1/26/2023",PY,1/26/2023,,,,TRUE
+3374,"Friday, January 27, 2023 - ONLINE PYMTS",PY,1/27/2023,,,,TRUE
+3375,"Monday, January 30, 2023 - ONLINE PYMTS",PY,1/30/2023,,,,TRUE
+3376,"Monday, 1/30/2023",PY,1/30/2023,,,,TRUE
+3377,Fenruary 2023 Meter Pits,RD,2/1/2023,1/1/2023,2/1/2023,P,FALSE
+3378,February 2023 Monthly,RD,2/1/2023,1/1/2023,2/1/2023,M,FALSE
+3379,"Tuesday, January 31, 2023 - ONLINE PYMTS",PY,1/31/2023,,,,TRUE
+3380,"Tuesday, 1/31/2023",PY,1/31/2023,,,,TRUE
+3381,"Wednesday, February 1, 2023-ONLINE PYMTS",PY,2/1/2023,,,,TRUE
+3382,"Wednesday, 2/1/2023",PY,2/1/2023,,,,TRUE
+3383,February Int for Jan2023,IN,2/1/2023,,,,FALSE
+3384,"Thursday, February 2, 2023 -ONLINE PYMTS",PY,2/2/2023,,,,TRUE
+3385,"Thursday, 2/2/2023",PY,2/2/2023,,,,TRUE
+3386,"Wednesday, February 8, 2023-ONLINE PYMTS",PY,2/8/2023,,,,TRUE
+3388,"Wednesday, 2/8/2023",PY,2/8/2023,,,,TRUE
+3389,"Thursday, 2/9/2023",PY,2/9/2023,,,,TRUE
+3390,"Friday, February 10, 2023 - ONLINE PYMTS",PY,2/10/2023,,,,TRUE
+3391,"Monday, 2/13/2023",PY,2/13/2023,,,,TRUE
+3392,"Monday, February 13, 2023 - ONLINE PYMTS",PY,2/13/2023,,,,TRUE
+3393,"Tuesday, 2/14/2023",PY,2/14/2023,,,,TRUE
+3394,"Tuesday, 2/14/2023",PY,2/14/2023,,,,TRUE
+3395,"Wednesday, February 15, 2023 ONLINE PYMT",PY,2/15/2023,,,,TRUE
+3396,"Friday, 2/17/2023",PY,2/17/2023,,,,TRUE
+3397,"Tuesday, February 21, 2023-ONLINE PYMTS",PY,2/21/2023,,,,TRUE
+3398,"Tuesday, 2/21/2023",PY,2/21/2023,,,,TRUE
+3399,"THURSDAY, February 23, 2023-ONLINE PYMTS",PY,2/23/2023,,,,TRUE
+3400,"MONDAY, FEBRUARY 27, 2023-ONLINE PYMTS",PY,2/27/2023,,,,TRUE
+3401,April2023 Billing (Dec-Feb),RD,4/1/2023,12/1/2022,2/28/2023,Q,FALSE
+3402,March2023 Monthly,RD,3/1/2023,2/1/2023,3/1/2023,M,FALSE
+3403,March2023 Meter Pits,RD,3/1/2023,2/1/2023,3/1/2023,P,FALSE
+3404,"Monday, 2/27/2023",PY,2/27/2023,,,,TRUE
+3405,"Tuesday, Febraury 28, 2023-ONLINE PYMTS",PY,2/28/2023,,,,TRUE
+3406,"Tuesday, February 28, 2023",PY,2/28/2023,,,,TRUE
+3407,March interest,IN,3/1/2023,,,,FALSE
+3408,"THURSDAY, MARCH 2, 2023 - ONLINE PYMTS",PY,3/2/2023,,,,TRUE
+3409,"Monday, March 6, 2023 - ONLINE PYMTS",PY,3/6/2023,,,,TRUE
+3410,"Monday, 3/6/2023",PY,3/6/2023,,,,TRUE
+3411,"Thursday, March 9, 2023 - ONLINE PYMTS",PY,3/9/2023,,,,TRUE
+3412,"Thursday, 3/9/2023",PY,3/9/2023,,,,TRUE
+3413,"Monday, March 13, 2023 - ONLINE PYMTS",PY,3/13/2023,,,,TRUE
+3414,"Monday, 3/13/2023",PY,3/13/2023,,,,TRUE
+3415,"Tuesday, March 14, 2023 - NOW Pymts",PY,3/14/2023,,,,TRUE
+3416,"Thursday, March 16, 2023 - ONLINE PYMTS",PY,3/16/2023,,,,TRUE
+3417,"Thursday, 3/16/2023",PY,3/16/2023,,,,TRUE
+3418,"Monday, 3/27/2023 #1",PY,3/27/2023,,,,TRUE
+3419,"Monday, 3/27/2023 #2",PY,3/27/2023,,,,TRUE
+3420,"Thursday, March 30, 2023 - ONLINE PYMTS",PY,3/30/2023,,,,TRUE
+3421,"Thursday, 3/30/2023",PY,3/30/2023,,,,TRUE
+3422,April2023 Monthly,RD,4/1/2023,3/1/2023,4/1/2023,M,FALSE
+3423,April2023 Meter Pits,RD,4/1/2023,3/1/2023,4/1/2023,P,FALSE
+3424,"MONDAY, APRIL 3, 2023 - ONLINE PYMTS",PY,4/3/2023,,,,TRUE
+3425,"Monday, 4/3/2023",PY,4/3/2023,,,,TRUE
+3426,"Tuesday, April 4, 2023 - ONLINE PYMTS",PY,4/4/2023,,,,TRUE
+3427,"Wednesday, April 5, 2023 - ONLINE PYMTS",PY,4/5/2023,,,,TRUE
+3428,"WEDNESDAY, APRIL 5, 2023",PY,4/5/2023,,,,TRUE
+3429,"Thursday, 4/6/2023",PY,4/6/2023,,,,TRUE
+3430,"Monday, 4/10/2023 #1",PY,4/10/2023,,,,TRUE
+3431,"Monday, April 10, 2023 - ONLINE PYMTS",PY,4/10/2023,,,,TRUE
+3432,"Monday, 4/10/2023 #2",PY,4/10/2023,,,,TRUE
+3433,"Tuesday, 4/11/2023",PY,4/11/2023,,,,TRUE
+3434,"Wednesday, April 12, 2023 - ONLINE PYMTS",PY,4/12/2023,,,,TRUE
+3435,"Wednesday, 4/12/2023",PY,4/12/2023,,,,TRUE
+3436,"Monday, 4/17/2023 #1",PY,4/17/2023,,,,TRUE
+3437,"Monday, April 17, 2023 - ONLINE PYMTS",PY,4/17/2023,,,,TRUE
+3438,"Monday, 4/17/2023 #2",PY,4/17/2023,,,,TRUE
+3439,"Wednesday, April 19, 2023 - ONLINE PYMTS",PY,4/19/2023,,,,TRUE
+3440,"Wednesday, 4/19/2023",PY,4/19/2023,,,,TRUE
+3441,"Thursday, 4/20/2023",PY,4/20/2023,,,,TRUE
+3442,"Friday, April 21, 2023 - ONLINE PYMTS",PY,4/21/2023,,,,TRUE
+3443,"MONDAY, APRIL 24, 2023 - ONLINE PYMTS",PY,4/24/2023,,,,TRUE
+3444,"Monday, 4/24/2023",PY,4/24/2023,,,,TRUE
+3445,"Wednesday, 4/26/2023",PY,4/26/2023,,,,TRUE
+3446,May2023 Meter Pits 7x10,RD,5/1/2023,4/1/2023,5/1/2023,P,FALSE
+3447,May 2023 Monthlies,RD,5/1/2023,4/1/2023,5/1/2023,M,FALSE
+3448,"Thursday, 4/27/2023",PY,4/27/2023,,,,TRUE
+3449,"FRIDAY, APRIL 28, 2023 - ONLINE PYMTS",PY,4/28/2023,,,,TRUE
+3450,"MONDAY, MAY 1, 2023 - ONLINE PYMTS",PY,5/1/2023,,,,TRUE
+3451,"Monday, May 1, 2023",PY,5/1/2023,,,,TRUE
+3452,Interest May 2023,IN,5/1/2023,,,,FALSE
+3453,"Tusday, May 2, 2023 - ONLINE PYMTS",PY,5/2/2023,,,,TRUE
+3454,"Wednesday, May 3, 2023 - ONLINE PYMTS",PY,5/3/2023,,,,TRUE
+3455,"Wednesday, 5/3/2023",PY,5/3/2023,,,,TRUE
+3456,"Friday, May 5, 2023 - ONLINE PYMTS",PY,5/5/2023,,,,TRUE
+3457,"Monday, 5/8/2023",PY,5/8/2023,,,,TRUE
+3458,"Tuesday, May 9, 2023 - ONLINE PYMTS",PY,5/9/2023,,,,TRUE
+3459,"MONDAY, MAY 15, 2023 - ONLINE PYMTS",PY,5/15/2023,,,,TRUE
+3460,"TUESDAY, MAY 16, 2023 - ONLINE PYMTS",PY,5/16/2023,,,,TRUE
+3463,"TUESDAY, MAY 16, 2023",PY,5/16/2023,,,,TRUE
+3464,"WEDNESDAY, MAY 17, 2023",PY,5/17/2023,,,,TRUE
+3465,"FRIDAY, MAY 19, 2023 - ONLINE PYMTS",PY,5/19/2023,,,,TRUE
+3466,"FRIDAY, MAY 19, 2023",PY,5/19/2023,,,,TRUE
+3467,"MONDAY, MAY 22, 2023 - ONLINE PYMTS",PY,5/22/2023,,,,TRUE
+3468,"WEDNESDAY, MAY 24, 2023",PY,5/24/2023,,,,TRUE
+3469,"THURSDAY, MAY 25, 2023 - ONLINE PYMTS",PY,5/25/2023,,,,TRUE
+3470,"TUESDAY, MAY 30, 2023 - ONLINE PYMTS",PY,5/30/2023,,,,TRUE
+3471,"Tuesday, 5/30/2023",PY,5/30/2023,,,,TRUE
+3474,June 2023 MeterPits,RD,6/1/2023,5/1/2023,6/1/2023,P,FALSE
+3485,"WEDNESDAY, MAY 31, 2023 - ONLINE PYMTS",PY,5/31/2023,,,,TRUE
+3486,"THURSDAY, JUNE 1, 2023 - ONLINE PYMTS",PY,6/1/2023,,,,TRUE
+3488,"Thursday, 6/1/2023",PY,6/1/2023,,,,TRUE
+3490,July 2023 readings (Mar-May),RD,7/1/2023,3/1/2023,5/31/2023,Q,FALSE
+3491,June2023 Monthly - reread,RD,6/1/2023,5/1/2023,6/1/2023,M,FALSE
+3492,June Interest 2023,IN,6/1/2023,,,,FALSE
+3493,"Monday, 6/5/2023",PY,6/5/2023,,,,TRUE
+3494,"WEDNESDAY, JUNE 7, 2023 - ONLINE PYMTS",PY,6/7/2023,,,,TRUE
+3495,"THURSDAY, JUNE 8, 2023",PY,6/8/2023,,,,TRUE
+3496,"Thursday, 6/8/2023",PY,6/8/2023,,,,TRUE
+3497,"FRIDAY, JUNE 9, 2023 - ONLINE PYMTS",PY,6/9/2023,,,,TRUE
+3498,"Monday, 6/12/2023",PY,6/12/2023,,,,TRUE
+3499,"Thursday, 6/15/2023",PY,6/15/2023,,,,TRUE
+3500,"Tuesday, 6/20/2023",PY,6/20/2023,,,,TRUE
+3501,"Wednesday, 6/21/2023",PY,6/21/2023,,,,TRUE
+3502,"Thursday, 6/22/2023",PY,6/22/2023,,,,TRUE
+3503,"Monday, 6/26/2023",PY,6/26/2023,,,,TRUE
+3504,"Wednesday, 6/28/2023",PY,6/28/2023,,,,TRUE
+3505,"Thursday, June 29, 2023 - ONLINE PYMTS",PY,6/29/2023,,,,TRUE
+3506,July2023 Monthly,RD,7/1/2023,6/1/2023,7/1/2023,M,FALSE
+3507,July2023 MeterPits,RD,7/1/2023,6/1/2023,7/1/2023,P,FALSE
+3508,"Monday, July 3, 2023",PY,7/3/2023,,,,TRUE
+3509,"THURSDAY, JULY 6, 2023 - ONLINE PYMTS",PY,7/6/2023,,,,TRUE
+3510,"THURSDAY, JULY 6, 2023",PY,7/6/2023,,,,TRUE
+3511,"MONDAY, JULY 10, 2023",PY,7/10/2023,,,,TRUE
+3512,"MONDAY, JULY 10, 2023 - #2",PY,7/10/2023,,,,TRUE
+3513,"Tuesday, July 11, 2023 - ONLINE PYMTS",PY,7/11/2023,,,,TRUE
+3514,"Tuesday, July 11, 2023",PY,7/11/2023,,,,TRUE
+3515,"Tuesday, 7/11/2023",PY,7/11/2023,,,,TRUE
+3516,"Wednesday, 7/12/2023",PY,7/12/2023,,,,TRUE
+3517,"Thursday, July 13, 2023",PY,7/13/2023,,,,TRUE
+3518,"FRIDAY, JULY 14, 2023 - ONLINE PYMTS",PY,7/14/2023,,,,TRUE
+3519,"MONDAY, JULY 17, 2023 - ONLINE PYMTS",PY,7/17/2023,,,,TRUE
+3520,"MONDAY, JULY 17, 2023 - NOW PYMTS",PY,7/17/2023,,,,TRUE
+3521,"Monday, 7/17/2023",PY,7/17/2023,,,,TRUE
+3522,"Tuesday, 7/18/2023",PY,7/18/2023,,,,TRUE
+3523,"WEDNESDAY, JULY 19, 2023 - ONLINE PYMTS",PY,7/19/2023,,,,TRUE
+3524,"Wednesday, 7/19/2023",PY,7/19/2023,,,,TRUE
+3525,"Thursday, 7/20/2023",PY,7/20/2023,,,,TRUE
+3526,"FRIDAY, JULY 21, 2023 - ONLINE PYMTS",PY,7/21/2023,,,,TRUE
+3527,"MONDAY, JULY 24, 2023 - ONLINE PYMTS",PY,7/24/2023,,,,TRUE
+3528,"Monday, 7/24/2023 #1",PY,7/24/2023,,,,TRUE
+3529,"TUESDAY, JULY 25, 2023 - ONLINE PYMTS",PY,7/25/2023,,,,TRUE
+3530,"Tuesday, 7/25/2023",PY,7/25/2023,,,,TRUE
+3531,"WEDNESDAY, JULY 26, 2023 - ONLINE PYMTS",PY,7/26/2023,,,,TRUE
+3532,"Wednesday, 7/26/2023",PY,7/26/2023,,,,TRUE
+3533,"FRIDAY, JULY 28, 2023 - ONLINE PYMTS",PY,7/28/2023,,,,TRUE
+3534,August 2023 Monthly,RD,8/1/2023,7/1/2023,8/1/2023,M,FALSE
+3535,August 2023 Meter Pits,RD,8/1/2023,7/1/2023,8/1/2023,P,FALSE
+3536,"Monday, 7/31/2022 #1",PY,7/31/2023,,,,TRUE
+3537,"MONDAY, JULY 31, 2023 - ONLINE PYMTS",PY,7/31/2023,,,,TRUE
+3538,"MONDAY, JULY 31, 2023 #3",PY,7/31/2023,,,,TRUE
+3539,"Monday, 7/31/2023 #4",PY,7/31/2023,,,,TRUE
+3540,"TUESDAY, AUGUST 1, 2023 - ONLINE PYMTS",PY,8/1/2023,,,,TRUE
+3541,"Tuesday, 8/1/2023",PY,8/1/2023,,,,TRUE
+3542,August Interest,IN,8/1/2023,,,,FALSE
+3543,"Wednesday, 8/2/2023",PY,8/2/2023,,,,TRUE
+3544,"Thursday, 8/3/2023",PY,8/3/2023,,,,TRUE
+3545,"FRIDAY, AUGUST 4, 2023 - ONLINE PYMTS",PY,8/4/2023,,,,TRUE
+3546,"TUESDAY, AUGUST 8, 2023 - ONLINE PYMTS",PY,8/8/2023,,,,TRUE
+3547,"Tuesday, 8/8/23",PY,8/8/2023,,,,TRUE
+3548,"Thursday, 8/10/2023",PY,8/10/2023,,,,TRUE
+3549,"FRIDAY, AUGUST 11, 2023 - ONLINE PYMTS",PY,8/11/2023,,,,TRUE
+3550,"MONDAY, AUGUST 14, 2023 - ONLINE PYMTS",PY,8/14/2023,,,,TRUE
+3551,"Monday, 8/14/2023",PY,8/14/2023,,,,TRUE
+3552,"THURSDAY, AUGUST 17, 2023 - ONLINE PYMTS",PY,8/17/2023,,,,TRUE
+3553,"Thursday, 8/17/2023",PY,8/17/2023,,,,TRUE
+3554,"MONDAY, AUGUST 21, 2023 - ONLINE PYMTS",PY,8/21/2023,,,,TRUE
+3555,"Monday, 8/21/2023",PY,8/21/2023,,,,TRUE
+3556,"Wednesday, 8/23/2023",PY,8/23/2023,,,,TRUE
+3557,"MONDAY, AUGUST 28, 2023 - ONLINE PYMTS",PY,8/28/2023,,,,TRUE
+3558,"Monday, 8/28/2023",PY,8/28/2023,,,,TRUE
+3561,SEPTEMBER 2023 METER PITS,RD,9/1/2023,8/1/2023,9/1/2023,P,FALSE
+3562,September 2023 Interest,IN,9/1/2023,,,,FALSE
+3564,OCTOBER 2023 BILLING (JUNE-AUGUST),RD,10/1/2023,6/1/2023,8/31/2023,Q,FALSE
+3565,"Thursday, 8/31/2023",PY,8/31/2023,,,,TRUE
+3566,"THURSDAY, AUGUST 31, 2023 - ONLINE PYMTS",PY,8/31/2023,,,,TRUE
+3567,SEPTEMBER2023 MONTHLY,RD,9/1/2023,8/1/2023,9/1/2023,M,FALSE
+3568,"TUESDAY, SEPTEMBER 5, 2023 - ONLINE PYMT",PY,9/5/2023,,,,TRUE
+3569,TUESDAY - 09/05/23 ONLINE PYMTS CRCT'D,PY,9/5/2023,,,,TRUE
+3570,"Tuesday, 9/5/2023",PY,9/5/2023,,,,TRUE
+3571,"FRIDAY, 09/08/2023 ONLINE PYMTS",PY,9/8/2023,,,,TRUE
+3572,"MONDAY, 9/11/2023 ONLINE PAYMENTS",PY,9/11/2023,,,,TRUE
+3573,"Monday, 9/11/2023",PY,9/11/2023,,,,TRUE
+3574,"TUESDAY, 9/12/2023 ONLINE PAYMENTS",PY,9/12/2023,,,,TRUE
+3575,"THURSDAY, 9/14/2023 ONLINE PAYMENTS",PY,9/14/2023,,,,TRUE
+3576,"Friday, 9/15/2023 #1",PY,9/15/2023,,,,TRUE
+3577,"Friday, 9/15/2023 #2",PY,9/15/2023,,,,TRUE
+3578,FRIDAY 9/15/2023 ONLINE PAYMENTS,PY,9/15/2023,,,,TRUE
+3579,"Monday, 9/18/2023",PY,9/18/2023,,,,TRUE
+3580,"MONDAY, 9/18/2023 ONLINE PAYMENTS",PY,9/18/2023,,,,TRUE
+3581,"WEDNESDAY, SEPT. 20, 2023 - ONLINE PYMTS",PY,9/20/2023,,,,TRUE
+3583,"Wednesday, 9/20/2023",PY,9/20/2023,,,,TRUE
+3584,"Tuesday, 9/26/2023",PY,9/26/2023,,,,TRUE
+3585,"THURSDAY, SEPT. 28, 2023 - ONLINE PYMTS",PY,9/28/2023,,,,TRUE
+3586,"Thursday, 9/28/2023",PY,9/28/2023,,,,TRUE
+3587,OCTOBER 2023 Monthly,RD,10/1/2023,9/1/2023,10/1/2023,M,FALSE
+3588,OCTOBER 2023 Meter Pits,RD,10/1/2023,9/1/2023,10/1/2023,P,FALSE
+3589,"MONDAY, OCTOBER 2, 2023 - ONLINE PYMTS",PY,10/2/2023,,,,TRUE
+3590,"WEDNESDAY, OCT. 4, 2023 - ONLINE PYMTS",PY,10/4/2023,,,,TRUE
+3591,"Wednesday, 10/4/2023",PY,10/4/2023,,,,TRUE
+3592,"Thursday, 10/5/2023",PY,10/5/2023,,,,TRUE
+3593,"FRIDAY, OCTOBER 6, 2023 - ONLINE PYMTS",PY,10/6/2023,,,,TRUE
+3594,"TUESDAY, OCTOBER 10, 2023 - ONLINE PYMTS",PY,10/10/2023,,,,TRUE
+3596,"Tuesday, 10/10/2023",PY,10/11/2023,,,,TRUE
+3597,"THURSDAY, OCT. 12, 2023 - ONLINE PYMTS",PY,10/12/2023,,,,TRUE
+3598,"Thursday, 10/12/2023",PY,10/12/2023,,,,TRUE
+3599,"MONDAY, OCTOBER 16, 2023 - ONLINE PYMTS",PY,10/16/2023,,,,TRUE
+3602,"MONDAY, OCTOBER 16, 2023",PY,10/16/2023,,,,TRUE
+3603,"Tuesday, 10/17/2023",PY,10/17/2023,,,,TRUE
+3604,"WEDNESDAY, OCT 18, 2023 - ONLINE PYMTS",PY,10/18/2023,,,,TRUE
+3605,"Wednesday, 10/18/2023",PY,10/18/2023,,,,TRUE
+3606,"THURSDAY, OCT. 19, 2023 - ONLINE PYMTS",PY,10/19/2023,,,,TRUE
+3608,"Thursday, 10/19/2023",PY,10/19/2023,,,,TRUE
+3609,"MONDAY, OCTOBER 23, 2023 - ONLINE PYMTS",PY,10/23/2023,,,,TRUE
+3610,"Monday, 10/23/2023",PY,10/23/2023,,,,TRUE
+3611,"WEDNESDAY, OCT. 25, 2023 - ONLINE PYMTS",PY,10/25/2023,,,,TRUE
+3612,"Thursday, 10/26/2023",PY,10/26/2023,,,,TRUE
+3613,"MONDAY, OCTOBER 30, 2023 - ONLINE PYMTS",PY,10/30/2023,,,,TRUE
+3614,"Monday, 10/30/2023",PY,10/30/2023,,,,TRUE
+3615,NOVEMBER 2023 MONTHLY,RD,11/1/2023,10/1/2023,11/1/2023,M,FALSE
+3616,NOVEMBER 2023 METER PITS,RD,11/1/2023,10/1/2023,11/1/2023,P,FALSE
+3617,"TUESDAY, OCTOBER 31, 2023 - ONLINE PYMTS",PY,10/31/2023,,,,TRUE
+3618,"Tuesday, 10/31/2023",PY,10/31/2023,,,,TRUE
+3619,"WEDNESDAY, NOV 1, 2023 - ONLINE PYMTS",PY,11/1/2023,,,,TRUE
+3620,"Wednesday, 11/1/2023",PY,11/1/2023,,,,TRUE
+3621,November23 int for October 2023 billing,IN,11/1/2023,,,,FALSE
+3622,"FRIDAY, NOVEMBER 3, 2023 - ONLINE PYMTS",PY,11/3/2023,,,,TRUE
+3624,"FRIDAY, NOVEMBER 3, 2023",PY,11/3/2023,,,,TRUE
+3625,"Monday, 11/6/2023",PY,11/6/2023,,,,TRUE
+3626,"THURSDAY, NOV. 9, 2023 - ONLINE PYMTS",PY,11/9/2023,,,,TRUE
+3627,"MONDAY, NOV. 13, 2023 - ONLINE PYMTS",PY,11/13/2023,,,,TRUE
+3629,"Monday, 11/13/2023",PY,11/13/2023,,,,TRUE
+3630,"WEDNESDAY, NOV. 15, 2023 - ONLINE PYMTS",PY,11/15/2023,,,,TRUE
+3632,"Thursday, 11/16/2023",PY,11/16/2023,,,,TRUE
+3633,"Thursday, 11/16/2023",PY,11/16/2023,,,,TRUE
+3634,"Thursday, 11/16/2023",PY,11/16/2023,,,,TRUE
+3635,"Tuesday, 11/21/2023",PY,11/21/2023,,,,TRUE
+3636,"WEDNESDAY, NOV. 22, 2023 - ONLINE PYMTS",PY,11/22/2023,,,,TRUE
+3637,"WEDNESDAY, NOV. 29, 2023 - ONLINE PYMTS",PY,11/29/2023,,,,TRUE
+3638,"Wednesday, 11/29/2023",PY,11/29/2023,,,,TRUE
+3640,December2023 monthly,RD,12/1/2023,11/1/2023,12/1/2023,M,FALSE
+3641,December 2023 meter pits,RD,12/1/2023,11/1/2023,12/1/2023,P,FALSE
+3642,January 24 reaings (Sept23 - Nov23),RD,1/1/2024,9/1/2023,11/30/2023,Q,FALSE
+3643,December 2023 interest,IN,12/1/2023,,,,FALSE
+3644,"Monday, 12/4/2023",PY,12/4/2023,,,,TRUE
+3645,"MONDAY, DECEMBER 4, 2023 - ONLINE PYMTS",PY,12/4/2023,,,,TRUE
+3646,"THURSDAY, DEC 7, 2023 - ONLINE PYMTS",PY,12/7/2023,,,,TRUE
+3647,"Thursday, 12/7/2023",PY,12/7/2023,,,,TRUE
+3648,"MONDAY, DECEMBER 11, 2023 - ONLINE PYMTS",PY,12/11/2023,,,,TRUE
+3649,"Tuesday, 12/12/2023",PY,12/12/2023,,,,TRUE
+3650,"THURSDAY, DEC. 14, 2023 - ONLINE PYMTS",PY,12/14/2023,,,,TRUE
+3654,"Thursday, 12/14/2023",PY,12/14/2023,,,,TRUE
+3655,"MONDAY, DEC. 18, 2023 - ONLINE PYMTS",PY,12/18/2023,,,,TRUE
+3657,"Monday, 12/18/2023",PY,12/18/2023,,,,TRUE
+3658,"Tuesday, 12/19/2023",PY,12/19/2023,,,,TRUE
+3659,"TUESDAY, DEC. 19, 2023 - ONLINE PYMTS",PY,12/19/2023,,,,TRUE
+3662,"TUESDAY, DEC. 19, 2023 - BATCH #2",PY,12/19/2023,,,,TRUE
+3663,"TUESDAY, DEC. 19, 2023 - BATCH #3",PY,12/19/2023,,,,TRUE
+3664,"WEDNESDAY, DECEMBER 20, 2023",PY,12/20/2023,,,,TRUE
+3668,JANUARY2024 MONTHLY,RD,1/1/2024,12/1/2023,1/1/2024,M,FALSE
+3669,JANUARY2024 METER PITS,RD,1/1/2024,12/1/2023,1/1/2024,P,FALSE
+3670,"TUESDAY, JANUARY 2, 2024 - ONLINE PYMTS",PY,1/2/2024,,,,TRUE
+3671,"Monday, 1/2/2024",PY,1/2/2024,,,,TRUE
+3672,"WEDNESDAY, JANUARY 3, 2024 ONLINE PYMTS",PY,1/3/2024,,,,TRUE
+3673,"THURSDAY, JANUARY 4, 2024 ONLINE PYMTS",PY,1/4/2024,,,,TRUE
+3674,"Thursday, 1/4/2024",PY,1/4/2024,,,,TRUE
+3675,METER PIT READINGS TEST 0104224,RD,1/1/2024,1/1/2024,1/31/2024,P,FALSE
+3676,"FRIDAY JANUARY 5, 2024 ONLINE PYMTS",PY,1/5/2024,,,,TRUE
+3677,"Monday, 1/8/2024 #1",PY,1/8/2024,,,,TRUE
+3678,"MONDAY JANUARY 8, 2024 ONLINE PYMTS",PY,1/8/2024,,,,TRUE
+3679,"Monday, 1/8/2024 #2",PY,1/8/2024,,,,TRUE
+3680,"Tuesday, 1/9/2024",PY,1/9/2024,,,,TRUE
+3681,"WEDNESDAY JANUARY 10, 2024 ONLINE PYMTS",PY,1/10/2024,,,,TRUE
+3682,"Thursday, 1/11/2024",PY,1/11/2024,,,,TRUE

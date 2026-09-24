@@ -1,0 +1,12 @@
+SET PATH=%PATH%;C:\Program Files (x86)\CrSSL\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;%USERPROFILE%\.dotnet\tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\amd64;
+msbuild.exe "c:\gems source sql\po source\po101\po101.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\po source\po103\po103.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\po source\po104\po104.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\po source\po105\po105.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\po source\po201\po201.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\po source\po301\po301.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\po source\po303\po303.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\po source\po306\po306.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\po source\po310\po310.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\po source\po320\po320.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\po source\po330\po330.sln" /property:configuration=release

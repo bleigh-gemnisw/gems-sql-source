@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UB232" targetNamespace="http://tempuri.org/UB232.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/UB232.xsd" xmlns:mstns="http://tempuri.org/UB232.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="LISTNO" type="xs:integer" />
+        <xs:element name="EXMPT" type="xs:string" />
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="PROPLOC" type="xs:string" />
+        <xs:element name="MAP" type="xs:string" />
+        <xs:element name="CUUNIT" type="xs:integer" />
+        <xs:element name="CODE1" type="xs:integer" />
+        <xs:element name="CODE2" type="xs:integer" />
+        <xs:element name="CODE3" type="xs:integer" />
+        <xs:element name="CODE4" type="xs:integer" />
+        <xs:element name="CODE5" type="xs:integer" />
+        <xs:element name="CODE6" type="xs:integer" />
+        <xs:element name="CODE7" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

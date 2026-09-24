@@ -1,0 +1,1 @@
+update POMAST set popst=right(rentd,4) + left(rentd,4) where popst=0 and rentd>0

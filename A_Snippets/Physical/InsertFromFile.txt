@@ -1,0 +1,12 @@
+  Public Sub InsertFromLEDGER(ByVal FromDate As Integer, ByVal ToDate As Integer)
+    Dim Conn As SqlConnection
+    Dim objCommand As SqlCommand
+    Dim Result As Integer
+
+    StrSQL = "INSERT INTO LEDHST SELECT * FROM LEDGER WHERE PSTDT>=" & FromDate & " and PSTDT<=" & ToDate
+
+    Conn = MyDBConn.Open
+    objCommand = New SqlCommand(StrSQL, Conn)
+    Result = objCommand.ExecuteNonQuery()
+    objCommand = Nothing
+  End Sub

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TXE47" targetNamespace="http://tempuri.org/TXE47.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TXE47.xsd" xmlns:mstns="http://tempuri.org/TXR05.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="SORTDATA" type="xs:string" />
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="DESC" type="xs:string" />
+<xs:element name="TAX1ST" type="xs:decimal" />
+<xs:element name="TAX2ND" type="xs:decimal" />
+<xs:element name="TAXT" type="xs:decimal" />
+<xs:element name="DATE" type="xs:date" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

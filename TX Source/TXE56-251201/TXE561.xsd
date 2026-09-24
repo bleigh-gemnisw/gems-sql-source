@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TXE561" targetNamespace="http://tempuri.org/TXE561.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TXE561.xsd" xmlns:mstns="http://tempuri.org/TXR561.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="LIENS" type="xs:decimal" />
+<xs:element name="FEES" type="xs:decimal" />
+<xs:element name="ADJUSTPRIN" type="xs:decimal" />
+<xs:element name="TRANSFERPRIN" type="xs:decimal" />
+<xs:element name="REFUNDPRIN" type="xs:decimal" />
+<xs:element name="ATRINT" type="xs:decimal" />
+<xs:element name="ATRLIENS" type="xs:decimal" />
+<xs:element name="ATRFEES" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

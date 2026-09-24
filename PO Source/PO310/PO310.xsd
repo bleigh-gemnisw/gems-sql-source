@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="PO310" targetNamespace="http://tempuri.org/PO310.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/PO310.xsd" xmlns:mstns="http://tempuri.org/PO310.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="PRTGRP" type="xs:string" />
+<xs:element name="RPTSORT" type="xs:string" />
+<xs:element name="FSCYR" type="xs:integer" />
+<xs:element name="PONBR" type="xs:integer" />
+<xs:element name="VENNM" type="xs:string" />
+<xs:element name="PODATE" type="xs:string" />
+<xs:element name="ACCT" type="xs:string" />
+<xs:element name="ACCTDESC" type="xs:string" />
+<xs:element name="ACCTAMTNT" type="xs:decimal" />
+<xs:element name="ACCTOPEN" type="xs:decimal" />
+<xs:element name="DEPT" type="xs:integer" />
+<xs:element name="DEPTDESC" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

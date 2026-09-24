@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA212TotEx" targetNamespace="http://tempuri.org/TA212TotEx.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA212TotEx.xsd" xmlns:mstns="http://tempuri.org/TA212TotEx.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytableex">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="texformat" type="xs:string" />
+<xs:element name="texcode" type="xs:string" />
+<xs:element name="texdesc" type="xs:string" />
+<xs:element name="texcount" type="xs:integer" />
+<xs:element name="tex" type="xs:long" />
+<xs:element name="texfrzcount" type="xs:integer" />
+<xs:element name="texfrz" type="xs:long" />
+<xs:element name="texheartcount" type="xs:integer" />
+<xs:element name="texheart" type="xs:long" />
+<xs:element name="textotcount" type="xs:integer" />
+<xs:element name="textot" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

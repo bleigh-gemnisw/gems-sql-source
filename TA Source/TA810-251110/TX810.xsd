@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX810" targetNamespace="http://tempuri.org/TX810.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX810.xsd" xmlns:mstns="http://tempuri.org/TX810.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="CCNO" type="xs:integer" />
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="TYPE" type="xs:string" />
+<xs:element name="TYPEDESC" type="xs:string" />
+<xs:element name="CDATE" type="xs:date" />
+<xs:element name="LOCNO" type="xs:integer" />
+<xs:element name="LOC" type="xs:string" />
+<xs:element name="RSNCD" type="xs:string" />
+<xs:element name="RSNDESC" type="xs:string" />
+<xs:element name="CDESC" type="xs:string" />
+<xs:element name="MAP" type="xs:string" />
+<xs:element name="MVID" type="xs:string" />
+<xs:element name="MVCLS" type="xs:integer" />
+<xs:element name="MVREG" type="xs:string" />
+<xs:element name="MVYEAR" type="xs:string" />
+<xs:element name="MVMAKE" type="xs:string" />
+<xs:element name="MVMODEL" type="xs:string" />
+<xs:element name="SSNO" type="xs:integer" />
+<xs:element name="SS2" type="xs:integer" />
+<xs:element name="OID" type="xs:string" />
+<xs:element name="OGROSS" type="xs:integer" />
+<xs:element name="NGROSS" type="xs:integer" />
+<xs:element name="CGROSS" type="xs:integer" />
+<xs:element name="OEXAM" type="xs:integer" />
+<xs:element name="NEXAM" type="xs:integer" />
+<xs:element name="CEXAM" type="xs:integer" />
+<xs:element name="OPRORATE" type="xs:integer" />
+<xs:element name="NPRORATE" type="xs:integer" />
+<xs:element name="CPRORATE" type="xs:integer" />
+<xs:element name="ONET" type="xs:integer" />
+<xs:element name="NNET" type="xs:integer" />
+<xs:element name="CNET" type="xs:integer" />
+<xs:element name="MSRP" type="xs:integer" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

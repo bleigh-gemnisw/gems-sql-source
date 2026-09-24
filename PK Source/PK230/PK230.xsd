@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="PK230" targetNamespace="http://tempuri.org/PK230.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/PK230.xsd" xmlns:mstns="http://tempuri.org/PK230.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="TICKNO" type="xs:integer" />
+<xs:element name="OFCRNAME" type="xs:string" />
+<xs:element name="REGNO" type="xs:string" />
+<xs:element name="REGST" type="xs:string" />
+<xs:element name="VEHTYP" type="xs:string" />
+<xs:element name="VDATE" type="xs:date" />
+<xs:element name="VTIME" type="xs:string" />
+<xs:element name="AMPM" type="xs:string" />
+<xs:element name="STREET" type="xs:string" />
+<xs:element name="VIOLDESC1" type="xs:string" />
+<xs:element name="VIOLDESC2" type="xs:string" />
+<xs:element name="VIOLDESC3" type="xs:string" />
+<xs:element name="VIOLDESC4" type="xs:string" />
+<xs:element name="VIOLDESC5" type="xs:string" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="ADDR" type="xs:string" />
+<xs:element name="CITY" type="xs:string" />
+<xs:element name="STATE" type="xs:string" />
+<xs:element name="ZIP" type="xs:string" />
+<xs:element name="VIAMT" type="xs:decimal" />
+<xs:element name="AMTTICK" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

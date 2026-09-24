@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TXE14" targetNamespace="http://tempuri.org/TXE14.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TXE14.xsd" xmlns:mstns="http://tempuri.org/TXE14.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SORTDATA" type="xs:string" />
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="ADDR1" type="xs:string" />
+        <xs:element name="CITY" type="xs:string" />
+        <xs:element name="STATE" type="xs:string" />
+        <xs:element name="DUE" type="xs:decimal" />
+        <xs:element name="INTEREST" type="xs:decimal" />
+        <xs:element name="PENALTY" type="xs:decimal" />
+        <xs:element name="TOTAL" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,44 @@
+May 13 2026
+mark used these qry
+
+
+ 
+select * from utcust as a left join txinv as b on a.cuacct=b.list# and year<=2025 and type='D' where rcode<>'I' and b.name is null
+
+select * from utcust where cucnt#=0 and cumetn=''
+
+
+select * from ub_bill_detail where bd_adjust_amount>0 and a_serv_code>=700000 and bd_adjust_amount<>bd_paid_amount order by a_acct,a_bill_year,a_bill_number
+select * from ub_bill_header where a_acct=1178 and a_bill_year=2018 order by a_account,a_bill_year, a_bill_number
+ 
+MILFORD   status   5/18/2026
+and how to fix 2 accts.. BAA...
+
+
+STAMPED  BUT NOT DEPLOYED>>>>>>TA001/TAD04/TAD05/TA610/TXPHIN/TXPHIA and run txphin add txyear script in Milford
+  we still need to put the 2nd year CALC ROUTINE (BEFORE FREEZING)
+marks working on TA811** AFTER BILLS NOW  AFTER BILLS COMPLETED.. AND CHANGED TA001* TO INCLUDE ADJ FIELDS..
+TA610  (IS THE NEXT PROJECT)
+
+
+
+
+
+GLOBAL SIGN
+WINSTED LOCAL FREEZE  cant find any notes only i have a folder in town winchester with pdf No mark notes on what
+you did.. 
+
+
+did you fix these ?we can check those nexxt
+SOUTHINGTON..
+
+110155D26 - We only have the flat rate, not the metered amount.
+25070D2026 - The billed amount for Q4 is different; other quarters are correct
+
+These were missing...and I added them in Gems Customer Master.
+208966
+208967
+208968
+208969
+208970
+208971

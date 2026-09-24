@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="PO104" targetNamespace="http://tempuri.org/PO104.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/PO104.xsd" xmlns:mstns="http://tempuri.org/PO104.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="POMEMO">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="FDNBR" type="xs:integer" />
+<xs:element name="SFUND" type="xs:integer" />
+<xs:element name="LNE" type="xs:integer" />
+<xs:element name="TEXT01" type="xs:string" />
+<xs:element name="TEXT02" type="xs:string" />
+<xs:element name="TEXT03" type="xs:string" />
+<xs:element name="TEXT04" type="xs:string" />
+<xs:element name="TEXT05" type="xs:string" />
+<xs:element name="TEXT06" type="xs:string" />
+<xs:element name="TEXT07" type="xs:string" />
+<xs:element name="TEXT08" type="xs:string" />
+<xs:element name="TEXT09" type="xs:string" />
+<xs:element name="TEXT10" type="xs:string" />
+<xs:element name="TEXT11" type="xs:string" />
+<xs:element name="TEXT12" type="xs:string" />
+<xs:element name="TEXT13" type="xs:string" />
+<xs:element name="TEXT14" type="xs:string" />
+<xs:element name="TEXT15" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

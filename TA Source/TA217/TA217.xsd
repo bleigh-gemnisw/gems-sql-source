@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TA217" targetNamespace="http://tempuri.org/TA217.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TA217.xsd" xmlns:mstns="http://tempuri.org/TA217.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="LISTNO" type="xs:integer" />
+        <xs:element name="DIST" type="xs:integer" />
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="ADD1" type="xs:string" />
+        <xs:element name="CITY" type="xs:string" />
+        <xs:element name="STATE" type="xs:string" />
+        <xs:element name="ZIP" type="xs:string" />
+        <xs:element name="LOCNO" type="xs:string" />
+        <xs:element name="LOC" type="xs:string" />
+        <xs:element name="MAP" type="xs:string" />
+        <xs:element name="VOL" type="xs:string" />
+        <xs:element name="PGE" type="xs:string" />
+        <xs:element name="PURDATE" type="xs:string" />
+        <xs:element name="GROSS" type="xs:integer" />
+        <xs:element name="NET" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

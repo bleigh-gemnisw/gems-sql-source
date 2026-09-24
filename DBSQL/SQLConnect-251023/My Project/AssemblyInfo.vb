@@ -1,0 +1,35 @@
+﻿'11/22/24 Change timeout to 30 seconds
+' 1/21/25 testing IsServerConnected
+'MK 6/30/25 Change timeout to 60 seconds
+Imports System
+Imports System.Reflection
+Imports System.Runtime.InteropServices
+
+' General Information about an assembly is controlled through the following 
+' set of attributes. Change these attribute values to modify the information
+' associated with an assembly.
+
+' Review the values of the assembly attributes
+
+<Assembly: AssemblyTitle("SQLConnect")> 
+<Assembly: AssemblyDescription("")> 
+<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyProduct("SQLConnect")> 
+<Assembly: AssemblyCopyright("")> 
+<Assembly: AssemblyTrademark("")> 
+
+<Assembly: ComVisible(False)>
+
+'The following GUID is for the ID of the typelib if this project is exposed to COM
+<Assembly: Guid("d16b1664-97a6-4838-9a50-a227bfa9a9e4")> 
+
+' Version information for an assembly consists of the following four values:
+'
+'      Major Version
+'      Minor Version 
+'      Build Number
+'      Revision
+'
+' You can specify all the values or you can default the Build and Revision Numbers 
+' by using the '*' as shown below:
+<Assembly: AssemblyVersion("1.0.*")> 

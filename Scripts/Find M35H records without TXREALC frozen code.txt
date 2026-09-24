@@ -1,0 +1,3 @@
+select txm35h.list#,year,alname,afname,name from txm35h
+INNER JOIN txrealc ON TXm35h.LIST# = TXrealc.LIST# 
+where year>=2015 and allow='Y' and fccod<>'C' order by txm35h.list#

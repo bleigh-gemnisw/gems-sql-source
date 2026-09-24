@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TXA09" targetNamespace="http://tempuri.org/TXA09.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TXA09.xsd" xmlns:mstns="http://tempuri.org/TXA09.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="SORTDATA" type="xs:string" />
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="TYPE" type="xs:string" />
+<xs:element name="TYPEDESC" type="xs:string" />
+<xs:element name="SEQ" type="xs:integer" />
+<xs:element name="DIST" type="xs:integer" />
+<xs:element name="PRINCIPAL" type="xs:decimal" />
+<xs:element name="INTEREST" type="xs:decimal" />
+<xs:element name="LIENS" type="xs:decimal" />
+<xs:element name="FEE" type="xs:decimal" />
+<xs:element name="PENCD" type="xs:string" />
+<xs:element name="TOTAL" type="xs:decimal" />
+<xs:element name="BATCH" type="xs:string" />
+<xs:element name="BATCHNO" type="xs:integer" />
+<xs:element name="AMTDUE" type="xs:decimal" />
+<xs:element name="BALDUE" type="xs:decimal" />
+<xs:element name="INTDT" type="xs:date" />
+<xs:element name="RECDT" type="xs:date" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="CASH" type="xs:decimal" />
+<xs:element name="CHECK" type="xs:decimal" />
+<xs:element name="CREDIT" type="xs:decimal" />
+<xs:element name="CHECKNO" type="xs:string" />
+<xs:element name="CHECKDATE" type="xs:date" />
+<xs:element name="STATUS" type="xs:string" />
+<xs:element name="SIMT" type="xs:decimal" />
+<xs:element name="TBL" type="xs:decimal" />
+<xs:element name="ARC" type="xs:decimal" />
+<xs:element name="ADJCD" type="xs:string" />
+<xs:element name="COMMENT" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

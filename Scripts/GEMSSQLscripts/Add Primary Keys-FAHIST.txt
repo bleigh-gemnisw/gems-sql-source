@@ -1,0 +1,5 @@
+delete from fahist where fhadj='Y'
+delete from fahist where fhfisc<1900
+alter table FAHIST add primary key (FHTAG,FHFISC)
+
+

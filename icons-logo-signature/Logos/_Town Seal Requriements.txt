@@ -1,0 +1,7 @@
+Town seals should be saved as:
+
+300 x 300 DPI
+
+2 color (B/W)
+
+TIF format

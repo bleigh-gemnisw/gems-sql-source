@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA209" targetNamespace="http://tempuri.org/TA209.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA209.xsd" xmlns:mstns="http://tempuri.org/TA209.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="CAT" type="xs:string" />
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="PURDATE" type="xs:date" />
+<xs:element name="EXCD1" type="xs:string" />
+<xs:element name="EXAM1" type="xs:integer" />
+<xs:element name="EXCD2" type="xs:string" />
+<xs:element name="EXAM2" type="xs:integer" />
+<xs:element name="EXCD3" type="xs:string" />
+<xs:element name="EXAM3" type="xs:integer" />
+<xs:element name="EXCD4" type="xs:string" />
+<xs:element name="EXAM4" type="xs:integer" />
+<xs:element name="EXCD5" type="xs:string" />
+<xs:element name="EXAM5" type="xs:integer" />
+<xs:element name="EXCD6" type="xs:string" />
+<xs:element name="EXAM6" type="xs:integer" />
+<xs:element name="EXCD7" type="xs:string" />
+<xs:element name="EXAM7" type="xs:integer" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

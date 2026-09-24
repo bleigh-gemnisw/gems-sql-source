@@ -1,0 +1,1 @@
+alter table TXGLAD alter column ADCD char(3)

@@ -1,0 +1,13 @@
+  Public Sub DeleteBatch(ByVal WrkBchno As Integer)
+  Dim Conn As SqlConnection
+  Dim objCommand As SqlCommand
+  Dim Result As Integer
+
+  RecordNotFound = False
+  IsEOF = False
+  StrSQL = "Delete from " & cFileName & " where bchno=" & WrkBchno
+  Conn = MyDBConn.Open
+  objCommand = New SqlCommand(StrSQL, Conn)
+  Result = objCommand.ExecuteNonQuery()
+  objCommand = Nothing
+End Sub

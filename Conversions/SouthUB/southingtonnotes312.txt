@@ -1,0 +1,33 @@
+EACH DAY we need a STATUS notes
+
+ 
+-----
+ 
+ 
+Convert Rate code 900..cumsiz is blank   900 IS DEDUCTS skipped code
+
+3/12 cross reference and meter numbers to southington
+     sent Bob new missing file then add to manuallist
+     txinv cleanup negative taxt and tax1
+     if adding records to utcust mark records to send to southington
+399 missing accounts
+still need to flip names in txinv/txhst 
+mark needs latest UB FILE also from southington 
+bring in meters  put xref file also on southington
+make a backup of txinv/txhst as of now.. 
+
+
+
+
+MARK look at the errors on import 
+example  100174.00 is a METER in the FILE 
+on error 100174.01  
+next sample
+100280.02  is in the Reads
+100208.00  is on the error
+
+
+
+
+
+

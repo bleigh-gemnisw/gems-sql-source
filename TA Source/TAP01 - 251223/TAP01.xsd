@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TAP01" targetNamespace="http://tempuri.org/TAP01.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TAP01.xsd" xmlns:mstns="http://tempuri.org/TAP01.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="mytable">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FILSTS" type="xs:string" />
+              <xs:element name="STATUS" type="xs:string" />
+              <xs:element name="LISTNO" type="xs:integer" />
+              <xs:element name="YEAR" type="xs:integer" />
+              <xs:element name="OWNAME" type="xs:string" />
+              <xs:element name="DBA" type="xs:string" />
+              <xs:element name="LOC" type="xs:string" />
+							<xs:element name="RPTID" type="xs:string" />
+							<xs:element name="CODE" type="xs:integer" />
+              <xs:element name="LTR" type="xs:string" />
+							<xs:element name="DEYEAR" type="xs:integer" />
+							<xs:element name="DESCR" type="xs:string" />
+              <xs:element name="COST" type="xs:integer" />
+              <xs:element name="PCT" type="xs:decimal" />
+              <xs:element name="VALUE" type="xs:integer" />
+							<xs:element name="COMMENT" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+

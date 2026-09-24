@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Document">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="App" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ApplicationYear" type="xs:unsignedShort" />
+              <xs:element name="GrandListYear" type="xs:unsignedShort" />
+              <xs:element name="Applicant">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="LastName" type="xs:string" />
+                    <xs:element name="FirstName" type="xs:string" />
+                    <xs:element name="Initial" type="xs:string" />
+                    <xs:element name="SSN" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Spouse">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="LastName" type="xs:string" />
+                    <xs:element name="FirstName" type="xs:string" />
+                    <xs:element name="Initial" type="xs:string" />
+                    <xs:element name="SSN" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Property">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Address" type="xs:string" />
+                    <xs:element name="City" type="xs:string" />
+                    <xs:element name="State" type="xs:string" />
+                    <xs:element name="Zip" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Mailing">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Address" type="xs:string" />
+                    <xs:element name="City" type="xs:string" />
+                    <xs:element name="State" type="xs:string" />
+                    <xs:element name="Zip" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="General">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ApplicantSignDate" type="xs:string" />
+                    <xs:element name="ApplicantSigniture" type="xs:string" />
+                    <xs:element name="AssessorSignDate" type="xs:string" />
+                    <xs:element name="AssessorSigniture" type="xs:string" />
+                    <xs:element name="FullyDisabled" type="xs:string" />
+                    <xs:element name="MaritalStatus" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Income">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Gross" type="xs:decimal" />
+                    <xs:element name="Non-Taxable" type="xs:decimal" />
+                    <xs:element name="Other" type="xs:decimal" />
+                    <xs:element name="SSRR" type="xs:decimal" />
+                    <xs:element name="Total" type="xs:decimal" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Exemption">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ExemptionAppliedTo" type="xs:string" />
+                    <xs:element name="CodeA" type="xs:decimal" />
+                    <xs:element name="Full" type="xs:decimal" />
+                    <xs:element name="Used" type="xs:decimal" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="new_count" type="xs:int" use="required" />
+      <xs:attribute name="new_total" type="xs:string" use="required" />
+      <xs:attribute name="renewal_count" type="xs:int" use="required" />
+      <xs:attribute name="renewal_total" type="xs:string" use="required" />
+      <xs:attribute name="towncode" type="xs:string" use="required" />
+      <xs:attribute name="millrate" type="xs:decimal" use="required" />
+      <xs:attribute name="millrate_mv" type="xs:decimal" use="required" />
+      <xs:attribute name="taxloss" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

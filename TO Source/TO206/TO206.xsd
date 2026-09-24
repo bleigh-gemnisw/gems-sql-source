@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema id="TO206" 
+                  targetNamespace="http://tempuri.org/TO206.xsd"
+                  elementFormDefault="qualified"
+                  xmlns="http://tempuri.org/TO206.xsd"
+                  xmlns:mstns="http://tempuri.org/TO206.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Address" type="xs:string" />
+        <xs:element name="TownZip" type="xs:string" />
+        <xs:element name="Phone" type="xs:string" />
+        <xs:element name="EMail" type="xs:string" />
+				<xs:element name="MunTown" type="xs:string" />
+				<xs:element name="MunBur" type="xs:string" />
+				<xs:element name="MunCity" type="xs:string" />
+        <xs:element name="DistFire" type="xs:string" />
+        <xs:element name="DistSewer" type="xs:string" />
+        <xs:element name="DistLighting" type="xs:string" />
+        <xs:element name="DistVillage" type="xs:string" />
+        <xs:element name="DistBeach" type="xs:string" />
+        <xs:element name="DistImprovement" type="xs:string" />
+        <xs:element name="DistOther" type="xs:string" />
+        <xs:element name="CollApp" type="xs:string" />
+				<xs:element name="CollElect" type="xs:string" />
+				<xs:element name="MillRateDay" type="xs:string" />
+        <xs:element name="MillRateMonth" type="xs:string" />
+        <xs:element name="MillRate" type="xs:decimal" />
+        <xs:element name="MillRateMV" type="xs:decimal" />
+        <xs:element name="MillRateAuthority" type="xs:string" />
+				<xs:element name="CreditCardYes" type="xs:string" />
+				<xs:element name="CreditCardNo" type="xs:string" />
+        <xs:element name="Collected" type="xs:decimal" />
+				<xs:element name="CreditAllYes" type="xs:string" />
+				<xs:element name="CreditAllNo" type="xs:string" />
+        <xs:element name="CreditRestrict" type="xs:string" />
+        <xs:element name="LiensYes" type="xs:string" />
+				<xs:element name="LiensNo" type="xs:string" />
+				<xs:element name="totre" type="xs:decimal" />
+        <xs:element name="totmv" type="xs:decimal" />
+        <xs:element name="totpp" type="xs:decimal" />
+        <xs:element name="tot" type="xs:decimal" />
+        <xs:element name="totsu" type="xs:decimal" />
+        <xs:element name="REDueDate1" type="xs:string" />
+        <xs:element name="REDueDate2" type="xs:string" />
+        <xs:element name="REDueDate3" type="xs:string" />
+        <xs:element name="REDueDate4" type="xs:string" />
+        <xs:element name="PPDueDate1" type="xs:string" />
+        <xs:element name="PPDueDate2" type="xs:string" />
+        <xs:element name="PPDueDate3" type="xs:string" />
+        <xs:element name="PPDueDate4" type="xs:string" />
+        <xs:element name="MVDueDate1" type="xs:string" />
+        <xs:element name="MVDueDate2" type="xs:string" />
+        <xs:element name="MVDueDate3" type="xs:string" />
+        <xs:element name="MVDueDate4" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

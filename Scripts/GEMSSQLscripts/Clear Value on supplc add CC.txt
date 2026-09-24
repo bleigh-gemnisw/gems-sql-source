@@ -1,0 +1,1 @@
+update txsuppc set value=0, oval=0 from txsuppc as a left join txcoeb as b on a.list#=b.list# where a.ccno>0 and b.cyear=2024 and b.CGRSCH<>0 and a.rate=0

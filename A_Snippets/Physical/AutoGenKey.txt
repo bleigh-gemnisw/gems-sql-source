@@ -1,0 +1,33 @@
+Public Function AutoGenKey(ByVal WrkBchno As Integer, ByVal WrkSeqno As Integer) As Integer
+  Dim NextKey As Integer
+  Dim Conn As SqlConnection
+  Dim objCommand As SqlCommand
+  Dim ds As DataSet = New DataSet
+
+  RecordNotFound = False
+  StrSQL = "Select * from " & cFileName & " where bchno=" & WrkBchno & " and seqno=" & WrkSeqno & _
+   " order by recno desc"
+  Try
+    Conn = MyDBConn.Open
+    objCommand = New SqlCommand(StrSQL, Conn)
+    'Fill the dataset with the data
+    da = New SqlDataAdapter
+    da.SelectCommand = objCommand
+    da.Fill(ds, cFileName)
+    If ds.Tables(0).Rows.Count = 0 Then
+      NextKey = 1
+    Else
+      NextKey = ds.Tables(0).Rows(0).Item("recno") + 1
+    End If
+    If NextKey > 999 Then
+      NextKey = 1
+    End If
+    objCommand = Nothing
+    ds.Clear()
+    ds = Nothing
+    Conn.Close()
+  Catch ex As Exception
+    ErrMsg = ex.ToString()
+  End Try
+  Return NextKey
+End Function

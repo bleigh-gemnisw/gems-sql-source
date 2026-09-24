@@ -1,0 +1,21 @@
+SET PATH=%PATH%;C:\Program Files (x86)\CrSSL\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;%USERPROFILE%\.dotnet\tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\amd64;
+msbuild.exe "c:\gems source sql\fa source\fa001\fa001.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa002\fa002.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa003\fa003.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa004\fa004.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa005\fa005.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa006\fa006.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa007\fa007.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa008\fa008.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa009\fa009.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa010\fa010.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa011\fa011.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa012\fa012.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa020\fa020.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa100\fa100.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa101\fa101.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa102\fa102.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa103\fa103.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa104\fa104.sln" /property:configuration=release
+msbuild.exe "c:\gems source sql\fa source\fa200\fa200.sln" /property:configuration=release
+pause

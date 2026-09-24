@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX210" targetNamespace="http://tempuri.org/TX210.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX210.xsd" xmlns:mstns="http://tempuri.org/TX210.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="FRCD" type="xs:string" />
+<xs:element name="LISTNO" type="xs:long" />
+<xs:element name="YEAR" type="xs:long" />
+<xs:element name="TYPEDESC" type="xs:string" />
+<xs:element name="LETTER" type="xs:string" />
+<xs:element name="ADDR1" type="xs:string" />
+<xs:element name="ADDR2" type="xs:string" />
+<xs:element name="ADDR3" type="xs:string" />
+<xs:element name="ADDR4" type="xs:string" />
+<xs:element name="ADDR5" type="xs:string" />
+<xs:element name="BKCD" type="xs:string" />
+<xs:element name="FRCDDESC" type="xs:string" />
+<xs:element name="FRYR" type="xs:long" />
+<xs:element name="PROPDESC" type="xs:string" />
+<xs:element name="PROPDESC2" type="xs:string" />
+<xs:element name="GROSS" type="xs:long" />
+<xs:element name="EXEMPT" type="xs:long" />
+<xs:element name="NET" type="xs:long" />
+<xs:element name="SUSPENSE" type="xs:boolean" />
+<xs:element name="TAXDUE" type="xs:decimal" />
+<xs:element name="TAX1" type="xs:decimal" />
+<xs:element name="TAX2" type="xs:decimal" />
+<xs:element name="UNPAIDTX" type="xs:decimal" />
+<xs:element name="INTPAID" type="xs:decimal" />
+<xs:element name="LIENPAID" type="xs:decimal" />
+<xs:element name="CCNO" type="xs:long" />
+<xs:element name="CCDATE" type="xs:date" />
+<xs:element name="CCETAX" type="xs:decimal" />
+<xs:element name="CCTX1" type="xs:decimal" />
+<xs:element name="CCTX2" type="xs:decimal" />
+<xs:element name="UNPAIDCC" type="xs:decimal" />
+<xs:element name="PAMT1" type="xs:decimal" />
+<xs:element name="PDATE1" type="xs:date" />
+<xs:element name="BATCH1" type="xs:long" />
+<xs:element name="PAMT2" type="xs:decimal" />
+<xs:element name="PDATE2" type="xs:date" />
+<xs:element name="BATCH2" type="xs:long" />
+<xs:element name="PAMT3" type="xs:decimal" />
+<xs:element name="PDATE3" type="xs:date" />
+<xs:element name="BATCH3" type="xs:long" />
+<xs:element name="PAMT4" type="xs:decimal" />
+<xs:element name="PDATE4" type="xs:date" />
+<xs:element name="BATCH4" type="xs:long" />
+<xs:element name="PAMT5" type="xs:decimal" />
+<xs:element name="PDATE5" type="xs:date" />
+<xs:element name="BATCH5" type="xs:long" />
+<xs:element name="PAMT6" type="xs:decimal" />
+<xs:element name="PDATE6" type="xs:date" />
+<xs:element name="BATCH6" type="xs:long" />
+<xs:element name="PAMT7" type="xs:decimal" />
+<xs:element name="PDATE7" type="xs:date" />
+<xs:element name="BATCH7" type="xs:long" />
+<xs:element name="PAMT8" type="xs:decimal" />
+<xs:element name="PDATE8" type="xs:date" />
+<xs:element name="BATCH8" type="xs:long" />
+<xs:element name="PAMT9" type="xs:decimal" />
+<xs:element name="PDATE9" type="xs:date" />
+<xs:element name="BATCH9" type="xs:long" />
+<xs:element name="PAMT10" type="xs:decimal" />
+<xs:element name="PDATE10" type="xs:date" />
+<xs:element name="BATCH10" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

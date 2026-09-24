@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TS006" targetNamespace="http://tempuri.org/TS006.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TS006.xsd" xmlns:mstns="http://tempuri.org/TS006.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mylist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SORTBY" type="xs:string" />
+        <xs:element type="xs:date" name="MFLISS" />
+        <xs:element name="MFYEAR" type="xs:integer" />
+        <xs:element name="MFCLS" type="xs:string" />
+        <xs:element name="MFNAM" type="xs:string" />
+        <xs:element name="MFADD1" type="xs:string" />
+        <xs:element name="MFPERNO" type="xs:integer" />
+        <xs:element name="MFLFEE" type="xs:double" />
+        <xs:element name="MFCOLR" type="xs:string" />
+        <xs:element name="MFMAKE" type="xs:string" />
+        <xs:element name="MFMOD" type="xs:string" />
+        <xs:element name="MFVINNO" type="xs:string" />
+        <xs:element name="MFREGNO" type="xs:string" />
+        <xs:element name="MFCAP" type="xs:long" />
+        <xs:element name="MFCYR" type="xs:integer" />
+        <xs:element name="MFLIC" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

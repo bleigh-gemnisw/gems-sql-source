@@ -1,0 +1,14 @@
+  Public Sub RunUpdateQuery(ByVal Wrkset As String, ByVal wrkwhere As String)
+  Dim Conn As SqlConnection
+  Dim objCommand As SqlCommand
+  Dim Result As Integer
+
+    StrSQL = "Update " & cFileName & " " & Wrkset & " " & wrkwhere
+
+    RecordNotFound = False
+  IsEOF = False
+  Conn = MyDBConn.Open
+  objCommand = New SqlCommand(StrSQL, Conn)
+  Result = objCommand.ExecuteNonQuery()
+  objCommand = Nothing
+End Sub

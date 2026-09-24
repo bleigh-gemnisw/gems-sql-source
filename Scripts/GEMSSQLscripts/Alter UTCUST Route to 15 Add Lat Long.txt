@@ -1,0 +1,3 @@
+alter table UTCUST alter column CUROUT char(15)
+alter table UTCUST ADD CULAT decimal(9,6) not NULL DEFAULT 0
+alter table UTCUST ADD CULONG decimal(9,6) not NULL DEFAULT 0

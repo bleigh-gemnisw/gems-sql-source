@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AP703" targetNamespace="http://tempuri.org/AP703.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/AP703.xsd" xmlns:mstns="http://tempuri.org/AP703.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="AP1099P">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="AFEDID" type="xs:string" />
+				<xs:element name="AMISAM" type="xs:decimal" />
+        <xs:element name="ARENTS" type="xs:decimal" />
+        <xs:element name="AOTHER" type="xs:decimal" />
+        <xs:element name="APADR1" type="xs:string" />
+        <xs:element name="APADR2" type="xs:string" />
+        <xs:element name="APADR3" type="xs:string" />
+        <xs:element name="APNAME" type="xs:string" />
+        <xs:element name="APPHON" type="xs:string" />
+        <xs:element name="ARACCT" type="xs:string" />
+        <xs:element name="ARADR1" type="xs:string" />
+        <xs:element name="ARADR2" type="xs:string" />
+        <xs:element name="ARADR3" type="xs:string" />
+        <xs:element name="ARADR4" type="xs:string" />
+        <xs:element name="ARNAME" type="xs:string" />
+        <xs:element name="ASTCDE" type="xs:string" />
+        <xs:element name="ASTEID" type="xs:string" />
+        <xs:element name="ATAXID" type="xs:string" />
+        <xs:element name="AYEAR" type="xs:integer" />
+        <xs:element name="AFORM" type="xs:string" />
+      </xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

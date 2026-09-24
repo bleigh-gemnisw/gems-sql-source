@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX352MajorCat" 
+  targetNamespace="http://tempuri.org/TX352MajorCat.xsd"
+  elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX352MajorCat.xsd" 
+  xmlns:mstns="http://tempuri.org/TC352MajorCat.xsd"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytablemc">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="tmcformat" type="xs:string" />
+<xs:element name="tmccode" type="xs:string" />
+<xs:element name="tmcdesc" type="xs:string" />
+<xs:element name="tmccount" type="xs:integer" />
+<xs:element name="tmcgross" type="xs:long" />
+<xs:element name="tmcexempt" type="xs:long" />
+<xs:element name="tmcnet" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

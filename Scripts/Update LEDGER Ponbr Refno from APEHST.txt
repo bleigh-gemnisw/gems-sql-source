@@ -1,0 +1,1 @@
+update ledger set refno=apehst.ponbr from ledger left join apehst on ledger.bchno=apehst.bchno and ledger.invnr=apehst.invno and ledger.fdnbr=apehst.fdnbr and ledger.dpnbr=apehst.dpnbr and ledger.obnbr=apehst.obnbr and ledger.fnpgm=apehst.fnpgm where srcde=1 and pstdt>20221201 and ledger.refno<>apehst.ponbr and apehst.ponbr>0 and trtyp='E'

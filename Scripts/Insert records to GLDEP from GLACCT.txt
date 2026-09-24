@@ -1,0 +1,1 @@
+insert into gldep select dpnbr,substring(gldsc,1,30),0 from glacct where gltyp='H' and fdnbr=1 and obnbr=0 and acrec=' '

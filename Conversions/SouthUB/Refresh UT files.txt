@@ -1,0 +1,26 @@
+delete from gemsdtab..utcust
+delete from gemsdtab..utcustmt
+delete from gemsdtab..utcustrt
+delete from gemsdtab..utdist
+delete from gemsdtab..utmeter
+delete from gemsdtab..utratemt
+delete from gemsdtab..uttype
+insert into gemsdtab..utcust select * from southub..utcust
+insert into gemsdtab..utcustmt select * from southub..utcustmt
+insert into gemsdtab..utcustrt select * from southub..utcustrt
+insert into gemsdtab..utdist select * from southub..utdist
+insert into gemsdtab..utmeter select * from southub..utmeter
+insert into gemsdtab..utratemt select * from southub..utratemt
+insert into gemsdtab..uttype select * from southub..uttype
+
+populate txdist
+populate txtype D
+copy txprof D records
+update TXREAL sewer flag
+
+TXINV/TXHST/UTCOEA: set district 1 to district 20 (cpace)
+UTCOEA: Set district 5 to district 21 (assessment)
+17264  LEONE REALTY
+19500   BUMBERA FRANK   (ask Halaree)
+
+

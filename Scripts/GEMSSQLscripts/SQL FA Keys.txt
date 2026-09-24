@@ -1,0 +1,2 @@
+alter table FACNTL add primary key (FCKEY)
+alter table FACAPT add primary key (CAPT)

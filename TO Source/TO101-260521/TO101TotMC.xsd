@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TO101TotMC" targetNamespace="http://tempuri.org/TO101TotMC.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TO101TotMC.xsd" xmlns:mstns="http://tempuri.org/TO101RE.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytabletmc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tmcgroup" type="xs:string" />
+        <xs:element name="tmccode" type="xs:string" />
+        <xs:element name="tmcdesc" type="xs:string" />
+        <xs:element name="tmccount" type="xs:integer" />
+        <xs:element name="tmcgross" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

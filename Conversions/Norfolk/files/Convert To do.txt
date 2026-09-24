@@ -1,0 +1,3 @@
+Handle Batch with a W as C/C adjustment 9 accounts
+
+100023 43 68 123 137 174 298

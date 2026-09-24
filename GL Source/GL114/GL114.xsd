@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="GL114" targetNamespace="http://tempuri.org/GL114.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/GL114.xsd" xmlns:mstns="http://tempuri.org/GL114.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="FNDSEC">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="USRPRF" type="xs:string" />
+<xs:element name="FDNBR" type="xs:integer" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

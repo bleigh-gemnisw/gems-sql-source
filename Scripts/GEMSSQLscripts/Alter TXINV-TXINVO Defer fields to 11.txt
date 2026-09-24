@@ -1,0 +1,11 @@
+alter table TXINV add DEFERT numeric(11,2) not NULL DEFAULT 0
+alter table TXINV add DEFER1 numeric(11,2) not NULL DEFAULT 0
+alter table TXINV add DEFER2 numeric(11,2) not NULL DEFAULT 0
+alter table TXINV add DEFER3 numeric(11,2) not NULL DEFAULT 0
+alter table TXINV add DEFER4 numeric(11,2) not NULL DEFAULT 0
+alter table TXINVO add DEFERT numeric(11,2) not NULL DEFAULT 0
+alter table TXINVO add DEFER1 numeric(11,2) not NULL DEFAULT 0
+alter table TXINVO add DEFER2 numeric(11,2) not NULL DEFAULT 0
+alter table TXINVO add DEFER3 numeric(11,2) not NULL DEFAULT 0
+alter table TXINVO add DEFER4 numeric(11,2) not NULL DEFAULT 0
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TS004" targetNamespace="http://tempuri.org/TS004.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TS004.xsd" xmlns:mstns="http://tempuri.org/TS004.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="MFNAM" type="xs:string" />
+        <xs:element name="ADDL1" type="xs:string" />
+        <xs:element name="ADDL2" type="xs:string" />
+        <xs:element name="ADDL3" type="xs:string" />
+        <xs:element name="PHONE" type="xs:string" />
+        <xs:element name="MFCYR" type="xs:integer" />
+        <xs:element name="MFMAKE" type="xs:string" />
+        <xs:element name="MFMOD" type="xs:string" />
+        <xs:element name="MFCOLR" type="xs:string" />
+        <xs:element name="MFCAP" type="xs:double" />
+        <xs:element name="MFLIC" type="xs:string" />
+        <xs:element name="MFREGNO" type="xs:string" />
+        <xs:element name="MFVINNO" type="xs:string" />
+        <xs:element name="FYR" type="xs:integer" />
+        <xs:element name="TYR" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

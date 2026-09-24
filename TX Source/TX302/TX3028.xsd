@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TX3028" targetNamespace="http://tempuri.org/TX3028.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TX3028.xsd" xmlns:mstns="http://tempuri.org/TX3028.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="mytable">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SORTDATA" type="xs:string" />
+              <xs:element name="BACKTAX" type="xs:string" />
+              <xs:element name="LISTNO" type="xs:integer" />
+              <xs:element name="YEAR" type="xs:integer" />
+              <xs:element name="TYPE" type="xs:string" />
+              <xs:element name="TYPEDESC" type="xs:string" />
+              <xs:element name="ADDR1" type="xs:string" />
+              <xs:element name="ADDR2" type="xs:string" />
+              <xs:element name="ADDR3" type="xs:string" />
+              <xs:element name="ADDR4" type="xs:string" />
+              <xs:element name="ADDR5" type="xs:string" />
+              <xs:element name="PROPDESC" type="xs:string" />
+              <xs:element name="PROPDESC2" type="xs:string" />
+              <xs:element name="BALANCE" type="xs:decimal" />
+              <xs:element name="AMTDUE" type="xs:decimal" />
+              <xs:element name="INTEREST" type="xs:decimal" />
+							<xs:element name="FEES" type="xs:decimal" />
+							<xs:element name="LIENS" type="xs:decimal" />
+              <xs:element name="BOND" type="xs:decimal" />
+              <xs:element name="TOTAL" type="xs:decimal" />
+              <xs:element name="VOLPAGE" type="xs:string" />
+              <xs:element name="ACCTID" type="xs:string" />
+              <xs:element name="STATUS" type="xs:string" />
+              <xs:element name="LastPaid" type="xs:string" />
+              <xs:element name="BillNo" type="xs:integer" />
+              <xs:element name="BillDate" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

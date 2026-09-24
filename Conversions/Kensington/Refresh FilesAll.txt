@@ -1,0 +1,21 @@
+delete from gemsdtab..TAXCOM
+delete from gemsdtab..TXHST 
+delete from gemsdtab..TXINV 
+delete from gemsdtab..UTBLHS 
+delete from gemsdtab..UTBREAK 
+delete from gemsdtab..UTCOEA 
+delete from gemsdtab..UTCUST 
+delete from gemsdtab..UTCUSTAS 
+delete from gemsdtab..UTCUSTMT 
+delete from gemsdtab..UTCUSTRT 
+delete from gemsdtab..tbatch
+delete from gemsdtab..txbatch
+insert into gemsdtab..TAXCOM select * from gemskens..TAXCOM
+insert into gemsdtab..TXHST select * from gemskens..TXHST
+insert into gemsdtab..TXINV select * from gemskens..TXINV
+insert into gemsdtab..UTBLHS select * from gemskens..UTBLHS
+insert into gemsdtab..UTBREAK select * from gemskens..UTBREAK
+insert into gemsdtab..UTCUST select * from gemskens..UTCUST
+insert into gemsdtab..UTCUSTAS select * from gemskens..UTCUSTAS
+insert into gemsdtab..UTCUSTMT select * from gemskens..UTCUSTMT
+insert into gemsdtab..UTCUSTRT select * from gemskens..UTCUSTRT

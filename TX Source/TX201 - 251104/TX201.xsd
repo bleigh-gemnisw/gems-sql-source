@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX201" targetNamespace="http://tempuri.org/TX201.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX201.xsd" xmlns:mstns="http://tempuri.org/TX201.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LETTER" type="xs:string" />
+<xs:element name="FRCD" type="xs:string" />
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="TYPEDESC" type="xs:string" />
+<xs:element name="ADDR1" type="xs:string" />
+<xs:element name="ADDR2" type="xs:string" />
+<xs:element name="ADDR3" type="xs:string" />
+<xs:element name="ADDR4" type="xs:string" />
+<xs:element name="ADDR5" type="xs:string" />
+<xs:element name="OLDOWNER" type="xs:string" />
+<xs:element name="BANK" type="xs:string" />
+<xs:element name="FRCDDESC" type="xs:string" />
+<xs:element name="FRYR" type="xs:integer" />
+<xs:element name="STBENEFIT" type="xs:decimal" />
+<xs:element name="FRZLOSS" type="xs:decimal" />
+<xs:element name="TOWNBENEFIT" type="xs:decimal" />
+<xs:element name="PRORATEDESC" type="xs:string" />
+<xs:element name="REFLISTNO" type="xs:integer" />
+<xs:element name="BACKTAX" type="xs:string" />
+<xs:element name="CCNO" type="xs:integer" />
+<xs:element name="CCDATE" type="xs:date" />
+<xs:element name="CCETAX" type="xs:decimal" />
+<xs:element name="CCTX1" type="xs:decimal" />
+<xs:element name="CCTX2" type="xs:decimal" />
+<xs:element name="CCGROSS" type="xs:integer" />
+<xs:element name="CCEXEMPTION" type="xs:integer" />
+<xs:element name="CCNET" type="xs:integer" />
+<xs:element name="PROPDESC" type="xs:string" />
+<xs:element name="PROPDESC2" type="xs:string" />
+<xs:element name="GROSS" type="xs:integer" />
+<xs:element name="EXEMPTION" type="xs:integer" />
+<xs:element name="PRORATE" type="xs:integer" />
+<xs:element name="CREDIT" type="xs:integer" />
+<xs:element name="NET" type="xs:integer" />
+<xs:element name="BTR" type="xs:decimal" />
+<xs:element name="TAXTOT" type="xs:decimal" />
+<xs:element name="TAX1ST" type="xs:decimal" />
+<xs:element name="TAX2ND" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

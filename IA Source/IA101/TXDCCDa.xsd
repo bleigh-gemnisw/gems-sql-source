@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GNETa" targetNamespace="http://tempuri.org/GNETa.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/GNETa.xsd" xmlns:mstns="http://tempuri.org/GNETa.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GNETA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="code" type="xs:integer" />
+        <xs:element name="ltr" type="xs:string" />
+        <xs:element name="desc" type="xs:string" />
+        <xs:element name="decode" type="xs:string" />
+        <xs:element name="ascode" type="xs:integer" />
+        <xs:element name="aspct" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

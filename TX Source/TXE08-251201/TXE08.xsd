@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TXE08" targetNamespace="http://tempuri.org/TXE08.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TXE08.xsd" xmlns:mstns="http://tempuri.org/TXE08.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="RPTID" type="xs:string" />
+        <xs:element name="LIST" type="xs:integer" />
+        <xs:element name="TYPE" type="xs:string" />
+        <xs:element name="YEAR" type="xs:integer" />
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="ORIGBAL" type="xs:decimal" />
+        <xs:element name="BEGBAL" type="xs:decimal" />
+        <xs:element name="XFERSUSP" type="xs:decimal" />
+        <xs:element name="CCADD" type="xs:decimal" />
+        <xs:element name="CCRED" type="xs:decimal" />
+        <xs:element name="PAYMENTS" type="xs:decimal" />
+        <xs:element name="REFUNDS" type="xs:decimal" />
+        <xs:element name="ENDBAL" type="xs:decimal" />
+        <xs:element name="INTEREST" type="xs:decimal" />
+				<xs:element name="FEES" type="xs:decimal" />
+				<xs:element name="LIENS" type="xs:decimal" />
+        <xs:element name="ERRORS" type="xs:decimal" />
+        <xs:element name="ERRORSDIFF" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

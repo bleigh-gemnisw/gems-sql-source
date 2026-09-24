@@ -1,0 +1,58 @@
+CREATE TABLE dbo.bankpayimport_2digit_6 (
+ListNo INT NOT NULL,
+Year INT NOT NULL,
+Type CHAR(1) NOT NULL,
+PaidAmount DECIMAL(12, 2) NOT NULL,
+BankCd CHAR(2) NOT NULL
+);
+
+
+
+CREATE TABLE dbo.bankpayimport_2digit_7 (
+ListNo INT NOT NULL,
+Year INT NOT NULL,
+Type CHAR(1) NOT NULL,
+PaidAmount DECIMAL(12, 2) NOT NULL,
+BankCd CHAR(2) NOT NULL
+);
+go
+
+CREATE PROCEDURE [dbo].[usp_GetBulkTXA04Records]
+@UseList7 BIT -- 1 = use bankpayimport_2digit_7, 0 = use bankpayimport_2digit_6
+AS
+BEGIN
+SET NOCOUNT ON;
+
+DECLARE @BankTable NVARCHAR(100);
+SET @BankTable = CASE WHEN @UseList7 = 1 THEN 'bankpayimport_2digit_7' ELSE 'bankpayimport_2digit_6' END;
+
+DECLARE @sql NVARCHAR(MAX);
+
+SET @sql = '
+SELECT
+b.ListNo,
+b.Year,
+b.Type,
+b.PaidAmount,
+b.BankCd,
+t.NAME,
+t.DIST,
+t.FED1, t.FED2, t.FED3, t.FED4, t.FED5,
+t.FEC1, t.FEC2, t.FEC3, t.FEC4, t.FEC5,
+t.ICODE,
+t.TAXT,
+t.PDAT,
+t.CCNO,
+t.CDATE,
+t.CCETAX,
+t.SUSCD,
+t.SUSDT
+FROM ' + QUOTENAME(@BankTable) + ' b
+LEFT JOIN TXINV t
+ON t.[LIST#] = b.ListNo AND t.[YEAR] = b.Year AND t.[TYPE] = b.Type
+WHERE t.ICODE <> ''I''
+ORDER BY b.Year, b.Type, b.ListNo';
+
+EXEC sp_executesql @sql;
+END;
+

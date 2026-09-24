@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UB350" targetNamespace="http://tempuri.org/UB350.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/UB350.xsd" xmlns:mstns="http://tempuri.org/UB350.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SORTDATA" type="xs:integer" />
+        <xs:element name="LISTNO" type="xs:integer" />
+
+        <xs:element name="TXYEAR" type="xs:integer" />
+       <xs:element name="TXTYPE" type="xs:string" />
+        <xs:element name="CNAME" type="xs:string" />
+        <xs:element name="CNAME2" type="xs:string" />
+        <xs:element name="CADD1" type="xs:string" />
+        <xs:element name="CADD2" type="xs:string" />
+        <xs:element name="CCITY" type="xs:string" />
+        <xs:element name="CSTATE" type="xs:string" />
+        <xs:element name="CZIP" type="xs:string" />
+        <xs:element name="INAME" type="xs:string" />
+        <xs:element name="INAME2" type="xs:string" />
+        <xs:element name="IADD1" type="xs:string" />
+        <xs:element name="IADD2" type="xs:string" />
+        <xs:element name="ICITY" type="xs:string" />
+        <xs:element name="ISTATE" type="xs:string" />
+        <xs:element name="IZIP" type="xs:string" />
+       
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

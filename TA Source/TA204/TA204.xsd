@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA204" targetNamespace="http://tempuri.org/TA204.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA204.xsd" xmlns:mstns="http://tempuri.org/TA204.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="ADDR1" type="xs:string" />
+<xs:element name="ADDR2" type="xs:string" />
+<xs:element name="ADDR3" type="xs:string" />
+<xs:element name="ADDR4" type="xs:string" />
+<xs:element name="ADDR5" type="xs:string" />
+<xs:element name="GROSS" type="xs:double" />
+<xs:element name="BAA" type="xs:double" />
+<xs:element name="NET" type="xs:double" />
+<xs:element name="PROPDESC" type="xs:string" />
+<xs:element name="MAP" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

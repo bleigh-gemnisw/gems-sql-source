@@ -1,0 +1,1 @@
+INSERT INTO gemsdtat..txprof SELECT * FROM gemsdtab..TXPROF

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema id="TAB01Eld" 
+                  targetNamespace="http://tempuri.org/TAB01Eld.xsd"
+                  elementFormDefault="qualified"
+                  xmlns="http://tempuri.org/TAB01Eld.xsd"
+                  xmlns:mstns="http://tempuri.org/TAB01Eld.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytableeld">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="year" type="xs:integer" />
+        <xs:element name="code" type="xs:string" />
+        <xs:element name="count" type="xs:long" />
+        <xs:element name="gross" type="xs:long" />
+        <xs:element name="netass" type="xs:long" />
+        <xs:element name="tax" type="xs:decimal" />
+        <xs:element name="statecredit" type="xs:decimal" />
+        <xs:element name="localcredit" type="xs:decimal" />
+        <xs:element name="adjtax" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

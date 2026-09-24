@@ -1,0 +1,9 @@
+DECLARE @Prefix NVARCHAR(100) = 'txx';
+DECLARE @sql NVARCHAR(MAX) = '';
+
+SELECT @sql = STRING_AGG('DROP TABLE [' + SCHEMA_NAME(schema_id) + '].[' + name + ']', '; ')
+FROM sys.tables
+WHERE name LIKE @Prefix + '%';
+
+PRINT @sql;
+EXEC(@sql);

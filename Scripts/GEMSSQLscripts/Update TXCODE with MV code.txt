@@ -1,0 +1,7 @@
+update TXCODE set mvinst='M' where tccode=25 and tctype='M'
+update TXCODE set mvinst='Z' where tccode=29 and tctype='M'
+update TXCODE set mvinst='Z' where tccode=31 and tctype='M'
+update TXCODE set mvinst='N' where tccode=36 and tctype='M'
+update TXCODE set mvinst='Z' where tccode=37 and tctype='M'
+update TXCODE set mvinst='N' where tccode=39 and tctype='M'
+update TXCODE set mvinst='Z' where tccode=40 and tctype='M'

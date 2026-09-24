@@ -1,0 +1,1 @@
+update txpprpc set list#=cast(b.unique_id as numeric) from txpprpc as a left join gemstemp..pplist as b on a.list#=b.list_no where b.list_no<>b.unique_id and record_year=2023 and len(trim(UNIQUE_ID))=6

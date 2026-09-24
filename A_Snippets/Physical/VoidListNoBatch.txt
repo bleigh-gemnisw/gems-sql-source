@@ -1,0 +1,13 @@
+  Public Sub VoidListNoBatch(ByVal WrkList As Integer, ByVal WrkYear As Integer, ByVal WrkType As String, ByVal WrkPDate As Integer,
+  ByVal WrkBatchNo As Integer)
+    Dim Conn As SqlConnection
+    Dim objCommand As SqlCommand
+    Dim Result As Integer
+
+    StrSQL = "UPDATE " & cFileName & " SET RCODE='V' WHERE list# = " & WrkList & " and year = " & WrkYear & " and type = '" & WrkType _
+     & "' and pdate = " & WrkPDate & " and batchn = " & WrkBatchNo & " and rcode<>'V'"
+
+    Conn = MyDBConn.Open
+    objCommand = New SqlCommand(StrSQL, Conn)
+    Result = objCommand.ExecuteNonQuery()
+  End Sub

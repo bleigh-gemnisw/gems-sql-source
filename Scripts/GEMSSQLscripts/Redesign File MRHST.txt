@@ -1,0 +1,37 @@
+sp_rename 'MRHST','ZMRHST'
+go
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[MRHST](
+	[STATUS] [char](1) NOT NULL,
+	[BCHNO] [numeric](5, 0) NOT NULL,
+	[DESCR] [char](25) NOT NULL,
+	[RECDT] [numeric](8, 0) NOT NULL,
+	[STRDT] [numeric](8, 0) NOT NULL,
+	[ENDDT] [numeric](8, 0) NOT NULL,
+	[CODE] [char](3) NOT NULL,
+	[CASH] [decimal](11, 2) NOT NULL,
+	[CHECK] [decimal](11, 2) NOT NULL,
+	[CREDIT] [decimal](11, 2) NOT NULL,
+	[TOTAL] [decimal](11, 2) NOT NULL,
+	[PRF] [char](10) NOT NULL,
+	[CHDATE] [numeric](8, 0) NOT NULL,
+	[CHTIME] [numeric](6, 0) NOT NULL,
+ PRIMARY KEY CLUSTERED 
+(
+	[BCHNO] ASC,
+	[CODE] ASC,
+	[CHDATE] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+insert into mrhst select status,bchno,descr,recdt,strdt,enddt,code,cash,[check],0,total,prf,chdate,chtime from zmrhst
+go
+
+

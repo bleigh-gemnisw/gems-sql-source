@@ -1,0 +1,12 @@
+'coc_data check instfile if not adjustment date then it's a before bill (not an after bill)
+'txinv mv type should not have ass code
+'instfile has a deferred amount near end of record
+'coc_data if unique_id is different than bill_number add to unique id (don't create new invoice)
+'convert Bond Due and Bond Paid
+'handle Assessment accounts yr 0 
+'Get Liens from TAX_LIEN_TABLE and write history lien records. Lien Code R is released.
+'coc_data add exemption also wrote to excd, taxable<>tax exempt not correct
+'coc_data bill_type 1 list numbers that are not in assrreal are actually prorate bills and should use unique_id
+'coc_data/adjustments can have negative installment amounts
+'PP 2nd name is not populating
+'ASSR_ELDERLY_FILE where gl_year in (2023) has records for both 2022 & 2023. Look at record_year to determine if it's even (2022) or it's odd (2023).

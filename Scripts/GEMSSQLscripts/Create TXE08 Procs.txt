@@ -1,0 +1,150 @@
+IF OBJECT_ID('dbo.fn_CustomSplitString', 'TF') IS NOT NULL
+    DROP FUNCTION dbo.fn_CustomSplitString;
+GO
+
+CREATE FUNCTION dbo.fn_CustomSplitString
+(
+    @InputString NVARCHAR(MAX),
+    @Delimiter CHAR(1)
+)
+RETURNS @Output TABLE (Value CHAR(1))
+AS
+BEGIN
+    -- Trim spaces
+    SET @InputString = REPLACE(LTRIM(RTRIM(@InputString)), ' ', '');
+
+    -- If no delimiter found, treat string as list of single characters
+    IF CHARINDEX(@Delimiter, @InputString) = 0
+    BEGIN
+        DECLARE @i INT = 1;
+        WHILE @i <= LEN(@InputString)
+        BEGIN
+            INSERT INTO @Output (Value)
+            VALUES (SUBSTRING(@InputString, @i, 1));
+            SET @i = @i + 1;
+        END
+
+        RETURN;
+    END
+
+    -- Handle standard delimited string
+    DECLARE @Start INT = 1, @End INT;
+    DECLARE @Token NVARCHAR(10);
+
+    SET @InputString = @InputString + @Delimiter; -- ensure trailing delimiter
+
+    WHILE @Start < LEN(@InputString)
+    BEGIN
+        SET @End = CHARINDEX(@Delimiter, @InputString, @Start);
+        SET @Token = LTRIM(RTRIM(SUBSTRING(@InputString, @Start, @End - @Start)));
+
+        IF LEN(@Token) = 1
+            INSERT INTO @Output (Value) VALUES (@Token);
+
+        SET @Start = @End + 1;
+    END
+
+    RETURN;
+END
+GO
+
+IF OBJECT_ID('dbo.usp_GetTXINVWithTXHST', 'P') IS NOT NULL
+    DROP PROCEDURE dbo.usp_GetTXINVWithTXHST;
+GO
+
+
+
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[usp_GetTXINVWithTXHST]
+  @WrkFromYear INT,
+  @WrkToYear INT,
+  @WrkDist INT = NULL,
+  @WrkPhase INT = NULL,
+  @WrkTypes NVARCHAR(MAX) = NULL
+AS
+BEGIN
+  SET NOCOUNT ON;
+
+  -- Build table of types (1 char each from string "MPR" → M, P, R)
+  DECLARE @TypeTable TABLE (Type NVARCHAR(10));
+  IF (@WrkTypes IS NOT NULL AND LTRIM(RTRIM(@WrkTypes)) <> '')
+  BEGIN
+    DECLARE @i INT = 1;
+    WHILE @i <= LEN(@WrkTypes)
+    BEGIN
+      INSERT INTO @TypeTable(Type)
+      VALUES (SUBSTRING(@WrkTypes, @i, 1));
+      SET @i = @i + 1;
+    END
+  END
+
+  -- 1st result: TXINV records with added fields
+  SELECT 
+    INV.ICODE,
+    INV.[List#],
+    INV.[YEAR],
+    INV.[TYPE],
+    INV.[NAME],
+    INV.DIST,
+    INV.PHASE,
+    INV.TAXT,
+    INV.PDAT,
+    INV.CCNO,
+    INV.CDATE,
+    INV.CCETAX,
+    INV.SUSCD,
+    INV.SUSDT
+  FROM 
+    TXINV INV
+  WHERE 
+    INV.ICODE <> 'I'
+    AND INV.[YEAR] BETWEEN @WrkFromYear AND @WrkToYear
+    AND (@WrkDist IS NULL OR INV.DIST = @WrkDist)
+    AND (@WrkPhase IS NULL OR INV.PHASE = @WrkPhase)
+    AND (
+      @WrkTypes IS NULL 
+      OR EXISTS (
+        SELECT 1 FROM @TypeTable T WHERE T.Type = INV.[TYPE]
+      )
+    )
+  ORDER BY 
+    INV.[YEAR], INV.[TYPE], INV.[NAME];
+
+  -- 2nd result: TXHST detail for VB to process (no changes here)
+  SELECT 
+    HST.[List#],
+    HST.[YEAR],
+    HST.[TYPE],
+    HST.RCODE,
+    HST.PDATE,
+    HST.PAMT,
+    HST.IAMT,
+    HST.LAMT,
+    HST.PCAMT,
+    HST.ADJCD,
+    HST.BATCHA
+  FROM 
+    TXINV INV
+  INNER JOIN 
+    TXHST HST ON INV.[List#] = HST.[List#] 
+             AND INV.[TYPE] = HST.[TYPE] 
+             AND INV.[YEAR] = HST.[YEAR]
+  WHERE 
+    INV.ICODE <> 'I'
+    AND INV.[YEAR] BETWEEN @WrkFromYear AND @WrkToYear
+    AND (@WrkDist IS NULL OR INV.DIST = @WrkDist)
+    AND (@WrkPhase IS NULL OR INV.PHASE = @WrkPhase)
+    AND (
+      @WrkTypes IS NULL 
+      OR EXISTS (
+        SELECT 1 FROM @TypeTable T WHERE T.Type = INV.[TYPE]
+      )
+    );
+END;
+GO

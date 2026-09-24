@@ -1,0 +1,10 @@
+Update nbbills
+set addr = nbbillsz.addr, 
+addr2 = nbbillsz.Addr2, 
+town = nbbillsz.town, 
+state = nbbillsz.state, 
+zip = nbbillsz.zip,
+zip4 = nbbillsz.zip4  
+from nbbills
+INNER JOIN nbbillsz ON nbbills.recid = nbbillsz.recid and nbbills.type=nbbillsz.type
+WHERE (nbbills.bkcd<>'')

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="BD200" targetNamespace="http://tempuri.org/BD200.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/BD200.xsd" xmlns:mstns="http://tempuri.org/BD200.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="PERMNO" type="xs:string" />
+<xs:element name="PERMLTR" type="xs:string" />
+<xs:element name="LOCATION" type="xs:string" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="TNNAME" type="xs:string" />
+<xs:element name="ADDRESS" type="xs:string" />
+<xs:element name="PHONE" type="xs:string" />
+<xs:element name="DESC" type="xs:string" />
+<xs:element name="VALUE" type="xs:integer" />
+<xs:element name="FEE" type="xs:decimal" />
+<xs:element name="PAYTYPE" type="xs:string" />
+<xs:element name="PAYREF" type="xs:string" />
+<xs:element name="HEATTY" type="xs:string" />
+<xs:element name="TANK" type="xs:string" />
+<xs:element name="TANKLO" type="xs:string" />
+<xs:element name="ELTYPE" type="xs:string" />
+<xs:element name="ELYEAR" type="xs:integer" />
+<xs:element name="ELACCT" type="xs:string" />
+<xs:element name="CONAME" type="xs:string" />
+<xs:element name="COADDR" type="xs:string" />
+<xs:element name="COLIC" type="xs:string" />
+<xs:element name="COPHONE" type="xs:string" />
+<xs:element name="INSPBY" type="xs:string" />
+<xs:element name="APPLDATE" type="xs:date" />
+<xs:element name="APPRDATE" type="xs:date" />
+<xs:element name="ANAME" type="xs:string" />
+<xs:element name="AADDRESS" type="xs:string" />
+<xs:element name="APHONE" type="xs:string" />
+<xs:element name="INTPROP" type="xs:string" />
+<xs:element name="PZFRNT" type="xs:boolean" />
+<xs:element name="PZWATR" type="xs:boolean" />
+<xs:element name="PZSQ" type="xs:long" />
+<xs:element name="PZUSE" type="xs:long" />
+<xs:element name="BLDGAS" type="xs:string" />
+<xs:element name="CONSTY" type="xs:string" />
+<xs:element name="DMSIZE" type="xs:string" />
+<xs:element name="DMSTOR" type="xs:long" />
+<xs:element name="DMDATE" type="xs:date" />
+<xs:element name="DMELEC" type="xs:boolean" />
+<xs:element name="DMGAS" type="xs:boolean" />
+<xs:element name="DMPHON" type="xs:boolean" />
+<xs:element name="DMSEPT" type="xs:boolean" />
+<xs:element name="DMSWR" type="xs:boolean" />
+<xs:element name="DMWPCA" type="xs:boolean" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,1 @@
+insert into GLBUDGET select fund,sfund,dept,obj,func,sfunc,dcode,rev,gltyp,descd,act1,act2,act3,0,0,orig,curr,prop,exp,adoptd,forcst,bamt1,bamt2,bamt3,bamt4,bamt5 from gemstemp..GLBUDGET

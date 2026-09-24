@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB214" targetNamespace="http://tempuri.org/UB214.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB214.xsd" xmlns:mstns="http://tempuri.org/UB214.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="SORTDATA" type="xs:string" />
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="LOCATION" type="xs:string" />
+<xs:element name="METERUSE" type="xs:long" />
+<xs:element name="PREVIOUSUSE" type="xs:long" />
+<xs:element name="DIFF" type="xs:integer" />
+<xs:element name="PCTDIFF" type="xs:integer" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

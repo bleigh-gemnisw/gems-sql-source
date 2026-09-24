@@ -1,0 +1,36 @@
+﻿' 2/ 5/20 Clear detail file on rerun
+'MK 7/15/26 Add YEAR to TXLOCAL
+'MK 7/30/26 Change SetGLYear to use TXCNTL
+'MK 8/ 3/26 If Current year record then don't check previous year
+Imports System
+Imports System.Reflection
+Imports System.Runtime.InteropServices
+
+' General Information about an assembly is controlled through the following 
+' set of attributes. Change these attribute values to modify the information
+' associated with an assembly.
+
+' Review the values of the assembly attributes
+
+<Assembly: AssemblyTitle("TA207")> 
+<Assembly: AssemblyDescription("")> 
+<Assembly: AssemblyCompany("R. Walsh Associates, Inc.")> 
+<Assembly: AssemblyProduct("Local Tax Credit Benefit")> 
+<Assembly: AssemblyCopyright("")> 
+<Assembly: AssemblyTrademark("")> 
+
+<Assembly: ComVisible(False)>
+
+'The following GUID is for the ID of the typelib if this project is exposed to COM
+<Assembly: Guid("88808b05-b4a5-43f0-afad-820a1e2c9d38")> 
+
+' Version information for an assembly consists of the following four values:
+'
+'      Major Version
+'      Minor Version 
+'      Build Number
+'      Revision
+'
+' You can specify all the values or you can default the Build and Revision Numbers 
+' by using the '*' as shown below:
+<Assembly: AssemblyVersion("1.0.*")> 

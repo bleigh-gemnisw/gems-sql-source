@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA206" targetNamespace="http://tempuri.org/TA206.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA206.xsd" xmlns:mstns="http://tempuri.org/TA206.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="LOCNO" type="xs:string" />
+<xs:element name="LOC" type="xs:string" />
+<xs:element name="GROSS" type="xs:long" />
+<xs:element name="BTR" type="xs:long" />
+<xs:element name="ADJUSTED" type="xs:long" />
+<xs:element name="FCCOD" type="xs:string" />
+<xs:element name="DNBTR" type="xs:string" />
+<xs:element name="CAT" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

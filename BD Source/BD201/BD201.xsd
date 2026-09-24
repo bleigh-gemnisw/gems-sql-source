@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="BD201" targetNamespace="http://tempuri.org/BD201.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/BD201.xsd" xmlns:mstns="http://tempuri.org/BD201.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="TRDATE" type="xs:date" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="PROPLOC" type="xs:string" />
+<xs:element name="TYPE" type="xs:string" />
+<xs:element name="PERMNO" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,2 @@
+select count(list#),sum(ovmsrp), sum(ovmsrp *.05) as msrp5a from txmvd as a left join txmsrp as b on a.vinno=b.vinno where b.vinno is not null and b.ovmsrp>2500
+select count(list#),sum(msrp), sum(msrp *.05) as msrp5b from txmvd as a left join txmsrp as b on a.vinno=b.vinno where b.vinno is null and a.msrp>2500

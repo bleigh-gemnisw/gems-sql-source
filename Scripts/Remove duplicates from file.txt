@@ -1,0 +1,3 @@
+select * iNTO txvcus220331 FROM txvcus
+delete from txvcus
+insert into txvcus select distinct * from txvcus220331

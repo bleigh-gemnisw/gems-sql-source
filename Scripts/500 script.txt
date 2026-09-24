@@ -1,0 +1,1 @@
+Select * from txmvd as a left join txinv as b on a.vinno=b.imvid# where b.year=2023 and b.type='M' and b.class=11 and b.GROSS<501 and a.value<500

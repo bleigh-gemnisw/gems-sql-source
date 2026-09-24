@@ -1,0 +1,2 @@
+alter table UTCUST alter column CUMSIZ char(3)
+alter table LOGUT alter column CUMSIZ char(3)

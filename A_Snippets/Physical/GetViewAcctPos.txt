@@ -1,0 +1,30 @@
+Public Function GetViewbyAcct(ByVal Fund As Integer, ByVal Sfund As Integer, ByVal Dept As Integer, _
+ ByVal Obj As Integer, ByVal Func As Integer, ByVal Sfunc As Integer, ByVal NumRecs As Integer) As DataSet
+  Dim Conn As SqlConnection
+  Dim objCommand As SqlCommand
+  Dim ds As DataSet = New DataSet
+  Dim WrkTop As String
+  WrkTop = String.Empty
+
+  If NumRecs > 0 Then
+    WrkTop = "TOP " & NumRecs & " "
+  End If
+  StrSQL = "Select " & WrkTop & "fund,sfund,dept,obj,func,sfunc,gltyp,descd from " & cFileName & _
+  " where FUND=" & Fund & " and SFUND=" & Sfund & " and DEPT=" & Dept & " and OBJ=" & Obj & _
+  " and FUNC=" & Func & " and SFUNC>=" & Sfunc & _
+  " or FUND=" & Fund & " and SFUND=" & Sfund & " and DEPT=" & Dept & " and OBJ=" & Obj & " and FUNC>" & Func & _
+  " or FUND=" & Fund & " and SFUND=" & Sfund & " and DEPT=" & Dept & " and OBJ>" & Obj & _
+  " or FUND=" & Fund & " and SFUND=" & Sfund & " and DEPT>" & Dept & _
+  " or FUND=" & Fund & " and SFUND>" & Sfund & _
+  " or FUND>" & Fund & " order by FUND,SFUND,DEPT,OBJ,FUNC,SFUNC"
+  Conn = MyDBConn.Open
+  objCommand = New SqlCommand(StrSQL, Conn)
+
+  'Fill the dataset with the data
+  da = New SqlDataAdapter
+  da.SelectCommand = objCommand
+  da.Fill(ds, cFileName)
+  objCommand = Nothing
+  Conn.Close()
+  Return ds
+End Function

@@ -1,0 +1,1 @@
+select * iNTO TXHST160603 FROM TXHST

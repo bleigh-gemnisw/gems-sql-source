@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AP307" targetNamespace="http://tempuri.org/AP307.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/AP307.xsd" xmlns:mstns="http://tempuri.org/AP307.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="mytable">
+		<xs:complexType>
+			<xs:sequence>
+        <xs:element name="RPTID" type="xs:string" />
+        <xs:element name="FSCYR" type="xs:integer" />
+        <xs:element name="CHECKNO" type="xs:integer" />
+				<xs:element name="DATE" type="xs:date" />
+				<xs:element name="AMOUNT1" type="xs:decimal" />
+        <xs:element name="AMOUNT2" type="xs:decimal" />
+        <xs:element name="PONBR" type="xs:integer" />
+        <xs:element name="VENDOR" type="xs:string" />
+        <xs:element name="VENDNAME" type="xs:string" />
+        <xs:element name="ACCTNO" type="xs:string" />
+        <xs:element name="ACCTDESC" type="xs:string" />
+      </xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

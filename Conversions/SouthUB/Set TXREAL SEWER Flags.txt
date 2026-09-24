@@ -1,0 +1,2 @@
+update txreal set sewer=''
+update txreal set sewer='Y' from txreal as a left join utcust as b on a.list#=b.cuacct where cumsiz='RES'

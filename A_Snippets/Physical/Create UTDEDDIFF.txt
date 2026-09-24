@@ -1,0 +1,56 @@
+None selected 
+
+Skip to content
+Using Yucatech Inc. Mail with screen readers
+in:sent 
+
+5 of 77,106
+new sql for new file
+
+Ken Berube <kberube@yucatech.com>
+4:42 PM (1 hour ago)
+to Kim
+
+/*
+  UB114 - Customer Meter/Deduct History
+  Table: UTDEDDIFF
+
+  09/01/2026 Ken - Initial creation for UB114.
+*/
+
+IF OBJECT_ID('dbo.UTDEDDIFF', 'U') IS NULL
+BEGIN
+    CREATE TABLE dbo.UTDEDDIFF
+    (
+        DDACCT   INT         NOT NULL,
+        DDMETER  VARCHAR(20) NOT NULL,
+        DDDATE   INT         NOT NULL,
+        DDREAD   BIGINT      NOT NULL
+            CONSTRAINT DF_UTDEDDIFF_DDREAD DEFAULT (0),
+        DDDIFF   BIGINT      NOT NULL
+            CONSTRAINT DF_UTDEDDIFF_DDDIFF DEFAULT (0),
+        DDRESN   VARCHAR(3)  NOT NULL
+            CONSTRAINT DF_UTDEDDIFF_DDRESN DEFAULT (''),
+
+        CONSTRAINT PK_UTDEDDIFF
+            PRIMARY KEY CLUSTERED (DDACCT, DDMETER, DDDATE)
+    );
+
+    PRINT 'SUCCESS: UTDEDDIFF table was created.';
+END
+ELSE
+BEGIN
+    PRINT 'NOTICE: UTDEDDIFF table already exists. No changes were made.';
+END;
+GO
+
+Ken Berube
+
+Yucatech Inc.
+
+Cell 860-307-2514
+kberube@yucatech.com
+
+ 
+
+

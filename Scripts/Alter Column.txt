@@ -1,0 +1,10 @@
+DECLARE @SQL VARCHAR(1000)
+SET @SQL = 'ALTER TABLE LOGUT DROP CONSTRAINT |ConstraintName| '
+
+SET @SQL = REPLACE(@SQL, '|ConstraintName|', ( SELECT   name
+                                               FROM     sysobjects
+                                               WHERE    xtype = 'PK'
+                                                        AND parent_obj = OBJECT_ID('LOGUT')))
+
+EXEC (@SQL)
+Alter table LOGUT alter column CUACCT numeric(7,0)

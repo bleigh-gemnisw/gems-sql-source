@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TO201" targetNamespace="http://tempuri.org/TO201.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TO201.xsd" xmlns:mstns="http://tempuri.org/TO201.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="mytable">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LISTNO" type="xs:integer" />
+              <xs:element name="YEAR" type="xs:integer" />
+              <xs:element name="ALNAME" type="xs:string" />
+              <xs:element name="AFNAME" type="xs:string" />
+              <xs:element name="AINIT" type="xs:string" />
+              <xs:element name="ADOB" type="xs:string" />
+              <xs:element name="ASSN" type="xs:string" />
+              <xs:element name="SLNAME" type="xs:string" />
+              <xs:element name="SFNAME" type="xs:string" />
+              <xs:element name="SINIT" type="xs:string" />
+              <xs:element name="SDOB" type="xs:string" />
+              <xs:element name="SSSN" type="xs:string" />
+              <xs:element name="MADDR" type="xs:string" />
+              <xs:element name="MCITY" type="xs:string" />
+              <xs:element name="MSTATE" type="xs:string" />
+              <xs:element name="MZIP" type="xs:string" />
+              <xs:element name="PADDR" type="xs:string" />
+              <xs:element name="PCITY" type="xs:string" />
+              <xs:element name="PSTATE" type="xs:string" />
+              <xs:element name="PZIP" type="xs:string" />
+              <xs:element name="OWNER" type="xs:string" />
+              <xs:element name="CIVILUNION" type="xs:string" />
+              <xs:element name="MARRIED" type="xs:string" />
+              <xs:element name="UNMARRIED" type="xs:string" />
+              <xs:element name="SURVIVING" type="xs:string" />
+              <xs:element name="NURSINGHOME" type="xs:string" />
+              <xs:element name="DISABLED" type="xs:string" />
+              <xs:element name="TAXRETURNYES" type="xs:string" />
+              <xs:element name="TAXRETURNNO" type="xs:string" />
+              <xs:element name="INCOME" type="xs:decimal" />
+              <xs:element name="INTEREST" type="xs:decimal" />
+              <xs:element name="SSRR" type="xs:decimal" />
+              <xs:element name="OTHER" type="xs:decimal" />
+              <xs:element name="TOTAL" type="xs:decimal" />
+              <xs:element name="SIGNEDMO" type="xs:string" />
+              <xs:element name="SIGNEDDAY" type="xs:string" />
+              <xs:element name="SIGNEDYEAR" type="xs:string" />
+              <xs:element name="PHONE" type="xs:string" />
+              <xs:element name="RELATE" type="xs:string" />
+              <xs:element name="RECEIVEDMO" type="xs:string" />
+              <xs:element name="RECEIVEDDAY" type="xs:string" />
+              <xs:element name="RECEIVEDYEAR" type="xs:string" />
+              <xs:element name="PROPCT" type="xs:decimal" />
+              <xs:element name="PGROSS" type="xs:long" />
+              <xs:element name="GROSS" type="xs:long" />
+              <xs:element name="XBLIND" type="xs:long" />
+              <xs:element name="XDISAB" type="xs:long" />
+              <xs:element name="XVET" type="xs:long" />
+              <xs:element name="XLOCAL" type="xs:long" />
+              <xs:element name="XADDL" type="xs:long" />
+              <xs:element name="NET" type="xs:long" />
+              <xs:element name="MILLRATE" type="xs:decimal" />
+              <xs:element name="TAX" type="xs:decimal" />
+							<xs:element name="FRZTAX" type="xs:decimal" />
+							<xs:element name="TABLEPCT" type="xs:integer" />
+              <xs:element name="CREDITMAX" type="xs:decimal" />
+              <xs:element name="CEILING" type="xs:decimal" />
+              <xs:element name="LESSER" type="xs:decimal" />
+              <xs:element name="MINGRANT" type="xs:decimal" />
+              <xs:element name="CREDIT" type="xs:decimal" />
+              <xs:element name="ALLOWED" type="xs:string" />
+              <xs:element name="DISALLOWED" type="xs:string" />
+              <xs:element name="DISRSN" type="xs:string" />
+              <xs:element name="ASSRMO" type="xs:string" />
+              <xs:element name="ASSRDAY" type="xs:string" />
+              <xs:element name="ASSRYEAR" type="xs:string" />
+              <xs:element name="LOCPGM" type="xs:string" />
+              <xs:element name="LOCHEADER1" type="xs:string" />
+              <xs:element name="LOCHEADER2" type="xs:string" />
+              <xs:element name="LOCHEADER3" type="xs:string" />
+              <xs:element name="LOCTRF" type="xs:decimal" />
+              <xs:element name="LOCBENEFIT" type="xs:decimal" />
+              <xs:element name="LOCDEFERPLAN" type="xs:string" />
+              <xs:element name="LOCDEFERRAL" type="xs:decimal" />
+              <xs:element name="LIMITSING" type="xs:decimal" />
+              <xs:element name="LIMITMARR" type="xs:decimal" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

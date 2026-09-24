@@ -1,0 +1,34 @@
+Public Function GetViewName(ByVal WrkLname As String, ByVal WrkFname As String, NumRecs As Integer) As DataSet
+
+    Dim Conn As SqlConnection
+    Dim objCommand As SqlCommand
+    Dim ds As DataSet = New DataSet
+    Dim WrkTop As String
+    Dim Wrkmyname As String
+    WrkTop = String.Empty
+
+    Wrkmyname = RTrim(WrkLname) & RTrim(WrkFname)
+
+    RecordNotFound = False
+    If NumRecs > 0 Then
+      WrkTop = "TOP " & NumRecs & " "
+    End If
+
+    StrSQL = "Select " & WrkTop & "list#, year, seq, alname, afname from " & cFileName _
+    & " where concat(RTrim(alname), RTrim(afname)) >=" & Wrkmyname & "' order by alname,afname"
+
+    Try
+      Conn = MyDBConn.Open
+      objCommand = New SqlCommand(StrSQL, Conn)
+      'Fill the dataset with the data
+      da = New SqlDataAdapter
+      da.SelectCommand = objCommand
+      da.Fill(ds, cFileName)
+      objCommand = Nothing
+      Conn.Close()
+      Return ds
+    Catch ex As Exception
+      ErrMsg = ex.ToString()
+      Return Nothing
+    End Try
+  End Function

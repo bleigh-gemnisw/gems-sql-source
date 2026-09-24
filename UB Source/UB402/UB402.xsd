@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB402" targetNamespace="http://tempuri.org/UB402.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB402.xsd" xmlns:mstns="http://tempuri.org/UB402.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="OLDTAXDUE" type="xs:decimal" />
+<xs:element name="OLDTAXRCV" type="xs:decimal" />
+<xs:element name="NEWTAXDUE" type="xs:decimal" />
+<xs:element name="NEWTAXRCV" type="xs:decimal" />
+<xs:element name="NEWBONDDUE" type="xs:decimal" />
+<xs:element name="NEWBONDRCV" type="xs:decimal" />
+<xs:element name="AFTERTAXRCV" type="xs:decimal" />
+<xs:element name="AFTERBONDRCV" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,7 @@
+CREATE TABLE FINCOMMENTS (
+    THEKEY varchar(30) ,
+    APPL varchar(6) ,
+    CSEQ  numeric(5,0) not null,
+	COMMENT varchar(60),
+  	PRIMARY KEY(THEKEY, APPL,CSEQ)
+);

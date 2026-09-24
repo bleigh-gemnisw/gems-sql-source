@@ -1,0 +1,2 @@
+alter table TXM35H alter column MCITY char(25)
+alter table TXM35H alter column PCITY char(25)

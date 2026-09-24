@@ -1,0 +1,1 @@
+alter table LOGUT alter column CUROUT char(15)

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GL650" targetNamespace="http://tempuri.org/GL650.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/GL650.xsd" xmlns:mstns="http://tempuri.org/GL650.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="EXCLUDETOT" type="xs:boolean" />
+        <xs:element name="GROUP" type="xs:integer" />
+        <xs:element name="GROUPDESC" type="xs:string" />
+        <xs:element name="GLTYP" type="xs:string" />
+        <xs:element name="ACCT" type="xs:string" />
+        <xs:element name="DESCR" type="xs:string" />
+        <xs:element name="ACTUAL5YR" type="xs:decimal" />
+        <xs:element name="ACTUAL4YR" type="xs:decimal" />
+        <xs:element name="ACTUAL3YR" type="xs:decimal" />
+        <xs:element name="ACTUAL2YR" type="xs:decimal" />
+        <xs:element name="ACTUAL1YR" type="xs:decimal" />
+        <xs:element name="AMENDED" type="xs:decimal" />
+        <xs:element name="EXPEND" type="xs:decimal" />
+        <xs:element name="DEPTPROP" type="xs:decimal" />
+        <xs:element name="MAYORPROP" type="xs:decimal" />
+        <xs:element name="TOWNCONPROP" type="xs:decimal" />
+        <xs:element name="ADOPTED" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

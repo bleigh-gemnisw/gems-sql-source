@@ -1,0 +1,6 @@
+WITH C AS(
+SELECT TOP 1 *  
+FROM taxcom where list#=5822 and type='P' and year=0 and cseq=0
+)
+UPDATE C
+SET cseq = -1

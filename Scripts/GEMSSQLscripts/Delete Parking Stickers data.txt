@@ -1,0 +1,8 @@
+delete from MFPARK
+delete from MFPCAT
+delete from MFPRKH
+delete from MFTCLS
+delete from MFTPTYP
+delete from MFTRAN
+delete from MFTRNH
+delete from MFTTYPE

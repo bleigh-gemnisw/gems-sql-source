@@ -1,0 +1,228 @@
+/****** Create new TXLOCAL table with YEAR added ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TXLOCAL_NEW](
+    [LIST#] [numeric](6, 0) NOT NULL,
+    [YEAR] [numeric](4, 0) NOT NULL,
+    [TYPE] [char](1) NOT NULL,
+    [BENCDE] [char](2) NOT NULL,
+    [BENAMT] [numeric](7, 2) NOT NULL,
+
+PRIMARY KEY CLUSTERED
+(
+    [LIST#] ASC,
+    [YEAR] ASC,
+    [TYPE] ASC,
+    [BENCDE] ASC
+)
+WITH (
+    PAD_INDEX = OFF,
+    STATISTICS_NORECOMPUTE = OFF,
+    IGNORE_DUP_KEY = OFF,
+    ALLOW_ROW_LOCKS = ON,
+    ALLOW_PAGE_LOCKS = ON
+) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+SET ANSI_PADDING ON
+GO
+
+
+/****** Copy existing data into new table ******/
+INSERT INTO [dbo].[TXLOCAL_NEW]
+(
+    [LIST#],
+    [YEAR],
+    [TYPE],
+    [BENCDE],
+    [BENAMT]
+)
+SELECT
+    [LIST#],
+    0 AS [YEAR],
+    [TYPE],
+    [BENCDE],
+    [BENAMT]
+FROM [dbo].[TXLOCAL]
+GO
+
+
+/****** Create ASNA index ******/
+CREATE NONCLUSTERED INDEX [ASNA_KEY_TXLOCAL]
+ON [dbo].[TXLOCAL_NEW]
+(
+    [LIST#] ASC,
+    [YEAR] ASC,
+    [TYPE] ASC,
+    [BENCDE] ASC
+)
+WITH (
+    PAD_INDEX = OFF,
+    STATISTICS_NORECOMPUTE = OFF,
+    SORT_IN_TEMPDB = OFF,
+    DROP_EXISTING = OFF,
+    ONLINE = OFF,
+    ALLOW_ROW_LOCKS = ON,
+    ALLOW_PAGE_LOCKS = ON
+) ON [PRIMARY]
+GO
+
+
+/****** Default values ******/
+ALTER TABLE [dbo].[TXLOCAL_NEW]
+ADD DEFAULT ((0)) FOR [LIST#]
+GO
+
+ALTER TABLE [dbo].[TXLOCAL_NEW]
+ADD DEFAULT ((0)) FOR [YEAR]
+GO
+
+ALTER TABLE [dbo].[TXLOCAL_NEW]
+ADD DEFAULT ('') FOR [TYPE]
+GO
+
+ALTER TABLE [dbo].[TXLOCAL_NEW]
+ADD DEFAULT ('') FOR [BENCDE]
+GO
+
+ALTER TABLE [dbo].[TXLOCAL_NEW]
+ADD DEFAULT ((0)) FOR [BENAMT]
+GO
+
+
+/****** Extended Properties ******/
+EXEC sys.sp_addextendedproperty 
+    @name=N'MS_Caption',
+    @value=N'LISTNO',
+    @level0type=N'SCHEMA',
+    @level0name=N'dbo',
+    @level1type=N'TABLE',
+    @level1name=N'TXLOCAL_NEW',
+    @level2type=N'COLUMN',
+    @level2name=N'LIST#'
+GO
+
+EXEC sys.sp_addextendedproperty 
+    @name=N'MS_Description',
+    @value=N'LIST NO',
+    @level0type=N'SCHEMA',
+    @level0name=N'dbo',
+    @level1type=N'TABLE',
+    @level1name=N'TXLOCAL_NEW',
+    @level2type=N'COLUMN',
+    @level2name=N'LIST#'
+GO
+
+
+EXEC sys.sp_addextendedproperty 
+    @name=N'MS_Caption',
+    @value=N'YEAR',
+    @level0type=N'SCHEMA',
+    @level0name=N'dbo',
+    @level1type=N'TABLE',
+    @level1name=N'TXLOCAL_NEW',
+    @level2type=N'COLUMN',
+    @level2name=N'YEAR'
+GO
+
+EXEC sys.sp_addextendedproperty 
+    @name=N'MS_Description',
+    @value=N'TAX YEAR',
+    @level0type=N'SCHEMA',
+    @level0name=N'dbo',
+    @level1type=N'TABLE',
+    @level1name=N'TXLOCAL_NEW',
+    @level2type=N'COLUMN',
+    @level2name=N'YEAR'
+GO
+
+
+EXEC sys.sp_addextendedproperty 
+    @name=N'MS_Caption',
+    @value=N'TYPE',
+    @level0type=N'SCHEMA',
+    @level0name=N'dbo',
+    @level1type=N'TABLE',
+    @level1name=N'TXLOCAL_NEW',
+    @level2type=N'COLUMN',
+    @level2name=N'TYPE'
+GO
+
+EXEC sys.sp_addextendedproperty 
+    @name=N'MS_Description',
+    @value=N'TYPE',
+    @level0type=N'SCHEMA',
+    @level0name=N'dbo',
+    @level1type=N'TABLE',
+    @level1name=N'TXLOCAL_NEW',
+    @level2type=N'COLUMN',
+    @level2name=N'TYPE'
+GO
+
+
+EXEC sys.sp_addextendedproperty 
+    @name=N'MS_Caption',
+    @value=N'BENCDE',
+    @level0type=N'SCHEMA',
+    @level0name=N'dbo',
+    @level1type=N'TABLE',
+    @level1name=N'TXLOCAL_NEW',
+    @level2type=N'COLUMN',
+    @level2name=N'BENCDE'
+GO
+
+EXEC sys.sp_addextendedproperty 
+    @name=N'MS_Description',
+    @value=N'BENEFIT CODE',
+    @level0type=N'SCHEMA',
+    @level0name=N'dbo',
+    @level1type=N'TABLE',
+    @level1name=N'TXLOCAL_NEW',
+    @level2type=N'COLUMN',
+    @level2name=N'BENCDE'
+GO
+
+
+EXEC sys.sp_addextendedproperty 
+    @name=N'MS_Caption',
+    @value=N'BENAMT',
+    @level0type=N'SCHEMA',
+    @level0name=N'dbo',
+    @level1type=N'TABLE',
+    @level1name=N'TXLOCAL_NEW',
+    @level2type=N'COLUMN',
+    @level2name=N'BENAMT'
+GO
+
+EXEC sys.sp_addextendedproperty 
+    @name=N'MS_Description',
+    @value=N'BENEFIT AMOUNT',
+    @level0type=N'SCHEMA',
+    @level0name=N'dbo',
+    @level1type=N'TABLE',
+    @level1name=N'TXLOCAL_NEW',
+    @level2type=N'COLUMN',
+    @level2name=N'BENAMT'
+GO
+
+
+/****** Verify copy ******/
+SELECT COUNT(*) AS OLD_COUNT FROM dbo.TXLOCAL;
+SELECT COUNT(*) AS NEW_COUNT FROM dbo.TXLOCAL_NEW;
+GO
+
+
+/****** Replace original table ******/
+/****** Run only after verifying counts ******/
+
+EXEC sp_rename 'dbo.TXLOCAL', 'zTXLOCAL';
+GO
+
+EXEC sp_rename 'dbo.TXLOCAL_NEW', 'TXLOCAL';
+GO

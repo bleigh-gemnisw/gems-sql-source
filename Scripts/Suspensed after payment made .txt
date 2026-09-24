@@ -1,0 +1,1 @@
+select * from txinv left join txhst on txinv.list#=txhst.list# and txinv.type=txhst.type and txinv.year=txhst.year where icode='S' and txinv.year=2015 and pdate>=20200501 and pdate<=20200528 and susdt=20200529 and rcode<>'I'

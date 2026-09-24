@@ -1,0 +1,46 @@
+/****** Object:  Table [dbo].[TXCOO]    Script Date: 7/11/2023 10:25:44 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TXCOOA](
+	[LIST#] [numeric](6, 0) NOT NULL,
+	[DEVLT] [char](3) NOT NULL,
+	[TXYEAR] [numeric](4, 0) NOT NULL,
+	[CONAM] [char](35) NOT NULL,
+	[CONAM2] [char](35) NOT NULL,
+	[AMT] [decimal](11, 2) NOT NULL,
+	[DATE] [numeric](8, 0) NOT NULL,
+	[DAYS] [numeric](3, 0) NOT NULL,
+	[PCT] [numeric](4, 3) NOT NULL,
+	[PINC] [decimal](11, 2) NOT NULL,
+	[COADD1] [char](35) NOT NULL,
+	[COADD2] [char](35) NOT NULL,
+	[COCITY] [char](25) NOT NULL,
+	[COSTE] [char](2) NOT NULL,
+	[COZIP5] [numeric](5, 0) NOT NULL,
+	[COZIP4] [numeric](4, 0) NOT NULL,
+	[PCD] [char](1) NOT NULL,
+	[RLIST] [numeric](6, 0) NOT NULL,
+	[BENAMT] [decimal](11, 2) NOT NULL,
+	[PRF] [char](10) NOT NULL,
+	[CHDATE] [numeric](8, 0) NOT NULL,
+	[CHTIME] [numeric](6, 0) NOT NULL,
+	[LETT] [char](1) NOT NULL,
+	[PFLAG] [char](1) NOT NULL,
+	[PCOBEF] [numeric](5, 2) NOT NULL,
+	[PCOAFT] [numeric](5, 2) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[LIST#] ASC,
+	[DEVLT] ASC,
+	[TXYEAR] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+SET ANSI_PADDING ON
+GO
+

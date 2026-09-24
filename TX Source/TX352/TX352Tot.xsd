@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX352Tot" targetNamespace="http://tempuri.org/TX352Tot.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX352Tot.xsd" xmlns:mstns="http://tempuri.org/TX352Tot.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytabletot">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="totdesc" type="xs:string" />
+<xs:element name="totcount" type="xs:integer" />
+<xs:element name="totamount" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

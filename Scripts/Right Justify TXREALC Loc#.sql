@@ -1,0 +1,1 @@
+Update txrealc set loc#=replicate(' ',7-len(rtrim(loc#))) + loc# where left(loc#,1)<>''

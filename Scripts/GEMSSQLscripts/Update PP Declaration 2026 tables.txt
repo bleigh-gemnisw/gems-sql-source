@@ -1,0 +1,46 @@
+-- 1) Create tables only for 2026
+-- 2) run script
+-- 3) Create all files for 2026
+
+INSERT INTO TXDCDEP (YEAR, DECODE, YEARNO,PROPCT,PCT,PRIOR)
+VALUES
+  (2026, 'H', 1, 0, 90, ''),
+  (2026, 'H', 2, 0, 80, ''),
+  (2026, 'H', 3, 0, 70, ''),
+  (2026, 'H', 4, 0, 60, ''),
+  (2026, 'H', 5, 0, 50, ''),
+  (2026, 'H', 6, 0, 40, ''),
+  (2026, 'H', 7, 0, 30, ''),
+  (2026, 'H', 8, 0, 20, 'Y'),
+  (2026, 'I', 1, 0, 70, ''),
+  (2026, 'I', 2, 0, 40, ''),
+  (2026, 'I', 3, 0, 20, ''),
+  (2026, 'I', 4, 0, 10, 'Y'),
+  (2026, 'J', 1, 0, 90, ''),
+  (2026, 'J', 2, 0, 60, ''),
+  (2026, 'J', 3, 0, 40, ''),
+  (2026, 'J', 4, 0, 20, ''),
+  (2026, 'J', 5, 0, 10, 'Y')
+go
+
+update txdccd set decode='H' where year=2026 and code=10
+update txdccd set decode='H' where year=2026 and code=13
+update txdccd set decode='' where year=2026 and code=20 and ltr=''
+delete txdccd where year=2026 and code=21 and ltr='c'
+delete txdccd where year=2026 and code=21 and ltr='d'
+go
+
+INSERT INTO TXDCCD (YEAR, CODE, LTR, [DESC], DECODE, ASCODE, ASPCT)
+VALUES
+  (2026, 20, 'a', 'Computer and Peripheral Hardware','I',20,70),
+  (2026, 20, 'b', 'Other Hardware','J',20,70)
+go
+update txdmdep set pct=90 where year=2026 and yearno=1
+update txdmdep set pct=80 where year=2026 and yearno=2
+update txdmdep set pct=70 where year=2026 and yearno=3
+update txdmdep set pct=60 where year=2026 and yearno=4
+update txdmdep set pct=50 where year=2026 and yearno=5
+update txdmdep set pct=40 where year=2026 and yearno=6
+update txdmdep set pct=30 where year=2026 and yearno=7
+update txdmdep set pct=20 where year=2026 and yearno=8
+go

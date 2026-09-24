@@ -1,0 +1,1 @@
+alter table GNETGROUP alter column GRIGHT char(90)

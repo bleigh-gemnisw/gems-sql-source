@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA212SU" targetNamespace="http://tempuri.org/TA212SU.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA212SU.xsd" xmlns:mstns="http://tempuri.org/TA212SU.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="DIST" type="xs:integer" />
+<xs:element name="LISTNO" type="xs:long" />
+<xs:element name="YEAR" type="xs:long" />
+<xs:element name="TYPEDESC" type="xs:string" />
+<xs:element name="ADDR1" type="xs:string" />
+<xs:element name="ADDR2" type="xs:string" />
+<xs:element name="ADDR3" type="xs:string" />
+<xs:element name="ADDR4" type="xs:string" />
+<xs:element name="ADDR5" type="xs:string" />
+<xs:element name="EXCD1" type="xs:string" />
+<xs:element name="EXAMT1" type="xs:long" />
+<xs:element name="EXCD2" type="xs:string" />
+<xs:element name="EXAMT2" type="xs:long" />
+<xs:element name="EXCD3" type="xs:string" />
+<xs:element name="EXAMT3" type="xs:long" />
+<xs:element name="EXCD4" type="xs:string" />
+<xs:element name="EXAMT4" type="xs:long" />
+<xs:element name="EXCD5" type="xs:string" />
+<xs:element name="EXAMT5" type="xs:long" />
+<xs:element name="MAKE" type="xs:string" />
+<xs:element name="MVYEAR" type="xs:integer" />
+<xs:element name="MODEL" type="xs:string" />
+<xs:element name="BODY" type="xs:string" />
+<xs:element name="REGNO" type="xs:string" />
+<xs:element name="VINNO" type="xs:string" />
+<xs:element name="CLASS" type="xs:string" />
+<xs:element name="ASS" type="xs:string" />
+<xs:element name="CYLAX" type="xs:integer" />
+<xs:element name="PCLR" type="xs:string" />
+<xs:element name="VALUE" type="xs:long" />
+<xs:element name="OVALUE" type="xs:long" />
+<xs:element name="PRORATE" type="xs:long" />
+<xs:element name="CREDIT" type="xs:long" />
+<xs:element name="EXEMPT" type="xs:long" />
+<xs:element name="NET" type="xs:long" />
+<xs:element name="PRPCT" type="xs:decimal" />
+<xs:element name="CRPCT" type="xs:long" />
+<xs:element name="OLIST" type="xs:long" />
+<xs:element name="OASS" type="xs:string" />
+<xs:element name="OMAKE" type="xs:string" />
+<xs:element name="OMVYEAR" type="xs:integer" />
+<xs:element name="OMODEL" type="xs:string" />
+<xs:element name="OREGNO" type="xs:string" />
+<xs:element name="OVINNO" type="xs:string" />
+<xs:element name="OCLASS" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,25 @@
+ListNo,Type,Year,Name,Old Tax,Tax,Diff Tax,Tax1,Tax2,Tax3,Tax4
+2701,D,2024,"TOPSHE JASON",0.00,-40.00,40.00,0.00,0.00,0.00,0.00
+3665,D,2024,"PAUL CHRISTOPHER P & KATHERINE L",0.00,-145.00,145.00,0.00,0.00,0.00,0.00
+10484,D,2024,"BRANDOLINI JAMES",0.00,-217.00,217.00,0.00,0.00,0.00,0.00
+13482,D,2024,"MALEC MARCIN & KAROLINA",0.00,-106.00,106.00,0.00,0.00,0.00,0.00
+17732,D,2024,"MAREK BRIAN JR & STACY L",0.00,-250.00,250.00,0.00,0.00,0.00,0.00
+17963,D,2024,"GONZALEZ RACHAEL M",0.00,-211.00,211.00,0.00,0.00,0.00,0.00
+17987,D,2024,"CHAPLINSKY PAUL JR & KIM",0.00,-250.00,250.00,0.00,0.00,0.00,0.00
+18507,D,2024,"NARDELLO DARLENE A",0.00,-121.00,121.00,0.00,0.00,0.00,0.00
+19542,D,2024,"WALKER DANIELLE S MESSIER",0.00,-1102.00,1102.00,0.00,0.00,0.00,0.00
+19796,D,2024,"CZUPRYNA ARTUR & WALTER & ANNA",0.00,-259.00,259.00,0.00,0.00,0.00,0.00
+20057,D,2024,"OLEARY SARI",0.00,-808.00,808.00,0.00,0.00,0.00,0.00
+
+
+
+
+
+update a set payrec=a.taxt,bald=0 from txinv as a left join txinv as b on a.list#=b.list# and a.type=b.type where a.year=2022 and a.bald>0 and b.year=2023 and b.bald=0 and a.type='D' 
+
+
+select * from txinv as a left join txinv as b on a.list#=b.list# and a.type=b.type where a.year=2023 and a.bald>0 and b.year=2024 and b.bald=0 and a.type='D' order by a.list#,a.year
+
+select * from txinv where bald>0 and year<2025 and type='D'
+
+select * from txinv where prf='FixTaxt'

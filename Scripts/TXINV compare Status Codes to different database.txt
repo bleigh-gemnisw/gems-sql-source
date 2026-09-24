@@ -1,0 +1,3 @@
+select * from gemsdtab..txinv LEFT OUTER JOIN gemstemp..TXinv as bkinv ON TXINV.list# = bkinv.list# and 
+txinv.type=bkinv.type and txinv.year=bkinv.year
+WHERE bkinv.icode='M'

@@ -1,0 +1,13 @@
+  Public Function GetDBDateInt(ByVal DateIn As Integer) As Integer
+    Dim WrkDate As Integer
+    Dim StrDate As String
+
+    If DateIn > 0 Then
+      StrDate = Trim$(Str(DateIn))
+      Try
+        WrkDate = Right$(StrDate, 4) & Left$(StrDate, 4)
+      Catch
+      End Try
+    End If
+    Return WrkDate
+  End Function

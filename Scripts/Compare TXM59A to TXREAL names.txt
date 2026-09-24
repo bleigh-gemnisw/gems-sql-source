@@ -1,0 +1,2 @@
+select txm59a.list#, name,sname,alname,afname,slname,sfname,allow from txm59a left join txreal on txm59a.list#=txreal.list# where year=2021 and left(alname,4)<>left(name,4) order by name
+

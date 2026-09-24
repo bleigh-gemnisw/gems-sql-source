@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GL530" targetNamespace="http://tempuri.org/GL530.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/GL530.xsd" xmlns:mstns="http://tempuri.org/GL530.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ACCT" type="xs:string" />
+        <xs:element name="DESC" type="xs:string" />
+        <xs:element name="AMOUNT" type="xs:decimal" />
+        <xs:element name="ERRORMSG" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

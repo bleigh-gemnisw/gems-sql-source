@@ -1,0 +1,4 @@
+alter table UTMETER ADD MTUSER1 numeric(7,2) not NULL DEFAULT 0
+alter table UTMETER ADD MTUSER2 numeric(7,2) not NULL DEFAULT 0
+alter table UTMETER ADD MTUSER3 numeric(7,2) not NULL DEFAULT 0
+alter table UTMETER alter column MTDESC char(25) not null

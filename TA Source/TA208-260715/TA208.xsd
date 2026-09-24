@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TA208" targetNamespace="http://tempuri.org/TA208.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TA208.xsd" xmlns:mstns="http://tempuri.org/TA208.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="listno" type="xs:long" />
+        <xs:element name="name" type="xs:string" />
+        <xs:element name="proploc" type="xs:string" />
+        <xs:element name="year" type="xs:integer" />
+        <xs:element name="code" type="xs:string" />
+        <xs:element name="netass" type="xs:integer" />
+        <xs:element name="tax" type="xs:decimal" />
+        <xs:element name="statecredit" type="xs:decimal" />
+        <xs:element name="localcredit" type="xs:decimal" />
+        <xs:element name="adjtax" type="xs:decimal" />
+        <xs:element name="cperc" type="xs:decimal" />
+        <xs:element name="cmax" type="xs:integer" />
+        <xs:element name="cmin" type="xs:integer" />
+        <xs:element name="acctadjtax" type="xs:decimal" />
+        <xs:element name="local1" type="xs:decimal" />
+        <xs:element name="local2" type="xs:decimal" />
+        <xs:element name="local3" type="xs:decimal" />
+        <xs:element name="local4" type="xs:decimal" />
+        <xs:element name="local5" type="xs:decimal" />
+        <xs:element name="line1" type="xs:string" />
+        <xs:element name="line2" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

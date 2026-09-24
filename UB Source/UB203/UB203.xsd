@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB203" targetNamespace="http://tempuri.org/UB203.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB203.xsd" xmlns:mstns="http://tempuri.org/UB203.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="BILLTYPE" type="xs:string" />
+<xs:element name="ADDR1" type="xs:string" />
+<xs:element name="ADDR2" type="xs:string" />
+<xs:element name="ADDR3" type="xs:string" />
+<xs:element name="ADDR4" type="xs:string" />
+<xs:element name="ADDR5" type="xs:string" />
+<xs:element name="UNITS" type="xs:decimal" />
+<xs:element name="BILLAMT" type="xs:decimal" />
+<xs:element name="BILLAMT1" type="xs:decimal" />
+<xs:element name="BILLAMT2" type="xs:decimal" />
+<xs:element name="BILLAMT3" type="xs:decimal" />
+<xs:element name="BILLAMT4" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

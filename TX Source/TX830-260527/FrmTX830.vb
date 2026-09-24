@@ -1,0 +1,394 @@
+Public Class FrmTX830
+		Inherits System.Windows.Forms.Form
+
+#Region " Windows Form Designer generated code "
+
+		Public Sub New()
+				MyBase.New()
+
+				'This call is required by the Windows Form Designer.
+				InitializeComponent()
+
+				'Add any initialization after the InitializeComponent() call
+
+		End Sub
+
+		'Form overrides dispose to clean up the component list.
+		Protected Overloads Overrides Sub Dispose(ByVal disposing As Boolean)
+				If disposing Then
+						If Not (components Is Nothing) Then
+								components.Dispose()
+						End If
+				End If
+				MyBase.Dispose(disposing)
+		End Sub
+
+		'Required by the Windows Form Designer
+		Private components As System.ComponentModel.IContainer
+
+		'NOTE: The following procedure is required by the Windows Form Designer
+		'It can be modified using the Windows Form Designer.  
+		'Do not modify it using the code editor.
+		Friend WithEvents ImageList1 As System.Windows.Forms.ImageList
+		Friend WithEvents TbMain As System.Windows.Forms.ToolBar
+		Friend WithEvents TBarBack As System.Windows.Forms.ToolBarButton
+		Friend WithEvents SbMain As System.Windows.Forms.StatusBar
+		Friend WithEvents SbpPgmID As System.Windows.Forms.StatusBarPanel
+		Friend WithEvents SbpScreen As System.Windows.Forms.StatusBarPanel
+Friend WithEvents SbpFiller1 As System.Windows.Forms.StatusBarPanel
+Friend WithEvents SbpVersion As System.Windows.Forms.StatusBarPanel
+Friend WithEvents TBarSep1 As System.Windows.Forms.ToolBarButton
+Friend WithEvents SbpEnvironment As System.Windows.Forms.StatusBarPanel
+Friend WithEvents ToolStrip1 As System.Windows.Forms.ToolStrip
+Friend WithEvents TsOrient As System.Windows.Forms.ToolStripDropDownButton
+Friend WithEvents TsOrientPortrait As System.Windows.Forms.ToolStripMenuItem
+Friend WithEvents TsOrientLandscape As System.Windows.Forms.ToolStripMenuItem
+Friend WithEvents TsOrientDesc As System.Windows.Forms.ToolStripLabel
+Friend WithEvents ToolStripLabel1 As System.Windows.Forms.ToolStripLabel
+Friend WithEvents TBarSep2 As System.Windows.Forms.ToolBarButton
+Friend WithEvents TBarLayout As System.Windows.Forms.ToolBarButton
+Friend WithEvents TBarSettings As System.Windows.Forms.ToolBarButton
+Friend WithEvents TBarProcess As System.Windows.Forms.ToolBarButton
+		<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+Me.components = New System.ComponentModel.Container
+Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmTX830))
+Me.TbMain = New System.Windows.Forms.ToolBar
+Me.TBarBack = New System.Windows.Forms.ToolBarButton
+Me.TBarSep1 = New System.Windows.Forms.ToolBarButton
+Me.TBarProcess = New System.Windows.Forms.ToolBarButton
+Me.TBarSep2 = New System.Windows.Forms.ToolBarButton
+Me.TBarSettings = New System.Windows.Forms.ToolBarButton
+Me.TBarLayout = New System.Windows.Forms.ToolBarButton
+Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+Me.SbMain = New System.Windows.Forms.StatusBar
+Me.SbpPgmID = New System.Windows.Forms.StatusBarPanel
+Me.SbpScreen = New System.Windows.Forms.StatusBarPanel
+Me.SbpEnvironment = New System.Windows.Forms.StatusBarPanel
+Me.SbpFiller1 = New System.Windows.Forms.StatusBarPanel
+Me.SbpVersion = New System.Windows.Forms.StatusBarPanel
+Me.ToolStrip1 = New System.Windows.Forms.ToolStrip
+Me.TsOrient = New System.Windows.Forms.ToolStripDropDownButton
+Me.TsOrientPortrait = New System.Windows.Forms.ToolStripMenuItem
+Me.TsOrientLandscape = New System.Windows.Forms.ToolStripMenuItem
+Me.TsOrientDesc = New System.Windows.Forms.ToolStripLabel
+Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel
+CType(Me.SbpPgmID, System.ComponentModel.ISupportInitialize).BeginInit()
+CType(Me.SbpScreen, System.ComponentModel.ISupportInitialize).BeginInit()
+CType(Me.SbpEnvironment, System.ComponentModel.ISupportInitialize).BeginInit()
+CType(Me.SbpFiller1, System.ComponentModel.ISupportInitialize).BeginInit()
+CType(Me.SbpVersion, System.ComponentModel.ISupportInitialize).BeginInit()
+Me.ToolStrip1.SuspendLayout()
+Me.SuspendLayout()
+'
+'TbMain
+'
+Me.TbMain.Buttons.AddRange(New System.Windows.Forms.ToolBarButton() {Me.TBarBack, Me.TBarSep1, Me.TBarProcess, Me.TBarSep2, Me.TBarSettings, Me.TBarLayout})
+Me.TbMain.DropDownArrows = True
+Me.TbMain.ImageList = Me.ImageList1
+Me.TbMain.Location = New System.Drawing.Point(0, 0)
+Me.TbMain.Name = "TbMain"
+Me.TbMain.ShowToolTips = True
+Me.TbMain.Size = New System.Drawing.Size(768, 50)
+Me.TbMain.TabIndex = 1
+'
+'TBarBack
+'
+Me.TBarBack.ImageIndex = 0
+Me.TBarBack.Name = "TBarBack"
+Me.TBarBack.Text = "&Back"
+'
+'TBarSep1
+'
+Me.TBarSep1.Name = "TBarSep1"
+Me.TBarSep1.Style = System.Windows.Forms.ToolBarButtonStyle.Separator
+'
+'TBarProcess
+'
+Me.TBarProcess.ImageIndex = 1
+Me.TBarProcess.Name = "TBarProcess"
+Me.TBarProcess.Text = "&Process"
+'
+'TBarSep2
+'
+Me.TBarSep2.Name = "TBarSep2"
+Me.TBarSep2.Style = System.Windows.Forms.ToolBarButtonStyle.Separator
+'
+'TBarSettings
+'
+Me.TBarSettings.Name = "TBarSettings"
+Me.TBarSettings.Text = "Save Settings"
+'
+'TBarLayout
+'
+Me.TBarLayout.Name = "TBarLayout"
+Me.TBarLayout.Text = "File Layout"
+'
+'ImageList1
+'
+Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+Me.ImageList1.TransparentColor = System.Drawing.Color.White
+Me.ImageList1.Images.SetKeyName(0, "")
+Me.ImageList1.Images.SetKeyName(1, "")
+'
+'SbMain
+'
+Me.SbMain.Location = New System.Drawing.Point(0, 586)
+Me.SbMain.Name = "SbMain"
+Me.SbMain.Panels.AddRange(New System.Windows.Forms.StatusBarPanel() {Me.SbpPgmID, Me.SbpScreen, Me.SbpEnvironment, Me.SbpFiller1, Me.SbpVersion})
+Me.SbMain.ShowPanels = True
+Me.SbMain.Size = New System.Drawing.Size(768, 28)
+Me.SbMain.SizingGrip = False
+Me.SbMain.TabIndex = 5
+'
+'SbpPgmID
+'
+Me.SbpPgmID.Name = "SbpPgmID"
+Me.SbpPgmID.Width = 50
+'
+'SbpScreen
+'
+Me.SbpScreen.Name = "SbpScreen"
+Me.SbpScreen.Width = 60
+'
+'SbpEnvironment
+'
+Me.SbpEnvironment.Name = "SbpEnvironment"
+'
+'SbpFiller1
+'
+Me.SbpFiller1.Name = "SbpFiller1"
+Me.SbpFiller1.Width = 450
+'
+'SbpVersion
+'
+Me.SbpVersion.Alignment = System.Windows.Forms.HorizontalAlignment.Center
+Me.SbpVersion.Name = "SbpVersion"
+Me.SbpVersion.Text = "About Program"
+'
+'ToolStrip1
+'
+Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TsOrient, Me.TsOrientDesc, Me.ToolStripLabel1})
+Me.ToolStrip1.Location = New System.Drawing.Point(0, 50)
+Me.ToolStrip1.Name = "ToolStrip1"
+Me.ToolStrip1.Size = New System.Drawing.Size(768, 25)
+Me.ToolStrip1.TabIndex = 8
+Me.ToolStrip1.Text = "ToolStrip1"
+'
+'TsOrient
+'
+Me.TsOrient.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TsOrientPortrait, Me.TsOrientLandscape})
+Me.TsOrient.Image = CType(resources.GetObject("TsOrient.Image"), System.Drawing.Image)
+Me.TsOrient.ImageTransparentColor = System.Drawing.Color.Magenta
+Me.TsOrient.Name = "TsOrient"
+Me.TsOrient.Size = New System.Drawing.Size(96, 22)
+Me.TsOrient.Text = "Orientation"
+'
+'TsOrientPortrait
+'
+Me.TsOrientPortrait.Checked = True
+Me.TsOrientPortrait.CheckState = System.Windows.Forms.CheckState.Checked
+Me.TsOrientPortrait.Name = "TsOrientPortrait"
+Me.TsOrientPortrait.Size = New System.Drawing.Size(130, 22)
+Me.TsOrientPortrait.Text = "Portrait"
+'
+'TsOrientLandscape
+'
+Me.TsOrientLandscape.Name = "TsOrientLandscape"
+Me.TsOrientLandscape.Size = New System.Drawing.Size(130, 22)
+Me.TsOrientLandscape.Text = "Landscape"
+'
+'TsOrientDesc
+'
+Me.TsOrientDesc.Name = "TsOrientDesc"
+Me.TsOrientDesc.Size = New System.Drawing.Size(0, 22)
+'
+'ToolStripLabel1
+'
+Me.ToolStripLabel1.Name = "ToolStripLabel1"
+Me.ToolStripLabel1.Size = New System.Drawing.Size(0, 22)
+'
+'FrmTX830
+'
+Me.AutoScaleBaseSize = New System.Drawing.Size(5, 13)
+Me.BackColor = System.Drawing.SystemColors.Control
+Me.ClientSize = New System.Drawing.Size(768, 614)
+Me.Controls.Add(Me.ToolStrip1)
+Me.Controls.Add(Me.SbMain)
+Me.Controls.Add(Me.TbMain)
+Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+Me.IsMdiContainer = True
+Me.KeyPreview = True
+Me.MaximizeBox = False
+Me.Name = "FrmTX830"
+Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+Me.Text = "Create  Tax Balances (WEBTAX) File"
+CType(Me.SbpPgmID, System.ComponentModel.ISupportInitialize).EndInit()
+CType(Me.SbpScreen, System.ComponentModel.ISupportInitialize).EndInit()
+CType(Me.SbpEnvironment, System.ComponentModel.ISupportInitialize).EndInit()
+CType(Me.SbpFiller1, System.ComponentModel.ISupportInitialize).EndInit()
+CType(Me.SbpVersion, System.ComponentModel.ISupportInitialize).EndInit()
+Me.ToolStrip1.ResumeLayout(False)
+Me.ToolStrip1.PerformLayout()
+Me.ResumeLayout(False)
+Me.PerformLayout()
+
+End Sub
+
+#End Region
+
+Private Sub FrmTX830_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Load
+	Me.SbpPgmID.Text = "TX830"
+	TBarProcess.Enabled = True
+	set_security() '#set
+	GetReportOrientation()
+	ShowReportOrientation()
+  If MyAutomate Or MyAutomate2 Or MyFTPOnly Or MyFTP2Only Then
+    PrtReport()
+  Else
+    MyFrmTX830B = New FrmTX830B
+    MyFrmTX830B.MdiParent = Me
+    MyFrmTX830B.Show()
+  End If
+End Sub
+Private Sub set_security()
+' note: these will change depending on the application program.
+' change is difficult as the save button will need to be disabled for it but enabled for add
+	If s_full = True Then
+		Exit Sub
+	End If
+	If s_edit = False Then
+		TBarProcess.Visible = False
+	End If
+End Sub
+Private Sub TbMain_ButtonClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.ToolBarButtonClickEventArgs) Handles TbMain.ButtonClick
+	If e.Button Is TBarBack Then
+		DoBtnBack()
+	End If
+	If e.Button Is TBarProcess Then
+		DoBtnPrint()
+	End If
+	If e.Button Is TBarSettings Then
+		DoBtnSettings()
+	End If
+	If e.Button Is TBarLayout Then
+		DoBtnLayout()
+	End If
+End Sub
+Private Sub FrmTX830_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles MyBase.KeyDown
+	If Not e.Alt Then Exit Sub
+	If e.KeyCode = Keys.F12 Then
+    MyUtils.PrtScreen(Form.ActiveForm)
+	End If
+	If e.KeyCode = Keys.B Then
+		DoBtnBack()
+	End If
+	If e.KeyCode = Keys.P Then
+		DoBtnPrint()
+	End If
+End Sub
+Private Sub DoBtnBack()
+	Select Case SbpScreen.Text
+	Case "TX830B"
+		MyFrmTX830.Close()
+	End Select
+End Sub
+Private Sub DoBtnPrint()
+   Dim Answer As Integer
+   Answer = MsgBox("Running program manaully will NOT upload to website. Click OK to continue", MsgBoxStyle.OkCancel, "This program normally run automated")
+   If Answer = MsgBoxResult.Ok Then
+     MyFrmTX830.TBarProcess.Enabled = False
+     MyFrmTX830B.RunReport()
+     MyFrmTX830.TBarProcess.Enabled = True
+  End If
+End Sub
+Private Sub DoBtnSettings()
+    With MyFrmTX830B
+      If .RbPrimary.Checked Then
+        MyAppSettings.FromYear = MyUtils.CnvSng(.TxtGLFromYear.Text)
+        MyAppSettings.ToYear = MyUtils.CnvSng(.TxtGLToYear.Text)
+        MyAppSettings.Types = .TxtTypes.Text
+        MyAppSettings.NonPublic = .TxtNonPublic.Text
+        MyAppSettings.Status = .TxtBlocked.Text
+        MyAppSettings.Liened = .TxtLiened.Text
+        MyAppSettings.LienMsg = .TxtLienMsg.Text
+        MyAppSettings.Omit = .TxtOmit.Text
+        MyAppSettings.NonCodes = .TxtNonCodes.Text
+        MyAppSettings.BlockSusp = .ChkBlockSusp.Checked
+        MyAppSettings.BlockBackTax = .ChkBlockBackTax.Checked
+        MyAppSettings.OmitSusp = .ChkOmitSusp.Checked
+        MyAppSettings.WebTown = MyUtils.CnvSng(.TxtWebTown.Text)
+        MyAppSettings.WebName = .TxtWebName.Text
+        MyAppSettings.WebScript = .TxtWebScript.Text
+        SaveAppSettings()
+      Else
+        MyAppSettings2.FromYear = MyUtils.CnvSng(.TxtGLFromYear.Text)
+        MyAppSettings2.ToYear = MyUtils.CnvSng(.TxtGLToYear.Text)
+        MyAppSettings2.Types = .TxtTypes.Text
+        MyAppSettings2.NonPublic = .TxtNonPublic.Text
+        MyAppSettings2.Status = .TxtBlocked.Text
+        MyAppSettings2.Liened = .TxtLiened.Text
+        MyAppSettings2.LienMsg = .TxtLienMsg.Text
+        MyAppSettings2.Omit = .TxtOmit.Text
+        MyAppSettings2.NonCodes = .TxtNonCodes.Text
+        MyAppSettings2.BlockSusp = .ChkBlockSusp.Checked
+        MyAppSettings2.BlockBackTax = .ChkBlockBackTax.Checked
+        MyAppSettings2.OmitSusp = .ChkOmitSusp.Checked
+        MyAppSettings2.WebTown = MyUtils.CnvSng(.TxtWebTown.Text)
+        MyAppSettings2.WebName = .TxtWebName.Text
+        MyAppSettings2.WebScript = .TxtWebScript.Text
+        SaveAppSettings2()
+      End If
+    End With
+End Sub
+Private Sub DoBtnLayout()
+	 PrntLayout()
+End Sub
+Private Sub GetReportOrientation()
+   MyReportLandscape = False
+   If MyAppSettings.PrintOrient = "L" Then
+     MyReportLandscape = True
+   End If
+End Sub
+Private Sub SetReportOrientation()
+   If MyReportLandscape Then
+     MyAppSettings.PrintOrient = "L"
+   Else
+     MyAppSettings.PrintOrient = "P"
+   End If
+   SaveAppSettings()
+End Sub
+Private Sub ShowReportOrientation()
+   If MyReportLandscape Then
+     TsOrientLandscape.Checked = True
+     TsOrientPortrait.Checked = False
+     TsOrientDesc.Text = "Landscape"
+   Else
+     TsOrientPortrait.Checked = True
+     TsOrientLandscape.Checked = False
+     TsOrientDesc.Text = "Portrait"
+   End If
+End Sub
+Private Sub SbMain_PanelClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.StatusBarPanelClickEventArgs) Handles SbMain.PanelClick
+	If e.StatusBarPanel Is SbpVersion Then
+    ShowSplash()
+  End If
+End Sub
+
+Private Sub TsOrientPortrait_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TsOrientPortrait.Click
+	MyReportLandscape = False
+	SetReportOrientation()
+	ShowReportOrientation()
+End Sub
+
+Private Sub TsOrientLandscape_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TsOrientLandscape.Click
+	 MyReportLandscape = True
+	 SetReportOrientation()
+	 ShowReportOrientation()
+End Sub
+End Class
+
+
+
+
+
+

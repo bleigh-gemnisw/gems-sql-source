@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TAP26" targetNamespace="http://tempuri.org/TAP26.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TAP26.xsd" xmlns:mstns="http://tempuri.org/TAP26.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="listno" type="xs:integer" />
+        <xs:element name="code" type="xs:integer" />
+        <xs:element name="name" type="xs:string" />
+        <xs:element name="dba" type="xs:string" />
+        <xs:element name="amount" type="xs:long" />
+        <xs:element name="amount2" type="xs:long" />
+        <xs:element name="diff" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

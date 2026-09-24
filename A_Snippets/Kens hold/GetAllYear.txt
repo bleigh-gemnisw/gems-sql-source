@@ -1,0 +1,18 @@
+Public Function GetAllYear(ByVal Wrkyear As Integer) As DataSet
+  Dim Conn As SqlConnection
+  Dim objCommand As SqlCommand
+  Dim ds As DataSet = New DataSet
+
+  StrSQL = "Select * from " & cFileName & " where year =" & Wrkyear
+  Conn = MyDBConn.Open
+  objCommand = New SqlCommand(StrSQL, Conn)
+
+  'Fill the dataset with the data
+  da = New SqlDataAdapter
+  da.SelectCommand = objCommand
+  da.Fill(ds, cFileName)
+  objCommand = Nothing
+  Conn.Close()
+  Return ds
+end function
+

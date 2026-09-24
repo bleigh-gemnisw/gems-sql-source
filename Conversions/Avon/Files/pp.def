@@ -1,0 +1,114 @@
+*****  ra$pp_combo.def
+*
+*  STANDARD ASSESSOR'S PERSONAL PROPERTY FILE
+*
+pp_data mas 1500 2500
+acct x9999999 key   "assessor's property card number"
+nac xa99999         "account number for tax purposes"
+name a32
+2ndna a28
+street a28
+cityst a28
+zip x99999
+ezip x9999
+num x9999
+stnam a28           "street address of business in town if diff. than mailing"
+loc a40             "locations of leased equipment in town"
+out a1
+tass d              "total assessment calculated with, pp.rms"
+1code a4            "category code"
+1q d2               "category quantity"
+1v d                "category assessed value of the above"
+2code a4
+2q d2              "# of machinery,water power & dams accts"
+2v d               "total assessed value of the above"
+3code a4
+3q d2              "# of horses,asses & mules, including thoroughbreds accts"
+3v d               "total assessed value of the above"
+4code a4
+4q d2              "# of dairy & beef cattle,steers,bulls & oxen accts"
+4v d               "total assessed value of the above"
+5code a4
+5q d2              "# of sheep & goats accts"
+5v d               "total assessed value of the above"
+25v d - penalty     "10% additional for list not filed or late, sec. 12-42"
+*
+1xco a4             "exemption codes and values"
+1xamt d
+2xco a4
+2xamt d
+3xco a4
+3xamt d
+4xco a4
+4xamt d
+5xco a4
+5xamt d
+6xco a4
+6xamt d
+ogross d            "last years 70% assessment value"
+**
+*  tax collection data
+*
+bill# x999999
+year x99            "tax year"
+exempt d            "total exemptions"
+gross d             "total gross assessment"
+del a2              "'x' if delinquent"
+bcd a4              "business code"
+*
+1flag/i
+1ccode a4           "category code"
+11acq d             "assessed value of the above - current year"
+12acq d             "assessed value of the above - current year minus 1"
+13acq d             "assessed value of the above - current year minus 2"
+14acq d             "assessed value of the above - current year minus 3"
+15acq d             "assessed value of the above - current year minus 4"
+16acq d             "assessed value of the above - current year minus 5"
+17acq d             "assessed value of the above - current year minus 6"
+18acq d             "assessed value of the above - current year minus 7+"
+*
+2flag/i
+2ccode a4           "category code"
+21acq d             "assessed value of the above - current year"
+22acq d             "assessed value of the above - current year minus 1"
+23acq d             "assessed value of the above - current year minus 2"
+24acq d             "assessed value of the above - current year minus 3"
+25acq d             "assessed value of the above - current year minus 4"
+26acq d             "assessed value of the above - current year minus 5"
+27acq d             "assessed value of the above - current year minus 6"
+28acq d             "assessed value of the above - current year minus 7+"
+*
+3flag/i
+3ccode a4           "category code"
+31acq d             "assessed value of the above - current year"
+32acq d             "assessed value of the above - current year minus 1"
+33acq d             "assessed value of the above - current year minus 2"
+34acq d             "assessed value of the above - current year minus 3"
+35acq d             "assessed value of the above - current year minus 4"
+36acq d             "assessed value of the above - current year minus 5"
+37acq d             "assessed value of the above - current year minus 6"
+38acq d             "assessed value of the above - current year minus 7+"
+*
+4flag/i
+4ccode a4           "category code"
+41acq d             "assessed value of the above - current year"
+42acq d             "assessed value of the above - current year minus 1"
+43acq d             "assessed value of the above - current year minus 2"
+44acq d             "assessed value of the above - current year minus 3"
+45acq d             "assessed value of the above - current year minus 4"
+46acq d             "assessed value of the above - current year minus 5"
+47acq d             "assessed value of the above - current year minus 6"
+48acq d             "assessed value of the above - current year minus 7+"
+*
+5flag/i
+5ccode a4           "category code"
+51acq d             "assessed value of the above - current year"
+52acq d             "assessed value of the above - current year minus 1"
+53acq d             "assessed value of the above - current year minus 2"
+54acq d             "assessed value of the above - current year minus 3"
+55acq d             "assessed value of the above - current year minus 4"
+56acq d             "assessed value of the above - current year minus 5"
+57acq d             "assessed value of the above - current year minus 6"
+58acq d             "assessed value of the above - current year minus 7+"
+*
+index 1 'by name' name

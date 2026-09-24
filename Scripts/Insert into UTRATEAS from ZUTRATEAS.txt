@@ -1,0 +1,15 @@
+INSERT INTO UTRATEAS select
+           [RATYPE]
+           ,[RACODE]
+           ,[RADESC]
+           ,0
+           ,[RAPCT]
+           ,[RAMNTH]
+           ,[RANOYR]
+           ,[RAFOOT]
+           ,[RAPVAL]
+           ,[RAUNIT]
+           ,[RAACRE]
+           ,[RAYR1]
+           ,''
+           ,0 from zutrateas

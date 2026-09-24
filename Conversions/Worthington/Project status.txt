@@ -1,0 +1,31 @@
+2/19/25 Need to use payments csv that Ken Created to use for payments grand list year. 
+	1) Rename database or move database to old folder on Clone 1
+	2) Copy access database to G: drive on clone1
+        3) on Clone1, open WFD database then hit F11 to show tables & queries
+        4) Rename Import to Pay Batch Recap Rpt #1 to old and copy in Import to Pay Batch Recap Rpt #1 from previous backup (step1)
+	5) Export csv files from access databases and copy back to source PC replacing same named files   right mouse click export
+           Mark has list of the files on his pc example billingdetail,customer,input to pay, location, meterhist etc
+        6) Remove records from transactionhistory.csv using notepad to 12/31/2007 due to multiple line records in year 2006
+	7) Run query Import to Pay Batch Recap Rpt #3c as and save as Pay Batch Recap Rpt #3c locid.csv
+	8) Remove records from Pay Batch Recap Rpt #3c locid.csv using notepad to 12/31/2006 due to multiple line records
+        9) BillingDetails is a tempory file so you want want to clear it first. To recreate it look in transactionhistory for the batch number 
+          and then modify query Input to RD Billing #2 remove the >0 selection then run query append billing 
+
+Access data base is loaded on the Clone with all worthingtons files
+
+testing:
+update txinv set bald=taxt,payrec=0
+
+Production:
+update txinv set bald=0 where year<=2021
+
+Misc charges written as fees 
+
+MONTHLY billing is Y and Z UTTYPE  (detail button) 
+Must set these up for Monthly..
+set control file (GEMs.net   CONTROL FILE)     (UTTYP) Y only UB
+INVDL    INVLICE DETAIL IS ACTIVE  
+
+
+
+

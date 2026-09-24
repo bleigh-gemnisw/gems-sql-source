@@ -1,0 +1,11 @@
+SELECT 
+    DB_NAME(dbid) as DatabaseName, 
+    COUNT(dbid) as ConnectionCount,
+    loginame as LoginName
+FROM
+    sys.sysprocesses
+WHERE 
+    dbid > 0
+GROUP BY 
+    dbid, loginame
+order by count(dbid) desc

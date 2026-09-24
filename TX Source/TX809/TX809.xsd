@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TX809" targetNamespace="http://tempuri.org/TX809.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TX809.xsd" xmlns:mstns="http://tempuri.org/TX809.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="listno" type="xs:integer" />
+        <xs:element name="type" type="xs:string" />
+        <xs:element name="year" type="xs:integer" />
+				<xs:element name="name" type="xs:string" />
+        <xs:element name="regno" type="xs:string" />
+        <xs:element name="vin" type="xs:string" />
+        <xs:element name="amtdue" type="xs:decimal" />
+        <xs:element name="net" type="xs:integer" />
+        <xs:element name="assmonth" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

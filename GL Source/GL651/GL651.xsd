@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema id="GL651" 
+                  targetNamespace="http://tempuri.org/GL651.xsd"
+                  elementFormDefault="qualified"
+                  xmlns="http://tempuri.org/GL651.xsd"
+                  xmlns:mstns="http://tempuri.org/GL651.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="GROUP" type="xs:string" />
+        <xs:element name="GROUPDESC" type="xs:string" />
+        <xs:element name="ACCT" type="xs:string" />
+        <xs:element name="DESCR" type="xs:string" />
+        <xs:element name="ACTUAL3YR" type="xs:double" />
+        <xs:element name="ACTUAL2YR" type="xs:double" />
+        <xs:element name="ACTUAL1YR" type="xs:double" />
+        <xs:element name="ADOPTED" type="xs:double" />
+        <xs:element name="RECEIVED" type="xs:double" />
+        <xs:element name="PROJECTED" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

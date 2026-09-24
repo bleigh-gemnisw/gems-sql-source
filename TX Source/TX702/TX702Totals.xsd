@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX702Totals" targetNamespace="http://tempuri.org/TX702Totals.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX702Totals.xsd" xmlns:mstns="http://tempuri.org/TX702Totals.xsd"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="DESCRIPTION" type="xs:string" />
+<xs:element name="COUNT" type="xs:integer" />
+<xs:element name="GROSS" type="xs:decimal" />
+<xs:element name="EXEMPTION" type="xs:decimal" />
+<xs:element name="NET" type="xs:decimal" />
+<xs:element name="TAXTOT" type="xs:decimal" />
+<xs:element name="TAX1ST" type="xs:decimal" />
+<xs:element name="TAX2ND" type="xs:decimal" />
+<xs:element name="BALANCE" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

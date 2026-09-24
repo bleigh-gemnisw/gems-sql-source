@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TX201Tot" targetNamespace="http://tempuri.org/TX201Tot.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TX201Tot.xsd" xmlns:mstns="http://tempuri.org/TX201Tot.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tgross" type="xs:long" />
+        <xs:element name="texempt" type="xs:long" />
+        <xs:element name="tprorate" type="xs:long" />
+        <xs:element name="tcredit" type="xs:long" />
+        <xs:element name="tnet" type="xs:long" />
+        <xs:element name="tfull" type="xs:long" />
+        <xs:element name="tpartial" type="xs:long" />
+        <xs:element name="tfullcredit" type="xs:long" />
+        <xs:element name="tproratecredit" type="xs:long" />
+        <xs:element name="tbtr" type="xs:long" />
+        <xs:element name="tnetnonelderly" type="xs:long" />
+        <xs:element name="tnetheart" type="xs:integer" />
+        <xs:element name="tnetfrozen" type="xs:integer" />
+        <xs:element name="ttax" type="xs:decimal" />
+        <xs:element name="ttax1" type="xs:decimal" />
+        <xs:element name="ttax2" type="xs:decimal" />
+        <xs:element name="ttaxmill" type="xs:decimal" />
+        <xs:element name="tvariance" type="xs:decimal" />
+        <xs:element name="ttaxnonelderly" type="xs:decimal" />
+        <xs:element name="ttaxheart" type="xs:decimal" />
+        <xs:element name="ttaxfrozen" type="xs:decimal" />
+        <xs:element name="ttaxstbenefit" type="xs:decimal" />
+        <xs:element name="ttaxtownbenefit" type="xs:decimal" />
+        <xs:element name="ttaxfrzloss" type="xs:decimal" />
+        <xs:element name="ttax10mlloss" type="xs:decimal" />
+        <xs:element name="twaiveredaccts" type="xs:integer" />
+        <xs:element name="twaivered" type="xs:decimal" />
+        <xs:element name="trounding" type="xs:decimal" />
+        <xs:element name="ttaxvariance" type="xs:decimal" />
+        <xs:element name="taccts" type="xs:integer" />
+        <xs:element name="tbills" type="xs:integer" />
+        <xs:element name="bccgross" type="xs:long" />
+        <xs:element name="bccexempt" type="xs:long" />
+        <xs:element name="bccnet" type="xs:long" />
+        <xs:element name="bcctax" type="xs:decimal" />
+        <xs:element name="bcctax1" type="xs:decimal" />
+        <xs:element name="bcctax2" type="xs:decimal" />
+        <xs:element name="ccgross" type="xs:long" />
+        <xs:element name="ccexempt" type="xs:long" />
+        <xs:element name="ccnet" type="xs:long" />
+        <xs:element name="cccredit" type="xs:long" />
+        <xs:element name="cctax" type="xs:decimal" />
+        <xs:element name="cctax1" type="xs:decimal" />
+        <xs:element name="cctax2" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

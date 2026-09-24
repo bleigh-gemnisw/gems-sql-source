@@ -1,0 +1,35 @@
+sp_rename 'TXM35PM','ZTXM35PM'
+go
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TXM35PM](
+	[LIST#] [numeric](6, 0) NOT NULL,
+	[YEAR] [numeric](4, 0) NOT NULL,
+	[SEQ] [numeric](1, 0) NOT NULL,
+	[LOCPM] [char](3) NOT NULL,
+	[TRF] [numeric](4, 3) NOT NULL,
+	[BENAMT] [numeric](11, 2) NOT NULL,
+	[DEFER] [char](1) NOT NULL,
+	[DEFPCT] [numeric](3,2) NOT NULL,
+	[ALLOW] [char](1) NOT NULL,
+	[DISRSN] [char](30) NOT NULL,
+	[DTASSR] [numeric](8, 0) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[LIST#] ASC,
+	[YEAR] ASC,
+	[SEQ] ASC,
+	[LOCPM] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+insert into txm35pm select list#,year,seq,locpm,0,0,'',0,allow,disrsn,dtassr from ztxm35pm
+GO
+
+

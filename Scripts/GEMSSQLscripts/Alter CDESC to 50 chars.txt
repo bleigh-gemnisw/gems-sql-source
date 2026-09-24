@@ -1,0 +1,4 @@
+alter table TXCOEA alter column CDESC char(50)
+alter table TXCOEAO alter column CDESC char(50)
+alter table TXCOEB alter column CDESC char(50)
+alter table UTCOEA alter column CDESC char(50)

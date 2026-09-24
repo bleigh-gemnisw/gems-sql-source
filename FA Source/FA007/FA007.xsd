@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FA007" targetNamespace="http://tempuri.org/FA007.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/FA007.xsd" xmlns:mstns="http://tempuri.org/FA007.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="FADEPT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="decode" type="xs:string" />
+        <xs:element name="dedesc" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

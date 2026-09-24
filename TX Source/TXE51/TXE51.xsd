@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TXE51" targetNamespace="http://tempuri.org/TXE51.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TXE51.xsd" xmlns:mstns="http://tempuri.org/TXE51.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="TYPE" type="xs:string" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="COMMENT" type="xs:string" />
+<xs:element name="REFERENCE" type="xs:string" />
+<xs:element name="PRINPAID" type="xs:decimal" />
+<xs:element name="BRKAMT1" type="xs:decimal" />
+<xs:element name="BRKAMT2" type="xs:decimal" />
+<xs:element name="BRKAMT3" type="xs:decimal" />
+<xs:element name="BRKAMT4" type="xs:decimal" />
+<xs:element name="BRKAMT5" type="xs:decimal" />
+<xs:element name="BRKAMT6" type="xs:decimal" />
+<xs:element name="DATEPAID" type="xs:date" />
+<xs:element name="BATCHNO" type="xs:integer" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

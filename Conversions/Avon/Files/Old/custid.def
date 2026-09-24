@@ -1,0 +1,11 @@
+*** custid.def
+* DMV custid table
+*
+MAS 25000
+*
+custid x9999999999 key1
+*
+NAME A40
+dob dt
+*
+***

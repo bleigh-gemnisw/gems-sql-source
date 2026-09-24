@@ -1,0 +1,1 @@
+update TXMCTL set valper=.7,valmin=500

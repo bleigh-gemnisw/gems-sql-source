@@ -1,0 +1,25 @@
+*no longer need* insert into gemsqds..utcustrt select * from gemswin..utcustrt where crtype='A'
+*no longer need* insert into txreaa select * from gemswin..txreaa
+*no longer need* insert into txppra select * from gemswin..txppra
+*no longer need* insert into txmva select * from gemswin..txmva
+*no longer need* insert into txsupa select * from gemswin..txsupa
+*no longer need* update utcustas set capno=b.capno from utcustas as a left join gemswin..utcustas as b on a.caacct=b.caacct 
+update txinv set ss#=b.ss#,ss2=b.ss2,oid=b.oid from txinv as a left join gemswin..txinv as b on a.list#=b.list# and a.type=b.type and a.year=b.year where a.type in('M','S') and a.year<=2020 and b.oid<>'' 
+
+402164  fix pprp and pprpc  u(5583185   5583185
+net is 11596190-11166370=429820
+
+
+comments notes 
+
+Assessments GEMSWIN data then update last 2 year manually (TXINV/TXHST)
+
+RE/PP/MV/SU Archive copy data from GEMSWIN for years 2021 and older
+
+P 2016  RZ  PAINTING\\\
+
+exemption with 9999999  for PP manual fix after conversion
+
+supplemental is not done yet
+
+all grandlist for 2023 run frozen 2023 to get balanced

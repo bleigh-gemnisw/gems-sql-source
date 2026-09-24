@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36908.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Fix_TX407", "Fix_TX407.vbproj", "{7507CF70-BEBE-4C31-88E1-6A13BA9C022C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7507CF70-BEBE-4C31-88E1-6A13BA9C022C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7507CF70-BEBE-4C31-88E1-6A13BA9C022C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7507CF70-BEBE-4C31-88E1-6A13BA9C022C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7507CF70-BEBE-4C31-88E1-6A13BA9C022C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {9E3CDBF5-00E0-497A-B5FF-72E165981738}
+	EndGlobalSection
+EndGlobal

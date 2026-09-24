@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="AP304" targetNamespace="http://tempuri.org/AP304.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/AP304.xsd" xmlns:mstns="http://tempuri.org/AP304.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="VNDNR" type="xs:string" />
+<xs:element name="VENNM" type="xs:string" />
+<xs:element name="VADDR" type="xs:string" />
+<xs:element name="PHONE" type="xs:string" />
+<xs:element name="FAX" type="xs:string" />
+<xs:element name="F1099" type="xs:string" />
+<xs:element name="TAXID" type="xs:string" />
+<xs:element name="CONTN" type="xs:string" />
+<xs:element name="ORNAM" type="xs:string" />
+<xs:element name="ORADDR" type="xs:string" />
+<xs:element name="PYNAM" type="xs:string" />
+<xs:element name="PYADDR" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

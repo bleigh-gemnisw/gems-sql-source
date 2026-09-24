@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema id="GL652" 
+                  targetNamespace="http://tempuri.org/GL652.xsd"
+                  elementFormDefault="qualified"
+                  xmlns="http://tempuri.org/GL652.xsd"
+                  xmlns:mstns="http://tempuri.org/GL652.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="GROUP" type="xs:string" />
+        <xs:element name="GROUPDESC" type="xs:string" />
+        <xs:element name="ACCT" type="xs:string" />
+        <xs:element name="DESCR" type="xs:string" />
+        <xs:element name="STATUS" type="xs:string" />
+        <xs:element name="ACTUAL3YR" type="xs:double" />
+        <xs:element name="ACTUAL2YR" type="xs:double" />
+        <xs:element name="ACTUAL1YR" type="xs:double" />
+        <xs:element name="PREVCARRY" type="xs:double" />
+        <xs:element name="ORIG" type="xs:double" />
+        <xs:element name="AMENDED" type="xs:double" />
+        <xs:element name="EXPENDED" type="xs:double" />
+        <xs:element name="EXPENDEDPCT" type="xs:double" />
+        <xs:element name="NEXTCARRY" type="xs:double" />
+        <xs:element name="DEPT" type="xs:double" />
+        <xs:element name="DEPTDIFF" type="xs:double" />
+        <xs:element name="DEPTPCT" type="xs:double" />
+        <xs:element name="MAYOR" type="xs:double" />
+        <xs:element name="MAYORDIFF" type="xs:double" />
+        <xs:element name="MAYORPCT" type="xs:double" />
+        <xs:element name="TOWNCON" type="xs:double" />
+        <xs:element name="PLAN1YR" type="xs:double" />
+        <xs:element name="PLAN2YR" type="xs:double" />
+        <xs:element name="PLAN3YR" type="xs:double" />
+        <xs:element name="PLAN4YR" type="xs:double" />
+        <xs:element name="PLAN5YR" type="xs:double" />
+        <xs:element name="NOTES" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

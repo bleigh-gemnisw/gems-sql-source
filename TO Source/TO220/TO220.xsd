@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TO220" targetNamespace="http://tempuri.org/TO220.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TO220.xsd" xmlns:mstns="http://tempuri.org/TO220.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="mytable">
+        <xs:complexType>
+            <xs:sequence>
+              <xs:element name="YEAR" type="xs:integer" />
+              <xs:element name="LISTNO" type="xs:integer" />
+              <xs:element name="ALNAME" type="xs:string" />
+              <xs:element name="AFNAME" type="xs:string" />
+              <xs:element name="AINIT" type="xs:string" />
+              <xs:element name="ASSN" type="xs:string" />
+              <xs:element name="SLNAME" type="xs:string" />
+              <xs:element name="SFNAME" type="xs:string" />
+              <xs:element name="SINIT" type="xs:string" />
+              <xs:element name="SSSN" type="xs:string" />
+              <xs:element name="PROPLOC" type="xs:string" />
+              <xs:element name="CITY" type="xs:string" />
+              <xs:element name="STATE" type="xs:string" />
+              <xs:element name="ZIP" type="xs:string" />
+              <xs:element name="MADDR" type="xs:string" />
+              <xs:element name="MCITY" type="xs:string" />
+              <xs:element name="MSTATE" type="xs:string" />
+              <xs:element name="MZIP" type="xs:string" />
+              <xs:element name="PHONE" type="xs:string" />
+              <xs:element name="MARRIED" type="xs:string" />
+              <xs:element name="SINGLE" type="xs:string" />
+              <xs:element name="DIVORCED" type="xs:string" />
+              <xs:element name="WIDOW" type="xs:string" />
+              <xs:element name="LEGALLY" type="xs:string" />
+              <xs:element name="INCOME" type="xs:decimal" />
+              <xs:element name="INTEREST" type="xs:decimal" />
+              <xs:element name="SSRR" type="xs:decimal" />
+              <xs:element name="OTHER" type="xs:decimal" />
+              <xs:element name="TOTAL" type="xs:decimal" />
+              <xs:element name="DISRATINGYES" type="xs:string" />
+              <xs:element name="DISRATINGNO" type="xs:string" />
+              <xs:element name="SIGNEDMO" type="xs:string" />
+              <xs:element name="SIGNEDDAY" type="xs:string" />
+              <xs:element name="SIGNEDYEAR" type="xs:string" />
+              <xs:element name="XVET" type="xs:long" />
+              <xs:element name="DISINCOMEYES" type="xs:string" />
+              <xs:element name="DISINCOMENO" type="xs:string" />
+              <xs:element name="QUALIFYING" type="xs:decimal" />
+              <xs:element name="XADDL" type="xs:long" />
+              <xs:element name="XFULL" type="xs:long" />
+              <xs:element name="XLOCAL" type="xs:long" />
+              <xs:element name="XFULLO" type="xs:long" />
+              <xs:element name="RE" type="xs:string" />
+              <xs:element name="MV" type="xs:string" />
+              <xs:element name="PP" type="xs:string" />
+              <xs:element name="SU" type="xs:string" />
+              <xs:element name="RELIST" type="xs:string" />
+              <xs:element name="MVLIST" type="xs:string" />
+              <xs:element name="PPLIST" type="xs:string" />
+              <xs:element name="SULIST" type="xs:string" />
+              <xs:element name="ALLOWED" type="xs:string" />
+              <xs:element name="DISALLOWED" type="xs:string" />
+              <xs:element name="DISRSN" type="xs:string" />
+              <xs:element name="ASSRMO" type="xs:string" />
+              <xs:element name="ASSRDAY" type="xs:string" />
+              <xs:element name="ASSRYEAR" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+

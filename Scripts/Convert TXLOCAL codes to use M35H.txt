@@ -1,0 +1,1 @@
+update txlocal set bencde=substring(locpm,2,2) from txlocal left join txm35pm on txlocal.list#=txm35pm.list# where year in(2019,2020)

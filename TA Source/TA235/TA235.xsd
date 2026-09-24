@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema id="TA235" 
+                  targetNamespace="http://tempuri.org/TA235.xsd"
+                  elementFormDefault="qualified"
+                  xmlns="http://tempuri.org/TA235.xsd"
+                  xmlns:mstns="http://tempuri.org/TA235.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="numre" type="xs:long" />
+        <xs:element name="numrefrz" type="xs:long" />
+        <xs:element name="numrest" type="xs:long" />
+        <xs:element name="numretot" type="xs:long" />
+        <xs:element name="nummv" type="xs:long" />
+        <xs:element name="numpp" type="xs:long" />
+        <xs:element name="num" type="xs:long" />
+        <xs:element name="numrex" type="xs:long" />
+        <xs:element name="numppx" type="xs:long" />
+        <xs:element name="nummvx" type="xs:long" />
+        <xs:element name="grossre" type="xs:long" />
+        <xs:element name="grossrefrz" type="xs:long" />
+        <xs:element name="grossrest" type="xs:long" />
+        <xs:element name="grossretot" type="xs:long" />
+        <xs:element name="grossmv" type="xs:long" />
+        <xs:element name="grosspp" type="xs:long" />
+        <xs:element name="gross" type="xs:long" />
+        <xs:element name="grossrex" type="xs:long" />
+        <xs:element name="grossppx" type="xs:long" />
+        <xs:element name="grossmvx" type="xs:long" />
+        <xs:element name="examre" type="xs:long" />
+        <xs:element name="examrefrz" type="xs:long" />
+        <xs:element name="examrest" type="xs:long" />
+        <xs:element name="examretot" type="xs:long" />
+        <xs:element name="exammv" type="xs:long" />
+        <xs:element name="exampp" type="xs:long" />
+        <xs:element name="exam" type="xs:long" />
+        <xs:element name="netre" type="xs:long" />
+        <xs:element name="netrefrz" type="xs:long" />
+        <xs:element name="netrest" type="xs:long" />
+        <xs:element name="netretot" type="xs:long" />
+        <xs:element name="netmv" type="xs:long" />
+        <xs:element name="netpp" type="xs:long" />
+        <xs:element name="net" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

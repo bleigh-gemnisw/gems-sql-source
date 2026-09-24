@@ -1,0 +1,74 @@
+Public Class FrmAR101B_New
+  Dim myBCHHDR As BCHHDR.MyData
+  Dim myCSHBCH As CSHBCH.MyData
+
+  Private Sub BtnCreate_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnCreate.Click
+    Dim WrkNextBatch As Integer
+
+    myBCHHDR = New BCHHDR.MyData()
+    myBCHHDR.MyDBConn = myDBConnect
+    myCSHBCH = New CSHBCH.MyData()
+    myCSHBCH.MyDBConn = myDBConnect
+    myBCHHDR.GetOneRecordP(MyBatch, 0)
+    If myBCHHDR.RecordNotFound Then
+      With myBCHHDR
+        ._APPID = MyBatch
+        ._BCHNO = 0
+        .AddOneRecordP()
+      End With
+    End If
+
+    WrkNextBatch = myBCHHDR.AutoGenKey(MyBatch)
+    myBCHHDR.GetOneRecordP(MyBatch, WrkNextBatch)
+    If myBCHHDR.RecordNotFound Then
+      With myBCHHDR
+        ._APPID = MyBatch
+        ._BCHNO = WrkNextBatch
+        ._ORGUS = "GEMSNET"
+        ._LSTUS = MyUserID
+        ._STATS = "S"
+        ._SUBST = ""
+        ._PSDT = MyUtils.SetDBDate(DtPckPost.Value)
+        .AddOneRecordP()
+      End With
+
+      myBCHHDR.GetOneRecordP(MyBatch, 0)
+      If Not myBCHHDR.RecordNotFound Then
+        With myBCHHDR
+          ._LSBCH = WrkNextBatch
+          .UpdateOneRecordP()
+        End With
+      End If
+    End If
+
+    MyFrmAR101B.FormatGrid()
+    MyFrmAR101B.Show()
+    Me.Close()
+    MsgBox("Batch " & WrkNextBatch & " has been created", MsgBoxStyle.Information, "New Batch")
+
+  End Sub
+  Private Sub FrmAR101B_New_Activated(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Activated
+    MyFrmAR101.SbpScreen.Text = "AR101B_New"
+    MyUtils.CenterForm(Me.ParentForm, Me)
+  End Sub
+
+  Private Sub FrmAR101B_New_FormClosed(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles Me.FormClosed
+    With MyFrmAR101
+      .TBarCreate.Enabled = True
+      .TBarDelete.Enabled = True
+      .TBarPrtEdits.Enabled = True
+      .TBarPost.Enabled = True
+    End With
+  End Sub
+
+  Private Sub FrmAR101_New_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+    With MyFrmAR101
+      .TBarCreate.Enabled = False
+      .TBarDelete.Enabled = False
+      .TBarPrtEdits.Enabled = False
+      .TBarPost.Enabled = False
+    End With
+    DtPckPost.Value = Date.Today
+  End Sub
+
+End Class

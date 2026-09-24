@@ -1,0 +1,83 @@
+select a.icode,a.list#,a.name,a.taxt,a.tax1,a.tax2,a.tx3rd,a.tx4th,a.bald,b.taxt,b.tax1,b.tax2,b.tx3rd,b.tx4th,b.bald from txinv as a left join southub..muninv as b on a.list#=b.list# and a.type=b.type and a.year=b.year where a.dist='1' and a.type='D' and a.year=2026 and a.tax1+a.tax2+a.tx3rd<> b.tax1+b.tax2+b.tx3rd and a.icode<>'I' order by a.list#
+
+DECLARE @ListNum INT = 120006;
+DECLARE @ListLow INT = 0;
+DECLARE @ListHigh INT = 0;
+SELECT * FROM txinv  WHERE list# = @ListNum AND type = 'D' AND year = 2026 or list# >= @ListLow AND type = 'D' AND year = 2026 and list# <= @ListHigh AND type = 'D' AND year = 2026 order by list#;
+SELECT * FROM southub..muninv WHERE list# = @ListNum AND type = 'D' AND year = 2026 or list# >= @ListLow AND type = 'D' AND year = 2026 and list# <= @ListHigh AND type = 'D' AND year = 2026  order by list#;
+SELECT * FROM txhst WHERE list# = @ListNum AND type = 'D' AND year = 2026 or list# >= @ListLow AND type = 'D' AND year = 2026 and list# <= @ListHigh AND type = 'D' AND year = 2026 ORDER BY pdate, list#;
+SELECT * FROM southub..munhst WHERE list# = @ListNum AND type = 'D' AND year = 2026 or list# >= @ListLow AND type = 'D' AND year = 2026 and list# <= @ListHigh AND type = 'D' AND year = 2026 ORDER BY pdate, list#;
+
+select * from utcust where cuacct=120006
+select * from utcust where cucnt#=10273 and rcode<>'I'  
+
+--delete txhst where recid=3322310 and list#=110110
+--update txhst set pamt=209.50,prf='' where recid=3346899 and list#=17437
+--update txhst set recid=3371724 where recid=29959 and list#=100044
+--insert into txhst select * from southub..munhst where recid>=30755 and recid<=30757 and list#=110110
+--update txinv set icode='I' where list#=120134 and type='D' and year=2026
+--update txhst set rcode='I' where list#=120134 and type='D' and year=2026
+
+--update txinv set payrec=37770,bald=0 where list#=208983 and type='D' and year=2026
+--update txinv set ccno=0,cdate=0,ccetax=0, tx4th=cctx4,cctx4=0,ccrsn='' where list#=208986 and type='D' and year=2026
+--update txinv set taxt=tax1+tax2+tx3rd+tx4th where list#=208983 and type='D' and year=2026
+
+--update txinv set taxt=ccetax,tx4th=cctx4 where list#=208986 and type='D' and year=2026
+
+--select * from utcoea where list#=208985 and type='D' and year=2026
+
+--delete utcoea where list#=208985 and type='D' and year=2026
+
+--select top 5 * from txhst order by recid desc 
+
+--update txhst set pamt=104.50 where recid=3343124
+
+--delete txhst where recid>=3343534 and recid<=3343534
+
+
+--update txinv set payrec=431 from txinv as a left join southub..muninv as b on a.list#=b.list# and a.type=b.type and a.year=b.year where a.list#=110110 and a.type='D' and a.year=2026 
+--update txinv set bald=a.taxt-a.payrec from txinv as a left join southub..muninv as b on a.list#=b.list# and a.type=b.type and a.year=b.year where a.list#=110110 and a.type='D' and a.year=2026 
+
+select top 5 * from txhst order by recid desc 
+
+DECLARE @ListNum INT = 110110;
+UPDATE a SET 
+    a.tax1  = b.tax1,
+    a.tax2  = b.tax2,
+    a.tx3rd  = b.tx3rd,
+    a.taxt   = b.tax1 + b.tax2 + b.tx3rd + a.tx4th, 
+    a.payrec = b.payrec,
+    a.bald   = (b.tax1 + b.tax2 + b.tx3rd + a.tx4th) - b.payrec
+FROM txinv AS a 
+LEFT JOIN southub..muninv AS b 
+    ON a.list# = b.list# 
+   AND a.type = b.type 
+   AND a.year = b.year 
+WHERE a.list# = @ListNum 
+  AND a.type = 'D' 
+  AND a.year = 2026;
+
+
+DECLARE @MinRecid INT = 32140;
+DECLARE @MaxRecid INT = 32142;
+DECLARE @ListNum  INT = 200204;
+DECLARE @StartRecid INT = 3372708;
+
+
+INSERT INTO txhst 
+SELECT * FROM southub..munhst 
+WHERE recid >= @MinRecid 
+  AND recid <= @MaxRecid 
+  AND [list#] = @ListNum;
+
+WITH SequentialRows AS (
+    SELECT 
+        recid,
+        ROW_NUMBER() OVER (ORDER BY recid ASC) AS RowNum
+    FROM txhst
+    WHERE recid >= @MinRecid 
+      AND recid <= @MaxRecid 
+      AND [list#] = @ListNum
+)
+UPDATE SequentialRows
+SET recid = @StartRecid + RowNum;

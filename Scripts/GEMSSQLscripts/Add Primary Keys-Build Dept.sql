@@ -1,0 +1,7 @@
+alter table BDCNTL add primary key (RECID)
+alter table BDCOM add primary key (RECID,SEQNO)
+alter table BDCON add primary key (RECID)
+alter table BDENDRS add primary key (TYPE)
+alter table BDMAST add primary key (RECID)
+alter table BDPAYCR add primary key (PROVID)
+alter table BDRATE add primary key (TYPE,TIER)

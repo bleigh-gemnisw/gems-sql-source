@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="GLA02Err"
+                  targetNamespace="http://tempuri.org/GLA02Err.xsd"
+                  elementFormDefault="qualified"
+                  xmlns="http://tempuri.org/GLA02Err.xsd"
+                  xmlns:mstns="http://tempuri.org/GLA02Err.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="mytable">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="SORTDATA" type="xs:string" />
+				<xs:element name="YEAR" type="xs:integer" />
+				<xs:element name="TYPE" type="xs:string" />
+				<xs:element name="CODE" type="xs:string" />
+				<xs:element name="SUSPENSE" type="xs:string" />
+				<xs:element name="DIST" type="xs:integer" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

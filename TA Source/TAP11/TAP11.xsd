@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TAP11" targetNamespace="http://tempuri.org/TAP11.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TAP11.xsd" xmlns:mstns="http://tempuri.org/TXDCCDa.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="TXDCDEP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="decode" type="xs:string" />
+        <xs:element name="yearno" type="xs:integer" />
+        <xs:element name="propct" type="xs:integer" />
+        <xs:element name="pct" type="xs:integer" />
+        <xs:element name="prior" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

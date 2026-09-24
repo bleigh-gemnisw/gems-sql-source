@@ -1,0 +1,9 @@
+For those files already converted, remove these routines:
+
+GetOneRecordP, 
+PosData, 
+AddOneRecordP, 
+DeleteOneRecordP, 
+UpdateOneRecordP, 
+GetFields, 
+PutFields

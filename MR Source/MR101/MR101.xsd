@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="MR101" targetNamespace="http://tempuri.org/MR101.xsd" 
+  elementFormDefault="qualified"
+  xmlns="http://tempuri.org/MR101.xsd"
+  xmlns:mstns="http://tempuri.org/MR101.xsd"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="MRCODE">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="code" type="xs:string" />
+<xs:element name="descr" type="xs:string" />
+<xs:element name="acct" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

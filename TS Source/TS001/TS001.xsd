@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TS001" targetNamespace="http://tempuri.org/TS001.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TS001.xsd" xmlns:mstns="http://tempuri.org/TS001.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="MFTCLSa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="MFTCOD" type="xs:string" />
+        <xs:element name="MFTDES" type="xs:string" />
+        <xs:element name="MFTFEE" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

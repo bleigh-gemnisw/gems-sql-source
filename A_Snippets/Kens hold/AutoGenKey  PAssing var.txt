@@ -1,0 +1,33 @@
+Public Function AutoGenKey(ByVal Wrklistno As Integer, ByVal Wrkyear As Integer) As Integer
+    Dim NextKey As Integer
+    Dim Conn As SqlConnection
+    Dim objCommand As SqlCommand
+    Dim ds As DataSet = New DataSet
+    Const cmyfield As String = "seqno"
+
+    RecordNotFound = False
+
+    StrSQL = "SELECT MAX(" & cmyfield & ") FROM " & cFileName & " Where list# = " & Wrklistno & " AND year = " & Wrkyear
+
+    Try
+      Conn = MyDBConn.Open
+      objCommand = New SqlCommand(StrSQL, Conn)
+      'Fill the dataset with the data
+      da = New SqlDataAdapter
+      da.SelectCommand = objCommand
+      da.Fill(ds, cFileName)
+      If ds.Tables(0).Rows.Count = 0 Then
+        NextKey = 1
+      Else
+        NextKey = ds.Tables(0).Rows(0).Item(cmyfield) + 1
+      End If
+
+      objCommand = Nothing
+      ds.Clear()
+      ds = Nothing
+      Conn.Close()
+    Catch ex As Exception
+      ErrMsg = ex.ToString()
+    End Try
+    Return NextKey
+  End Function

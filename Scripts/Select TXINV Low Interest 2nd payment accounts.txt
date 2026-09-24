@@ -1,0 +1,1 @@
+select * from txinv where type='R' and payrec+newpay>=tax1 and taxt>payrec+newpay and year=2019 and ccno=0

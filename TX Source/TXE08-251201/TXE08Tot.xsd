@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema id="TXE08Tot" 
+                  targetNamespace="http://tempuri.org/TXE08Tot.xsd"
+                  elementFormDefault="qualified"
+                  xmlns="http://tempuri.org/TXE08Tot.xsd"
+                  xmlns:mstns="http://tempuri.org/TXE08Tot.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytabletot">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="RPTID" type="xs:string" />
+        <xs:element name="TYPE" type="xs:string" />
+        <xs:element name="YEAR" type="xs:integer" />
+        <xs:element name="TORIGBAL" type="xs:decimal" />
+        <xs:element name="TBEGBAL" type="xs:decimal" />
+        <xs:element name="TXFERSUSP" type="xs:decimal" />
+        <xs:element name="TCCADD" type="xs:decimal" />
+        <xs:element name="TCCRED" type="xs:decimal" />
+        <xs:element name="TPAYMENTS" type="xs:decimal" />
+        <xs:element name="TREFUNDS" type="xs:decimal" />
+        <xs:element name="TENDBAL" type="xs:decimal" />
+        <xs:element name="TENDBALCR" type="xs:decimal" />
+        <xs:element name="TINTEREST" type="xs:decimal" />
+				<xs:element name="TFEES" type="xs:decimal" />
+				<xs:element name="TLIENS" type="xs:decimal" />
+        <xs:element name="TOVERPAID" type="xs:decimal" />
+        <xs:element name="TERRORS" type="xs:decimal" />
+        <xs:element name="TERRORSDIFF" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

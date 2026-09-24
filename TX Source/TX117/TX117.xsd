@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX117" targetNamespace="http://tempuri.org/TX117.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX117.xsd" xmlns:mstns="http://tempuri.org/TX117.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="TXLEASE">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="CODE" type="xs:string" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="ADDR1" type="xs:string" />
+<xs:element name="ADDR2" type="xs:string" />
+<xs:element name="CITY" type="xs:string" />
+<xs:element name="STATE" type="xs:string" />
+<xs:element name="ZIPA" type="xs:decimal" />
+<xs:element name="CONTACT" type="xs:string" />
+<xs:element name="PHONE" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

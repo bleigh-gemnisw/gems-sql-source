@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TAP30" targetNamespace="http://tempuri.org/TAP30.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TAP30.xsd" xmlns:mstns="http://tempuri.org/TAP30.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SORTDATA" type="xs:integer" />
+        <xs:element name="LISTNO" type="xs:integer" />
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="SNAME" type="xs:string" />
+        <xs:element name="ADDR1" type="xs:string" />
+        <xs:element name="ADDR2" type="xs:string" />
+        <xs:element name="CITY" type="xs:string" />
+        <xs:element name="STATE" type="xs:string" />
+        <xs:element name="ZIP" type="xs:string" />
+        <xs:element name="CODE1" type="xs:integer" />
+        <xs:element name="ASS1" type="xs:integer" />
+        <xs:element name="CODE2" type="xs:integer" />
+        <xs:element name="ASS2" type="xs:integer" />
+        <xs:element name="CODE3" type="xs:integer" />
+        <xs:element name="ASS3" type="xs:integer" />
+        <xs:element name="CODE4" type="xs:integer" />
+        <xs:element name="ASS4" type="xs:integer" />
+        <xs:element name="CODE5" type="xs:integer" />
+        <xs:element name="ASS5" type="xs:integer" />
+        <xs:element name="CODE6" type="xs:integer" />
+        <xs:element name="ASS6" type="xs:integer" />
+        <xs:element name="CODE7" type="xs:integer" />
+        <xs:element name="ASS7" type="xs:integer" />
+        <xs:element name="CODE8" type="xs:integer" />
+        <xs:element name="ASS8" type="xs:integer" />
+        <xs:element name="CODE9" type="xs:integer" />
+        <xs:element name="ASS9" type="xs:integer" />
+        <xs:element name="CODE10" type="xs:integer" />
+        <xs:element name="ASS10" type="xs:integer" />
+        <xs:element name="ASSTOT" type="xs:integer" />
+        <xs:element name="EXCD1" type="xs:string" />
+        <xs:element name="EXAM1" type="xs:integer" />
+        <xs:element name="EXCD2" type="xs:string" />
+        <xs:element name="EXAM2" type="xs:integer" />
+        <xs:element name="EXCD3" type="xs:string" />
+        <xs:element name="EXAM3" type="xs:integer" />
+        <xs:element name="EXCD4" type="xs:string" />
+        <xs:element name="EXAM4" type="xs:integer" />
+        <xs:element name="EXCD5" type="xs:string" />
+        <xs:element name="EXAM5" type="xs:integer" />
+        <xs:element name="EXTOT" type="xs:integer" />
+        <xs:element name="NNAME" type="xs:string" />
+        <xs:element name="NSNAME" type="xs:string" />
+        <xs:element name="NADDR1" type="xs:string" />
+        <xs:element name="NCITY" type="xs:string" />
+        <xs:element name="NSTATE" type="xs:string" />
+        <xs:element name="NZIP" type="xs:string" />
+        <xs:element name="NCODE1" type="xs:integer" />
+        <xs:element name="NASS1" type="xs:integer" />
+        <xs:element name="NCODE2" type="xs:integer" />
+        <xs:element name="NASS2" type="xs:integer" />
+        <xs:element name="NCODE3" type="xs:integer" />
+        <xs:element name="NASS3" type="xs:integer" />
+        <xs:element name="NCODE4" type="xs:integer" />
+        <xs:element name="NASS4" type="xs:integer" />
+        <xs:element name="NCODE5" type="xs:integer" />
+        <xs:element name="NASS5" type="xs:integer" />
+        <xs:element name="NCODE6" type="xs:integer" />
+        <xs:element name="NASS6" type="xs:integer" />
+        <xs:element name="NCODE7" type="xs:integer" />
+        <xs:element name="NASS7" type="xs:integer" />
+        <xs:element name="NCODE8" type="xs:integer" />
+        <xs:element name="NASS8" type="xs:integer" />
+        <xs:element name="NCODE9" type="xs:integer" />
+        <xs:element name="NASS9" type="xs:integer" />
+        <xs:element name="NCODE10" type="xs:integer" />
+        <xs:element name="NASS10" type="xs:integer" />
+        <xs:element name="NASSTOT" type="xs:integer" />
+        <xs:element name="NEXCD1" type="xs:string" />
+        <xs:element name="NEXAM1" type="xs:integer" />
+        <xs:element name="NEXCD2" type="xs:string" />
+        <xs:element name="NEXAM2" type="xs:integer" />
+        <xs:element name="NEXCD3" type="xs:string" />
+        <xs:element name="NEXAM3" type="xs:integer" />
+        <xs:element name="NEXCD4" type="xs:string" />
+        <xs:element name="NEXAM4" type="xs:integer" />
+        <xs:element name="NEXCD5" type="xs:string" />
+        <xs:element name="NEXAM5" type="xs:integer" />
+        <xs:element name="NEXTOT" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

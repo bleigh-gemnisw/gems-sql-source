@@ -1,0 +1,69 @@
+Public Sub AddOneRecordP()
+    Dim sql As String = "
+        INSERT INTO TXBATCH (
+            JSTAT, [LIST#], [YEAR], TYPE, PAMT, IAMT, LAMT, TCAMT, CORC, DIST,
+            REFE, COMM, ADJCD, JSEQNO, JBATCH, JBTCHC, JBTCHT, JTCODE, JUCODE,
+            NAME, CASH, CHECK, CREDIT, ASOFD, CPENCD, CINTPD, JIY, JIM, JID,
+            JRY, JRM, JRD, SIMT, TMSP, TBL, ARC, MR, AD1, AD2, CY, SAT, ZI5, ZI4
+        ) VALUES (
+            @JSTAT, @LIST, @YEAR, @TYPE, @PAMT, @IAMT, @LAMT, @TCAMT, @CORC, @DIST,
+            @REFE, @COMM, @ADJCD, @JSEQNO, @JBATCH, @JBTCHC, @JBTCHT, @JTCODE, @JUCODE,
+            @NAME, @CASH, @CHECK, @CREDIT, @ASOFD, @CPENCD, @CINTPD, @JIY, @JIM, @JID,
+            @JRY, @JRM, @JRD, @SIMT, @TMSP, @TBL, @ARC, @MR, @AD1, @AD2, @CY, @SAT, @ZI5, @ZI4
+        )"
+
+    Using conn As New SqlConnection("YourConnectionStringHere")
+        Using cmd As New SqlCommand(sql, conn)
+            ' Map class/module-level variables to parameters
+            cmd.Parameters.AddWithValue("@JSTAT", _JSTAT)
+            cmd.Parameters.AddWithValue("@LIST", _LISTNo)
+            cmd.Parameters.AddWithValue("@YEAR", _YEAR)
+            cmd.Parameters.AddWithValue("@TYPE", _TYPE)
+            cmd.Parameters.AddWithValue("@PAMT", _PAMT)
+            cmd.Parameters.AddWithValue("@IAMT", _IAMT)
+            cmd.Parameters.AddWithValue("@LAMT", _LAMT)
+            cmd.Parameters.AddWithValue("@TCAMT", _TCAMT)
+            cmd.Parameters.AddWithValue("@CORC", _CORC)
+            cmd.Parameters.AddWithValue("@DIST", _DIST)
+            cmd.Parameters.AddWithValue("@REFE", _REFE)
+            cmd.Parameters.AddWithValue("@COMM", _COMM)
+            cmd.Parameters.AddWithValue("@ADJCD", _ADJCD)
+            cmd.Parameters.AddWithValue("@JSEQNO", _JSEQNO)
+            cmd.Parameters.AddWithValue("@JBATCH", _JBATCH)
+            cmd.Parameters.AddWithValue("@JBTCHC", _JBTCHC)
+            cmd.Parameters.AddWithValue("@JBTCHT", _JBTCHT)
+            cmd.Parameters.AddWithValue("@JTCODE", _JTCODE)
+            cmd.Parameters.AddWithValue("@JUCODE", _JUCODE)
+            cmd.Parameters.AddWithValue("@NAME", _NAME)
+            cmd.Parameters.AddWithValue("@CASH", _CASH)
+            cmd.Parameters.AddWithValue("@CHECK", _CHECK)
+            cmd.Parameters.AddWithValue("@CREDIT", _CREDIT)
+            cmd.Parameters.AddWithValue("@ASOFD", _ASOFD)
+            cmd.Parameters.AddWithValue("@CPENCD", _CPENCD)
+            cmd.Parameters.AddWithValue("@CINTPD", _CINTPD)
+            cmd.Parameters.AddWithValue("@JIY", _JIY)
+            cmd.Parameters.AddWithValue("@JIM", _JIM)
+            cmd.Parameters.AddWithValue("@JID", _JID)
+            cmd.Parameters.AddWithValue("@JRY", _JRY)
+            cmd.Parameters.AddWithValue("@JRM", _JRM)
+            cmd.Parameters.AddWithValue("@JRD", _JRD)
+            cmd.Parameters.AddWithValue("@SIMT", _SIMT)
+            cmd.Parameters.AddWithValue("@TMSP", _TMSP)
+            cmd.Parameters.AddWithValue("@TBL", _TBL)
+            cmd.Parameters.AddWithValue("@ARC", _ARC)
+            cmd.Parameters.AddWithValue("@MR", _MR)
+            cmd.Parameters.AddWithValue("@AD1", _AD1)
+            cmd.Parameters.AddWithValue("@AD2", _AD2)
+            cmd.Parameters.AddWithValue("@CY", _CY)
+            cmd.Parameters.AddWithValue("@SAT", _SAT)
+            cmd.Parameters.AddWithValue("@ZI5", _ZI5)
+            cmd.Parameters.AddWithValue("@ZI4", _ZI4)
+
+            Try
+                conn.Open()
+                cmd.ExecuteNonQuery()
+                MessageBox.Show("Record inserted successfully.")
+            Catch ex As Exception
+                MessageBox.Show("Insert error: " & ex.Message)
+            End Try
+        End Using

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TO110" targetNamespace="http://tempuri.org/TO110.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TO110.xsd" xmlns:mstns="http://tempuri.org/TO110.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="listno" type="xs:long" />
+        <xs:element name="type" type="xs:string" />
+        <xs:element name="typedesc" type="xs:string" />
+        <xs:element name="addr1" type="xs:string" />
+        <xs:element name="addr2" type="xs:string" />
+        <xs:element name="addr3" type="xs:string" />
+        <xs:element name="addr4" type="xs:string" />
+        <xs:element name="addr5" type="xs:string" />
+        <xs:element name="excd" type="xs:string" />
+        <xs:element name="exam" type="xs:integer" />
+        <xs:element name="revloss" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

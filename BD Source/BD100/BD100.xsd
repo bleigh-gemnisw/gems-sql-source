@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="BD100" targetNamespace="http://tempuri.org/BD100.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/BD100.xsd" xmlns:mstns="http://tempuri.org/BD100.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="BDRATE">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="type" type="xs:string" />
+<xs:element name="desc" type="xs:string" />
+<xs:element name="tier" type="xs:integer" />
+<xs:element name="rate" type="xs:decimal" />
+<xs:element name="per" type="xs:decimal" />
+<xs:element name="cert" type="xs:decimal" />
+<xs:element name="permit" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

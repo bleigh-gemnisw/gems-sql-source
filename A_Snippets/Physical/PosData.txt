@@ -1,0 +1,25 @@
+Public Function PosData(ByVal Fscyr As Integer, ByVal Ponbr As Integer, ByVal Posuf As Integer, _
+ ByVal Poseq As Integer, ByVal Rsqdg As Integer) As DataSet
+  Dim Conn As SqlConnection
+  Dim objCommand As SqlCommand
+  Dim ds As DataSet = New DataSet
+
+  StrSQL = "Select * from " & cFileName & " where FSCYR=" & Fscyr & " and PONBR=" & Ponbr & _
+   " and POSUF=" & Posuf & " and POSEQ=" & Poseq & " and RSQDG>=" & Rsqdg & _
+   " order by fscyr, ponbr, posuf, poseq or" & _
+   " Fscyr = " & Fscyr & " And Ponbr = " & Ponbr & " and POSUF=" & Posuf & _
+   " and POSEQ>" & Poseq & " order by fscyr, ponbr, posuf, poseq or " & _
+   " Fscyr = " & Fscyr & " And Ponbr = " & Ponbr & " and POSUF>" & Posuf & _
+   " order by fscyr, ponbr, posuf, poseq or " & _
+   " Fscyr = " & Fscyr & " And Ponbr > " & Ponbr & " order by fscyr, ponbr, posuf, poseq"
+  Conn = MyDBConn.Open
+  objCommand = New SqlCommand(StrSQL, Conn)
+
+  'Fill the dataset with the data
+  da = New SqlDataAdapter
+  da.SelectCommand = objCommand
+  da.Fill(ds, cFileName)
+  objCommand = Nothing
+  Conn.Close()
+  Return ds
+End Function

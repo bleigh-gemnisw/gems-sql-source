@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UB114" targetNamespace="http://tempuri.org/UB114.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/UB114.xsd" xmlns:mstns="http://tempuri.org/UB114.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ACCOUNT" type="xs:long" />
+        <xs:element name="METER" type="xs:string" />
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="READDATE" type="xs:dateTime" />
+        <xs:element name="READING" type="xs:long" />
+        <xs:element name="DIFFERENCE" type="xs:long" />
+        <xs:element name="REASON" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

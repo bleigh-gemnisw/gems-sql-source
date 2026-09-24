@@ -1,0 +1,12 @@
+select * from txinv where list#=123456
+
+update txinv set list#=654321 where list#=123456
+update txhst set list#=654321 where list#=123456
+update utcust set cuacct=654321 where cuacct=123456
+update utblhs set acct=654321 where acct=123456
+update utcustas set caacct=654321 where caacct=123456
+update utcustmt set cmacct=654321 where cmacct=123456
+update utcustmtd set cmacct=654321 where cmacct=123456
+update utcustrt set cracct=654321 where cracct=123456
+update utxref set cxacct=654321 where cxacct=123456
+update utcoea set list#=654321 where list#=123456

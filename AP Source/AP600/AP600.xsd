@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AP600" targetNamespace="http://tempuri.org/AP600.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/AP600.xsd" xmlns:mstns="http://tempuri.org/AP600.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="BCHNO" type="xs:integer" />
+        <xs:element name="INVNO" type="xs:string" />
+        <xs:element name="VNDNR" type="xs:string" />
+				<xs:element name="AMTPD" type="xs:decimal" />
+				<xs:element name="PPDT" type="xs:date" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

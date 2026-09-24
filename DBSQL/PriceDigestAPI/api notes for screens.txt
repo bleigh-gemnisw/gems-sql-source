@@ -1,0 +1,86 @@
+postman.com: mark@gemnisw.com then sign in with google
+https://pricedigestsapi.com/v1/verification/vin/{Vinno}
+https://pricedigestsapi.com/v1/values/value/?configurationId={configurationid}
+https://pricedigestsapi.com/v1/specs/basic/?configurationId={configurationid}
+under headers key is x-api-key and value is 3374f555f43d4a21961baab9a19a972d 
+
+example data:
+[{"modelId":279621,"modelName":"210","modelAliases":[]
+,"manufacturerId":76,"manufacturerName":"PETERBILT","manufacturerAliases":["ETERBILT","PACCAR","PB","Perterbilt","PET","Pete","PETERBIL","Peterbilt Trucks","PETERBUILT"],"classificationId":2,"classificationName":"Commercial Trucks","categoryId":74,"categoryName":"Heavy Duty Trucks","subtypeId":196,"subtypeName":"Cabover Cab and Chassis","sizeClassId":502,"sizeClassName":"7","sizeClassMin":26001,"sizeClassMax":33000,"sizeClassUom":"lbs","configurationId":905659,"vinModelNumber":"1H","modelYear":"2013","vinManufacturerCode":"3BP","vinYearCode":"D","shortVin":"45","cicCode":"PETE","brand":"PETERBILT"}]
+
+Values
+{
+    "modelId": 279621,
+    "modelName": "210",
+    "modelAliases": [],
+    "manufacturerId": 76,
+    "manufacturerName": "PETERBILT",
+    "manufacturerAliases": [
+        "ETERBILT",
+        "PACCAR",
+        "PB",
+        "Perterbilt",
+        "PET",
+        "Pete",
+        "PETERBIL",
+        "Peterbilt Trucks",
+        "PETERBUILT"
+    ],
+    "classificationId": 2,
+    "classificationName": "Commercial Trucks",
+    "categoryId": 74,
+    "categoryName": "Heavy Duty Trucks",
+    "subtypeId": 196,
+    "subtypeName": "Cabover Cab and Chassis",
+    "sizeClassId": 502,
+    "sizeClassName": "7",
+    "sizeClassMin": 26001,
+    "sizeClassMax": 33000,
+    "sizeClassUom": "lbs",
+    "modelYear": "2013",
+    "configurationId": 905659,
+    "revisionDate": "2024-10-01",
+    "MSRP": 75448,
+    "unadjustedLow": null,
+    "unadjustedHigh": null,
+    "unadjustedFinance": 38145,
+    "unadjustedRetail": 50860,
+    "unadjustedWholesale": 42214,
+    "unadjustedTradeIn": 43231
+}
+
+These are the field names that are returned from the API...
+
+modelId As Integer
+modelName As String
+modelAliases As IList
+manufacturerId As Integer
+manufacturerName As String
+manufacturerAliases As IList
+classificationId As Integer
+classificationName As String
+categoryId As Integer
+categoryName As String
+subtypeId As Integer
+subtypeName As String
+sizeClassId As Integer
+sizeClassName As String
+sizeClassMin As Integer
+sizeClassMax As Integer
+sizeClassUom As String
+configurationId As String
+vinModelNumber As String
+modelYear As String
+vinManufacturerCode As String
+vinYearCode As String
+shortVin As String
+cicCode As String
+brand As String
+revisionDate As String
+MSRP As Integer
+unadjustedLow As String
+unadjustedHigh As String
+unadjustedFinance As Integer
+unadjustedRetail As Integer
+unadjustedWholesale As Integer
+unadjustedTradeIn As Integer

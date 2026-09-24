@@ -1,0 +1,1 @@
+alter table TXDCPP ADD IRSBUS numeric(6,0) not NULL DEFAULT 0

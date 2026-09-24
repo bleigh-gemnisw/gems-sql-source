@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB212" targetNamespace="http://tempuri.org/UB212.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB212.xsd" xmlns:mstns="http://tempuri.org/UB212.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="SORTDATA" type="xs:string" />
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="LOCATION" type="xs:string" />
+<xs:element name="ZONE" type="xs:string" />
+<xs:element name="METERSIZE" type="xs:string" />
+<xs:element name="METERUSE" type="xs:long" />
+<xs:element name="UNITS" type="xs:decimal" />
+<xs:element name="EDUS" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

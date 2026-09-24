@@ -1,0 +1,143 @@
+delete from TosUtility..ar_adjustments
+delete from TosUtility..ar_all_bills
+delete from TosUtility..ar_bill_spec_cond
+delete from TosUtility..ar_charge
+delete from TosUtility..ar_charge_arcode
+delete from TosUtility..ar_charges_gl
+delete from TosUtility..ar_cust_addresses
+delete from TosUtility..ar_cust_other_name
+delete from TosUtility..ar_cust_spec_cond
+delete from TosUtility..ar_customer
+delete from TosUtility..ar_field_value
+delete from TosUtility..ar_history_detail
+delete from TosUtility..ar_history_gl
+delete from TosUtility..ar_history_header
+delete from TosUtility..ar_paymnt_method
+delete from TosUtility..ar_rcpt_proof_gl
+delete from TosUtility..ar_rcpt_proof_meth
+delete from TosUtility..ar_receipt_all
+delete from TosUtility..ar_receipt_proof
+delete from TosUtility..ar_spec_cond_codes
+delete from TosUtility..ar_unpd_bills
+delete from TosUtility..ar_web_payment
+delete from TosUtility..gl_char_codes
+delete from TosUtility..ub_bill_detail
+delete from TosUtility..ub_bill_header
+delete from TosUtility..ub_customer_addl
+delete from TosUtility..ub_customers
+delete from TosUtility..ut_ar_reference
+delete from TosUtility..utactcid
+delete from TosUtility..utactmst
+delete from TosUtility..utadjflt
+delete from TosUtility..utadjhdr
+delete from TosUtility..utadjmsc
+delete from TosUtility..utadjmtr
+delete from TosUtility..utadjsvc
+delete from TosUtility..utapcrdp
+delete from TosUtility..utarxref
+delete from TosUtility..utbildbs
+delete from TosUtility..utbilflt
+delete from TosUtility..utbilhdr
+delete from TosUtility..utbilmsc
+delete from TosUtility..utbilmtr
+delete from TosUtility..utbilper
+delete from TosUtility..utbilsvc
+delete from TosUtility..utcdtdef
+delete from TosUtility..utcharge
+delete from TosUtility..utciddoc
+delete from TosUtility..utcidsnd
+delete from TosUtility..utctldat
+delete from TosUtility..utctlfil
+delete from TosUtility..utcycles
+delete from TosUtility..uthistry
+delete from TosUtility..UtilityBillingAssigneeMigrationValues
+delete from TosUtility..UtilityBillingBackflowMigrationValues
+delete from TosUtility..UtilityBillingFlatItemCodeMigrationValues
+delete from TosUtility..UtilityBillingMeterMigrationValues
+delete from TosUtility..UtilityBillingMigrationValues
+delete from TosUtility..utmltmtr
+delete from TosUtility..utmtrchg
+delete from TosUtility..utmtrdtl
+delete from TosUtility..utmtrmst_table
+delete from TosUtility..utparame
+delete from TosUtility..utratedt
+delete from TosUtility..utratehd
+delete from TosUtility..utrunset
+delete from TosUtility..utsvccmf
+delete from TosUtility..utsvcimp
+delete from TosUtility..utsvcmst
+delete from TosUtility..utsvcmtr
+delete from TosUtility..utsvcper
+delete from TosUtility..utsvctrt
+insert into TosUtility..ar_adjustments select * from TosNew..ar_adjustments
+insert into TosUtility..ar_all_bills select * from TosNew..ar_all_bills
+insert into TosUtility..ar_bill_spec_cond select * from TosNew..ar_bill_spec_cond
+insert into TosUtility..ar_charge select * from TosNew..ar_charge
+insert into TosUtility..ar_charge_arcode select * from TosNew..ar_charge_arcode
+insert into TosUtility..ar_charges_gl select * from TosNew..ar_charges_gl
+insert into TosUtility..ar_cust_addresses select * from TosNew..ar_cust_addresses
+insert into TosUtility..ar_cust_other_name select * from TosNew..ar_cust_other_name
+insert into TosUtility..ar_cust_spec_cond select * from TosNew..ar_cust_spec_cond
+insert into TosUtility..ar_customer select * from TosNew..ar_customer
+insert into TosUtility..ar_field_value select * from TosNew..ar_field_value
+insert into TosUtility..ar_history_detail select * from TosNew..ar_history_detail
+insert into TosUtility..ar_history_gl select * from TosNew..ar_history_gl
+insert into TosUtility..ar_history_header select * from TosNew..ar_history_header
+insert into TosUtility..ar_paymnt_method select * from TosNew..ar_paymnt_method
+insert into TosUtility..ar_rcpt_proof_gl select * from TosNew..ar_rcpt_proof_gl
+insert into TosUtility..ar_rcpt_proof_meth select * from TosNew..ar_rcpt_proof_meth
+insert into TosUtility..ar_receipt_all select * from TosNew..ar_receipt_all
+insert into TosUtility..ar_receipt_proof select * from TosNew..ar_receipt_proof
+insert into TosUtility..ar_spec_cond_codes select * from TosNew..ar_spec_cond_codes
+insert into TosUtility..ar_unpd_bills select * from TosNew..ar_unpd_bills
+insert into TosUtility..ar_web_payment select * from TosNew..ar_web_payment
+insert into TosUtility..gl_char_codes select * from TosNew..gl_char_codes
+insert into TosUtility..ub_bill_detail select * from TosNew..ub_bill_detail
+insert into TosUtility..ub_bill_header select * from TosNew..ub_bill_header
+insert into TosUtility..ub_customer_addl select * from TosNew..ub_customer_addl
+insert into TosUtility..ub_customers select * from TosNew..ub_customers
+insert into TosUtility..ut_ar_reference select * from TosNew..ut_ar_reference
+insert into TosUtility..utactcid select * from TosNew..utactcid
+insert into TosUtility..utactmst select * from TosNew..utactmst
+insert into TosUtility..utadjflt select * from TosNew..utadjflt
+insert into TosUtility..utadjhdr select * from TosNew..utadjhdr
+insert into TosUtility..utadjmsc select * from TosNew..utadjmsc
+insert into TosUtility..utadjmtr select * from TosNew..utadjmtr
+insert into TosUtility..utadjsvc select * from TosNew..utadjsvc
+insert into TosUtility..utapcrdp select * from TosNew..utapcrdp
+insert into TosUtility..utarxref select * from TosNew..utarxref
+insert into TosUtility..utbildbs select * from TosNew..utbildbs
+insert into TosUtility..utbilflt select * from TosNew..utbilflt
+insert into TosUtility..utbilhdr select * from TosNew..utbilhdr
+insert into TosUtility..utbilmsc select * from TosNew..utbilmsc
+insert into TosUtility..utbilmtr select * from TosNew..utbilmtr
+insert into TosUtility..utbilper select * from TosNew..utbilper
+insert into TosUtility..utbilsvc select * from TosNew..utbilsvc
+insert into TosUtility..utcdtdef select * from TosNew..utcdtdef
+insert into TosUtility..utcharge select * from TosNew..utcharge
+insert into TosUtility..utciddoc select * from TosNew..utciddoc
+insert into TosUtility..utcidsnd select * from TosNew..utcidsnd
+insert into TosUtility..utctldat select * from TosNew..utctldat
+insert into TosUtility..utctlfil select * from TosNew..utctlfil
+insert into TosUtility..utcycles select * from TosNew..utcycles
+insert into TosUtility..uthistry select * from TosNew..uthistry
+insert into TosUtility..UtilityBillingAssigneeMigrationValues select * from TosNew..UtilityBillingAssigneeMigrationValues
+insert into TosUtility..UtilityBillingBackflowMigrationValues select * from TosNew..UtilityBillingBackflowMigrationValues
+insert into TosUtility..UtilityBillingFlatItemCodeMigrationValues select * from TosNew..UtilityBillingFlatItemCodeMigrationValues
+insert into TosUtility..UtilityBillingMeterMigrationValues select * from TosNew..UtilityBillingMeterMigrationValues
+insert into TosUtility..UtilityBillingMigrationValues select * from TosNew..UtilityBillingMigrationValues
+insert into TosUtility..utmltmtr select * from TosNew..utmltmtr
+insert into TosUtility..utmtrchg select * from TosNew..utmtrchg
+insert into TosUtility..utmtrdtl select * from TosNew..utmtrdtl
+insert into TosUtility..utmtrmst_table select * from TosNew..utmtrmst_table
+insert into TosUtility..utparame select * from TosNew..utparame
+insert into TosUtility..utratedt select * from TosNew..utratedt
+insert into TosUtility..utratehd select * from TosNew..utratehd
+insert into TosUtility..utrunset select * from TosNew..utrunset
+insert into TosUtility..utsvccmf select * from TosNew..utsvccmf
+insert into TosUtility..utsvcimp select * from TosNew..utsvcimp
+insert into TosUtility..utsvcmst select * from TosNew..utsvcmst
+insert into TosUtility..utsvcmtr select * from TosNew..utsvcmtr
+insert into TosUtility..utsvcper select * from TosNew..utsvcper
+insert into TosUtility..utsvctrt select * from TosNew..utsvctrt
+

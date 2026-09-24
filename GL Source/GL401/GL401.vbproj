@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2A9C6055-50D0-4DD7-8BAE-B1F96673A9DE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>GL401</RootNamespace>
+    <AssemblyName>GL401</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BCHHDR, Version=1.0.5149.14642, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="BCHHDRL1, Version=1.0.7339.18944, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\BCHHDRL1.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1TrueDBGrid.4.8, Version=4.8.20232.611, Culture=neutral, PublicKeyToken=75ae3fb0e2b1e0da, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="FNDSEC, Version=1.0.4848.20702, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GLACCT, Version=1.0.4930.12301, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GLEBCH, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\GLEBCH.dll</HintPath>
+    </Reference>
+    <Reference Include="GLEBCHL1, Version=1.0.7339.26884, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\GLEBCHL1.dll</HintPath>
+    </Reference>
+    <Reference Include="GLEDOBJ, Version=1.0.6100.22912, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\GLEDOBJ.dll</HintPath>
+    </Reference>
+    <Reference Include="GLFUND, Version=1.0.4727.28770, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GNET, Version=1.0.4727.28771, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GNETRIGHTS, Version=1.0.4727.28774, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\GNETRIGHTS.dll</HintPath>
+    </Reference>
+    <Reference Include="LEDGER, Version=1.0.4937.25592, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="LEDGERL1, Version=1.0.7499.21250, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\LEDGERL1.dll</HintPath>
+    </Reference>
+    <Reference Include="PRGLMAP, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\PRGLMAP.dll</HintPath>
+    </Reference>
+    <Reference Include="Splash, Version=1.0.5448.21748, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="SQLConnect, Version=1.0.7373.19652, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Gemssql\SQLConnect.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="TOWN, Version=1.0.4727.28808, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TOWN.dll</HintPath>
+    </Reference>
+    <Reference Include="Utils, Version=1.0.5448.21730, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\gemssql\Reports\PrtGL401.vb">
+      <Link>PrtGL401.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtGL401.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\..\..\gemssql\Reports\PrtGL401B.vb">
+      <Link>PrtGL401B.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtGL401B.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\..\..\gemssql\Reports\PrtGL401C.vb">
+      <Link>PrtGL401C.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtGL401C.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AppSettings.vb" />
+    <Compile Include="Common.vb" />
+    <Compile Include="FrmCr_PrtEdits.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDltBch.Designer.vb">
+      <DependentUpon>FrmDltBch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDltBch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGL401B_New.Designer.vb">
+      <DependentUpon>FrmGL401B_New.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGL401B_New.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGL401.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGL401B.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGL401C.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGL401D.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGL401B_Import.Designer.vb">
+      <DependentUpon>FrmGL401B_Import.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGL401B_Import.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListGLAcct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrinters.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrtLayout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GL401.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GL401.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ImportFile.vb" />
+    <Compile Include="Main.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="ParseCSV.vb" />
+    <Compile Include="PostBatch.vb" />
+    <Compile Include="PrintEdits.vb" />
+    <Compile Include="PrintLayout.vb" />
+    <Compile Include="ProcessBatch.vb" />
+    <Compile Include="security.vb" />
+    <Compile Include="Util.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <None Include="..\..\..\gemssql\Reports\PrtGL401.rpt">
+      <Link>PrtGL401.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtGL401.vb</LastGenOutput>
+    </None>
+    <None Include="..\..\..\gemssql\Reports\PrtGL401B.rpt">
+      <Link>PrtGL401B.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtGL401B.vb</LastGenOutput>
+    </None>
+    <None Include="..\..\..\gemssql\Reports\PrtGL401C.rpt">
+      <Link>PrtGL401C.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtGL401C.vb</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="FrmGL401B_New.resx">
+      <DependentUpon>FrmGL401B_New.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGL401B_Import.resx">
+      <DependentUpon>FrmGL401B_Import.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrinters.resx">
+      <DependentUpon>FrmPrinters.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrtLayout.resx">
+      <DependentUpon>FrmPrtLayout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCr_PrtEdits.resx">
+      <DependentUpon>FrmCr_PrtEdits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDltBch.resx">
+      <DependentUpon>FrmDltBch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGL401.resx">
+      <DependentUpon>FrmGL401.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGL401B.resx">
+      <DependentUpon>FrmGL401B.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGL401C.resx">
+      <DependentUpon>FrmGL401C.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGL401D.resx">
+      <DependentUpon>FrmGL401D.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListGLAcct.resx">
+      <DependentUpon>FrmListGLAcct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProgress.resx">
+      <DependentUpon>FrmProgress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GL401.gclicx" />
+    <None Include="GL401.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GL401.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Layout.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

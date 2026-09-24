@@ -1,0 +1,14 @@
+delete windtas..txdcpp where year>=2021
+delete windtas..txdcsum where year>=2021
+delete windtas..txdcexm where year>=2021
+delete windtas..txdcdtl where year>=2021
+delete windtas..txdcaff where year>=2021
+delete windtas..txdchor where year>=2021
+delete windtas..txdcmv where year>=2021
+insert into windtas..txdcpp select * from txdcpp where year>=2021 and year<=2023
+insert into windtas..txdcsum select * from txdcsum where year>=2021 and year<=2023
+insert into windtas..txdcexm select * from txdcexm where year>=2021 and year<=2023
+insert into windtas..txdcdtl select * from txdcdtl where year>=2021 and year<=2023
+insert into windtas..txdcaff select * from txdcaff where year>=2021 and year<=2023
+insert into windtas..txdchor select * from txdchor where year>=2021 and year<=2023
+insert into windtas..txdcmv select * from txdcmv where year>=2021 and year<=2023

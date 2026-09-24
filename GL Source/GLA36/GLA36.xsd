@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="GLA36" targetNamespace="http://tempuri.org/GLA36.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/GLA36.xsd" xmlns:mstns="http://tempuri.org/GLA36.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="MUNLED">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="code" type="xs:string" />
+				<xs:element name="orig" type="xs:string" />
+				<xs:element name="obj" type="xs:string" />
+        <xs:element name="desc" type="xs:string" />
+        <xs:element name="dbcr" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

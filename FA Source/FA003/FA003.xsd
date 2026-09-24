@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="FA003" targetNamespace="http://tempuri.org/FA003.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/FA003.xsd" xmlns:mstns="http://tempuri.org/FA003.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="FAASTYPE">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="ASCODE" type="xs:string" />
+<xs:element name="ASDESC" type="xs:string" />
+<xs:element name="ASTHLD" type="xs:integer" />
+<xs:element name="ASEYR" type="xs:integer" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB237Tot" targetNamespace="http://tempuri.org/UB237Tot.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB237Tot.xsd" xmlns:mstns="http://tempuri.org/UB237Tot.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable2">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="ttax" type="xs:decimal" />
+<xs:element name="ttax1" type="xs:decimal" />
+<xs:element name="ttax2" type="xs:decimal" />
+<xs:element name="taccts" type="xs:integer" />
+<xs:element name="tunpaidaccts" type="xs:integer" />
+<xs:element name="tunpaidbal" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,16 @@
+delete from FAAQUMT
+delete from FAASTYPE
+delete from FABLDG
+delete from FACAPT
+delete from FACLASS
+delete from FACMNTS
+delete from FACNTL
+delete from FADEPT
+delete from FADSPMT
+delete from FAEQUP
+delete from FAHIST
+delete from FAMSTR
+delete from FANEW
+delete from FAUSER1
+delete from FAUSER2
+delete from FAUSER3

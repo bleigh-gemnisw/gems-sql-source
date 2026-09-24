@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB103MT" targetNamespace="http://tempuri.org/UB103MT.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB103MT.xsd" xmlns:mstns="http://tempuri.org/UB103MT.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="utratemt">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="rmtype" type="xs:string" />
+<xs:element name="rmcode" type="xs:string" />
+<xs:element name="rmdesc" type="xs:string" />
+<xs:element name="rmtier" type="xs:integer" />
+<xs:element name="rmrate" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

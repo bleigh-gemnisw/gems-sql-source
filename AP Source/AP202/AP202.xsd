@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AP202" targetNamespace="http://tempuri.org/AP202.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/AP202.xsd" xmlns:mstns="http://tempuri.org/AP202.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="mytable">
+		<xs:complexType>
+			<xs:sequence>
+        <xs:element name="VSORT" type="xs:string" />
+        <xs:element name="VENDOR" type="xs:string" />
+        <xs:element name="VENDNAME" type="xs:string" />
+        <xs:element name="INVNO" type="xs:string" />
+        <xs:element name="INVDATE" type="xs:date" />
+        <xs:element name="DUEDATE" type="xs:date" />
+        <xs:element name="AMTGR" type="xs:decimal" />
+        <xs:element name="AMTOP" type="xs:decimal" />
+        <xs:element name="LSTPD" type="xs:string" />
+        <xs:element name="CHKPD" type="xs:integer" />
+        <xs:element name="PONBR" type="xs:integer" />
+        <xs:element name="PARTIAL" type="xs:string" />
+        <xs:element name="DESCR" type="xs:string" />
+        <xs:element name="RECNO" type="xs:integer" />
+        <xs:element name="ACCT" type="xs:string" />
+        <xs:element name="ACCTDESCR" type="xs:string" />
+      </xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

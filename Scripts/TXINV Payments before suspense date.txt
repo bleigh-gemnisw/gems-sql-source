@@ -1,0 +1,4 @@
+select txinv.list#,txinv.type,txinv.year,name,pamt,iamt,pcamt,pdate from txinv
+INNER JOIN TXhst ON TXINV.LIST# = TXhst.LIST# and TXINV.TYPE = TXhst.type and TXINV.year = TXhst.year
+where susdt>=20200701 and susdt<=20210630 and rcode<>'I' and txinv.year=2017 and pdate<20210610 and pdate>=20200701
+order by name, list#,type

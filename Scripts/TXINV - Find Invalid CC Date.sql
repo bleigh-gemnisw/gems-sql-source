@@ -1,0 +1,1 @@
+select * from txinv where isdate(cdate)=0 and cdate>0 and icode<>'I'

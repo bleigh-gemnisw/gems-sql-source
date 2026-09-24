@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TXE03" targetNamespace="http://tempuri.org/TXE03.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TXE03.xsd" xmlns:mstns="http://tempuri.org/TXR05.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="TYPE" type="xs:string" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="SNAME" type="xs:string" />
+<xs:element name="ADDRESS" type="xs:string" />
+<xs:element name="CITYST" type="xs:string" />
+<xs:element name="DESC" type="xs:string" />
+<xs:element name="TAXT" type="xs:double" />
+<xs:element name="PAID" type="xs:double" />
+<xs:element name="AMTDUE" type="xs:double" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

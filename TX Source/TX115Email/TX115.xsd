@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX115" targetNamespace="http://tempuri.org/TX115.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX115.xsd" xmlns:mstns="http://tempuri.org/TX115.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="TXTYPE">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="tycode" type="xs:string" />
+<xs:element name="tydesc" type="xs:string" />
+<xs:element name="txrev" type="xs:string" />
+<xs:element name="txfam" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

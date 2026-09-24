@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX210Tot" targetNamespace="http://tempuri.org/TX210Tot.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX210Tot.xsd" xmlns:mstns="http://tempuri.org/TX210Tot.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable2">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="tgross" type="xs:integer" />
+<xs:element name="texempt" type="xs:integer" />
+<xs:element name="tnet" type="xs:integer" />
+<xs:element name="ttax" type="xs:decimal" />
+<xs:element name="ttax1" type="xs:decimal" />
+<xs:element name="ttax2" type="xs:decimal" />
+<xs:element name="taccts" type="xs:integer" />
+<xs:element name="tunpaidaccts" type="xs:integer" />
+<xs:element name="tunpaidbal" type="xs:decimal" />
+<xs:element name="tsusaccts" type="xs:integer" />
+<xs:element name="tsustax" type="xs:decimal" />
+<xs:element name="bccgross" type="xs:integer" />
+<xs:element name="bccexempt" type="xs:integer" />
+<xs:element name="bccnet" type="xs:integer" />
+<xs:element name="bcctax" type="xs:decimal" />
+<xs:element name="bcctax1" type="xs:decimal" />
+<xs:element name="bcctax2" type="xs:decimal" />
+<xs:element name="ccgross" type="xs:integer" />
+<xs:element name="ccexempt" type="xs:integer" />
+<xs:element name="ccnet" type="xs:integer" />
+<xs:element name="cctax" type="xs:decimal" />
+<xs:element name="cctax1" type="xs:decimal" />
+<xs:element name="cctax2" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

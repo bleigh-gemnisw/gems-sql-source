@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TA102" targetNamespace="http://tempuri.org/TA102.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TA102.xsd" xmlns:mstns="http://tempuri.org/TA102.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="TXEXEM">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="TEXEM" type="xs:string" />
+<xs:element name="TDESC" type="xs:string" />
+<xs:element name="TFIXAM" type="xs:integer" />
+<xs:element name="TPERC" type="xs:decimal" />
+<xs:element name="TASS" type="xs:integer" />
+<xs:element name="TXSCD" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

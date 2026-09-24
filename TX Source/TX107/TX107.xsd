@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX107" targetNamespace="http://tempuri.org/TX107.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX107.xsd" xmlns:mstns="http://tempuri.org/TX107.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="TXBANKS">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="BKCODE" type="xs:string" />
+<xs:element name="BKNAME" type="xs:string" />
+<xs:element name="BKPRNT" type="xs:string" />
+<xs:element name="BKADD1" type="xs:string" />
+<xs:element name="BKADD2" type="xs:string" />
+<xs:element name="BKADD3" type="xs:string" />
+<xs:element name="BKCTY" type="xs:string" />
+<xs:element name="BKST" type="xs:string" />
+<xs:element name="ZIP9" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

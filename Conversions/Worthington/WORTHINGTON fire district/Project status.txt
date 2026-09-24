@@ -1,0 +1,20 @@
+6/20 Need to use payments csv that Ken Created to use for payments grand list year. 
+     Remove records using notepad to 12/31/2007 due to multiple line records in year 2006
+
+Access data base is loaded on the Clone with all worthingtons files
+TBD monthly bills
+
+testing:
+update txinv set bald=taxt,payrec=0
+
+Production:
+update txinv set bald=0 where year<=2021
+
+Locations/customer issues
+list# 1196 has 3 locations, each with different readings and meter sizes
+
+Misc charges written as fees 
+
+
+
+

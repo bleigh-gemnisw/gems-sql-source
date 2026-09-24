@@ -1,0 +1,8 @@
+file is located at c:\gemssql\settings\cnvkens.xml
+
+  <FileINV>C:\Gems Source SQL\Conversions\Kensington\Files\ubbl-b.csv</FileINV>
+  <FileHST>C:\Gems Source SQL\Conversions\Kensington\Files\ubbl-b.csv</FileHST>
+  <FileUT>C:\Gems Source SQL\Conversions\Kensington\Files\ubbl-h.csv</FileUT>
+  <FileUTMT>C:\Gems Source SQL\Conversions\Kensington\Files\ubbl-r.csv</FileUTMT>
+  <FileUTAS>C:\Gems Source SQL\Conversions\Kensington\Files\ubbl-h.csv</FileUTAS>
+  <FileTAXCOM>C:\Gems Source SQL\Conversions\Kensington\Files\ubbl-n.csv</FileTAXCOM>

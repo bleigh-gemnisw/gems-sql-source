@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB9C6047-3CA3-4F7B-AC24-BFD25F7E1A9E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>BD001</RootNamespace>
+    <AssemblyName>BD001</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\gemssql\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+  <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BDCNTL, Version=1.0.5974.25391, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\BDCNTL.dll</HintPath>
+    </Reference>
+    <Reference Include="BDCOM, Version=1.0.5743.15487, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\BDCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="BDCON, Version=1.0.5975.14837, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\BDCON.dll</HintPath>
+    </Reference>
+    <Reference Include="BDCONL1, Version=1.0.5974.25706, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\BDCONL1.dll</HintPath>
+    </Reference>
+    <Reference Include="BDENDRS, Version=1.0.5750.22249, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="BDMAST, Version=1.0.5739.21070, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="BDMASTL1, Version=1.0.5742.15119, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="BDMASTL2, Version=1.0.5743.16609, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="BDMASTL3, Version=1.0.5751.14610, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="BDMASTL4, Version=1.0.5918.23388, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\BDMASTL4.dll</HintPath>
+    </Reference>
+    <Reference Include="BDMASTLA, Version=1.0.7020.21964, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\BDMASTLA.dll</HintPath>
+    </Reference>
+    <Reference Include="BDMASTQ, Version=1.0.5996.18006, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\BDMASTQ.dll</HintPath>
+    </Reference>
+    <Reference Include="BDPAYCR, Version=1.0.6389.21870, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\BDPAYCR.dll</HintPath>
+    </Reference>
+    <Reference Include="BDRATE, Version=1.0.7020.14315, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\BDRATE.dll</HintPath>
+    </Reference>
+    <Reference Include="CASHINT, Version=1.0.5955.12906, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\CASHINT.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="SQLConnect, Version=1.0.7908.27175, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\SQLConnect.dll</HintPath>
+    </Reference>
+    <Reference Include="GNET, Version=1.0.6262.15279, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\GNET.dll</HintPath>
+    </Reference>
+    <Reference Include="GNETRIGHTS, Version=1.0.4727.28774, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\GNETRIGHTS.dll</HintPath>
+    </Reference>
+    <Reference Include="Splash, Version=1.0.5448.21748, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="TOWN, Version=1.0.4727.28808, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TOWN.dll</HintPath>
+    </Reference>
+    <Reference Include="TXINVLK, Version=1.0.4727.28851, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\gemssql\TXINVLK.dll</HintPath>
+    </Reference>
+    <Reference Include="TXREAL, Version=1.0.6281.17525, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TXREALL1, Version=1.0.4940.19264, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TXREALL2, Version=1.0.4940.19285, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Utils, Version=1.0.5585.14598, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\gemssql\037\Reports\PrtBD001.vb">
+      <Link>PrtBD001.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtBD001.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\..\..\gemssql\037\Reports\PrtBD001B.vb">
+      <Link>PrtBD001B.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtBD001B.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\..\..\gemssql\037\Reports\PrtBD001Demo.vb">
+      <Link>PrtBD001Demo.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtBD001Demo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="..\..\..\gemssql\037\Reports\PrtBD001PZ.vb">
+      <Link>PrtBD001PZ.vb</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrtBD001PZ.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AppSettings.vb" />
+    <Compile Include="BD001.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD001.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Common.vb" />
+    <Compile Include="Common2.vb" />
+    <Compile Include="FrmBD001App.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBD001B.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBD001C.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBD001CD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBD001CE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBD001CH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBD001CZ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBD001D.Designer.vb">
+      <DependentUpon>FrmBD001D.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBD001D.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListCon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListConLic.Designer.vb">
+      <DependentUpon>FrmListConLic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListConLic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListReal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListTypes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBD001.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWeb.Designer.vb">
+      <DependentUpon>FrmWeb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWeb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="PrintDirect.vb" />
+    <Compile Include="PrintForms.vb" />
+    <Compile Include="security.vb" />
+    <Compile Include="Util.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\gemssql\037\Reports\PrtBD001.rpt">
+      <Link>PrtBD001.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtBD001.vb</LastGenOutput>
+    </None>
+    <None Include="..\..\..\gemssql\037\Reports\PrtBD001B.rpt">
+      <Link>PrtBD001B.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtBD001B.vb</LastGenOutput>
+    </None>
+    <None Include="..\..\..\gemssql\037\Reports\PrtBD001Demo.rpt">
+      <Link>PrtBD001Demo.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtBD001Demo.vb</LastGenOutput>
+    </None>
+    <None Include="..\..\..\gemssql\037\Reports\PrtBD001PZ.rpt">
+      <Link>PrtBD001PZ.rpt</Link>
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrtBD001PZ.vb</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="FrmBD001App.resx">
+      <DependentUpon>FrmBD001App.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBD001B.resx">
+      <DependentUpon>FrmBD001B.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBD001C.resx">
+      <DependentUpon>FrmBD001C.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBD001CD.resx">
+      <DependentUpon>FrmBD001CD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBD001CE.resx">
+      <DependentUpon>FrmBD001CE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBD001CH.resx">
+      <DependentUpon>FrmBD001CH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBD001CZ.resx">
+      <DependentUpon>FrmBD001CZ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBD001D.resx">
+      <DependentUpon>FrmBD001D.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListCon.resx">
+      <DependentUpon>FrmListCon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListConLic.resx">
+      <DependentUpon>FrmListConLic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListReal.resx">
+      <DependentUpon>FrmListReal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListTypes.resx">
+      <DependentUpon>FrmListTypes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBD001.resx">
+      <DependentUpon>FrmBD001.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSettings.resx">
+      <DependentUpon>FrmSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWeb.resx">
+      <DependentUpon>FrmWeb.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="BD001.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD001.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

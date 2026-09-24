@@ -1,0 +1,15 @@
+SELECT 
+    a.list#,
+    a.value,
+    s.Totalvalue,
+	s.Totalvalue *.7 as net
+FROM txdcsum a
+JOIN (
+    SELECT 
+        list#,
+		year,
+        SUM(Value) AS TotalValue
+    FROM Txdcmv
+    GROUP BY list#,year
+) s
+    ON a.list# = s.list# and a.year=s.year where a.year=2025 and a.code=9

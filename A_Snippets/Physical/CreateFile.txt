@@ -1,0 +1,52 @@
+  Public Sub CreateFile()
+    Dim Conn As SqlConnection
+    Dim objCommand As SqlCommand
+    Dim Result As Integer
+
+    StrSQL = "CREATE TABLE [dbo].[" & cFileName & "](" &
+    "[BALFC] [char](1) Not NULL," &
+    "[TRTYP] [char](1) Not NULL," &
+    "[CBLCD] [char](1) Not NULL," &
+    "[GLTYP] [char](1) Not NULL," &
+    "[TRFTO] [char](1) Not NULL," &
+    "[FDNBR] [numeric](3, 0) Not NULL," &
+    "[DPNBR] [numeric](4, 0) Not NULL," &
+    "[OBNBR] [numeric](3, 0) Not NULL," &
+    "[FNPGM] [numeric](4, 0) Not NULL," &
+    "[DATED] [numeric](8, 0) Not NULL," &
+    "[FIL10] [numeric](10, 0) Not NULL," &
+    "[SRCDE] [decimal](3, 0) Not NULL," &
+    "[TRAMT] [decimal](11, 2) Not NULL," &
+    "[TDESC] [char](20) Not NULL," &
+    "[REFNO] [numeric](7, 0) Not NULL," &
+    "[ORIG] [decimal](11, 2) Not NULL," &
+    "[SUBFN] [numeric](4, 0) Not NULL," &
+    "[AUTOG] [char](1) Not NULL," &
+    "[FIL045] [char](43) Not NULL," &
+    "[BCHNO] [decimal](3, 0) Not NULL," &
+    "[TRNBR] [numeric](5, 0) Not NULL," &
+    "[JRNSQ] [numeric](4, 0) Not NULL," &
+    "[GLPST] [char](2) Not NULL," &
+    "[AMTYP] [char](1) Not NULL," &
+    "[INVNR] [char](30) Not NULL," &
+    "[SFUND] [numeric](3, 0) Not NULL," &
+    "[PRF] [char](10) Not NULL," &
+    "[ROCR] [char](1) Not NULL," &
+    "[PSTDT] [numeric](8, 0) Not NULL," &
+    "[TDATE] [numeric](8, 0) Not NULL," &
+    "[PONBR] [numeric](7, 0) Not NULL," &
+    "[CHKN] [numeric](7, 0) Not NULL," &
+    "[FSCYR] [numeric](4, 0) Not NULL," &
+    "[CNTRL] [numeric](1, 0) Not NULL," &
+    "[RECLS] [char](4) Not NULL" & ")"
+
+    Conn = MyDBConn.Open
+    objCommand = New SqlCommand(StrSQL, Conn)
+    Result = objCommand.ExecuteNonQuery()
+    objCommand = Nothing
+  End Sub
+  Public Sub OpenFile()
+    If OvrFile <> "" Then
+      cFileName = OvrFile
+    End If
+  End Sub

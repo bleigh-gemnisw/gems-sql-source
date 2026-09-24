@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="AR101" targetNamespace="http://tempuri.org/AR101.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/AR101.xsd" xmlns:mstns="http://tempuri.org/AR101.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="BCHNO" type="xs:integer" />
+<xs:element name="RECNO" type="xs:integer" />
+<xs:element name="GROUP" type="xs:string" />
+<xs:element name="TRNTYP" type="xs:string" />
+<xs:element name="GLTYP" type="xs:string" />
+<xs:element name="WRKDATE" type="xs:date" />
+<xs:element name="TRNDT" type="xs:integer" />
+<xs:element name="DEBIT" type="xs:decimal" />
+<xs:element name="CREDIT" type="xs:decimal" />
+<xs:element name="DESCR" type="xs:string" />
+<xs:element name="ACCT" type="xs:string" />
+<xs:element name="ACCTDESCR" type="xs:string" />
+<xs:element name="REFNO" type="xs:integer" />
+<xs:element name="ERRMSG" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

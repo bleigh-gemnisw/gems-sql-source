@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TAC01B" targetNamespace="http://tempuri.org/TAC01B.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TAC01B.xsd" xmlns:mstns="http://tempuri.org/TAC01B.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SORTDATA" type="xs:integer" />
+        <xs:element name="LISTNO" type="xs:integer" />
+        <xs:element name="CNAME" type="xs:string" />
+        <xs:element name="CLOCNO" type="xs:string" />
+        <xs:element name="CLOC" type="xs:string" />
+				<xs:element name="CADD1" type="xs:string" />
+				<xs:element name="CADD2" type="xs:string" />
+				<xs:element name="CMAP" type="xs:string" />
+        <xs:element name="CGROSS" type="xs:integer" />
+        <xs:element name="CNET" type="xs:integer" />
+        <xs:element name="CEXAM" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

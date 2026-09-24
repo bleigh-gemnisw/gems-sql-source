@@ -1,0 +1,7 @@
+INSERT INTO [dbo].[TXSUPCD] (SCOD, FILL1, SPCT, FILL3, SMON, SCRD)
+VALUES
+  ('K', '', 0.167, '', 'AUG', ''),  -- SCOD=K
+  ('L', '', 0.083, '', 'SEP', ''),  -- SCOD=L
+  ('X', '', 0.167, '', 'AUG', 'Y'), -- SCOD=X
+  ('Y', '', 0.083, '', 'SEP', 'Y'); -- SCOD=Y
+  

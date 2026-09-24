@@ -1,0 +1,24 @@
+1) Download file from FTP server in folder avon
+2) Run conversion program AvonRPM
+3) Backup gemsavon and restore on Avon server
+4) Replace RE, PP & MV assessor files (use script below)
+5) Run MV install with update only vehicles option
+
+Scripts:
+delete from txreal
+delete from txpprp
+delete from txmvd
+insert into txreal select * from transfer..txreal
+insert into txpprp select * from transfer..txpprp
+insert into txmvd select * from transfer..txmvd
+update txmvd set cat='2',excd1='',exam1=0 where excd1='PUT'
+
+Replace sewer flag from backup:
+update txreal set sewer=b.sewer from txreal as a left join txreal250203 as b on a.list#=b.list# where b.sewer<>''
+
+2/7/2026  Kim added 
+
+Once conversion is done (make sure to Archive the prior Year  TAd04)  
+that will put the Prior year in the assessor lookup)..
+then do the FREEZE  they will do before bills and BAA via Change of corrections)
+

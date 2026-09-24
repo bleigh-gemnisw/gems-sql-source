@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PRY10" targetNamespace="http://tempuri.org/PRY10.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/PRY10.xsd" xmlns:mstns="http://tempuri.org/PRY10.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="W2PRINT">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="W2YEAR" type="xs:integer" />
+				<xs:element name="WEMPNO" type="xs:integer" />
+				<xs:element name="WSSN"   type="xs:string" />
+				<xs:element name="WFEDID" type="xs:string" />
+				<xs:element name="WERNAM" type="xs:string" />
+				<xs:element name="WERAD1" type="xs:string" />
+				<xs:element name="WERAD2" type="xs:string" />
+				<xs:element name="WCNTRL" type="xs:integer" />
+				<xs:element name="WEMFNM" type="xs:string" />
+				<xs:element name="WEMLNM" type="xs:string" />
+				<xs:element name="WEMSUF" type="xs:string" />
+				<xs:element name="WEMAD1" type="xs:string" />
+				<xs:element name="WEMAD2" type="xs:string" />
+				<xs:element name="WEMAD3" type="xs:string" />
+				<xs:element name="WFITGR" type="xs:decimal" />
+				<xs:element name="WFITTX" type="xs:decimal" />
+				<xs:element name="WFICGR" type="xs:decimal" />
+				<xs:element name="WFICTX" type="xs:decimal" />
+				<xs:element name="WMEDGR" type="xs:decimal" />
+				<xs:element name="WMEDTX" type="xs:decimal" />
+				<xs:element name="WSSTIP" type="xs:decimal" />
+				<xs:element name="WALTIP" type="xs:decimal" />
+				<xs:element name="WDEPC" type="xs:decimal" />
+				<xs:element name="WNONQ" type="xs:integer" />
+				<xs:element name="WCD12A" type="xs:string" />
+				<xs:element name="WCD12B" type="xs:string" />
+				<xs:element name="WCD12C" type="xs:string" />
+				<xs:element name="WCD12D" type="xs:string" />
+				<xs:element name="WAM12A" type="xs:decimal" />
+				<xs:element name="WAM12B" type="xs:decimal" />
+				<xs:element name="WAM12C" type="xs:decimal" />
+				<xs:element name="WAM12D" type="xs:decimal" />
+				<xs:element name="WBX13A" type="xs:string" />
+				<xs:element name="WBX13B" type="xs:string" />
+				<xs:element name="WBX13C" type="xs:string" />
+				<xs:element name="WCD14A" type="xs:string" />
+				<xs:element name="WCD14B" type="xs:string" />
+				<xs:element name="WCD14C" type="xs:string" />
+				<xs:element name="WCD14D" type="xs:string" />
+				<xs:element name="WAM14A" type="xs:decimal" />
+				<xs:element name="WAM14B" type="xs:decimal" />
+				<xs:element name="WAM14C" type="xs:decimal" />
+				<xs:element name="WAM14D" type="xs:decimal" />
+				<xs:element name="WSTATC" type="xs:string" />
+				<xs:element name="WSTATN" type="xs:string" />
+				<xs:element name="WSTTAX" type="xs:decimal" />
+				<xs:element name="WLOGRS" type="xs:decimal" />
+				<xs:element name="WSTGRS" type="xs:decimal" />
+				<xs:element name="WLOTAX" type="xs:decimal" />
+				<xs:element name="WLONAM" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

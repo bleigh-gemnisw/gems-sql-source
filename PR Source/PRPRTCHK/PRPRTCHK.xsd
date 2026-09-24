@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PRPRTCHK" targetNamespace="http://tempuri.org/PRPRTCHK.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/PRPRTCHK.xsd" xmlns:mstns="http://tempuri.org/PRPRTCHK.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CHECKNO" type="xs:integer" />
+        <xs:element name="CHECKNOA" type="xs:string" />
+        <xs:element name="UNQCHECKNO" type="xs:string" />
+        <xs:element name="CHECKDT" type="xs:date" />
+        <xs:element name="PAYTYPE" type="xs:string" />
+        <xs:element name="EMPNO" type="xs:string" />
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="ADDR1" type="xs:string" />
+        <xs:element name="ADDR2" type="xs:string" />
+        <xs:element name="ADDR3" type="xs:string" />
+				<xs:element name="ADDR4" type="xs:string" />
+				<xs:element name="FLIPNAME" type="xs:string" />
+        <xs:element name="FUND" type="xs:integer" />
+        <xs:element name="DEPT" type="xs:integer" />
+        <xs:element name="GROSSPAY" type="xs:decimal" />
+        <xs:element name="NETPAY" type="xs:decimal" />
+				<xs:element name="NETPAYFILL" type="xs:string" />
+				<xs:element name="NETWORDS" type="xs:string" />
+				<xs:element name="NETWORDSFILL" type="xs:string" />
+				<xs:element name="YTDDED" type="xs:decimal" />
+        <xs:element name="YTDGRS" type="xs:decimal" />
+        <xs:element name="BNKAC" type="xs:string" />
+        <xs:element name="ACDES1" type="xs:string" />
+        <xs:element name="ACDES2" type="xs:string" />
+        <xs:element name="ACDES3" type="xs:string" />
+        <xs:element name="BNDES1" type="xs:string" />
+        <xs:element name="BNDES2" type="xs:string" />
+        <xs:element name="BNDES3" type="xs:string" />
+        <xs:element name="FRACT1" type="xs:string" />
+        <xs:element name="FRACT2" type="xs:string" />
+        <xs:element name="ROUT" type="xs:string" />
+        <xs:element name="SIG1" type="xs:string" />
+        <xs:element name="SIG2" type="xs:string" />
+        <xs:element name="SIG3" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+    <xs:key name="mytableKey1">
+      <xs:selector xpath="." />
+      <xs:field xpath="mstns:CHECKNO" />
+    </xs:key>
+  </xs:element>
+  <xs:element name="mytable2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CHECKNO" type="xs:integer" />
+        <xs:element name="EHOURS" type="xs:decimal" />
+        <xs:element name="EDESC" type="xs:string" />
+        <xs:element name="EAMT" type="xs:decimal" />
+        <xs:element name="EYTD" type="xs:decimal" />
+        <xs:element name="DDESC" type="xs:string" />
+        <xs:element name="DAMT" type="xs:decimal" />
+        <xs:element name="DYTD" type="xs:decimal" />
+        <xs:element name="ACODE" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+    <xs:keyref name="MyRelation" refer="mytableKey1">
+      <xs:selector xpath="." />
+      <xs:field xpath="mstns:CHECKNO" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

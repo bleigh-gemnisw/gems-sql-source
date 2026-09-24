@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema id="TO120" 
+                  targetNamespace="http://tempuri.org/TO120.xsd"
+                  elementFormDefault="qualified"
+                  xmlns="http://tempuri.org/TO120.xsd"
+                  xmlns:mstns="http://tempuri.org/TO120.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="LISTNO" type="xs:integer" />
+        <xs:element name="TYPE" type="xs:string" />
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="CODE" type="xs:string" />
+        <xs:element name="EXAM" type="xs:decimal" />
+        <xs:element name="GROUP" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

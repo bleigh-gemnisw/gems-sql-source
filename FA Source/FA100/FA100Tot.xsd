@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="FA100Tot" targetNamespace="http://tempuri.org/FA100Tot.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/FA100Tot.xsd" xmlns:mstns="http://tempuri.org/FA100Tot.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable2">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="GROUPID" type="xs:string" />
+<xs:element name="TACQVAL" type="xs:integer" />
+<xs:element name="TACQCOUNT" type="xs:integer" />
+<xs:element name="TDSPVAL" type="xs:integer" />
+<xs:element name="TDSPCOUNT" type="xs:integer" />
+<xs:element name="TDEPRVAL" type="xs:integer" />
+<xs:element name="TNETVAL" type="xs:integer" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,1 @@
+alter login gemsmans with password='gemsman' unlock

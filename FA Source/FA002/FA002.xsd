@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="FA002" targetNamespace="http://tempuri.org/FA002.xsd" elementFormDefault="qualified"
+	xmlns="http://tempuri.org/FA002.xsd" xmlns:mstns="http://tempuri.org/FA002.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="FAAQUMT">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="AQCODE" type="xs:string" />
+				<xs:element name="AQDESC" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

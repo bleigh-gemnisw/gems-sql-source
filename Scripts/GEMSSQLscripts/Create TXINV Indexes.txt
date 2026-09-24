@@ -1,0 +1,65 @@
+CREATE NONCLUSTERED INDEX Creg_NameListYearType
+ON dbo.TXINV (name, list#, year, type)
+INCLUDE (
+sname, ccno, taxt, ccetax, payrec, newpay, bald, icode
+);
+
+CREATE NONCLUSTERED INDEX Creg_SNameListYearType
+ON dbo.TXINV (sname, list#, year, type)
+INCLUDE (
+name, ccno, taxt, ccetax, payrec, newpay, bald, icode
+);
+
+CREATE NONCLUSTERED INDEX Creg_NameSNameListYearType
+ON dbo.TXINV (name, list#, year, type)
+INCLUDE (sname, ccno, taxt, ccetax, payrec, newpay, bald, icode);
+
+CREATE NONCLUSTERED INDEX Creg_LocLocTypeYearList
+ON dbo.TXINV (loc, loc#, type, year, list#)
+INCLUDE (
+ccno, taxt, ccetax, payrec, newpay, bald, icode
+);
+
+CREATE NONCLUSTERED INDEX Creg_ImvregYearType
+ON dbo.TXINV (imvreg, year, type)
+INCLUDE (
+name, list#, ccno, taxt, ccetax, payrec, newpay, bald, icode
+);
+
+CREATE NONCLUSTERED INDEX Creg_ImvidYearType
+ON dbo.TXINV ([imvid#], year, type)
+INCLUDE (
+name, list#, ccno, taxt, ccetax, payrec, newpay, bald, icode
+);
+
+CREATE NONCLUSTERED INDEX Creg_SS
+ON dbo.TXINV ([ss#])
+INCLUDE (
+name, list#, type, year, ccno, taxt, ccetax, payrec, newpay, bald, icode
+);
+
+CREATE NONCLUSTERED INDEX Creg_SS2
+ON dbo.TXINV (ss2)
+INCLUDE (
+name, list#, type, year, ccno, taxt, ccetax, payrec, newpay, bald, icode
+);
+
+CREATE NONCLUSTERED INDEX Creg_SSBasic
+ON dbo.TXINV (ss#)
+INCLUDE (
+ss2, name, list#, type, year, ccno, taxt, ccetax, payrec, newpay, bald, icode
+);
+
+CREATE NONCLUSTERED INDEX Creg_DOBName
+ON dbo.TXINV (dob, name)
+INCLUDE (
+imvreg, list#, type, year, ccno, taxt, ccetax, payrec, newpay, bald, icode
+);
+
+CREATE NONCLUSTERED INDEX [IX_TXINV_MVFLAG]
+ON [dbo].[TXINV] ([MVFLAG])
+INCLUDE ([LIST#],[TYPE],[YEAR],[NAME],[ADD1],[NEWPAY],[DOB],[SS#],[SS2])
+
+CREATE NONCLUSTERED INDEX [IX_TXINV_TypeSSYear]
+ON [dbo].[TXINV] ([TYPE],[SS#],[YEAR])
+GO

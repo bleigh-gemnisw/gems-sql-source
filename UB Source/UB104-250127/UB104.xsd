@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB104" targetNamespace="http://tempuri.org/UB104.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB104.xsd" xmlns:mstns="http://tempuri.org/UB104.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="UTMETER">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="mttype" type="xs:string" />
+<xs:element name="mtsize" type="xs:string" />
+<xs:element name="mtdesc" type="xs:string" />
+<xs:element name="mtmin" type="xs:decimal" />
+<xs:element name="mtminc" type="xs:string" />
+<xs:element name="mtedu" type="xs:decimal" />
+<xs:element name="mtblcd" type="xs:string" />
+<xs:element name="mtmult" type="xs:integer" />
+<xs:element name="mtpct" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

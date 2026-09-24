@@ -1,0 +1,52 @@
+
+-- Step 1: Declare variables to store the constraint name and default value
+IF OBJECT_ID('tempdb..#TempVariables') IS NOT NULL DROP TABLE #TempVariables;
+CREATE TABLE #TempVariables (ConstraintName NVARCHAR(255), DefaultValue NVARCHAR(MAX));
+-- Step 2: Identify if a default constraint exists on the CDESC column
+INSERT INTO #TempVariables (ConstraintName, DefaultValue)
+SELECT 
+    dc.name AS ConstraintName,
+    dc.definition AS DefaultValue
+FROM sys.default_constraints dc
+INNER JOIN sys.columns c
+    ON c.object_id = dc.parent_object_id
+    AND c.column_id = dc.parent_column_id
+WHERE dc.parent_object_id = OBJECT_ID('txcoea')
+  AND c.name = 'CDESC';
+-- Step 3: Drop the default constraint if it exists
+DECLARE @ConstraintName NVARCHAR(255);
+DECLARE @DefaultValue NVARCHAR(MAX);
+
+SELECT TOP 1 @ConstraintName = ConstraintName, @DefaultValue = DefaultValue FROM #TempVariables;
+
+IF @ConstraintName IS NOT NULL
+BEGIN
+    EXEC('ALTER TABLE txcoea DROP CONSTRAINT ' + @ConstraintName);
+    PRINT 'Default constraint dropped: ' + @ConstraintName;
+END
+ELSE
+BEGIN
+    PRINT 'No default constraint found for the column [CDESC].';
+END
+
+-- Step 4: Alter the column size to CHAR(50) and set it to NOT NULL
+ALTER TABLE txcoea
+ALTER COLUMN [CDESC] CHAR(50) NOT NULL;
+
+-- Step 5: Reapply the default constraint (if it was found)
+IF @DefaultValue IS NOT NULL
+BEGIN
+    DECLARE @AddConstraintSQL NVARCHAR(MAX);
+    SET @AddConstraintSQL = 'ALTER TABLE txcoea ADD CONSTRAINT DF_txcoea_CDESC DEFAULT ' + @DefaultValue + ' FOR [CDESC];';
+    EXEC(@AddConstraintSQL);
+    PRINT 'Default constraint re-added with value: ' + @DefaultValue;
+END
+ELSE
+BEGIN
+    PRINT 'No default value to reapply.';
+END
+
+PRINT 'Column size successfully updated to CHAR(50) NOT NULL.';
+
+ 
+

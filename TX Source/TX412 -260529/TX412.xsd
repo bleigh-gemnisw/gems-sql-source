@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TX412" targetNamespace="http://tempuri.org/TX412.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TX412.xsd" xmlns:mstns="http://tempuri.org/TX412.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CLASS" type="xs:integer" />
+        <xs:element name="REGNO" type="xs:string" />
+        <xs:element name="TOWN" type="xs:integer" />
+        <xs:element name="NAME" type="xs:string" />
+        <xs:element name="OADDRCITYST" type="xs:string" />
+        <xs:element name="NADDRCITYST" type="xs:string" />
+        <xs:element name="CHGDESC" type="xs:string" />
+        <xs:element name="MVDLIST" type="xs:integer" />
+        <xs:element name="MVDNAME" type="xs:string" />
+        <xs:element name="ERRORMSG" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

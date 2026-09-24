@@ -1,0 +1,1 @@
+update txinv set txidt=20191227 from txinv left join txhst on txhst.list#=txinv.list# and txhst.type=txinv.type and txhst.year=txinv.year where batchn=879 and pdate=20191227 and txinv.txidt=20200102

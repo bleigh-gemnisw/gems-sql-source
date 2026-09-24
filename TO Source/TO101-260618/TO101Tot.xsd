@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<xs:schema id="TO101Tot" 
+                  targetNamespace="http://tempuri.org/TO101Tot.xsd"
+                  elementFormDefault="qualified"
+                  xmlns="http://tempuri.org/TO101Tot.xsd"
+                  xmlns:mstns="http://tempuri.org/TO101Tot.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytabletot">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="totre" type="xs:long" />
+        <xs:element name="totmv" type="xs:long" />
+        <xs:element name="totpp" type="xs:long" />
+        <xs:element name="tot" type="xs:long" />
+				<xs:element name="totexphasein" type="xs:integer" />
+				<xs:element name="totexre" type="xs:integer" />
+        <xs:element name="totexmv" type="xs:integer" />
+        <xs:element name="totexpp" type="xs:integer" />
+        <xs:element name="totex" type="xs:integer" />
+        <xs:element name="totgrand" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

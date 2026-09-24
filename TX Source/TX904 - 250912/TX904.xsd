@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TX904" targetNamespace="http://tempuri.org/TX904.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TX904.xsd" xmlns:mstns="http://tempuri.org/TX904.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="mytable">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="LISTNO" type="xs:integer" />
+				<xs:element name="YEAR" type="xs:integer" />
+				<xs:element name="TYPE" type="xs:integer" />
+				<xs:element name="NAME" type="xs:string" />
+				<xs:element name="PRIN" type="xs:decimal" />
+				<xs:element name="INT" type="xs:decimal" />
+				<xs:element name="FEE" type="xs:decimal" />
+				<xs:element name="LIEN" type="xs:decimal" />
+				<xs:element name="TOTAL" type="xs:decimal" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

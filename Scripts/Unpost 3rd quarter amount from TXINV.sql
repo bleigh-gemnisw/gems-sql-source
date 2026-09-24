@@ -1,0 +1,1 @@
+update txinv set bald=bald-tx3rd,tx3rd=0 where year=2025 and type in ('S','W') and tx3rd>0

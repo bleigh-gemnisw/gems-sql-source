@@ -1,0 +1,7 @@
+Dim drSel() As DataRow
+Dim WrkSelect As String
+
+WrkSelect = "pcust=" & ._SS2
+drSel = ds.Tables(0).Select(WrkSelect)
+If drSel.GetUpperBound(0) = -1 Then 'Not Found
+End If

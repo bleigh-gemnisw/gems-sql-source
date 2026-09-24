@@ -1,0 +1,32 @@
+  Public Sub InsertOneRecordP()
+  Dim Conn As SqlConnection
+  Dim objCommand As SqlCommand
+  Const caa As String = "','" 'Alpha Before/Alpha After
+  Const can As String = "'," 'Alpha Before/Numeric After
+  Const cna As String = ",'" 'Numeric Before/Alpha After
+  Const cnn As String = "," 'Numeric Before/Numeric After
+
+    StrSQL = "Insert into " & cFileName & "(AMTYP, AUTOG, BALFC, BCHNO,  CBLCD, " &
+   "CHKN, CNTRL, DATED, DPNBR, FDNBR, FIL10, FIL045, FNPGM, " &
+   "FSCYR, GLPST, GLTYP, INVNR, JRNSQ, OBNBR, " &
+   "ORIG, PONBR, PRF, PSTDT, RECLS, REFNO, " &
+   "ROCR, SFUND, SRCDE, SUBFN, TDATE, TDESC, " &
+   "TRAMT, TRFTO, TRNBR, TRTYP)" &
+   " values('" & _AMTYP & caa & _AUTOG & caa & _BALFC & can & _BCHNO & cna & _CBLCD & can &
+   _CHKN & cnn & _CNTRL & cnn & _DATED & cnn & _DPNBR & cnn & _FDNBR & cnn & _FIL10 & cna & _FIL045 & can & _FNPGM & cnn &
+   _FSCYR & cna & _GLPST & caa & _GLTYP & caa & _INVNR & can & _JRNSQ & cnn & _OBNBR & cnn &
+   _ORIG & cnn & _PONBR & cna & _PRF & can & _PSTDT & cna & _RECLS & can & _REFNO & cna &
+   _ROCR & can & _SFUND & cnn & _SRCDE & cnn & _SUBFN & cnn & _TDATE & cna & _TDESC & can &
+   _TRAMT & cna & _TRFTO & can & _TRNBR & cna & _TRTYP & "')"
+    Try
+    Conn = MyDBConn.Open
+    objCommand = New SqlCommand(StrSQL, Conn)
+    da = New SqlDataAdapter
+    da.InsertCommand = objCommand
+    da.InsertCommand.ExecuteNonQuery()
+    objCommand = Nothing
+    Conn.Close()
+  Catch ex As Exception
+    ErrMsg = ex.ToString()
+  End Try
+End Sub

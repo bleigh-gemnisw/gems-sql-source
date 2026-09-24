@@ -1,0 +1,43 @@
+IF OBJECT_ID('zTemp') IS NOT NULL DROP TABLE zTemp
+CREATE TABLE zTemp (ConstraintName NVARCHAR(255), DefaultValue NVARCHAR(MAX))
+DECLARE @table NVARCHAR(512), @sql NVARCHAR(MAX)
+SELECT @table = N'utmeter'
+
+INSERT INTO zTemp (ConstraintName, DefaultValue)
+SELECT 
+    dc.name AS ConstraintName,
+    dc.definition AS DefaultValue
+FROM sys.default_constraints dc
+INNER JOIN sys.columns c
+    ON c.object_id = dc.parent_object_id
+    AND c.column_id = dc.parent_column_id
+WHERE dc.parent_object_id = OBJECT_ID(@table)
+  AND c.name = 'MTSIZE'
+
+DECLARE @ConstraintName NVARCHAR(255)
+DECLARE @DefaultValue NVARCHAR(MAX)
+
+SELECT TOP 1 @ConstraintName = ConstraintName, @DefaultValue = DefaultValue FROM zTemp
+
+IF @ConstraintName IS NOT NULL
+BEGIN
+    EXEC('ALTER TABLE ' + @table + ' DROP CONSTRAINT ' + @ConstraintName)
+END
+
+SELECT @sql = 'ALTER TABLE ' + @table 
+    + ' DROP CONSTRAINT ' + name + ';'
+    FROM sys.key_constraints
+    WHERE [type] = 'PK'
+    AND [parent_object_id] = OBJECT_ID(@table)
+
+EXEC sp_executeSQL @sql
+
+DROP INDEX ASNA_KEY_UTMETER ON UTMETER
+
+ALTER TABLE utmeter ALTER COLUMN [MTSIZE] CHAR(3) NOT NULL
+go
+
+alter table UTMETER add primary key (MTTYPE,MTSIZE)
+go
+
+DROP TABLE zTemp

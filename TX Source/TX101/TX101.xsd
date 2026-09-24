@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX101" targetNamespace="http://tempuri.org/TX101.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX101.xsd" xmlns:mstns="http://tempuri.org/TX101.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="TXPROF">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="prtype" type="xs:string" />
+<xs:element name="pryear" type="xs:decimal" />
+<xs:element name="prperd" type="xs:decimal" />
+<xs:element name="prdue1" type="xs:integer" />
+<xs:element name="prdue2" type="xs:integer" />
+<xs:element name="prdue3" type="xs:integer" />
+<xs:element name="prdue4" type="xs:integer" />
+<xs:element name="print" type="xs:decimal" />
+<xs:element name="prmini" type="xs:decimal" />
+<xs:element name="prpeni" type="xs:decimal" />
+<xs:element name="prsbil" type="xs:decimal" />
+<xs:element name="prwav" type="xs:decimal" />
+<xs:element name="prpayc" type="xs:string" />
+<xs:element name="prlien" type="xs:decimal" />
+<xs:element name="prgrd1" type="xs:integer" />
+<xs:element name="prgrd2" type="xs:integer" />
+<xs:element name="prgrd3" type="xs:integer" />
+<xs:element name="prgrd4" type="xs:integer" />
+<xs:element name="posted" type="xs:string" />
+<xs:element name="phs" type="xs:string" />
+<xs:element name="dist" type="xs:integer" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

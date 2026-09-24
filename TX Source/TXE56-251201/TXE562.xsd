@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TXE562" targetNamespace="http://tempuri.org/TXE562.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TXE562.xsd" xmlns:mstns="http://tempuri.org/TXE562.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable2">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="YEAR" type="xs:integer" />
+<xs:element name="TYPE" type="xs:string" />
+<xs:element name="PAID" type="xs:decimal" />
+<xs:element name="INTEREST" type="xs:decimal" />
+<xs:element name="LIENS" type="xs:decimal" />
+<xs:element name="FEES" type="xs:decimal" />
+<xs:element name="BOND" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

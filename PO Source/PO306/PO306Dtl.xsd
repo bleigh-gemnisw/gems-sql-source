@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PO306DTL" targetNamespace="http://tempuri.org/PO306DTL.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/PO306DTL.xsd" xmlns:mstns="http://tempuri.org/PO306DTL.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="FSCYR" type="xs:integer" />
+        <xs:element name="PONBR" type="xs:integer" />
+				<xs:element name="RENTD" type="xs:date" />
+        <xs:element name="VNDNR" type="xs:string" />
+        <xs:element name="SNAME" type="xs:string" />
+        <xs:element name="SADR1" type="xs:string" />
+        <xs:element name="SADR2" type="xs:string" />
+        <xs:element name="SADR3" type="xs:string" />
+        <xs:element name="SADR4" type="xs:string" />
+        <xs:element name="RNAME" type="xs:string" />
+        <xs:element name="RADR1" type="xs:string" />
+        <xs:element name="RADR2" type="xs:string" />
+        <xs:element name="RADR3" type="xs:string" />
+        <xs:element name="RADR4" type="xs:string" />
+        <xs:element name="TOTVL" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+    <xs:key name="mytableKey1">
+      <xs:selector xpath="." />
+      <xs:field xpath="mstns:FSCYR" />
+      <xs:field xpath="mstns:PONBR" />
+    </xs:key>
+  </xs:element>
+  <xs:element name="mytable2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="RPTGRP" type="xs:string" />
+        <xs:element name="FSCYR" type="xs:integer" />
+        <xs:element name="PONBR" type="xs:integer" />
+        <xs:element name="POSEQ" type="xs:integer" />
+        <xs:element name="RQQTY" type="xs:decimal" />
+        <xs:element name="UNITP" type="xs:decimal" />
+        <xs:element name="ITDSC" type="xs:string" />
+        <xs:element name="ACCTNO" type="xs:string" />
+        <xs:element name="EXVAL" type="xs:decimal" />
+        <xs:element name="CHKDT" type="xs:string" />
+        <xs:element name="INVDT" type="xs:string" />
+        <xs:element name="CHKPD" type="xs:integer" />
+        <xs:element name="INVNO" type="xs:string" />
+        <xs:element name="AMTNT" type="xs:decimal" />
+        <xs:element name="AVOID" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+    <xs:keyref name="MyRelation" refer="mytableKey1">
+      <xs:selector xpath="." />
+      <xs:field xpath="mstns:FSCYR" />
+      <xs:field xpath="mstns:PONBR" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

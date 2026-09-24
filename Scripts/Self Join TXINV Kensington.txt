@@ -1,0 +1,5 @@
+select * from txinv as a,txinv as b where a.year=2025 and a.bald<0 and a.type='S' and a.list#=b.list# and
+ b.type='W' and b.year=2025 and b.bald>0
+
+ select * from txinv as a,txinv as b where a.year=2025 and a.bald<0 and a.type='W' and a.list#=b.list# and
+ b.type='S' and b.year=2025 and b.bald>0

@@ -1,0 +1,76 @@
+select * into MRBCHDcode2 from mrbchd
+select * into MRCODEcode2 from mrcode
+select * into MRHSTcode2 from mrhst
+drop table mrbchd
+drop table mrcode
+drop table mrhst
+
+/****** Object:  Table [dbo].[MRBCHD]    Script Date: 3/6/2023 9:40:30 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[MRBCHD](
+	[BCHNO] [numeric](5, 0) NOT NULL,
+	[CODE] [char](3) NOT NULL,
+	[CASH] [decimal](11, 2) NOT NULL,
+	[CHECK] [decimal](11, 2) NOT NULL,
+	[TOTAL] [decimal](11, 2) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[BCHNO] ASC,
+	[CODE] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+SET ANSI_PADDING ON
+GO
+
+ALTER TABLE [dbo].[MRBCHD] ADD  DEFAULT ((0)) FOR [BCHNO]
+GO
+
+ALTER TABLE [dbo].[MRBCHD] ADD  DEFAULT ('') FOR [CODE]
+GO
+
+ALTER TABLE [dbo].[MRBCHD] ADD  DEFAULT ((0)) FOR [CASH]
+GO
+
+ALTER TABLE [dbo].[MRBCHD] ADD  DEFAULT ((0)) FOR [CHECK]
+GO
+
+ALTER TABLE [dbo].[MRBCHD] ADD  DEFAULT ((0)) FOR [TOTAL]
+GO
+
+CREATE TABLE [dbo].[MRCODE](
+	[CODE] [char](3) NOT NULL,
+	[DESCR] [char](25) NOT NULL,
+	[ACCT] [char](20) NOT NULL
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[MRHST](
+	[STATUS] [char](1) NOT NULL,
+	[BCHNO] [numeric](5, 0) NOT NULL,
+	[DESCR] [char](25) NOT NULL,
+	[RECDT] [numeric](8, 0) NOT NULL,
+	[STRDT] [numeric](8, 0) NOT NULL,
+	[ENDDT] [numeric](8, 0) NOT NULL,
+	[CODE] [char](3) NOT NULL,
+	[CASH] [decimal](11, 2) NOT NULL,
+	[CHECK] [decimal](11, 2) NOT NULL,
+	[TOTAL] [decimal](11, 2) NOT NULL,
+	[PRF] [char](10) NOT NULL,
+	[CHDATE] [numeric](8, 0) NOT NULL,
+	[CHTIME] [numeric](6, 0) NOT NULL
+) ON [PRIMARY]
+GO
+
+alter table MRCODE add primary key (CODE)
+alter table MRHST add primary key (BCHNO,CODE,CHDATE)
+
+insert into mrbchd select * from mrbchdcode2
+insert into mrcode select * from mrcodecode2
+insert into mrhst select * from mrhstcode2

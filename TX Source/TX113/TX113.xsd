@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="TX113" targetNamespace="http://tempuri.org/TX113.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/TX113.xsd" xmlns:mstns="http://tempuri.org/TX113.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="TXFMSTMT">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="type" type="xs:string" />
+<xs:element name="payto" type="xs:string" />
+<xs:element name="line1" type="xs:string" />
+<xs:element name="line2" type="xs:string" />
+<xs:element name="line3" type="xs:string" />
+<xs:element name="line4" type="xs:string" />
+<xs:element name="line5" type="xs:string" />
+<xs:element name="title" type="xs:string" />
+<xs:element name="signed" type="xs:string" />
+<xs:element name="clerk" type="xs:string" />
+<xs:element name="twname" type="xs:string" />
+<xs:element name="state" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

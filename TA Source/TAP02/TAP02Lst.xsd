@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TAP02" targetNamespace="http://tempuri.org/TAP02.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TAP02.xsd" xmlns:mstns="http://tempuri.org/TAP02.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="mytable">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="listno" type="xs:integer" />
+				<xs:element name="name" type="xs:string" />
+				<xs:element name="descr" type="xs:string" />
+				<xs:element name="acqdt" type="xs:date" />
+				<xs:element name="insdt" type="xs:date" />
+				<xs:element name="glyear" type="xs:integer" />
+				<xs:element name="cost" type="xs:integer" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

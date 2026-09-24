@@ -1,0 +1,4 @@
+    dim wrkstr as string			
+    wrkstr = CmdBldr.GetInsertCommand.CommandText
+    wrkstr = CmdBldr.GetUpdateCommand.CommandText
+    wrkstr = CmdBldr.GetDeleteCommand.CommandText

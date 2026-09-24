@@ -1,0 +1,125 @@
+Public Class FrmCrViewer
+  Inherits System.Windows.Forms.Form
+
+  Dim myreport1 As New CrystalDecisions.CrystalReports.Engine.ReportDocument
+  Friend Wrkds1 As DataSet
+  Friend WrkTypeDesc As String
+  Dim WrkDesc As String
+
+#Region " Windows Form Designer generated code "
+
+    Public Sub New()
+        MyBase.New()
+
+        'This call is required by the Windows Form Designer.
+        InitializeComponent()
+
+        'Add any initialization after the InitializeComponent() call
+
+    End Sub
+
+    'Form overrides dispose to clean up the component list.
+    Protected Overloads Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing Then
+            If Not (components Is Nothing) Then
+                components.Dispose()
+            End If
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+  Friend WithEvents Cr1 As CrystalDecisions.Windows.Forms.CrystalReportViewer
+Friend WithEvents Crv1 As CrystalDecisions.Windows.Forms.CrystalReportViewer
+    <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+Me.Crv1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer
+Me.SuspendLayout()
+'
+'Crv1
+'
+Me.Crv1.ActiveViewIndex = -1
+Me.Crv1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+Me.Crv1.Location = New System.Drawing.Point(0, 0)
+Me.Crv1.Name = "Crv1"
+Me.Crv1.ReportSource = Nothing
+Me.Crv1.Size = New System.Drawing.Size(664, 388)
+Me.Crv1.TabIndex = 2
+'
+'FrmCrViewer
+'
+Me.AutoScaleBaseSize = New System.Drawing.Size(5, 13)
+Me.ClientSize = New System.Drawing.Size(664, 386)
+Me.Controls.Add(Me.Crv1)
+Me.MaximizeBox = False
+Me.MinimizeBox = False
+Me.Name = "FrmCrViewer"
+Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+Me.Text = "CrViewer"
+Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+Me.ResumeLayout(False)
+
+    End Sub
+
+#End Region
+
+Private Sub CrViewer_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+  RunReport1()
+End Sub
+Private Sub FrmCrViewer_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
+  myreport1.Close()
+  myreport1.Dispose()
+End Sub
+  Private Sub RunReport1()
+   Dim ReportPath As String
+
+   If MyFrmUB401B.RbAll.Checked Then
+     WrkDesc = "All Overpaid"
+   End If
+   If MyFrmUB401B.RbPaidOff.Checked Then
+     WrkDesc = "Paid-Off Only"
+   End If
+
+   Me.Text = "Report Viewer"
+   ReportPath = MyUtils.GetReportPath("PrtUB401.rpt", myTOWN._TOWNBR)
+   With myreport1
+    .Load(ReportPath)
+    .SetDataSource(Wrkds1)
+    .SetParameterValue("myreportTitle", WrkTypeDesc & " Accelerate Overpaid Accounts")
+    .SetParameterValue("MyUserID", MyUserID)
+		.SetParameterValue("MyTownName", Trim(myTOWN._TOWN))
+    .SetParameterValue("MyGLYear", MyUtils.CnvSng(MyFrmUB401B.TxtGLYear.Text))
+    .SetParameterValue("MyDesc", WrkDesc)
+    .SetParameterValue("MyPost", MyFrmUB401B.ChkPost.Checked)
+    .SetParameterValue("MyDistrict", MyUtils.CnvSng(MyFrmUB401B.TxtDist.Text))
+    .SetParameterValue("MyPhase", MyUtils.CnvSng(MyFrmUB401B.TxtPhase.Text))
+   End With
+   With Crv1
+     .DisplayToolbar = True
+     .ShowGroupTreeButton = False
+     .ShowCloseButton = False
+     .ShowCopyButton = False
+     .ShowRefreshButton = False
+     .ShowParameterPanelButton = False
+     .ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None
+     .ReportSource = myreport1
+     .Zoom(75)
+  End With
+  End Sub
+
+Private Sub TabCtl1_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+End Sub
+End Class
+
+
+
+
+
+

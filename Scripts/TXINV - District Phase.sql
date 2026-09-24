@@ -1,0 +1,1 @@
+select list#,dist,phase from TXINV where YEAR=2013 and TYPE='A'

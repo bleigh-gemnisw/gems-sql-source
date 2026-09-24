@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TA215" targetNamespace="http://tempuri.org/TA215.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TA215.xsd" xmlns:mstns="http://tempuri.org/TA215.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="group" type="xs:string" />
+        <xs:element name="groupdesc" type="xs:string" />
+        <xs:element name="listno" type="xs:integer" />
+        <xs:element name="name" type="xs:string" />
+        <xs:element name="sname" type="xs:string" />
+        <xs:element name="proploc" type="xs:string" />
+        <xs:element name="map" type="xs:string" />
+        <xs:element name="volpage" type="xs:string" />
+        <xs:element name="units" type="xs:long" />
+        <xs:element name="buildings" type="xs:long" />
+        <xs:element name="acres" type="xs:decimal" />
+        <xs:element name="land" type="xs:long" />
+        <xs:element name="total" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

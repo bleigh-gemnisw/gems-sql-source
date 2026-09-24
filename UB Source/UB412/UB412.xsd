@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB412" targetNamespace="http://tempuri.org/UB412.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB412.xsd" xmlns:mstns="http://tempuri.org/UB412.xsd"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="BILLTYPE" type="xs:string" />
+<xs:element name="ADDR1" type="xs:string" />
+<xs:element name="ADDR2" type="xs:string" />
+<xs:element name="ADDR3" type="xs:string" />
+<xs:element name="ADDR4" type="xs:string" />
+<xs:element name="ADDR5" type="xs:string" />
+<xs:element name="LOCATION" type="xs:string" />
+<xs:element name="UNITS" type="xs:decimal" />
+<xs:element name="ORIGINAL" type="xs:decimal" />
+<xs:element name="BALANCE" type="xs:decimal" />
+<xs:element name="INTEREST" type="xs:decimal" />
+<xs:element name="BOND" type="xs:decimal" />
+<xs:element name="LIEN" type="xs:decimal" />
+<xs:element name="UNBILLED" type="xs:decimal" />
+<xs:element name="TOTAL" type="xs:decimal" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

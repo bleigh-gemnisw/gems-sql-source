@@ -1,0 +1,4 @@
+DECLARE @counter int
+SET @counter = 0
+UPDATE #tmp_Users
+SET @counter = counter = @counter + 1

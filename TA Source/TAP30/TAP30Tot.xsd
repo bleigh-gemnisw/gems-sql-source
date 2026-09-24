@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TAP30Tot" targetNamespace="http://tempuri.org/TAP30Tot.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/TAP30Tot.xsd" xmlns:mstns="http://tempuri.org/TAP30Tot.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="RPTID" type="xs:integer" />
+        <xs:element name="DESC" type="xs:string" />
+        <xs:element name="TGROSS" type="xs:integer" />
+        <xs:element name="TEXAM" type="xs:integer" />
+        <xs:element name="TNET" type="xs:integer" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FA004" targetNamespace="http://tempuri.org/FA004.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/FA004.xsd" xmlns:mstns="http://tempuri.org/FA004.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="FABLDG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="BLCODE" type="xs:string" />
+        <xs:element name="BLDESC" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

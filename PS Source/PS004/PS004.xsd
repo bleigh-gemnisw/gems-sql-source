@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PS004" targetNamespace="http://tempuri.org/PS004.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/PS004.xsd" xmlns:mstns="http://tempuri.org/PS004.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mytable">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SORTBY" type="xs:string" />
+        <xs:element type="xs:string" name="MFREGNO" />
+        <xs:element name="MFPERNO" type="xs:integer" />
+        <xs:element name="MFYEAR" type="xs:integer" />
+        <xs:element name="MFLISS" type="xs:date" />
+        <xs:element name="MFNAM" type="xs:string" />
+        <xs:element name="MFADD1" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

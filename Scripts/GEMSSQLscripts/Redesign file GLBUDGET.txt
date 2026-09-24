@@ -1,0 +1,52 @@
+sp_rename 'GLBUDGET','ZBUDGET'
+go
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[GLBUDGET](
+	[FUND] [numeric](3, 0) NOT NULL,
+	[SFUND] [numeric](3, 0) NOT NULL,
+	[DEPT] [numeric](4, 0) NOT NULL,
+	[OBJ] [numeric](3, 0) NOT NULL,
+	[FUNC] [numeric](4, 0) NOT NULL,
+	[SFUNC] [numeric](4, 0) NOT NULL,
+	[DCODE] [char](1) NOT NULL,
+	[REV] [char](1) NOT NULL,
+	[GLTYP] [char](1) NOT NULL,
+	[DESCD] [char](40) NOT NULL,
+	[ACT1] [numeric](11, 0) NOT NULL,
+	[ACT2] [numeric](11, 0) NOT NULL,
+	[ACT3] [numeric](11, 0) NOT NULL,
+	[ACT4] [numeric](11, 0) NOT NULL,
+	[ACT5] [numeric](11, 0) NOT NULL,
+	[ORIG] [numeric](11, 0) NOT NULL,
+	[CURR] [numeric](11, 0) NOT NULL,
+	[PROP] [numeric](11, 0) NOT NULL,
+	[EXP] [numeric](11, 0) NOT NULL,
+	[ADOPTD] [numeric](11, 0) NOT NULL,
+	[FORCST] [numeric](11, 0) NOT NULL,
+	[BAMT1] [numeric](11, 0) NOT NULL,
+	[BAMT2] [numeric](11, 0) NOT NULL,
+	[BAMT3] [numeric](11, 0) NOT NULL,
+	[BAMT4] [numeric](11, 0) NOT NULL,
+	[BAMT5] [numeric](11, 0) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[FUND] ASC,
+	[SFUND] ASC,
+	[DEPT] ASC,
+	[OBJ] ASC,
+	[FUNC] ASC,
+	[SFUNC] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+insert into glbudget select fund,sfund,dept,obj,func,sfunc,'','',gltyp,descd,act1,act2,act3,0,0,orig,curr,prop,exp,adoptd,forcst,bamt1,bamt2,bamt3,bamt4,bamt5 from zbudget 
+GO
+
+

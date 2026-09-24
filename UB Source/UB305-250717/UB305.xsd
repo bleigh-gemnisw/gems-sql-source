@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UB305" targetNamespace="http://tempuri.org/UB305.xsd" elementFormDefault="qualified"
+  xmlns="http://tempuri.org/UB305.xsd" xmlns:mstns="http://tempuri.org/UB305.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="mytable">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="SORTDATA" type="xs:string" />
+<xs:element name="LISTNO" type="xs:integer" />
+<xs:element name="NAME" type="xs:string" />
+<xs:element name="ROUTE" type="xs:string" />
+<xs:element name="SECTION" type="xs:string" />
+<xs:element name="LOCATION" type="xs:string" />
+<xs:element name="PREV" type="xs:integer" />
+<xs:element name="CURR" type="xs:integer" />
+<xs:element name="USE" type="xs:integer" />
+<xs:element name="MULT" type="xs:integer" />
+<xs:element name="ERRMSG" type="xs:string" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,28 @@
+  Public Function GetViewbyName(ByVal WrkName As String, NumRecs As Integer) As DataSet
+    Dim Conn As SqlConnection
+    Dim objCommand As SqlCommand
+    Dim ds As DataSet = New DataSet
+    Dim WrkTop As String
+    WrkTop = String.Empty
+
+    RecordNotFound = False
+    If NumRecs > 0 Then
+      WrkTop = "TOP " & NumRecs & " "
+    End If
+    StrSQL = "Select " & WrkTop & "tickno, name, regno, regst, status from " & cFileName _
+    & " where name>= '" & WrkName & "' order by name"
+    Try
+      Conn = MyDBConn.Open
+      objCommand = New SqlCommand(StrSQL, Conn)
+      'Fill the dataset with the data
+      da = New SqlDataAdapter
+      da.SelectCommand = objCommand
+      da.Fill(ds, cFileName)
+      objCommand = Nothing
+      Conn.Close()
+      Return ds
+    Catch ex As Exception
+      ErrMsg = ex.ToString()
+      Return Nothing
+    End Try
+  End Function

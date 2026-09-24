@@ -1,0 +1,1 @@
+select distinct list# from txdcsum where year=2023 and code in (10,13,15,21,22) and value>0
