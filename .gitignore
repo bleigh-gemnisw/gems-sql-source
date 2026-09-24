@@ -18,6 +18,7 @@ TestResults/
 # Garbage files and folders
 [Dd]esktop.ini
 .tmp.driveupload/
+.ini.tmp
 
 # Visual Studio publish and NuGet output
 [Pp]ublish/
