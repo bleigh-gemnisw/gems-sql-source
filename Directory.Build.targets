@@ -1,9 +1,0 @@
-<Project>
-  <PropertyGroup>
-    <OutputPath>C:\gemssqlken\</OutputPath>
-    <OutDir>C:\gemssqlken\</OutDir>
-    <AssemblySearchPaths>$(AssemblySearchPaths);C:\Gemssql\</AssemblySearchPaths>
-  </PropertyGroup>
-  <!-- This host has no interactive desktop, so the ComponentOne license compiler cannot pop a dialog. -->
-  <Target Name="CompileLicxFiles" />
-</Project>

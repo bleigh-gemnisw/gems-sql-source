@@ -1,3 +1,6 @@
+# Local MSBuild overrides (machine-specific output paths and license workarounds)
+/Directory.Build.targets
+
 # Visual Studio workspace and per-user settings
 .vs/
 *.suo
